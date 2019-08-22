@@ -1,0 +1,231 @@
+L'affrontement Final.
+Vous voilà à la fin du parcourt, vous allez affronter votre antagoniste sur le même terrain. Sachez qu'il dispose de différent outil d'infiltration que vous avez dus laisser derrière. Quand vous arrivez le premier dans une zone contrôlé par l'OSP, lui vous suivait de récupérait les améliorations restante. A l'exception des trois premières missions ou vous n'avez eu qu'un choix: Costume blanc, Drone et Avion Furtif. La conclusion s'impose, qu'a t'il découvert au premier choix dans ces moments charnière ?
+(pause)
+Vous disposez d'une grille options Complete à ce stade, navigué dans les catégories A B C D E et choisissez une action à prendre immédiatement. Attention il n'y a pas de retour en arrière possible! Certaine Actions ne vous serons d'aucune utilité mais d'autre vous sauverons la vie. Exemple sont:
+Espion:
+A) Reconnaissance,B) Saut obstacle,C) Rapidité,D) Rechercher,E) Se coucher.
+GPS:
+A) Détection,B) Topographie,C) Path Finder,D) Eclaircissement,E) Obscurcissement.
+Drone:
+A) Camouflage,B) Scan Zone,C) Bras Robot,D) Réparation,E) Médical.
+Avion:
+A) Camouflage,B) Brouillage,C) Scan Région,D) Crochet,E) Parachuter.
+Satellite:
+A) Détection ennemi,B) Capture,C) Enregistrer,D) Neutraliser,E) Transformation.
+(pause)
+/1
+Vous êtes dans l'Avion qui vous conduit au lieu, d'où un fort signal est émit. C'est forcement un piège mais avec toute vos ressources ca devrait être intéressent.
+/Options
+A=Etape=A
+B=Etape=B
+C=Etape=C
+D=Etape=D
+E=Etape=E
+> Choisissez une Catégorie ?
+[A) Espion, B) GPS, C) Drone, D) Avion, E) Satellite. ]
+/Espion
+Vrai=A=Vous ne pouvez faire cette manouvre, vous être toujours à bord de l'Avion. ;B=Vous ne pouvez faire cette manouvre, vous être toujours à bord de l'Avion. ;C=Vous ne pouvez faire cette manouvre, vous être toujours à bord de l'Avion. ;D=Vous ne pouvez faire cette manouvre, vous être toujours à bord de l'Avion. ;E=Vous ne pouvez faire cette manouvre, vous être toujours à bord de l'Avion. ;> Choisissez une Action. ;[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Rechercher, E) Se coucher par Terre. ];Etape-A; 
+element=A
+Liste=Etape
+SI=COND
+/GPS
+Vrai=A=Vous demandez à StealthRay1 de scanner la zone. Il ne détecte aucun petit objet, ni homme, ni bâtiment sur le terrain. Mais il repère qu'un gros véhicule est camouflé dans le secteur. ;B=Vous activez la projection d'image topographique sur la zone. Surprise! Une forme anormale apparait à la surface du sol, il s’agit d'un véhicule invisible. ;C=Vous activez la projection d'image grillager sur la zone. Surprise! Une forme anormale apparait à la surface du sol, il s’agit d'un véhicule invisible. ;D=Vous activez la projection de lumière aveuglent sur la zone. Surprise! Une ombre texturer apparait à la surface du sol durant quelque instant, il s’agit d'un véhicule invisible. ;E=Vous activez la projection de lumière noir sur la zone. Surprise! Une forme texture apparait lumineuse a la surface du sol durant quelque instant, il s’agit d'un véhicule invisible. ;> Choisissez une Action. ;[A) Détection Objet, B) Topographie, C) Path Finder, D) Eclaircissement, E) Obscurcissement. ];Etape-B; 
+element=B
+Liste=Etape
+SI=COND
+/Drone
+Vrai=A=Vous larguez le Drone du haut des aires. Une fois quitter l'avions le système de camouflage prend le relai et il survol la zone invisible. ;B=Vous larguez le Drone du haut des aires. Une fois quitter l'avions le Drone survol la zone en scannant. ;C=Vous ouvrez un compartiment bagage et récupéré des armes que vous donnez au bras robot. ;D=Le Drone fait quelque maintenance mineur sur lui-même et sur votre costume. Tout est parfaitement fonctionnel. ;E=Le Drone vous scanne... Vous êtes en vie, il ne détecte aucune blessure, lésion, ni os brisé. Vous êtes en parfaite santé. ;> Choisissez une Action. ;[A) Camouflage, B) Scan Zone, C) Bras Robot, D) Réparation, E) Médical. ];Etape-C; 
+element=C
+Liste=Etape
+SI=COND
+/Avion
+Vrai=A=Vous activez le camouflage visuelle de l'avion pour passer invisible en vol. ;B=Vous activez le brouillage des communication à partir de l'avion. ;C=L'Avion en autopilote va tournez en cercle autour de la zone et scanner tout ce qui se trouve à l'intérieur. ;D=il n'y a pas d'unité a récupéré dans la zone pour l'instant. ;E=Vous activez l'autopilote et vous vous parachutez dans une extrémité de la zone. ;> Choisissez une Action. ;[A) Camouflage, B) Brouillage, C) Scan Région, D) Crochet, E) Parachuter. ];Etape-D; 
+element=D
+Liste=Etape
+SI=COND
+/Satellite
+Vrai=A=Vous demandez à StealthRay1 de scanner la zone. Il ne détecte aucun bâtiment, ni homme sur le terrain. Mais il repère qu'un gros véhicule est camouflé dans le secteur. ;B=Il n'y a pas d'ennemie a Capturé en image dans la zone. ;C=Il n'y a pas d'ennemie a Enregistré la voix dans la zone. ;D=Il n'y a pas d'ennemie à Neutraliser dans la zone. ;E=Vous pouvez utiliser une image Enregistré dans la base de donnée, mais vous n'avez aucun data sur votre ennemie. ;> Choisissez une Action. ;[A) Détection ennemi, B) Capture, C) Enregistrer, D) Neutraliser, E) Transformation. ];Etape-E; 
+element=E
+Liste=Etape
+SI=COND
+Vous sautez de l'avion en parachute et StealthRay1 vous dissimule durant toute votre descente. Vous vous posez dans la zone parfaitement invisible et le sac à dos rembobine les fils et la toile automatiquement. Le Drone camouflé vous suis en renfort a une certaine distance et continuera de chercher du mouvement. 
+/2
+/Options
+A=Etape=A
+B=Etape=B
+C=Etape=C
+D=Etape=D
+E=Etape=E
+> Choisissez une Unité ?
+[A) Espion, B) GPS, C) Drone, D) Avion, E) Satellite. ]
+/Espion
+Vrai=A=Vous partez en reconnaissance de la zone. C'est un vaste champ recouvert d'herbes long et clairsemé de petit arbres feuillus et le relief en moyennement vallonné. Pas de rivière, de sol accidenté, ni d'îlot de rocher. Vous ne rencontrez pas votre ennemie. ;B=Il n'y a pas d'obstacle devant vous le champs est moyennement vallonné et recouvert d'herbe. ;C=c'est un champ de grand herbes clairsemé de petit arbres feuillus. Vous franchissez le champ a grand vitesse pour ne pas être repérer, mais dans votre exploration vous ne trouvez pas la position de votre ennemie. ;D=Vous passez la zone au peigne fin et ne trouvez rien qui sorte de l'ordinaire. C'est un champ de grande herbe clairsemée de petits arbres feuillus. ;E=Vous vous coucher par terre et automatiquement StealthRay1 détecte vos intentions de disparaitre. Le Satellite de vous suivre depuis l'espace et de vous projeté une texture environnementale en temps réel, comme le ferais le Drone mais en résolution normal. ;> Choisissez une Action. ;[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Rechercher, E) Se coucher par Terre. ];Etape-A; 
+element=A
+Liste=Etape
+SI=COND
+/GPS
+Vrai=A=Vous demandez à StealthRay1 de scanner la zone. Il ne détecte aucun petit objet, ni autre homme, ni bâtiment sur le terrain. Mais il repère qu'un gros véhicule est camouflé dans le secteur. ;B=Vous activez la projection d'image topographique sur la zone. Surprise! Une forme anormale apparait à la surface du sol, il s’agit d'un véhicule invisible. ;C=Vous activez la projection d'image grillager sur la zone. Surprise! Une forme anormale apparait à la surface du sol, il s’agit d'un véhicule invisible. ;D=Vous activez la projection de lumière aveuglante sur la zone. Surprise! Une ombre texturer apparait à la surface du sol durant quelque instant, il s’agit d'un véhicule invisible. ;E=Vous activez la projection de lumière noir sur la zone. Surprise! Une forme texturer apparait lumineuse à la surface du sol durant quelque instant, il s’agit d'un véhicule invisible. ;> Choisissez une Action. ;[A) Détection Objet, B) Topographie, C) Path Finder, D) Eclaircissement, E) Obscurcissement. ];Etape-B; 
+element=B
+Liste=Etape
+SI=COND
+/Drone
+Vrai=A=Vous demandez au Drone de vous suivre discrètement de haut et de vous projeté une texture environnementale en temps réel, comme le ferais le StealthRay1 mais en résolution augmenté. ;B=Vous demandez au Drone de scanner la zone. Il ne détecte aucun petit objet, ni ennemi, ni bâtiment sur le terrain. Mais il repère qu'un gros véhicule déjà camouflé dans le secteur. Il s’agit d'une sorte de tank munie de panneau holographique. ;C=Il n'y a pas d'objet à échanger avec le drone ou a récupéré sur le terrain. ;D=Le Drone fait quelque maintenance mineur sur lui-même et sur votre costume. Tout est parfaitement fonctionnel. ;E=Le Drone vous scanné... Vous êtes en vie, il ne détecte aucune blessure, lésion, ni os brisé. Vous êtes en parfaite santé. ;> Choisissez une Action. ;[A) Camouflage, B) Scan Zone, C) Bras Robot, D) Réparation, E) Médical. ];Etape-C; 
+element=C
+Liste=Etape
+SI=COND
+/Avion
+Vrai=A=Vous activez le camouflage visuelle de l'avion pour passer invisible en vol. ;B=Vous activez le brouillage des communication à partir de l'avion. ;C=L'Avion en autopilote va tournez en cercle autour de la zone et scanner tout ce qui se trouve à l'intérieur. ;D=Vous tirer sur votre poigné de récupération au sol et un ballon d'hélium s'élève attaché au-dessus de votre harnais. L'Avion corrige ca trajectoire et passe en bas altitude pour vous accroché au vol. Le crochet attrape le ballon et vous hisse à l'intérieur de la soute. Vous êtes de retour à bord de l'avion. ;E=Vous ne pouvez resauter en parachute vous êtes déjà au sol.. ;> Choisissez un Action. ;[A) Camouflage, B) Brouillage, C) Scan Région, D) Crochet, E) Parachuter. ];Etape-D; 
+element=D
+Liste=Etape
+SI=COND
+/Satellite
+Vrai=A=Détection en coure... Il n'y a pas d'ennemie repérer dans la zone. ;B=Il n'y a pas d'ennemie repérer dans la zone. ;C=Il n'y a pas d'ennemie repérer dans la zone. ;D=Il n'y a pas d'ennemie repérer dans la zone. ;E=Vous pouvez utiliser une image Enregistré dans la base de donnée, mais vous n'avez aucun data sur votre ennemie. ;> Choisissez une Action. ;[A) Détection ennemi, B) Capture, C) Enregistrer, D) Neutraliser, E) Transformation. ];Etape-E; 
+element=E
+Liste=Etape
+SI=COND
+Un missile Sol Air décolle du milieu de la zone et attaque l'avion qui tourne en reconnaissance. Vous l'entendez près de vous très bruillamment, mais n'arrive pas à le distingué. Car il est probablement soumis au même camouflage visuel que tout le reste de vos équipements personnel. Le missile laisse une fumée derrière lui et explose  en plein ciel à moyen hauteur. Malheur! Il a réussi a touché l'Avion, celui-ci s'écrase en périphérie de la zone, mais heureusement vous aviez sautez a temps. En observant la fumée vous deviné qu'un gros véhicule c'est déplacé dans le centre du secteur.
+/3
+/Options
+A=Etape=A
+B=Etape=B
+C=Etape=C
+D=Etape=D
+E=Etape=E
+> Choisissez une Unité ?
+[A) Espion, B) GPS, C) Drone, D) Avion, E) Satellite. ]
+/Espion
+Vrai=A=Vous suivez les traces de fumée jusqu'à l'endroit théorique d'où il est partie, mais ne voyez rien d'inhabituelle. Après un instant vous entendez le bruit des moteurs, quelque chose se déplace et laissé des traces d'herbe aplatit. ;B=Le seul obstacle dans les environs est un amat de gros troncs d'arbre sur le monticule. Vous avancez jusqu'à lui et surprise vous passer a travers l'illusion. ;C=Vous allez être trop exposé si vous bougé maintenant, il y a un puissant ennemie dans la zone qui peut vous repérer. ;D=Vous cherchez partout dans la zone ou est partit le missile et trouvez des traces d'un véhicule léger qui rampe a la surface du sol. ;E=Vous vous coucher par terre et automatiquement StealthRay1 détecte vos intentions de disparaitre. Le Satellite de vous suivre depuis l'espace et de vous projeté une texture environnementale en temps réel, comme le ferais le Drone mais en résolution normal. ;> Choisissez une Action. ;[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Rechercher, E) Se coucher par Terre. ];Etape-A; 
+element=A
+Liste=Etape
+SI=COND
+/GPS
+Vrai=A=Vous demandez à StealthRay1 de scanner la zone. Il détecte beaucoup de petit objet depuis l'écrasement de l'avion. Il n'y a pas d'ennemie, ni bâtiment sur le terrain, mais il repère le mouvement d'un gros véhicule toujours camouflé dans le secteur. ;B=Vous activez la projection d'image topographique sur la zone. Surprise! Une forme anormale apparait à la surface du sol, il s’agit d'un véhicule invisible. ;C=Vous activez la projection d'image grillager sur la zone. Surprise! Une forme anormale apparait à la surface du sol, il s’agit d'un véhicule invisible. ;D=Vous activez la projection de lumière aveuglante sur la zone. Surprise! Une ombre texturer apparait à la surface du sol durant quelque instant, il s’agit d'un véhicule invisible. ;E=Vous activez la projection de lumière noir sur la zone. Surprise! Une forme texturer apparait lumineuse à la surface du sol durant quelque instant, il s’agit d'un véhicule invisible. ;> Choisissez une Action. ;[A) Détection Objet, B) Topographie, C) Path Finder, D) Eclaircissement, E) Obscurcissement. ];Etape-B; 
+element=B
+Liste=Etape
+SI=COND
+/Drone
+Vrai=A=Vous demandez au Drone de vous suivre discrètement de haut et de vous projeté une texture environnementale en temps réel, comme le ferais le StealthRay1 mais en résolution augmenté. ;B=Vous demandez au Drone de scanner la zone. Il ne détecte aucun petit objet, ni ennemi, ni bâtiment sur le terrain. Mais il repère qu'un gros véhicule déjà camouflé dans le secteur. Il s’agit d'une sorte de tank munie de panneau holographique. ;C=Il n'y a pas d'objet à échanger avec le drone ou a récupéré sur le terrain. ;D=Le Drone fait chemin jusqu'au lieux de l'écrasement de l'avion. L'incendie est contrôlé rapidement. Il se met aussitôt au travail et commence à 3dPrinter les pièces non réparable. Une telle reconstruction lui prendra 1287 heures avec les outils dont il dispose. ;E=Le Drone vous scanne... Vous êtes en vie, il ne détecte aucune blessure, lésion, ni os brisé. Vous êtes en parfaite santé. ;> Choisissez une Action. ;[A) Camouflage, B) Scan Zone, C) Bras Robot, D) Réparation, E) Médical. ];Etape-C; 
+element=C
+Liste=Etape
+SI=COND
+/Avion
+Vrai=A=Vous n'avez plus de transport aérien. ;B=Vous n'avez plus de transport aérien. ;C=Vous n'avez plus de transport aérien. ;D=Vous n'avez plus de transport aérien. ;E=Vous n'avez plus de transport aérien. ;> Choisissez une Action. ;[A) Camouflage, B) Brouillage, C) Scan Région, D) Crochet, E) Parachuter. ];Etape-D; 
+element=D
+Liste=Etape
+SI=COND
+/Satellite
+Vrai=A=Détection en coure... Il n'y a pas d'ennemie repérer dans la zone. ;B=Il n'y a pas d'ennemie repérer dans la zone. ;C=Il n'y a pas d'ennemie repérer dans la zone. ;D=Il n'y a pas d'ennemie repérer dans la zone. ;E=Vous pouvez utiliser une image Enregistré dans la base de donnée, mais vous n'avez aucun data sur votre ennemie. ;> Choisissez une Action. ;[A) Détection ennemi, B) Capture, C) Enregistrer, D) Neutraliser, E) Transformation. ];Etape-E; 
+element=E
+Liste=Etape
+SI=COND
+L'air se met à bouger à quelque mètre devant vous. Aucun de vos scanners n'ont réussie a le détecté avant. Il y a un véhicule de plusieurs tonnes qui semble glissé de côté. Celui-ci est véritablement recouvert d'une illusion très réaliste, qui a confondu vos sanses. On dirait un monticule d'herbe longue recouvert de vieux troncs d'arbre, mais l'image c'est effacé sous vos yeux laissant apparaitre un Aéroglisseur lourdement armé et équipé d'écran holographique. Il tire des rafales dans votre position! Ta!Ta!Ta!Tata!!
+/4
+/Options
+A=Etape=A
+B=Etape=B
+C=Etape=C
+D=Etape=D
+E=Etape=E
+> Choisissez une Unité ?
+[A) Espion, B) GPS, C) Drone, D) Avion, E) Satellite. ]
+/Espion
+Vrai=A=Pas le temps pour ça, on vous tire dessus! ;B=Il est temps de faire une manouvre téméraire pour prendre l'ennemie par surprise! Vous grimper sur l'aéroglisseur quand il passe près de vous! Vous avez l'impression de flotté dans les aires quand vous l'accrochez finalement! ; C=Vous courez vous mettre à couvert derrière des arbres pour éviter le tire de la mitrailleuse. Vous l'avez échappé belle cette fois encore mais un mouvement dans l'herbe se rapproche de vous!;D=Pas le temps pour ça, on vous tire dessus!;E=Il est plus facile de disparaitre quand vous êtes immobile par terre et le Satellite vous assiste avec ses projection depuis l'espace. Les rafales vous passe au-dessus de le tête!;> Choisissez une Action. ;[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Rechercher, E) Se coucher par Terre. ];Etape-A; 
+element=A
+Liste=Etape
+SI=COND
+/GPS
+Vrai=A=Vous demandez à StealthRay1 de scanner la zone. Il détecte beaucoup de petit objet depuis l'écrasement de l'avion. Il n'y a pas d'ennemie, ni bâtiment sur le terrain, mais il repère le mouvement d'un gros véhicule toujours camouflé dans le secteur. ;B=Vous activez la projection d'image topographique sur la zone. Surprise! Une forme anormale apparait à la surface du sol, il s’agit d'un véhicule invisible. ;C=Vous activez la projection d'image grillager sur la zone. Surprise! Une forme anormale apparait à la surface du sol, il s’agit d'un véhicule invisible. ;D=Vous activez la projection de lumière aveuglante sur la zone. Surprise! Une ombre texturer apparait à la surface du sol durant quelque instant, il s’agit d'un véhicule invisible. ;E=Vous activez la projection de lumière noir sur la zone. Surprise! Une forme texturer apparait lumineuse à la surface du sol durant quelque instant, il s’agit d'un véhicule invisible. ;> Choisissez une Action. ;[A) Détection Objet, B) Topographie, C) Path Finder, D) Eclaircissement, E) Obscurcissement. ];Etape-B; 
+element=B
+Liste=Etape
+SI=COND
+/Drone
+Vrai=A=Vous demandez au Drone de vous suivre discrètement de haut et de vous projeté une texture environnementale en temps réel, comme le ferais le StealthRay1 mais en résolution augmenté. ;B=Vous demandez au Drone de scanner la zone. Il détecte beaucoup de petit objet brisé depuis le crash de l'avion, mais pas d'ennemi, ni bâtiment sur le terrain. Mais il repère qu'un gros véhicule camouflé en mouvement dans le secteur. Il s’agit d'une sorte d'aéroglisseur munie du système Mirage. ;C=Il y a une chose que le drone récupère sur le lieux du crash avec le bras robot. C'est un fusil d'assaut KA74, il vous assiste et tire quelques rafales sur le véhicule Mirage. Boom!;D=Le Drone fait chemin jusqu’au lieu de l'écrasement de l'avion. L'incendie est contrôlé rapidement. Il se met aussitôt au travail et commence à 3dPrinter les pièces non réparable. Une telle reconstruction lui prendra 1286.5 heures avec les outils dont il dispose. ;E=Le Drone vous scanne... Vous êtes en vie, il détecte une blessure mineure, quelque lésion, pas d'os brisé. Vous êtes en état de choc! Morphine Administrer! ;> Choisissez une Action. ;[A) Camouflage, B) Scane Zone, C) Bras Robot, D) Réparation, E) Médical. ];Etape-C; 
+element=C
+Liste=Etape
+SI=COND
+/Avion
+Vrai=A=Vous n'avez plus de transport aérien. ;B=Vous n'avez plus de transport aérien. ;C=Vous n'avez plus de transport aérien. ;D=Vous n'avez plus de transport aérien. ;E=Vous n'avez plus de transport aérien. ;> Choisissez une Action. ;[A) Camouflage, B) Brouillage, C) Scan Région, D) Crochet, E) Parachuter. ];Etape-D; 
+element=D
+Liste=Etape
+SI=COND
+/Satellite
+Vrai=A=Depuis que le véhicule s'est mise en mouvement, le Satellite a réussie à le détecter. Il est a porté de vue!;B=Il est impossible de faire la Capture d'un objet invisible ou de différente taille. ;C=Enregistrement en coure...Identification IVBC trouve une correspondance. Véhicule Aéroglisseur Mirage de L'OSP lourdement armé 7.62mm coaxial et canon 84mm. ;D=Le Satellite ne dispose pas d'IEM ou de moyen de neutraliser un telle véhicule. ;E=Vous ne pouvez imitez l'apparence d'un objet trop volumineux!;> Choisissez une Action. ;[A) Détection ennemi, B) Capture, C) Enregistrer, D) Neutraliser, E) Transformation. ];Etape-E; 
+element=E
+Liste=Etape
+SI=COND
+Une machine se jette sur vous et vous fait rouler par terre. On dirait un robot à plusieurs pates, comme une sorte d'araigne. Elle est partiellement invisible et très agile! C'est la version ennemie du Drone que vous possédez, lui ne vole pas mais en revanche il a plus de dextérité. Vous combattez en corps à corps avec la grosse bestiole avant de vous rendre compte qu'elle tien plusieurs objets dans ses bras-robots. L'Aéroglisseur fait demi-tour après avoir épuisé toutes ses balles et vous fonce dessus!
+/5
+/Options
+A=Etape=A
+B=Etape=B
+C=Etape=C
+D=Etape=D
+E=Etape=E
+> Choisissez une Unité ?
+[A) Espion, B) GPS, C) Drone, D) Avion, E) Satellite. ]
+/Espion
+Vrai=A=Vous n'avez plus le temps pour ça! ;B=Vous n'avez plus le temps pour ça! ;C=Vous n'avez plus le temps pour ça! ;D=Vous n'avez plus le temps pour ça! ;E=Vous vous jeter à plat ventre in extrémiste pour éviter l'impact! ;> Choisissez une Action. ;[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Rechercher, E) Se coucher par Terre. ];Etape-A; 
+element=A
+Liste=Etape
+SI=COND
+/GPS
+Vrai=A=Vous demandez à StealthRay1 de scanner la zone. Il détecte beaucoup de petit objet depuis l'écrasement de l'avion. Il y a deux ennemis dans le secteur en se basent sur le mouvement. Un gros véhicule toujours camouflé dans le secteur qui fonce sur vous et une araigne mécanique! ;B=Vous activez la projection d'image topographique sur la zone. Surprise! Une forme anormale apparait à la surface du sol, il s’agit d'un véhicule invisible qui fonce sur vous! ;C=Vous activez la projection d'image grillager sur la zone. Surprise! Une forme anormale apparait à la surface du sol, le véhicule invisible fonce droit sur vous!;D=Vous activez la projection de lumière aveuglante sur la zone. Surprise! Une ombre texturer apparait à la surface du sol durant quelque instant, un véhicule invisible qui fonce droit sur vous!;E=Vous activez la projection de lumière noir sur la zone. Surprise! Une forme texturer apparait lumineuse à la surface du sol durant quelque instant, un aéroglisseur invisible qui fonce droit sur vous! ;> Choisissez une Action. ;[A) Détection Objet, B) Topographie, C) Path Finder, D) Eclaircissement, E) Obscurcissement. ];Etape-B; 
+element=B
+Liste=Etape
+SI=COND
+/Drone
+Vrai=A=Vous demandez au Drone de vous suivre discrètement de haut et de vous projeté une texture environnementale en temps réel, comme le ferais le StealthRay1 mais en résolution augmenté. ;B=Vous demandez au Drone de scanner la zone. Il détecte beaucoup de mouvement autour de vous, il y a un gros véhicule camouflé et une araigne robot sur vous! Tous deux sont munie du système Mirage ce qui ne facilite pas leur exercice de ciblage. ;C=Il y a une chose que le drone a récupéré sur le lieux du crash avec le bras robot. C'est un fusil d'assaut KA74, il vous assiste et tire quelques rafales sur le robot Araigne. Tatata Tata!;D=Le Drone fait chemin jusqu’au lieu de l'écrasement de l'avion. L'incendie est contrôlé rapidement. Il se met aussitôt au travail et commence a 3dPrinter les pièces non réparable. Une telle reconstruction lui prendra 1285.89 heures avec les outils dont il dispose. ;E=Le Drone vous scanne... Vous êtes en vie, il détecte une blessure mineure, quelque point de sutures ferons l'affaire. Vous êtes sur l'adrénaline! Antibiotique administré!;> Choisissez une Action. ;[A) Camouflage, B) Scan Zone, C) Bras Robot, D) Réparation, E) Médical. ];Etape-C; 
+element=C
+Liste=Etape
+SI=COND
+/Avion
+Vrai=A=Vous n'avez plus de transport aérien. ;B=Vous n'avez plus de transport aérien. ;C=Vous n'avez plus de transport aérien. ;D=Vous n'avez plus de transport aérien. ;E=Vous n'avez plus de transport aérien. ;> Choisissez une Action. ;[A) Camouflage, B) Brouillage, C) Scan Région, D) Crochet, E) Parachuter. ];Etape-D; 
+element=D
+Liste=Etape
+SI=COND
+/Satellite
+Vrai=A=Depuis que le véhicule s'est mise en mouvement, le Satellite a réussie à le détecter. Il est a porté de vue!;B=Il est impossible de faire la Capture d'un objet invisible ou de différente taille. ;C=Enregistrement en coure...Identification IVBC trouve une correspondance. Véhicule Aéroglisseur Mirage de L'OSP lourdement armé 7.62mm coaxial et canon 84mm. ;D=Le Satellite ne dispose pas d'IEM ou de moyen de neutraliser un telle véhicule. ;E=Vous ne pouvez imitez l'apparence d'un objet trop volumineux!;> Choisissez une Action. ;[A) Détection ennemi, B) Capture, C) Enregistrer, D) Neutraliser, E) Transformation. ];Etape-E; 
+element=E
+Liste=Etape
+SI=COND
+L'araigne mécanique se fait heurté par l'aéroglisseur et celui-ci vous passe sur le dos avec une forte pression d'air! Vous n'avez rien de cassé, par contre la tourelle explose votre Drone au vol et les objets qu'il tien roule par terre près de vous! Parmi les objets laissés par les drones détruit, vous sautez sur ce que vous pouvez. C'est un KA74 et une ceinture de grenades IEM! Vous activez les grenades et les balancer sur le dos du véhicule. Zap! Zapzap! Une puissante onde de choc Électromagnétique Explose l'Aéroglisseur et ces panneaux holographique vol en éclat! De la fumée monte de son moteur alors qu'il se matérialise sous vos yeux! Vous tirez les dernière balles du fusil d'assaut sur la toile gonflable qui le maintien au-dessus du sol! Il s'écrase définitivement dans le champ. Un homme en Costume Noire sort du poste de pilotage.
+(pause)
+Vous êtes maintenant à chance égale! Son vêtement noir est une technologie LED supérieur à vous. Il ne dépend pas du Satellite pour se camouflé ou prendre l'identité de quelqu'un. Non, il change ou il veut et comme sa lui plait. Son corps caméléon s'adaptent au relief environnent comme sa lui plait sans se soucier de la météo! Mais le ciel se dégage et le StealthRay1 fait pointer son projecteur sur vous pour améliorer vos chances! 
+/Fin
+/Options
+A=Etape=A
+B=Etape=B
+C=Etape=C
+D=Etape=D
+E=Etape=E
+> Choisissez une Unité ?
+[A) Espion, B) GPS, C) Drone, D) Avion, E) Satellite. ]
+/Espion
+Vrai=A=Bonne idée! Vous scrutez la zone à tâtons et touché du bois. C'est votre ennemie l'homme en costume noire qui était invisible, vous lui tombé dessus en un combat épique et l'assommé d'un coup de défibrillateur! Il est inconscient! ;B=Vous foncez vers le dernière endroit connu de vos yeux, mais pas de chance il est trop rapide et a déjà disparu! Vous moulinez pour espérer le touché mais vous recevez un coup de tazer-gun qui vous défibril jusqu'à l'arrête cardiaque. Vous êtes mort! :(quit);C=Vous foncez vers le dernière endroit connu de vos yeux, mais pas de chance il est trop rapide et a déjà disparu! Vous moulinez pour espérer le touché mais vous recevez un coup de tazer-gun qui vous défibril jusqu'à l'arrête cardiaque. Vous êtes mort! :(quit);D=Bonne idée! Vous scrutez la zone à tâtons et touché du bois. C'est votre ennemie l'homme en costume noire qui était invisible, vous lui tombé dessus en un combat épique et l'assommé d'un coup de défibrillateur! Il est inconscient! ;E=Vous disparaissez dans l'herbe! Lui fonce vers le dernière endroit connu de ses yeux, mais pas de chance il est trop rapide et a déjà trouver! Vous moulinez pour espérer le touché mais vous recevez un coup de tazer-gun qui vous défibril jusqu'à l'arrête cardiaque. Vous êtes mort! :(quit);> Choisissez une Action. ;[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Rechercher, E) Se coucher par Terre. ];Etape-A; 
+element=A
+Liste=Etape
+SI=COND
+/GPS
+Vrai=A=Vous demandez a StealthRay1 de scanner la zone. Il détecte beaucoup de petit objet depuis l'écrasement de l'avion. Il y a un ennemis dans le secteur en se basent sur le mouvement. Deux gros véhicules en épave toujours dans le secteur et deux robots en miette! ;B=Vous activez la projection d'image topographique sur la zone. Il y a un ennemis dans le secteur en se basent sur le mouvement. Deux gros véhicules en épave toujours dans le secteur et deux robots en miette! ;C=Vous activez la projection d'image grillager sur la zone. Il y a un ennemis dans le secteur en se basent sur le mouvement. Deux gros véhicules en épave toujours dans le secteur et deux robots en miette! ;D=Vous activez la projection de lumière aveuglante sur la zone. Il y a un ennemis dans le secteur en se basent sur le mouvement. Deux gros véhicules en épave toujours dans le secteur et deux robots en miette! ;E=Vous activez la projection de lumière noir sur la zone. Il y a un ennemis dans le secteur en se basent sur le mouvement. Deux gros véhicules en épave toujours dans le secteur et deux robots en miette! ;> Choisissez une Action. ;[A) Détection Objet, B) Topographie, C) Path Finder, D) Eclaircissement, E) Obscurcissement. ];Etape-B; 
+element=B
+Liste=Etape
+SI=COND
+/Drone
+Vrai=A=Le Drone est hore service! Vous recevez un coup de tazer-gun qui vous défibril jusqu'à l'arrête cardiaque. Vous êtes mort! :(quit);B=Le Drone est hore service! Vous recevez un coup de tazer-gun qui vous défibril jusqu'à l'arrête cardiaque. Vous êtes mort! :(quit);C=Le Drone est hore service! Vous recevez un coup de tazer-gun qui vous défibril jusqu'à l'arrête cardiaque. Vous êtes mort! :(quit);D=Le Drone est hore service! Vous recevez un coup de tazer-gun qui vous défibril jusqu'à l'arrête cardiaque. Vous êtes mort! :(quit);E=Le Drone est hore service! Vous recevez un coup de tazer-gun qui vous défibril jusqu'à l'arrête cardiaque. Vous êtes mort! :(quit);> Choisissez une Action. ;[A) Camouflage, B) Scan Zone, C) Bras Robot, D) Réparation, E) Médical. ];Etape-C; 
+element=C
+Liste=Etape
+SI=COND
+/Avion
+Vrai=A=Vous n'avez plus de transport aérien. Vous recevez un coup de tazer-gun qui vous défibril jusqu'à l'arrête cardiaque. Vous êtes mort! :(quit);B=Vous n'avez plus de transport aérien. Vous recevez un coup de tazer-gun qui vous défibril jusqu'à l'arrête cardiaque. Vous êtes mort! :(quit);C=Vous n'avez plus de transport aérien. Vous recevez un coup de tazer-gun qui vous défibril jusqu'à l'arrête cardiaque. Vous êtes mort! :(quit);D=Vous n'avez plus de transport aérien. Vous recevez un coup de tazer-gun qui vous défibril jusqu'à l'arrête cardiaque. Vous êtes mort! :(quit);E=Vous n'avez plus de transport aérien. Vous recevez un coup de tazer-gun qui vous défibril jusqu'à l'arrête cardiaque. Vous êtes mort! :(quit);> Choisissez une Action. ;[A) Camouflage, B) Brouillage, C) Scan Région, D) Crochet, E) Parachuter. ];Etape-D; 
+element=D
+Liste=Etape
+SI=COND
+/Satellite
+Vrai=A=Vous demandez à StealthRay1 de scanner la zone. Il détecte beaucoup de petit objet depuis l'écrasement de l'avion. Il y a un ennemis dans le secteur en se basent sur le mouvement. Deux gros véhicules en épave toujours dans le secteur et deux robots en miette! ;B=Il n'y a rien à Capturer en ce moment!;C=Il n'y a rien a enregistré en ce moment!;D=Bonne idée! Vous lancer l'ordre au Satellite d'aveuglé toute la zone. Comme vos verres sont polarisés pour se fermer au moment exact où le rayon incapacitant se déclenche vous êtes immunisé à son effet! Un Grand Flash aveuglant frappe dans un rayon d'une dizaine de mètre vous et votre ennemie invisible! Un hurlement et vous entendez l'homme en costume noire tombé par terre! ;E=Vous apparaissez transformé devant un ennemie invisible!? Erreur. Il vous repère tout de suite et un coup de Tazer-gun vous fauche jusqu'à l'arrêt cardiaque. Vous êtes mort! :(quit);> Choisissez une Action. ;[A) Détection ennemi, B) Capture, C) Enregistrer, D) Neutraliser, E) Transformation. ];Etape-E; 
+element=E
+Liste=Etape
+SI=COND
+L'I.A. de StealthRay1 s'en est chargé pour vous! Une simple série de puissant flash Neutralisant! L'homme est immobile par terre.
+VOUS L'AVEZ VAINCU!
+FIN
+(pause)

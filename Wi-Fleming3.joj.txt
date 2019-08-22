@@ -1,0 +1,313 @@
+/Tuto 2
+Militari Software Update
+Bienvenu dans le tutoriel d'entrainement Stealt en milieu virtuel 2. Vous allez vivre une expérience hors du commun avec la plus récente technologie de recherche et développement de la Cie WarpCorp. Il s'agit de mesurer votre débrouillardise en situation tactique munit de la nouvelle application satellite StealtRay1.
+Tout d'abord sachez qu'il s’agit d'un prototype secret de projection a image ultra grande portée et qu'il n'en existe aucun autre exemplaire. Alor si vous perdez l'appareil ou si vous êtes fait prisonnier, ces commandes se verrouilleront et sa mémoire sera autodétruite dans la minute qui suivra.
+Signé le commandement tactique.
+Quete=Utilisation Avencer & Macro
+Etape1. Prenez l'application en main le doigt sur la lentille et présenté votre visage. Ceci servira de mot de passe à l'avenir.
+A=Welcome back Mr.Fleming
+> Qui êtes-vous ?
+[A) Fait un sourire.]
+Etape2. Enregistrement de votre emprunte digital. L'enregistrement de vos données dans le certificat vous garantis l'exclusivité d'accès rapide et une sous routine de reconnaissance saura si c'est bien vous qui utilisez l'application.
+B=Merci, Donnés digital enregistré avec Succès.
+> Appuyer sur B pour lancer le scan.
+[B) Appuyer l'index sur la lentille arrière.]
+Etape3. Lancement de la Triangulation.
+StealtRay1 arrive en position à partir de votre signal GPS. Cette opération peux prendre quelque instant veuillez rester immobile.
+Recherche Satellite de votre position... StealtRay1 viens de vous verrouillez. (Vous voyez un Flash de lumière blanc!)
+Le satellite va procéder à un relevé topographique spécial. Il s'agit d'une toute nouvelle technologie digitale comparable à celui utilisé par le HUBLE pour dessiner les relevés topographiques à la surface d'un astre. Aucun ennemi sur un très vaste secteur et le terrain est idéal pour procédé à un jeu d'entrainement virtuel.
+C=Pour Information. Le système d'imagerie Satellite qui est placé à 16000 km au-dessus de vous, viens de numérisé le terrain en model tridimensionnel. Cette Capture se complexifiera à mesure que vous vous approcherez de vos objectifs et vous évaluera comment en toute situation. C'est également un bon moyen de maintenir votre forme physique.
+> I.A. va créer une épreuve de 2km en se basent sur le terrain autour.
+[C) Lancer la création du parcours. ]
+D=Bip! Le calibrage main libre manque à votre profil.
+> Passer à l'étape suivante.
+[D) Calibrage.]
+Etape4. Sprite de vos mains.
+Veuillez mettre vos mains en évidence bien à l'horizontal par rapport au ciel et laissé l'application dans votre poche. Puis tout en restant dans cet angle sans bouger, fait un décompte jusqu'a 10 de gauche vers la droite avec les doigts. Un algorithme va utiliser cette vidéo pour construire un model parfait de vos signes et le convertir en macros.
+E=Flash! Signature kinesthésique terminé.
+> Appuyez sur E pour faire la Capture.
+[E) Fait le décompte. ]
+Quete-Utilisation Avencer & Macro
+Trophe=The Task Master 2.0
+Lancement de la simulation.
+En situation réel un espion se doit d'être en mesure de contourné des sentinelles, resté silencieux en créant des divertirons, se procuré de l’information sur tout. C'est par ceci que nous commencerons. Vous allez avancer dans le parcours que vous indiqueront les flèches lumineuses sans entrer dans les zones occupées.
+SITREP: Un drone ennemi patrouille la route devant vous! (Vous voyez son hologramme passer dans l'aire)
+(Vous avez 5 Chance, Explorez les possibilités)
+A=Vous formez un carré avec vos mais dans la direction du chemin. Une zone lumineuse apparait dans votre champ de vision et vous l'ajust de vos mains. En fermant le point gauche un flash de la zone sélectionné vous indique qu'elle a bien été enregistrée. Quand vous avancez à cet endroit entre deux passages du drone, vous disparaissez sous le voile de l'image texturé. Si vous restez immobile l'hologramme ne vous détecte pas.
+B=Vous formez un cube avec vos mais dans la direction du drone. Une zone lumineuse 3d apparait dans votre champ de vision et vous l'ajust de vos mains. En fermant le point gauche un flash dans le volume sélectionné vous indique qu'il a bien été enregistré. Quand vous déplacez la main droite, un second hologramme du drone pris dans sa dernière attitude glisse ou vous le voulez et en ouvrant le point gauche il se fixe en l'air sur le chemin. Les drones se croisent virtuellement et font une manœuvre pour s'évité mutuellement.
+C=Vous formez un cube avec vos mais dans la direction d'un arbre. Une zone lumineuse 3d apparait dans votre champ de vision et vous l'ajust de vos mains. En fermant le point gauche un flash dans le volume sélectionné vous indique qu'il a bien été enregistré. Quand vous déplacez la main droite, un second hologramme de l'arbre pris dans sa dernière attitude glisse ou vous le voulez et en ouvrant le point gauche il se fixe au sol sur le chemin. Le drone le crois virtuellement et fait une manœuvre pour l'évité et change de direction.
+D=Vous ouvrez vos mais comme un livre devant vous. Une liste apparait dans votre champ de vision et vous la parcourez de la main droite. En touchant l'objet de l'index un volume sélectionné vous apparait dans l'aire. Quand vous déplacez la main droite, son hologramme glisse ou vous le voulez et d'un geste de l'index il se fixe au sol sur le chemin. Le drone qui passe au-dessus virtuellement s'arrête un instant pour l'examiné avant de reprendre son chemin.
+E=Vous posez la main droite sur votre poitrine et la faite glissé devant vous. Un volume taille réel de vous en 3d apparait dans l'aire et s'assujettie au sol. Quand vous déplacez la main droite, son hologramme glisse ou vous le voulez et d'un geste de l'index il se fixe au sol sur le chemin. Le drone qui passe au-dessus virtuellement s'arrête un instant pour l'examiné avant de déclenché l'alerte et reprendre son chemin.
+> Quelle stratégie vous adopterez ici ?
+[A) Saisie 'Terrain', B) Saisie 'Ennemi', C) Saisie 'Elément', D) Créer 'Objet', E) Faire diversion. ]
+A=Vous formez un carré avec vos mais dans la direction du chemin. Une zone lumineuse apparait dans votre champ de vision et vous l'ajust de vos mains. En fermant le point gauche un flash de la zone sélectionné vous indique qu'elle a bien été enregistrée. Quand vous avancez à cet endroit entre deux passages du drone, vous disparaissez sous le voile de l'image texturé. Si vous restez immobile l'hologramme ne vous détecte pas.
+B=Vous formez un cube avec vos mais dans la direction du drone. Une zone lumineuse 3d apparait dans votre champ de vision et vous l'ajust de vos mains. En fermant le point gauche un flash dans le volume sélectionné vous indique qu'il a bien été enregistré. Quand vous déplacez la main droite, un second hologramme du drone pris dans sa dernière attitude glisse ou vous le voulez et en ouvrant le point gauche il se fixe en l'air sur le chemin. Les drones se croisent virtuellement et font une manœuvre pour s'évité mutuellement.
+C=Vous formez un cube avec vos mais dans la direction d'un arbre. Une zone lumineuse 3d apparait dans votre champ de vision et vous l'ajust de vos mains. En fermant le point gauche un flash dans le volume sélectionné vous indique qu'il a bien été enregistré. Quand vous déplacez la main droite, un second hologramme de l'arbre pris dans sa dernière attitude glisse ou vous le voulez et en ouvrant le point gauche il se fixe au sol sur le chemin. Le drone le crois virtuellement et fait une manœuvre pour l'évité et change de direction.
+D=Vous ouvrez vos mais comme un livre devant vous. Une liste apparait dans votre champ de vision et vous la parcourez de la main droite. En touchant l'objet de l'index un volume sélectionné vous apparait dans l'aire. Quand vous déplacez la main droite, son hologramme glisse ou vous le voulez et d'un geste de l'index il se fixe au sol sur le chemin. Le drone qui passe au-dessus virtuellement s'arrête un instant pour l'examiné avant de reprendre son chemin.
+E=Vous posez la main droite sur votre poitrine et la faite glissé devant vous. Un volume taille réel de vous en 3d apparait dans l'aire et s'assujettie au sol. Quand vous déplacez la main droite, son hologramme glisse ou vous le voulez et d'un geste de l'index il se fixe au sol sur le chemin. Le drone qui passe au-dessus virtuellement s'arrête un instant pour l'examiné avant de déclenché l'alerte et reprendre son chemin.
+> Quelle stratégie vous adopterez ici ?
+[A) Saisie 'Terrain', B) Saisie 'Ennemi', C) saisie 'Elément', D) Créer 'Objet', E) Faire diversion. ]
+A=Vous formez un carré avec vos mais dans la direction du chemin. Une zone lumineuse apparait dans votre champ de vision et vous l'ajust de vos mains. En fermant le point gauche un flash de la zone sélectionné vous indique qu'elle a bien été enregistrée. Quand vous avancez à cet endroit entre deux passages du drone, vous disparaissez sous le voile de l'image texturé. Si vous restez immobile l'hologramme ne vous détecte pas.
+B=Vous formez un cube avec vos mais dans la direction du drone. Une zone lumineuse 3d apparait dans votre champ de vision et vous l'ajust de vos mains. En fermant le point gauche un flash dans le volume sélectionné vous indique qu'il a bien été enregistré. Quand vous déplacez la main droite, un second hologramme du drone pris dans sa dernière attitude glisse ou vous le voulez et en ouvrant le point gauche il se fixe en l'air sur le chemin. Les drones se croisent virtuellement et font une manœuvre pour s'évité mutuellement.
+C=Vous formez un cube avec vos mais dans la direction d'un arbre. Une zone lumineuse 3d apparait dans votre champ de vision et vous l'ajust de vos mains. En fermant le point gauche un flash dans le volume sélectionné vous indique qu'il a bien été enregistré. Quand vous déplacez la main droite, un second hologramme de l'arbre pris dans sa dernière attitude glisse ou vous le voulez et en ouvrant le point gauche il se fixe au sol sur le chemin. Le drone le crois virtuellement et fait une manœuvre pour l'évité et change de direction.
+D=Vous ouvrez vos mais comme un livre devant vous. Une liste apparait dans votre champ de vision et vous la parcourez de la main droite. En touchant l'objet de l'index un volume sélectionné vous apparait dans l'aire. Quand vous déplacez la main droite, son hologramme glisse ou vous le voulez et d'un geste de l'index il se fixe au sol sur le chemin. Le drone qui passe au-dessus virtuellement s'arrête un instant pour l'examiné avant de reprendre son chemin.
+E=Vous posez la main droite sur votre poitrine et la faite glissé devant vous. Un volume taille réel de vous en 3d apparait dans l'aire et s'assujettie au sol. Quand vous déplacez la main droite, son hologramme glisse ou vous le voulez et d'un geste de l'index il se fixe au sol sur le chemin. Le drone qui passe au-dessus virtuellement s'arrête un instant pour l'examiné avant de déclenché l'alerte et reprendre son chemin.
+> Quelle stratégie vous adopterez ici ?
+[A) Saisie 'Terrain', B) Saisie 'Ennemi', C) saisie 'Elément', D) Créer 'Objet', E) Faire diversion. ]
+A=Vous formez un carré avec vos mais dans la direction du chemin. Une zone lumineuse apparait dans votre champ de vision et vous l'ajust de vos mains. En fermant le point gauche un flash de la zone sélectionné vous indique qu'elle a bien été enregistrée. Quand vous avancez à cet endroit entre deux passages du drone, vous disparaissez sous le voile de l'image texturé. Si vous restez immobile l'hologramme ne vous détecte pas.
+B=Vous formez un cube avec vos mais dans la direction du drone. Une zone lumineuse 3d apparait dans votre champ de vision et vous l'ajust de vos mains. En fermant le point gauche un flash dans le volume sélectionné vous indique qu'il a bien été enregistré. Quand vous déplacez la main droite, un second hologramme du drone pris dans sa dernière attitude glisse ou vous le voulez et en ouvrant le point gauche il se fixe en l'air sur le chemin. Les drones se croisent virtuellement et font une manœuvre pour s'évité mutuellement.
+C=Vous formez un cube avec vos mais dans la direction d'un arbre. Une zone lumineuse 3d apparait dans votre champ de vision et vous l'ajust de vos mains. En fermant le point gauche un flash dans le volume sélectionné vous indique qu'il a bien été enregistré. Quand vous déplacez la main droite, un second hologramme de l'arbre pris dans sa dernière attitude glisse ou vous le voulez et en ouvrant le point gauche il se fixe au sol sur le chemin. Le drone le crois virtuellement et fait une manœuvre pour l'évité et change de direction.
+D=Vous ouvrez vos mais comme un livre devant vous. Une liste apparait dans votre champ de vision et vous la parcourez de la main droite. En touchant l'objet de l'index un volume sélectionné vous apparait dans l'aire. Quand vous déplacez la main droite, son hologramme glisse ou vous le voulez et d'un geste de l'index il se fixe au sol sur le chemin. Le drone qui passe au-dessus virtuellement s'arrête un instant pour l'examiné avant de reprendre son chemin.
+E=Vous posez la main droite sur votre poitrine et la faite glissé devant vous. Un volume taille réel de vous en 3d apparait dans l'aire et s'assujettie au sol. Quand vous déplacez la main droite, son hologramme glisse ou vous le voulez et d'un geste de l'index il se fixe au sol sur le chemin. Le drone qui passe au-dessus virtuellement s'arrête un instant pour l'examiné avant de déclenché l'alerte et reprendre son chemin.
+> Quelle stratégie vous adopterez ici ?
+[A) Saisie 'Terrain', B) Saisie 'Ennemi', C) saisie 'Elément', D) Créer 'Objet', E) Faire diversion. ]
+A=Vous formez un carré avec vos mais dans la direction du chemin. Une zone lumineuse apparait dans votre champ de vision et vous l'ajust de vos mains. En fermant le point gauche un flash de la zone sélectionné vous indique qu'elle a bien été enregistrée. Quand vous avancez à cet endroit entre deux passages du drone, vous disparaissez sous le voile de l'image texturé. Si vous restez immobile l'hologramme ne vous détecte pas.
+B=Vous formez un cube avec vos mais dans la direction du drone. Une zone lumineuse 3d apparait dans votre champ de vision et vous l'ajust de vos mains. En fermant le point gauche un flash dans le volume sélectionné vous indique qu'il a bien été enregistré. Quand vous déplacez la main droite, un second hologramme du drone pris dans sa dernière attitude glisse ou vous le voulez et en ouvrant le point gauche il se fixe en l'air sur le chemin. Les drones se croisent virtuellement et font une manœuvre pour s'évité mutuellement.
+C=Vous formez un cube avec vos mais dans la direction d'un arbre. Une zone lumineuse 3d apparait dans votre champ de vision et vous l'ajust de vos mains. En fermant le point gauche un flash dans le volume sélectionné vous indique qu'il a bien été enregistré. Quand vous déplacez la main droite, un second hologramme de l'arbre pris dans sa dernière attitude glisse ou vous le voulez et en ouvrant le point gauche il se fixe au sol sur le chemin. Le drone le crois virtuellement et fait une manœuvre pour l'évité et change de direction.
+D=Vous ouvrez vos mais comme un livre devant vous. Une liste apparait dans votre champ de vision et vous la parcourez de la main droite. En touchant l'objet de l'index un volume sélectionné vous apparait dans l'aire. Quand vous déplacez la main droite, son hologramme glisse ou vous le voulez et d'un geste de l'index il se fixe au sol sur le chemin. Le drone qui passe au-dessus virtuellement s'arrête un instant pour l'examiné avant de reprendre son chemin.
+E=Vous posez la main droite sur votre poitrine et la faite glissé devant vous. Un volume taille réel de vous en 3d apparait dans l'aire et s'assujettie au sol. Quand vous déplacez la main droite, son hologramme glisse ou vous le voulez et d'un geste de l'index il se fixe au sol sur le chemin. Le drone qui passe au-dessus virtuellement s'arrête un instant pour l'examiné avant de déclenché l'alerte et reprendre son chemin.
+> Quelle stratégie vous adopterez ici ?
+[A) Saisie ‘Terrain', B) Saisie ‘Ennemi', C) saisie ‘Elément', D) Créer 'Objet', E) Faire diversion. ]
+
+Vous avez maintenant le Choix. Sacher que vous pouvez changer de tactique en tous temps et choisir l'objet ou l'illusion qui vous semble le mieux adapté à la situation. Inconvénient est que l'ennemi peut se rendre compte de la modification du terrain et vous repéré grâce à cela. Porté vos verre polarisé et choisissez une longueur d'onde UV spécial, pour être le seul à voir les indications sensible, liste, curseur, surface, volume.
+Signé Commandement tactique.
+(PAUSE)
+Fin du Tutoriel, Début de l'Entrainement.
+Durant tous les parcours où vous arriverez dans une nouvelle zone, une alerte par vibration vous sera donnée. Cela signifie que vous devriez consulter l'application si une nouvelle stratégie s'impose. Noté qu'une codification spécial apparaitra sous forme de Report, pour abrégé la lecture. Il y en n'a 3 différente Envrep, Sitrep, Metrep. Environnement Report, Situation Report et Météorologique Report.
+A=Enregistrement de vos performances...Vous devrez rester silencieux en tout temps dans le parcours de 2km où vous vous trouvez. Il y aura des ennemies virtuelle qui patrouillent dans la zone, qu'il vous faudra gérer. Immobilisez-vous et utilisez la commande Camouflage avant que ceux si n'arrivent a porté de vue ou distraire les comme il vous conviendra.
+> Appuyer sur A pour commencer l'épreuve?
+[A) Thumbs-Up. ]
+Quete=Espion en Herbe
+Score=0
+Vous posez les mains par terre sur une gros pierre plate et glisser les paumes sur les côtés, de façon à faire apparaitre une surface de 12x18 po. L'écran improvisé par la projection satellite est impressionnante de réalisme. Son éclairage UV n'est visible que par vous avec des verres spéciaux et vous voyez l'image du terrain en isométrie sur 2km. Il y a de l’activité au sud-ouest de votre position, plusieurs ennemis patrouillent dans ces deux directions. Le reste de la zone est vallonné et pierreuse d'ouest en est, un peu plus boisé à l'ouest et ruisselé du nord au sud en direction est. Il y a 4 objectif à reconnaitre, vous avez le choix de l'ordre que vous voulez explorer, n'en oublié aucune. Par où aller vous commencé?
+/Choix direction
+A=Etape=A
+B=Etape=B
+C=Etape=C
+D=Etape=D
+> Choisissez une direction ?
+[A) Nord, B) Est, C) Sud, D) Ouest. ]
+/NORD
+Vrai=Envrep. Un vallon semi boisé recouvert de feuille morte et de branche morte.;Metrep. La matinée est chaud et une légère brume clairsemé coure jusqu'a 6 pied du sol.;A=Vous évitez avec soin les branches, les feuilles en restant dans les zones de brume et personne ne vous vois!;B=Vous évitez avec soin les branches, les feuilles et les zones de brume, mais les brumes vous cachait partiellement!;C=Vous faite un bruit assourdissent en marchant dans les branche et les feuilles morte, mais les brumes vous cachait partiellement!;D=Vous évitez avec soin les branches, les feuilles et les zones de brume, mais vous êtes a la vue!;E=Vous faite un bruit assourdissent en rampant dans les branche et les feuilles morte, mais personne ne vous vois!;> Quelle stratégie vous adopterez ici ?;[A) Traversé Brume, B) Contourné Champ, C) Traversé Champ, D) Contourné Brume, E) Rampé discrètement. ];Score+1;Etape-A; 
+Faux=Il fait chaud.
+element=A
+Liste=Etape
+SI=COND
+/EST
+Vrai=Envrep. Un vallon semi boisé pierreux et serpenté de ruisseaux boueux.;Metrep. Encore de la brumes clairsemé.;A=Vous évitez avec soin les pierres, les ruisseaux en restant dans les zones de brume et personne ne vous vois!;B=Vous évitez avec soin les pierres, les ruisseaux et les zones de brume, mais vous êtes a la vue!;C=Vous faite un bruit assourdissent en trébuchant contre les pierres et marchant dans les ruisseaux, mais les brumes vous cachait partiellement!;D=Vous faite un bruit assourdissent en trébuchant contre les pierres et marchant dans les ruisseaux et vous êtes a la vue!;E=Vous ne risquez pas de vous salir avec le costume hydrofuge en nano molécule. Ça n’a pas été facile mais vous parvenez a traversé le vallon boueux sans vous faire voir ni qu'on ne vous entende.;> Quelle stratégie vous adopterez ici ?;[A) Traversé Brume, B) Contourné Champ, C) Traversé Champ, D) Contourné Brume, E) Rampé discrètement. ];Score+2Etape-B; 
+Faux=C'est un peu humide.
+element=B
+Liste=Etape
+SI=COND
+/SUD
+Vrai=Envrep. Un vallon déboisé recouvert de feuille morte et serpenté de ruisseaux boueux.;Metrep. Brume clairsemé.;Sitrep. Des patrouillé de drones et de sentinelles armé.;A=Vous évitez avec soin les ruisseaux, les feuilles en restant dans les zones de brume et personne ne vous vois!;B=Vous évitez avec soin les ruisseaux, les feuilles et les zones de brume, mais les brumes vous cachait partiellement!;C=Vous faite un bruit assourdissent en marchant dans les flaques d'eau et les feuilles morte, mais les brumes vous cachait partiellement!;D=Vous évitez avec soin les ruisseaux, les feuilles et les zones de brume, mais vous êtes a la vue des gardes!;E=Vous faite un bruit assourdissent en rampant dans les ruisseaux boueux et les feuilles morte, mais personne ne vous a vu!;> Quelle stratégie vous adopterez ici ?;[A) Traversé Brume, B) Contourné Champ, C) Traversé Champ, D) Contourné Brume, E) Rampé discrètement. ];Score+4;Etape-C; 
+Faux=Le ciel est claire.
+element=C
+Liste=Etape
+SI=COND
+/OUEST
+Vrai=Envrep. Un vallon déboisé pierreux et couvert de branche morte.;Metrep. La brume commence à se diciper.;Sitrep. Des patrouillé de drones et de sentinelles armé.;A=Vous évitez avec soin les pierres, les branches morte en restant dans les zones de brume et personne ne vous vois!;B=Vous évitez avec soin les pierres, les branches morte et les zones de brume, mais vous êtes a la vue!;C=Vous faite un bruit assourdissent en trébuchant contre les pierres et marchant dans les branches morte, mais les brumes vous cachait partiellement!;D=Vous faite un bruit assourdissent en trébuchant contre les pierres et marchant dans les branches morte et vous êtes a la vue!;E=Ca na pas été facile mais vous parvenez a traversé le vallon encombré sans vous faire voir ni qu'on ne vous entende.;> Quelle stratégie vous adopterez ici ?;[A) Traversé Brume, B) Contourné Champ, C) Traversé Champ, D) Contourné Brume, E) Rampé discrètement. ];Score+8;Etape-D; 
+Faux=L'aire semble vibré.
+element=D
+Liste=Etape
+SI=COND
+Vous venez de reconnaitre votre premier objectif.
+
+/Choix direction
+A=Etape=A
+B=Etape=B
+C=Etape=C
+D=Etape=D
+> Choisissez une direction ?
+[A) Nord, B) Est, C) Sud, D) Ouest. ]
+/NORD
+Vrai=Envrep. Un vallon semi boisé recouvert de feuille morte et de branche morte.;Metrep. La matinée est chaud et une légère brume clairsemé coure jusqu'a 6 pied du sol.;A=Vous évitez avec soin les branches, les feuilles en restant dans les zones de brume et personne ne vous vois!;B=Vous évitez avec soin les branches, les feuilles et les zones de brume, mais les brumes vous cachait partiellement!;C=Vous faite un bruit assourdissent en marchant dans les branche et les feuilles morte, mais les brumes vous cachait partiellement!;D=Vous évitez avec soin les branches, les feuilles et les zones de brume, mais vous êtes a la vue!;E=Vous faite un bruit assourdissent en rampant dans les branche et les feuilles morte, mais personne ne vous vois!;> Quelle stratégie vous adopterez ici ?;[A) Traversé Brume, B) Contourné Champ, C) Traversé Champ, D) Contourné Brume, E) Rampé discrètement. ];Score+1;Etape-A; 
+Faux=Plouf! Vous marché dans l'eau.
+element=A
+Liste=Etape
+SI=COND
+/EST
+Vrai=Envrep. Un vallon semi boisé pierreux et serpenté de ruisseaux boueux.;Metrep. Encore de la brumes clairsemé.;A=Vous évitez avec soin les pierres, les ruisseaux en restant dans les zones de brume et personne ne vous vois!;B=Vous évitez avec soin les pierres, les ruisseaux et les zones de brume, mais vous êtes a la vue!;C=Vous faite un bruit assourdissent en trébuchant contre les pierres et marchant dans les ruisseaux, mais les brumes vous cachait partiellement!;D=Vous faite un bruit assourdissent en trébuchant contre les pierres et marchant dans les ruisseaux et vous êtes a la vue!;E=Vous ne risquez pas de vous salir avec le costume hydrofuge en nano molécule. Ça n’a pas été facile mais vous parvenez a traversé le vallon boueux sans vous faire voir ni qu'on ne vous entende.;> Quelle stratégie vous adopterez ici ?;[A) Traversé Brume, B) Contourné Champ, C) Traversé Champ, D) Contourné Brume, E) Rampé discrètement. ];Score+2;Etape-B; 
+Faux=Pouf! Vous heurtez un cailloux.
+element=B
+Liste=Etape
+SI=COND
+/SUD
+Vrai=Envrep. Un vallon déboisé recouvert de feuille morte et serpenté de ruisseaux boueux.;Metrep. Brume clairsemé.;Sitrep. Des patrouillé de drones et de sentinelles armé.;A=Vous évitez avec soin les ruisseaux, les feuilles en restant dans les zones de brume et personne ne vous vois!;B=Vous évitez avec soin les ruisseaux, les feuilles et les zones de brume, mais les brumes vous cachait partiellement!;C=Vous faite un bruit assourdissent en marchant dans les flaques d'eau et les feuilles morte, mais les brumes vous cachait partiellement!;D=Vous évitez avec soin les ruisseaux, les feuilles et les zones de brume, mais vous êtes a la vue des gardes!;E=Vous faite un bruit assourdissent en rampant dans les ruisseaux boueux et les feuilles morte, mais personne ne vous a vu!;> Quelle stratégie vous adopterez ici ?;[A) Traversé Brume, B) Contourné Champ, C) Traversé Champ, D) Contourné Brume, E) Rampé discrètement. ];Score+4;Etape-C; 
+Faux=Crouche! Vous marchez sur une branche.
+element=C
+Liste=Etape
+SI=COND
+/OUEST
+Vrai=Envrep. Un vallon déboisé pierreux et couvert de branche morte.;Metrep. La brume commence à se diciper.;Sitrep. Des patrouillé de drones et de sentinelles armé.;A=Vous évitez avec soin les pierres, les branches morte en restant dans les zones de brume et personne ne vous vois!;B=Vous évitez avec soin les pierres, les branches morte et les zones de brume, mais vous êtes a la vue!;C=Vous faite un bruit assourdissent en trébuchant contre les pierres et marchant dans les branches morte, mais les brumes vous cachait partiellement!;D=Vous faite un bruit assourdissent en trébuchant contre les pierres et marchant dans les branches morte et vous êtes à la vue!;E=Ca n’a pas été facile mais vous parvenez a traversé le vallon encombré sans vous faire voir ni qu'on ne vous entende.;> Quelle stratégie vous adopterez ici ?;[A) Traversé Brume, B) Contourné Champ, C) Traversé Champ, D) Contourné Brume, E) Rampé discrètement. ];Score+8;Etape-D; 
+Faux=Crisp! Vous écrassez des feuilles.
+element=D
+Liste=Etape
+SI=COND
+Vous venez de reconnaitre votre deuxième objectif.
+
+/Choix direction
+A=Etape=A
+B=Etape=B
+C=Etape=C
+D=Etape=D
+> Choisissez une direction ?
+[A) Nord, B) Est, C) Sud, D) Ouest. ]
+/NORD
+Vrai=Envrep. Un vallon semi boisé recouvert de feuille morte et de branche morte.;Metrep. La matinée est chaud et une légère brume clairsemé coure jusqu'a 6 pied du sol.;A=Vous évitez avec soin les branches, les feuilles en restant dans les zones de brume et personne ne vous vois!;B=Vous évitez avec soin les branches, les feuilles et les zones de brume, mais les brumes vous cachait partiellement!;C=Vous faite un bruit assourdissent en marchant dans les branche et les feuilles morte, mais les brumes vous cachait partiellement!;D=Vous évitez avec soin les branches, les feuilles et les zones de brume, mais vous êtes a la vue!;E=Vous faite un bruit assourdissent en rampant dans les branche et les feuilles morte, mais personne ne vous vois!;> Quelle stratégie vous adopterez ici ?;[A) Traversé Brume, B) Contourné Champ, C) Traversé Champ, D) Contourné Brume, E) Rampé discrètement. ];Score+1;Etape-A; 
+Faux=Les soldats on l'aire fatigué.
+element=A
+Liste=Etape
+SI=COND
+/EST
+Vrai=Envrep. Un vallon semi boisé pierreux et serpenté de ruisseaux boueux.;Metrep. Encore de la brumes clairsemé.;A=Vous évitez avec soin les pierres, les ruisseaux en restant dans les zones de brume et personne ne vous vois!;B=Vous évitez avec soin les pierres, les ruisseaux et les zones de brume, mais vous êtes a la vue!;C=Vous faite un bruit assourdissent en trébuchant contre les pierres et marchant dans les ruisseaux, mais les brumes vous cachait partiellement!;D=Vous faite un bruit assourdissent en trébuchant contre les pierres et marchant dans les ruisseaux et vous êtes a la vue!;E=Vous ne risquez pas de vous salir avec le costume hydrofuge en nano molécule. Ca na pas été facile mais vous parvenez a traversé le vallon boueux sans vous faire voir ni qu'on ne vous entende.;> Quelle stratégie vous adopterez ici ?;[A) Traversé Brume, B) Contourné Champ, C) Traversé Champ, D) Contourné Brume, E) Rampé discrètement. ];Score+2;Etape-B; 
+Faux=Un Drone passe entre deux sous bois.
+element=B
+Liste=Etape
+SI=COND
+/SUD
+Vrai=Envrep. Un vallon déboisé recouvert de feuille morte et serpenté de ruisseaux boueux.;Metrep. Brume clairsemé.;Sitrep. Des patrouillé de drones et de sentinelles armé.;A=Vous évitez avec soin les ruisseaux, les feuilles en restant dans les zones de brume et personne ne vous vois!;B=Vous évitez avec soin les ruisseaux, les feuilles et les zones de brume, mais les brumes vous cachait partiellement!;C=Vous faite un bruit assourdissent en marchant dans les flaques d'eau et les feuilles morte, mais les brumes vous cachait partiellement!;D=Vous évitez avec soin les ruisseaux, les feuilles et les zones de brume, mais vous êtes a la vue des gardes!;E=Vous faite un bruit assourdissent en rampant dans les ruisseaux boueux et les feuilles morte, mais personne ne vous a vu!;> Quelle stratégie vous adopterez ici ?;[A) Traversé Brume, B) Contourné Champ, C) Traversé Champ, D) Contourné Brume, E) Rampé discrètement. ];Score+4;Etape-C; 
+Faux=Ils ne fond vraiment pas attention a vous.
+element=C
+Liste=Etape
+SI=COND
+/OUEST
+Vrai=Envrep. Un vallon déboisé pierreux et couvert de branche morte.;Metrep. La brume commence à se décider.;Sitrep. Des patrouillé de drones et de sentinelles armé.;A=Vous évitez avec soin les pierres, les branches morte en restant dans les zones de brume et personne ne vous vois!;B=Vous évitez avec soin les pierres, les branches morte et les zones de brume, mais vous êtes a la vue!;C=Vous faite un bruit assourdissent en trébuchant contre les pierres et marchant dans les branches morte, mais les brumes vous cachait partiellement!;D=Vous faite un bruit assourdissent en trébuchant contre les pierres et marchant dans les branches morte et vous êtes a la vue!;E=Ca n’a pas été facile mais vous parvenez a traversé le vallon encombré sans vous faire voir ni qu'on ne vous entende.;> Quelle stratégie vous adopterez ici ?;[A) Traversé Brume, B) Contourné Champ, C) Traversé Champ, D) Contourné Brume, E) Rampé discrètement. ];Score+8;Etape-D; 
+Faux=Votre bonne étoile vous suis toujours.
+element=D
+Liste=Etape
+SI=COND
+Vous venez de reconnaitre votre troisième objectif.
+
+/Choix direction
+A=Etape=A
+B=Etape=B
+C=Etape=C
+D=Etape=D
+> Choisissez une direction ?
+[A) Nord, B) Est, C) Sud, D) Ouest. ]
+/NORD
+Vrai=Envrep. Un vallon semi boisé recouvert de feuille morte et de branche morte.;Metrep. La matinée est chaud et une légère brume clairsemé coure jusqu'a 6 pied du sol.;A=Vous évitez avec soin les branches, les feuilles en restant dans les zones de brume et personne ne vous vois!;B=Vous évitez avec soin les branches, les feuilles et les zones de brume, mais les brumes vous cachait partiellement!;C=Vous faite un bruit assourdissent en marchant dans les branche et les feuilles morte, mais les brumes vous cachait partiellement!;D=Vous évitez avec soin les branches, les feuilles et les zones de brume, mais vous êtes a la vue!;E=Vous faite un bruit assourdissent en rampant dans les branche et les feuilles morte, mais personne ne vous vois!;> Quelle stratégie vous adopterez ici ?;[A) Traversé Brume, B) Contourné Champ, C) Traversé Champ, D) Contourné Brume, E) Rampé discrètement. ];Score+1;Etape-A; 
+Faux=La brume vous bouche la vue.
+element=A
+Liste=Etape
+SI=COND
+/EST
+Vrai=Envrep. Un vallon semi boisé pierreux et serpenté de ruisseaux boueux.;Metrep. Encore de la brumes clairsemé.;A=Vous évitez avec soin les pierres, les ruisseaux en restant dans les zones de brume et personne ne vous vois!;B=Vous évitez avec soin les pierres, les ruisseaux et les zones de brume, mais vous êtes a la vue!;C=Vous faite un bruit assourdissent en trébuchant contre les pierres et marchant dans les ruisseaux, mais les brumes vous cachait partiellement!;D=Vous faite un bruit assourdissent en trébuchant contre les pierres et marchant dans les ruisseaux et vous êtes a la vue!;E=Vous ne risquez pas de vous salir avec le costume hydrofuge en nano molécule. Ça n’a pas été facile mais vous parvenez a traversé le vallon boueux sans vous faire voir ni qu'on ne vous entende.;> Quelle stratégie vous adopterez ici ?;[A) Traversé Brume, B) Contourné Champ, C) Traversé Champ, D) Contourné Brume, E) Rampé discrètement. ];Score+2;Etape-B; 
+Faux=Il n'y a pas du tout de vent.
+element=B
+Liste=Etape
+SI=COND
+/SUD
+Vrai=Envrep. Un vallon déboisé recouvert de feuille morte et serpenté de ruisseaux boueux.;Metrep. Brume clairsemé.;Sitrep. Des patrouillé de drones et de sentinelles armé.;A=Vous évitez avec soin les ruisseaux, les feuilles en restant dans les zones de brume et personne ne vous vois!;B=Vous évitez avec soin les ruisseaux, les feuilles et les zones de brume, mais les brumes vous cachait partiellement!;C=Vous faite un bruit assourdissent en marchant dans les flaques d'eau et les feuilles morte, mais les brumes vous cachait partiellement!;D=Vous évitez avec soin les ruisseaux, les feuilles et les zones de brume, mais vous êtes a la vue des gardes!;E=Vous faite un bruit assourdissent en rampant dans les ruisseaux boueux et les feuilles morte, mais personne ne vous a vu!;> Quelle stratégie vous adopterez ici ?;[A) Traversé Brume, B) Contourné Champ, C) Traversé Champ, D) Contourné Brume, E) Rampé discrètement. ];Score+4;Etape-C; 
+Faux=Vous passez entre les arbres.
+element=C
+Liste=Etape
+SI=COND
+/OUEST
+Vrai=Envrep. Un vallon déboisé pierreux et couvert de branche morte.;Metrep. La brume commence à se diciper.;Sitrep. Des patrouillé de drones armé et de sentinelles.;A=Vous évitez avec soin les pierres, les branches morte en restant dans les zones de brume et personne ne vous vois!;B=Vous évitez avec soin les pierres, les branches morte et les zones de brume, mais vous êtes a la vue!;C=Vous faite un bruit assourdissent en trébuchant contre les pierres et marchant dans les branches morte, mais les brumes vous cachait partiellement!;D=Vous faite un bruit assourdissent en trébuchant contre les pierres et marchant dans les branches morte et vous êtes a la vue!;E=Ca n’a pas été facile mais vous parvenez a traversé le vallon encombré sans vous faire voir ni qu'on ne vous entende.;> Quelle stratégie vous adopterez ici ?;[A) Traversé Brume, B) Contourné Champ, C) Traversé Champ, D) Contourné Brume, E) Rampé discrètement. ];Score+8;Etape-D; 
+Faux=Vous enjambez un ruisseaux.
+element=D
+Liste=Etape
+SI=COND
+Vous venez de reconnaitre votre quatrième objectif.
+(Score)
+Vrai=Bravo! Vous avez réussie l'épreuve et visité les 4 objectifs différents.
+Faux=Bien. Vous avez terminé l'épreuve mais en oubliant certain objectif.
+element=15
+Liste=Score
+SI=VAR
+Faux=Loading...25%
+Vrai=Vous êtes allé 4 fois au Nord pour être exacte. Ce qui est loin de l'ennemi, mais vous êtes resté prudent.
+element=4
+Liste=Score
+SI=VAR
+Faux=Loading...50%
+Vrai=Vous êtes allé 4 fois à l'Est pour être exacte. Ce qui est loin de l'ennemi, mais vous êtes resté prudent.
+element=8
+Liste=Score
+SI=VAR
+Faux=Loading...75%
+Vrai=Vous êtes allé 4 fois au Sud pour être exacte. Vous avez donc passé près de l'ennemie à répétition.
+element=16
+Liste=Score
+SI=VAR
+Faux=Loading...100%
+Vrai=Vous êtes allé 4 fois à l'Ouest pour être exacte. Vous avez donc passé près de l'ennemie à répétition.
+element=32
+Liste=Score
+SI=VAR
+Bip! Bip! Mis-A-Jour de la base de donné en coure...Done!
+A=Scan Compléter! Aucun ennemi en vue, vous pouvez continuer.
+> Continué ?
+[A) Continué. ]
+Vous voilà arrivé à la dernière épreuve de cet entrainement. Une grande quantité d'objets ont été téléchargé avec succès dans la base de données du Satellite StealthRay1. Cet objet environnemental, textures, signature ennemi, Drone et Sentinelle sont maintenant prêt à être utilisé dans votre application. Noté qu'il existe trois types de catégorie. Options Satellite, Transformation et Illusion. Les Options sont celle déjà vu précédemment, Display Space Sol ou DSS. Les Transformations et Illusion sont sujet a de constante mis-a-jour quand vous changé d'environnement ou rencontré de nouveau Ennemi.
+(PAUSE)
+Vous pouvez quand même chercher a na pas être vu par des moyen plus classique ou Tactique sur le terrain. Pour une expérience plus immersive sachez que le Système génère juste ce qu'il faut de micro-onde sur l'environnement, pour assurer un ciel claire et au sol un brouillard relatif. Ces conditions réunie favorise la projection d'image isométrique de taille réel et stimuler vos fonctions cognitive par période de fatigue. Dans certain cas elles ralentissent l'activité cérébral de vos ennemie pour qu'ils ne s'aperçoivent pas de vos illusions, mais n'en parlons pas à la 'Convention de Genève'.
+Signé le Commandement Tactique
+A=Etape=A
+B=Etape=B
+C=Etape=C
+D=Etape=D
+E=Etape=E
+> Quel Stratégie choisir ?
+[A) Flanking Gauche, B) Flanking Droite, C) Options Satellite, D) Transformation, E) Illusion. ]
+/A
+Vrai=Envrep. Un vallon semi boisé recouvert de feuille morte et de pierre.;Metrep. La matinée est chaud et une légère brume clairsemé coure jusqu'a 6 pied du sol.;A=Vous évitez avec soin les pierres, les feuilles en restant dans les zones de brume et personne ne vous vois!;B=Vous évitez avec soin les pierres, les feuilles morte et les zones de brume, mais les brumes vous cachait partiellement!;C=Vous faite un bruit assourdissent en trébuchant contre des pierres et en marchant dans les feuilles morte, mais les brumes vous cachait parfaitement!;D=Vous évitez avec soin les pierres, les feuilles et les zones de brume, mais vous êtes a la vue!;E=Vous faite un bruit assourdissent en rampant dans des feuilles morte et heurtant des pierres, mais personne ne vous vois!;> Quelle stratégie vous adopterez ici ?;[A) Traversé Brume, B) Contourné Vallon, C) Traversé Vallon, D) Contourné Brume, E) Rampé discrètement. ];Etape-A; 
+element=A
+Liste=Etape
+SI=COND
+/B
+Vrai=Envrep. Un vallon semi boisé couvert de branches morte et serpenté de ruisseaux boueux.;Metrep. Encore de la brumes clairsemé.;A=Vous évitez avec soin les branches mortes, les ruisseaux en restant dans les zones de brume et personne ne vous vois!;B=Vous évitez avec soin les branches mortes, les ruisseaux et les zones de brume, mais vous êtes a la vue!;C=Vous faite un bruit assourdissent en marchant dans les branches mortes et pataugeant dans les ruisseaux, mais les brumes vous cachait partiellement!;D=Vous faite un bruit assourdissent en marchant dans les branches mortes et pataugeant dans les ruisseaux et vous êtes a la vue!;E=Vous ne risquez pas de vous salir avec le costume hydrofuge en nano molécule. Ça n’a pas été facile mais vous parvenez a traversé le vallon boueux sans vous faire voir ni qu'on ne vous entende rampé dans les branches mortes.;> Quelle stratégie vous adopterez ici ?;[A) Traversé Brume, B) Contourné Champ, C) Traversé Champ, D) Contourné Brume, E) Rampé discrètement. ];Etape-B; 
+element=B
+Liste=Etape
+SI=COND
+/C
+Vrai=A=Vous ouvrez vos mains comme un livre devant vos yeux et les options du Satellite StealthRay1 s'affiche entre vos paumes. Vous sélectionnez dans l'onglet GPS/Projection/Coordonné/Grille quadrillé en (mètre). Instantanément des fines lignes de lumière UV apparaissent aux sols tout autour de vous. Vous augmentez la distance de rognage sur un grand périmètre de 2km et toute la région s'illumine. En modulent la fréquence lumineuse, vous attirez aussi l'attention des gardes en patrouille et l'alerte est donnée!;B=Vous ouvrez vos mains comme un livre devant vos yeux et les options du Satellite StealthRay1 s'affiche entre vos paumes. Vous sélectionnez dans l'onglet GPS/Projection/Carte Topographique/Relief graduer en (mètre). Instantanément des fines lignes de lumière UV apparaissent au sol tout autour de vous. Vous augmentez la distance de rognage sur un grand périmètre de 2km et toute la région s'illumine. En modulent la fréquence lumineuse, vous attirez aussi l'attention des gardes en patrouille et l'alerte est donnée!;C=Vous ouvrez vos mains comme un livre devant vos yeux et les options du Satellite StealthRay1 s'affiche entre vos paumes. Vous sélectionnez dans l'onglet OBJET/Projection/Eléments/Environnement Naturelle/Texture plain en mode (Assujettie). Instantanément un volume de quelques 100m carré se superpose au vallon accidenté. Cachant les ruisseaux, les grosses pierres, les branches et les feuille mortes, une jolie plaine herbeuse dont vous aplanissez le relief du bout du doigt. L'illusion est frappante et les patrouille qui la traverse à pied, s'y enlisent et y trébuche à qui mieux-mieux. Ils se retrouvent complétement désorganisé!;D=Vous ouvrez vos mains comme un livre devant vos yeux et les options du Satellite StealthRay1 s'affiche entre vos paumes. Vous sélectionnez dans l'onglet Théâtre Operation/Projection/Lumière en mode (Obscurcissement). Instantanément une zone obscure cache le vallon accidenté. Cachant les ruisseaux, les grosses pierres, les branches et les feuille mortes. Vous contrôle la luminosité du bout du doigt et les plongé dans le noir total. L'illusion est frappante et les patrouille qui la traverse à pied, s'enlisent et y trébuche à qui mieux-mieux. Vous ne les voyez pas mais vous les entendez rager, ils se retrouvent vite désorganisé!;E=Vous ouvrez vos mains comme un livre devant vos yeux et les options du Satellite StealthRay1 s'affiche entre vos paumes. Vous sélectionnez dans l'onglet Théâtre Operation/Projection/Lumière en mode (Flash Aveuglent). Instantanément un grand flash inonde la zone et tous ceux qui étaient habitué à l'obscurité sont maintenant aveuglés. Vous contrôle la luminosité du bout du doigt et les plongé dans le noir total. L'illusion est frappante et les patrouille qui traverse à pied, s'enlisent et trébuche à qui mieux-mieux. Vous ne les voyez pas mais vous les entendez rager, ils se retrouvent vite désorganisé!;> Quel Fonction Spécial choisissez-vous ?;[A) PROJ 'grille', B) PROJ 'Topo', C) Dissimulé, D) Obscurcissement, E) Flash aveuglement. ];Etape-C; 
+element=C
+Liste=Etape
+SI=COND
+/D
+Vrai=A=Vous ouvrez vos mains comme un livre devant vos yeux et les options du Satellite StealthRay1 s'affiche entre vos paumes. Vous sélectionnez dans l'onglet VIP/Projection/Transformation/Théâtre Operation/Arbre #E0002032 mode (Shadow). Instantanément de l'espace un projecteur vous cible et vous adoptez l'apparence complète d'un gros arbre ambient. Son image tridimensionnel se superpose a votre costume blanc et la projection garde invisible en temps réel au moindre de vos déplacement et réapparait quand vous êtes immobile. Vous passez les gardes sans problème ils sont déjouer par votre camouflage!;B=Vous ouvrez vos mains comme un livre devant vos yeux et les options du Satellite StealthRay1 s'affiche entre vos paumes. Vous sélectionnez dans l'onglet VIP/Projection/Transformation/Théâtre Operation/Rocher #E0003517 mode (Shadow). Instantanément de l'espace un projecteur vous cible et vous adoptez l'apparence complète d'un gros rocher ambiant. Son image tridimensionnel se superpose a votre costume blanc et la projection garde invisible en temps réel au moindre de vos déplacement et réapparait quand vous êtes immobile. Vous passez les gardes sans problème ils sont déjouer par votre camouflage!;C=Vous ouvrez vos mains comme un livre devant vos yeux et les options du Satellite StealthRay1 s'affiche entre vos paumes. Vous sélectionnez dans l'onglet VIP/Projection/Transformation/Théâtre Operation/Buisson #E0001243 mode (Shadow). Instantanément de l'espace un projecteur vous cible et vous adoptez l'apparence complète d'un buisson épineux. Son image tridimensionnel se superpose a votre costume blanc et la projection garde invisible en temps réel au moindre de vos déplacement et réapparait quand vous êtes immobile. Vous passez les gardes sans problème ils sont déjouer par votre camouflage!;D=Vous ouvrez vos mains comme un livre devant vos yeux et les options du Satellite StealthRay1 s'affiche entre vos paumes. Vous sélectionnez dans l'onglet VIP/Projection/Transformation/Théâtre Operation/Drone #D0006700 mode (Assujettie). Instantanément de l'espace un projecteur vous cible et vous adoptez l'apparence complète d'un robot ennemi. Son image tridimensionnel se superpose a votre costume blanc et la projection imite en temps réel le moindre de vos déplacement. Vous passez les gardes sans problème ils sont déjouer par votre camouflage!;E=Vous ouvrez vos mains comme un livre devant vos yeux et les options du Satellite StealthRay1 s'affiche entre vos paumes. Vous sélectionnez dans l'onglet VIP/Projection/Transformation/Théâtre Operation/Soldat #C59409659 mode (Auto-Synchrone). Instantanément de l'espace un projecteur vous cible et vous adoptez l'apparence complète d'un Soldat ennemi. Son image tridimensionnel se superposé a votre costume blanc et la projection imite en temps réel le moindre de vos mouvement. Vous passez les gardes sans problème ils sont déjouer par votre camouflage!;> Quel Transformation choisir ?;[A) Arbre, B) Rocher, C) Buisson, D) Drone, E) Sentinelle. ];Etape-D; 
+element=C
+Liste=Etape
+SI=COND
+/E
+Vrai=A=Vous formez un carré avec vos mais dans la direction du chemin. Une zone lumineuse apparait dans votre champ de vision et vous l'ajust de vos mains. En fermant le point gauche un flash de la zone sélectionné vous indique qu'elle a bien été enregistrée. Quand vous avancez à cet endroit entre deux passages du drone, vous disparaissez sous le voile de l'image texturé. Si vous restez immobile l'hologramme ne vous détecte pas.;B=Vous formez un cube avec vos mais dans la direction du drone. Une zone lumineuse 3d apparait dans votre champ de vision et vous l'ajust de vos mains. En fermant le point gauche un flash dans le volume sélectionné vous indique qu'il a bien été enregistré. Quand vous déplacez la main droite, un second hologramme du drone pris dans sa dernière attitude glisse ou vous le voulez et en ouvrant le point gauche il se fixe en l'air sur le chemin. Les drones se croisent virtuellement et font une manœuvre pour s'évité mutuellement.;C=Vous formez un cube avec vos mais dans la direction d'un arbre. Une zone lumineuse 3d apparait dans votre champ de vision et vous l'ajust de vos mains. En fermant le point gauche un flash dans le volume sélectionné vous indique qu'il a bien été enregistré. Quand vous déplacez la main droite, un second hologramme de l'arbre pris dans sa dernière attitude glisse ou vous le voulez et en ouvrant le point gauche il se fixe au sol sur le chemin. Le drone le crois virtuellement et fait une manœuvre pour l'évité et change de direction.;D=Vous ouvrez vos mais comme un livre devant vous. Une liste apparait dans votre champ de vision et vous la parcourez de la main droite. En touchant l'objet de l'index un volume sélectionné vous apparait dans l'aire. Quand vous déplacez la main droite, son hologramme glisse ou vous le voulez et d'un geste de l'index il se fixe au sol sur le chemin. Le drone qui passe au-dessus virtuellement s'arrête un instant pour l'examiné avant de reprendre son chemin.;E=Vous posez la main droite sur votre poitrine et la faite glissé devant vous. Un volume taille réel de vous en 3d apparait dans l'aire et s'assujettie au sol. Quand vous déplacez la main droite, son hologramme glisse ou vous le voulez et d'un geste de l'index il se fixe au sol sur le chemin. Le drone qui passe au-dessus virtuellement s'arrête un instant pour l'examiné avant de déclenché l'alerte et reprendre son chemin.;> Quelle stratégie vous adopterez ici ?;[A) Saisie ‘Terrain', B) Saisie ‘Ennemi', C) saisie ‘Elément', D) Créer 'Objet', E) Faire diversion. ]; 
+element=A
+Liste=Etape
+SI=COND
+Parfait! L'entrainement est maintenant terminé. C'est du bon travail Mr.Fleming
+Quete-Espion en Herbe
+Trophe=Shadow Caster
+Vous venez de terminé l'entrainement virtuelle de situation tactique 2. Et vous vous méritez le trophée Le Shadow. De nouvelle fonctionnalité viennent de s'ajouté à l'application. Vous pourrez communiquer de manière gestuelle avec le satellite sans tenir l'application en main. Celui-ci vous regarde et a analysé vos différentes postures. Si vous lever le pouce StealtRay1 le saura et son intelligence artificielle vous assistera par apprentissage.
+Les hologrammes disparaissent tout autour de vous. Le camp de l'OSP avec tout le matériel et les gardes ne sont plus là. Le parcours de 2km à travers la campagne n'est plus est un sentiment fierté vous envahi. L'application vous demande de côté sur 5 votre appréciation de l'expérience.
+En plaçant la paume de la main gauche devant vous dans une zone dégagé, faite les signe de 1 à 5 pour répondre aux choix A, B, C, D, E.
+> Combien d'étoile vous décernez à cette autre simulation ?
+A=5 Étoiles
+B=4 Étoiles
+C=3 Étoiles
+D=2 Étoiles
+E=1 Étoile
+[A) *****, B) ****-, C) ***--, D) **---, E) *---. ]
+Merci, cette évaluation va être analysée par I.A. de StealtRay1 qui génère des épreuves enrichissantes à partir de terrain sécurisé. L'application Task Master, pour vous garder au Top niveau, vous mettra à l'épreuve quand le moment sera venu avec des défis de plus en plus grands. Ceci contribuera à maintenir de votre forme physique ainsi qu'à votre habilité cognitive dans un environnement contrôlé. Merci de votre contribution.
+Signé le Commandement Tactique.
+A=Vous suivez les flèches que vous indique le GPS durant quelque heures... Arrivé à destination l'application se met a vibré. C'est un message de L'IA.
+> Appuyer sur A pour continuer.
+[A) Continuer. ]
+
+Félicitation pour votre débrouillardise et pour être resté stratégique dans votre infiltration à distance. Vous avez sus utilisé les outils et vos connaissances tactiques pour vous débarrassé des gardes armés. Dans l'aéroport au fond du hangar vous trouvez du matériel de développement et un tour à commande numérique conçu pour l'aéronautique et un appareil très récent d’Avion Furtif sans pilot. Le toit du hangar s'ouvre en deux, pour accélérer le décollage de cette appareille conçu pour se posé sans piste ou faire du surplace. Elle est munit d'une petite soute équiper d'un bras robot pour le transport comme le saut en parachute et elle peut même accueillir un Drone pour recharger.
+Trophe=Auto pilot
+(TROPHE)
+> Fin de l'entrainement. Appuyer sur une touche pour continuer.
+A=LV=3:Etape=3:sourcefile=missionUp
+B=
+C=
+D=
+E=
+vrai=
+faux=
+element=
+Liste=
+> Appuyer sur A pour Retour.
+[A) Continué. ]

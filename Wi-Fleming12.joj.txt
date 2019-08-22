@@ -1,0 +1,324 @@
+/IA OU LED
+/Sauvetage des spationautes Russe ?
+Mission 12.
+Rapport Météo: Matin Ensoleillé 17 degré Celsius, ciel variable et humidité moyen.
+Rapport Situation: Vous entrez dans l'espace aérien d'une zone contrôlé par l'OSP, le GPS vous a conduit jusqu'ici pour que vous récupériez un container classifié. L'image satellite vient de détecter une faille temporelle et un centre d'une curieuse formation nuageuse, que vous devriez visiter par priorité. Ça ne vous posera pas de problème avec votre nouveau moyen de transport.
+Vous êtes maintenant en mission officiel. Utilisez le Quantum autant que vous le pouvez et s'il est détruit ou prit par l'ennemie, ne vous en fait pas, une boucle temporelle vous le rendra.
+Objectif, Se familiarisé avec le module Quantum pour reconnaitre le terrain en d'autre temps ou sur de grande distance, les années 70.
+A=Vous traversez la faille à l'aide l'avion et apparaissez en pleine nuit.
+>  Voler jusque dans la brèche Temporelle ?
+[A) Remontez le temps. ]
+'Les Survivants de la Guerre Froide.'
+Vous survolez l'espace aérien de la Russie aujourd'hui le 30 Juin 1971. En fait vous êtes dans l'espace, heureusement que l'appareil est pressurisé sinon vous seriez déjà mort! Vous vous sentez flotté dans la soute et le bruit des moteurs s'arrête comme vous êtes à court d'atmosphère. L'IA de l'avion commence à s'adapter à ce nouvelle environnement et de nombreuse Options serons plus disponible. Vérification en court...
+(pause)
+Pression OK			Oxygène OK
+Électricité OK			Communication K.O.
+Camera Spectral OK		Projector Dark-Mater OK
+Moteurs K.O.			Largage de Drone K.O.
+Crochet et Parachutage K.O.	Camouflage LED OK
+Quantum Module K.O.
+(pause)
+La Radar de vole détecte un bâtiment qui s'approche de vous.
+A=Identification en coure... 'Il s'agit du module Soyouz-1 de l'empire Soviétique. Il est en mission scientifique pour acclimater ses spationautes au vol habité en prévision de gagné la lune dans cette décennie. Mais historiquement ces hommes vont mourir perdus vers le soleil, à cause d'une erreur de trajectoire.'
+B=Vous ne pouvez dirigez cette appareille! Il n'est pas conçu pour voler hore de l'atmosphère.
+C=Vous assaillez avec tous les bands numérique moderne, de communiquez avec quelqu'un du siècle dernier, alors que vous flottez dans l'espace, au-dessus de la Sibérie!? Vous n'avez à rien, les communications sont HS ou personne n'est en mesure de vous capter.
+D=Vous fermez le brouillage visuelle pour attirer leurs attention. Sans succès!
+E=Pour sauter de l'avion, vous ouvrez la soute mais trop tard vous réalisez que c'est tout ce qui garde pressurisez contre le vide de l'espace. Piouf! Vous venez de perdre toute l'air de l'appareille d'un coup et celui-ci culbute de bas en haut sur plusieurs tour entrainer dans son mouvement! Heureusement que vous et le drone êtes solidement attachés au Crochet de largage mais vous ne pouvez plus respirez.
+>  Votre première initiative est ?
+[A) Activé Caméra, B) Reprendre le Pilotage, C) Rétablir les Communications, D) Désactivé le Camouflage, E) Ouvrir la soute. ] 
+L'objet continu d'approché à toute allure, sois il ne vous voit pas, sois il ne peut vous éviter!
+A=Identification en coure... 'Il s'agit du module Soyouz-1 de l'empire Soviétique. Il est en mission scientifique pour acclimater ses spationautes au vol habité en prévision de gagné la lune dans cette décennie. Mais historiquement ces hommes vont mourir perdus vers le soleil, à cause d'une erreur de trajectoire.'
+B=Vous ne pouvez dirigez cette appareille! Il n'est pas conçu pour voler hore de l'atmosphère.
+C=Vous assaillez avec tous les bands numérique moderne, de communiquez avec quelqu'un du siècle dernier, alors que vous flottez dans l'espace, au-dessus de la Sibérie!? Vous n'avez à rien, les communications sont HS ou personne n'est en mesure de vous capter.
+D=Vous allumez le brouillage visuelle et jouer avec la luminosité pour attirer leurs attention et clignoté. Sans succès!
+E='Alerte ! Niveau Pression et Oxygène très bas!' Il semble que vous êtes déjà à court, vous ne pouvez plus respirez. Vous manœuvrez la porte pour sortir vite avant l'impact mais trop tard!
+>  Votre seconde initiative est ?
+[A) Activé Caméra, B) Reprendre le Pilotage, C) Rétablir les Communications, D) Activé le Camouflage, E) Fermer la soute. ] 
+L'objet spatial vous heurte de plein fouet au niveau de la soute arrière! Il ne pouvait vous évitez, mais étrangement le vaisseau Russe est resté accroché. Vous deviez beaucoup de la trajectoire et la coque du Soyouz est compromise, car vous voyez une fuite d'aire qui vous réchauffe le visage. C'est une chance pour vous que la soute se soit ouvert au bon moment et que l'avion n'est subit presque aucun dommage, quand il vous a heurté!
+A=Vous avancez jusqu'au hublot et voyez trois homme en scaphandre le visage étonnamment surprit. Vous leur faite signe et ils ouvrent leur écoutille.
+B=Vous avancez jusqu'à l'écoutille et cogné très fort contre la paroi. Par le hublot vous voyez trois homme en scaphandre le visage étonnamment surprit. Vous leur faite signe et ils ouvrent leur sasse.
+>  Qu'allez-vous faire ?
+[A) Faire signe aux spationautes, B) Cogné a l'écoutille. ] 
+
+Etape=YOU Avion
+Etape=ENG Soyouz
+Etape=COM Soyouz
+Etape=CAP Soyouz
+Ils sont saints et sauf mais ils ont l'air affolé! Les trois spationautes ont maintenant accès au cargo de votre appareille. La fuite d'air vous aide à respirer mais seulement pour un petit moment encore. Vous devez prendre une décision rapidement pour rester en vie. Le Soyouz est conçu pour l'espace mais ne peux garantir un retour sur terre avec la coque éventré contrairement a votre appareille qui ne l'est pas. Puis il n'y a pas de place pour 4 hommes dans l'un ou l'autre et vous ne possédez pas de combinaison spatiale!
+A=Vous ne pouvez monter à bord trop de gens occupe cette espace!
+B=L'Ingénieur dressent du module pour jeter un coup d'œil a 'avion. :Etape=B:Etape=ENG Avion:Etape-ENG Soyouz
+C=Il n'y a aucun spationaute à bord de l'avion pour l'instant.
+D=Il n'y a pas d'issus!
+>  Que décidez-vous ?
+[A) Monté à bord du module, B) Invité un spationaute, C) Remplacer un spationaute, D) Sortir de l'avion. ] 
+vrai=A=Vous montez respiré à bord du module Russe. Le Capitaine et le communicateur vous acceuille.:Etape=A:Etape-YOU Avion:Etape=YOU Soyouz;B=Le communicateur descente du module pour aider son collègue dans l'avion.:Etape=B:Etape=COM Avion:Etape-COM Soyouz;C=Vous demandez à l'ingénieur de changé de place avec son collègue communicateur. :Etape=C:Etape=ENG Soyouz:Etape-ENG Avion:Etape-COM Soyouz:Etape=COM Avion;D=Vous êtes déjà dans l'avion!;>  Que décidez-vous ?;[A) Monté à bord du module, B) Invité un spationautes, C) Remplacer un spationaute, D) Sortir du module. ];Etape-B; 
+/faux=Le temps file, vous êtes bientôt a coure d'aire!
+element=B
+Liste=Etape
+SI=COND
+
+vrai=A=Vous êtes déjà à bord du module Russe. ;B=Il n'y a plus assez de place ici! ;C=Il n'y a plus assez de place ici!;D=Vous inspirez un bon coup et redescendez du module spatial. :Etape=D;>  Que décidez-vous ?;[A) Monté à bord du module, B) Invité un spationautes, C) Congédier un spationaute, D) Sortir du module. ];Etape-A; 
+element=A
+Liste=Etape
+SI=COND
+vrai=A=Vous montez respiré à bord du module Russe. Le Capitaine vous accueille. ;B=Il n'y a plus assez de place ici!;C=Vous demandez au communicateur de changé de place avec son collègue commandant. :Etape=C;D=Il n'y a pas d'issus!;>  Que décidez-vous ? ;[A) Monté à bord du module, B) Invité un spationautes, C) Remplacer un spationaute, D) Sortir de l'avion. ];Etape-B; 
+element=B
+Liste=Etape
+SI=COND
+vrai=A=Vous montez respiré à bord du module Russe. Le Capitaine vous accueille. ;B=Le Capitaine dessent rejoindre son collègues communicateur dans l'avion. :Etape=B;C=Le Capitaine décent prendre la place de son collègues communicateur dans l'avion. :Etape=C;D=Il n'y a pas d'issus!;>  Que décidez-vous ?;[A) Monté à bord du module, B) Invité un spationautes, C) Remplacer un spationaute, D) Sortir de l'avion. ];Etape-C; 
+element=C
+Liste=Etape
+SI=COND
+Bon Maintenant que vous êtes tous bien répartie, vous refermer l'écoutille. Afin de pouvoir mettre contribution vos ressources mutuelle, l'ingénieur va consolider la soute, le Capitaine va piloter le module Soyouz, le communicateur fera le relai entre les équipes intérieur et extérieur et vous guiderai vos engin vers la faille temporelle. A votre retour dans l'atmosphère présent, le module sera largué de la soute et vous vous parachuterez pour laisser la place aux spationautes resté dans l'avion. Ils seront reconduit par l'Intelligence artificielle de l'avion jusqu'au sol et tous aurons la vie sauve.
+(pause)
+/Exemple: (2 tangage+pousser, 2 lacet+pousser, lacet+Roulis+tangage ou tangage+Roulis+lacet)
+Vous devez guider le Capitaine pour retrouver le pond temporelle.
+>  Piloté le Soyouz ?
+[A) Démarrage du module. ]
+A=Vous penchez d'un quart de tour vers l'objectif. :Etape=1:Etape=3
+B=Vous faite un quart de tour vers l'objectif. :Etape=2:Etape=4
+C=Ce mouvement inverse la position du Lacet et du tangage.
+D=Vous allumez le réacteur pour une poussée. Vous vous éloignez de l'objectif!
+>  Quel mouvement appliquer ?
+[A) Le lacet, B) Le tangage, C) Le Roulis, D) La pousser. ]
+A=Vous penchez d'un quart de tour vers l'objectif. :Etape=1
+B=Vous faite un quart de tour vers l'objectif. :Etape=2
+C=Ce mouvement inverse la position du Lacet et du tangage. :Etape=3:Etape=4
+D=Vous allumez le réacteur pour une pousser. Vous vous éloignez de l'objectif!
+>  Quel mouvement appliquer ?
+[A) Le lacet, B) Le tangage, C) Le Roulis, D) La pousser. ]
+A=Vous penchez d'un quart de tour vers l'objectif. :Etape=4
+B=Vous faite un quart de tour vers l'objectif. :Etape=3
+C=Ce mouvement inverse la position du Lacet et du tangage.
+D=Vous allumez le réacteur pour une pousser! :Etape=1:Etape=2
+>  Quel mouvement appliquer ?
+[A) Le lacet, B) Le tangage, C) Le Roulis, D) La pousser. ]
+vrai=Vous êtes parfaitement aligné avec la faille temporelle et avancer vers elle.
+element=1
+faux=Vous dérivez trop loin, il ne vous reste plus assez de carburant. :(pause):(over)
+Liste=Etape
+COND=3
+vrai=Vous êtes parfaitement aligné avec la faille temporelle et avancer vers elle. :Etape-2:Etape-2:Etape-2
+faux=Vous dérivez trop loin, il ne vous reste plus assez de carburant. :(pause):(over)
+element=2
+Liste=Etape
+COND=3
+vrai=Vous êtes parfaitement aligné avec la faille temporelle. Il n'y manque qu'une poussé et il vous reste un peu de carburant. :Etape-3:Etape-3:Etape-3
+faux=Vous dérivez trop loin, il ne vous reste plus assez de carburant. :(pause):(over)
+element=3
+Liste=Etape
+COND=3
+vrai=Vous êtes parfaitement aligné avec la faille temporelle. Il n'y manque qu'une poussé et il vous reste un peu de carburant. :Etape-4:Etape-4:Etape-4
+faux=Vous dérivez trop loin, il ne vous reste plus assez de carburant. :(pause):(over)
+element=4
+Liste=Etape
+COND=3
+Vous repasser à travers le trou de Ver et réapparaissez dans votre époque! Vous tombé, le module est beaucoup trop lourd pour votre avion. Vous devez faire vite et rallumé les moteurs. 
+A=Vous êtes déjà à bord du Soyouz. Un spationaute Russe rentre prendre ca place et l'autre échange son siège avec vous.
+B=Un spationaute Russe rentre prendre ca place et l'autre échange son siège avec vous.
+C=Un spationaute échange son siège avec vous et l'autre revient prendre ca place.
+D=Vous sortez du module et les deux spationautes entre reprendre leurs place.
+>  Que décidez-vous ?
+[A) Monté à bord du module, B) Invité un spationaute, C) Remplacer un spationaute, D) Sortir du module. ]
+Une fois le dernier Russe remonté à bord, ils ferment l'écoutille et vous rallumez les moteurs de l'avions. L'air s'engouffre dans la soute et vous respirez enfin avec plaisir, la poussée ébranle le module qui se détache et tombe à son tour! Vous manœuvrez l'appareil de côté, pour voir les parachutes s'ouvrirent et le Soyouz descendre lentement jusqu'au sol. Vous vous posez a son côté et aidé les hommes à descendre de la capsule. Les spationautes sont tous saint et sauve! Le système d'assistance robot au plafond de la soute, travail à réparer les dommages de l'avion et à son ouverture. Les soviétiques sont sans voix devant ce sauvetage et vous remercie de les avoir aidé.
+(pause)
+Vous voici revenu à votre époque avec les 3 camarades spationautes du siècle passé. Vous allez devoir faire équipe avant de les ramenés à votre base. Un message vous proviens du Satellite StealthRay1: Les Force de L'OSP se dirige vers votre position, il semble qu'ils vous aient repéré, car une formation de 5 hélicoptères Apache se dirige sur vos coordonnés. Vous devez cacher ces hommes et récupéré ce que vous pouvez.
+1. Créer une illusion.     80%
+2. Les rendent invisible. 100%
+3. Cacher les Vaisseaux.   100%
+4. Récupérer du matériel.  50%
+5. S'envoler loin d'ici.   50%
+/Reste à inventer les détails pour rendre plus réaliste ce chapitre d'évasion.
+A=Créer une illusion pour tromper l'ennemie, réussie. :Etape=Diversion
+B=Demander au projecteur de vous rendre invisible, réussie.
+C=Demander au projecteur de caché les vaisseaux, réussie.
+D=Le Drone part récupérer du matériel sur le Soyouz. Il récupère 3 Parachute et des vivres. :Etape=3PARA
+E=Vous faite descendre le Drone et vous donner votre place pour que les trois spationautes puissent monter. L'Avion décolle sur le pilotage automatique et quitte la zone.
+> Quelle stratégie vous adopterez ici ?
+[A) Diversion, B) Disparaitre, C) Camouflé Vaisseau, D) Récupération, E) Quitte. ]
+Score=0
+vrai=Les hélicoptères changent de direction comme attiré par quelque chose au Sud de votre position. C'est une illusion exacte de la fusée Russe avec en prime une colonne de fumée. ;Score+1;Etape-Diversion
+faux=Le Satellite créer une illusion a quelque kilomètre au Sud pour faire diversion.
+element=Diversion
+liste=Etape
+SI=COND
+A=Créer une illusion pour tromper l'ennemie, réussie.
+B=Demander au projecteur de vous rendre invisible, réussie. :Etape=Disparaitre
+C=Demander au projecteur de caché les vaisseaux, réussie.
+D=Le Drone part récupérer du matériel sur le Soyouz. Il récupère 3 Parachute et des vivres. :Etape=3PARA
+E=Vous faite descendre le Drone et vous donner votre place pour que les trois spationautes puissent monter. L'Avion décolle sur le pilotage automatique et quitte la zone.
+> Quelle stratégie vous adopterez ici ?
+[A) Diversion, B) Disparaitre, C) Camouflé Vaisseau, D) Récupération, E) Quitte. ]
+vrai=Vous verrouillez votre la position ainsi que celle des trois spationaute et déclenché la projection d'invisibilité. Heureusement qu'ils portent toujours leurs combinaison spatial blanche, sinon quoi ils attireraient l'attention. ;Score+1;Etape-Disparaitre
+faux=Le satellite verrouillez votre la position ainsi que celle des trois spationaute et déclenché la projection d'invisibilité. Heureusement qu'ils portent toujours leurs combinaison spatial blanche, sinon quoi ils attireraient l'attention.
+element=Disparaitre
+liste=Etape
+SI=COND
+Les patrouilles aéroporté arrive sur l'illusion et les hommes descendent l'inspecté.
+A=Créer une illusion pour tromper l'ennemie, réussie.
+B=Demander au projecteur de vous rendre invisible, réussie.
+C=Demander au projecteur de caché les vaisseaux, réussie. :Etape=Furtif
+D=Le Drone part récupérer du matériel sur le Soyouz. Il récupère 3 Parachute et des vivres. :Etape=3PARA
+E=Vous faite descendre le Drone et vous donner votre place pour que les trois spationautes puissent monter. L'Avion décolle sur le pilotage automatique et quitte la zone.
+> Quelle stratégie vous adopterez ici ?
+[A) Diversion, B) Disparaitre, C) Camouflé Vaisseau, D) Récupération, E) Quitte. ]
+vrai=Vous verrouillez la position du vaisseaux Russe ainsi que celle de votre appareil et déclenché la projection d'invisibilité. Heureusement que vous gardiez dans votre sac quelque canette de peinture blanche de molécule écran pour recouvrir les partis réfléchissent et chromé, sinon quoi il attirerait l'attention au soleil. ;Score+1;Etape-Furtif
+faux=Le satellite verrouille la position du vaisseaux Russe ainsi que celle de votre appareil et déclenché la projection d'invisibilité. Heureusement que vous gardiez dans votre sac quelque canette de peinture blanche de molécule écran pour recouvrir les partis réfléchissent et chromé, sinon quoi il attirerait l'attention au soleil.
+element=Furtif
+liste=Etape
+SI=COND
+Il semble que l'illusion a fait son temps. Les patrouilles s'élèvent pour quitte le lieu de la diversion.
+A=Créer une illusion pour tromper l'ennemie, réussie.
+B=Demander au projecteur de vous rendre invisible, réussie.
+C=Demander au projecteur de caché les vaisseaux, réussie.
+D=Le Drone part récupérer du matériel sur le Soyouz. Il récupère 3 Parachute et des vivres. :Etape=3PARA:Etape=Recup
+E=Vous faite descendre le Drone et vous donner votre place pour que les trois spationautes puissent monter. L'Avion décolle sur le pilotage automatique et quitte la zone.
+> Quelle stratégie vous adopterez ici ?
+[A) Diversion, B) Disparaitre, C) Camouflé Vaisseau, D) Récupération, E) Quitte. ]
+vrai=Score+1;Etape-Recup
+element=Recup
+liste=Etape
+SI=COND
+Vous n'avez plus beaucoup de temps les hélicoptères se spart et passe la région aux peigne fin!
+A=Créer une illusion pour tromper l'ennemie, réussie.
+B=Demander au projecteur de vous rendre invisible, réussie.
+C=Demander au projecteur de caché les vaisseaux, réussie.
+D=Le Drone part récupérer du matériel sur le Soyouz. Il récupère 3 Parachute et des vivres. :Etape=3PARA
+E=Vous faite descendre le Drone et vous donner votre place pour que les trois spationautes puissent monter. L'Avion décolle sur le pilotage automatique et quitte la zone. :Etape=Fuite
+> Quelle stratégie vous adopterez ici ?
+[A) Diversion, B) Disparaitre, C) Camouflé Vaisseau, D) Récupération, E) Quitte. ]
+vrai=Vous les avez mis sous furtivité radar et invisibilité partielle, le satellite se charge de les accompagné avec ces projections. ;Score+1;Etape-Fuite
+element=Fuite
+liste=Etape
+SI=COND
+vrai=Trophe=Echapper aux Hélicoptères
+faux=Trophe=Comme une Ombre Blanche
+element=5
+liste=Score
+SI=VAR
+score=0
+Tandis que vous voyez l'avion s'en volé avec vos nouveau camarade, un message de StealthRay1 vous parvient. Vous demandez la participation du Drone pour une tout dernière mission de sabotage. Les hélicoptères sont partis vous chercher dans un autre secteur trompé par vos illusions et vous êtes tranquille un moment. Le StealthRay1 a identifié une machine infernale inactive près de vous. Vous pourrez la réassemblé pour la forcé à s'autodétruire ou vous en servir, ce n'est pas très loin derrière la colline au Nord.
+A=Tout en restant sous couverture invisible, vous faite route vers le nord.
+> Aller s'y ?
+[A) En Route. ]
+La Machine Infernal est devant Vous.
+A première vue, il s’agit d'un modeste bâtiment de forme hémisphérique, mais vous vous douté que sous la surface se trouve des structures plus répandus avec des kilomètres de bobine de cuivre qui induit des Giga-électronvolt de collision statique. Bref, de quoi transformé le tissus de la réalité en boucle fermé sur elle-même à travers le temps et l'espace! Mais vous ne devez que la mettre hors d'état de nuire et freiner OSP dans la conquête du monde par ces nouvelles armes de destructions massive. Le dispositif s'appelle 'Chrono Sphère de Wimshirst' il sert à concentrer une grande quantité d'énergie autour de sa sphère pour faire barrière aux lois de la physique en son centre. La singularité qui se produit ouvre, de la même manière d'un trou de Ver, un pont d'Einstein Rosenberg entre deux dimensions.
+(pause)
+Comment fait ont pour choisir la direction probable du champ de chrono particule avec une pièce sphérique fermé en plus? Et bien c'est comme jeté une pierre en trajectoire bien précise sur l'horizon d'un trou noir. Plus il passe près sans y touché, plus il ira loin quand elle échappera à son attraction et en contrepartie le temps se sera accéléré. La pierre arrivera presque instantanément en un différend point de l'espace à un autre temps. Seulement il possible de calculé la trajectoire de l'objet, de façon a minimisé l'effet d'une dimension espace sur l'autre temps. La seule différence ici est que les objets qui rencontrent la sphère sont dématérialisés en faisceaux de lumière et la traverse selon les propriétés de l'optique. Comme une diffraction puis reconstruit par réfraction de l'autre côté en temps et lieux déterminé.
+(pause)
+Ces différente composantes, quoi que gigantesque sont démonté quand 'La chrono Sphère de Wimshirst' ne sert pas. Et pour en faciliter l'entretien, ces sections sont installées sur des véhicules robots opérable à distance, ou conduit par l'homme ou par les Drones. Il y en n'a 3 types différente, Jar de Wimshirst, Électrode et Sphère Électrostatique. Que vous pouvez brancher en Série comme en Parallèle, ou en circuit Mixte avec la suivante, pour obtenir différent circuit possible et niveau de puissance. Attention! Si plusieurs possibilité son bonne pour assemblé le générateur, d'autres sont dangereuse et pourraient autodétruire la machine trop vite :P
+(pause)
+A=Vous créer un lien VPN avec les machines et les téléguidés à partir de votre application. Très Bien!:Score=0
+B=Vous trouvez les clés sur le contacte et conduisez une par une les robots véhicules en place. Génial!:Score=0
+C=Vous appelez le Drone en rend-fort qui entre se branché sur le toit des robots véhicules et les conduits. Super!:Score=0
+> Comment allez-vous manœuvré les 'Véhicules composante' ?
+[A) Avec l'application, B) Grimper au volant, C) Drone conduit.]
+Voici a quoi la manouvre d'assemblage peux ressembler, vous n'êtes pas obligé de suivre cette recette en particulier mais vous n'aurez droit qu'à un seul essaie. Certain éléments ne peuvent pas être inversé en série ou en parallèle sans faire de différence, mais d'autre ne peuvent être intervertit. D'une manière général si toute la suite est inversée il n'y a pas de problème aussi. Exemple 12331=13321
+(pause)
+En piratent leur système vous trouvez 3 fichiers.
+1. file_G 'La Jar de Wimshirst.'
+2. file_H 'Électrode Multibrin.'
+3. file_I 'Sphère Électrostatique.'
+A=Etape=data
+B=Delete file_G,H,I
+> Voulez-vous lire sur le fonctionnement des éléments ?
+[A) OUI, B) Non ]
+vrai=A=La Jar de Wimshirst est un type très spécial d'accumulateur électrique. Son nom est hérité de celui de son inventer et elle reste une composante qui a peu servie dans le monde technologique. Elle consiste en une Jar de Silicium entouré d'une double paroi conductrice isolée. Comme le condensateur une charge électron se concentre en son centre, sauf exception qu'il s’agit d'énergie statique en total intrication utilise la superposition d'état. ;B=L'Électrode est un simple conducteur de cuivre, à la différence qu'elle se terminé en brosse multibrin épineux. Son but est de diffusé une forte charge à travers l'aire. ;C=La Sphère est faite de Mika. C'est un isolent prodigieux pour la charge statique, par contre elle laisse filtré son influence électronégative sans mal, ce qui en fait un matériau irremplaçable pour faire tourner de grand charge électrique. Elle capte un niveau énergétique ou l'isole par son relief entrelacé suivant la surface fractal qu'on lui a attribué et se redistribue la charge à mesure qu'elle tourne.;> Information sur éléments ?;[A) Jar de Wimshirst, B) Électrode, C) Sphère. ]; 
+faux=Très Bien vous métrisé déjà les technologies D.I.Y.
+element=data
+Liste=Etape
+SI=COND
+/vrai=A=;B=Etape-data;> Voulez-vous lire sur un autre éléments ?;[A) OUI, B) Non ]; 
+/faux=
+/element=data
+/Liste=Etape
+/SI=COND
+vrai=A=La Jar de Wimshirst est un type très spécial d'accumulateur électrique. Son nom est hérité de celui de son inventer et elle reste une composante qui a peu servie dans le monde technologique. Elle consiste en une Jar de Silicium entouré d'une double paroi conductrice isolée. Comme le condensateur une charge électron se concentre en son centre, sauf exception qu'il s’agit d'énergie statique en total intrication utilise la superposition d'état. ;B=L'Électrode est un simple conducteur de cuivre, à la différence qu'elle se terminé en brosse multibrin épineux. Son but est de diffusé une forte charge à travers l'aire. ;C=La Sphère est faite de Mika. C'est un isolent prodigieux pour la charge statique, par contre elle laisse filtré son influence électronégative sans mal, ce qui en fait un matériau irremplaçable pour faire tourner de grand charge électrique. Elle capte un niveau énergétique ou l'isole par son relief entrelacé suivant la surface fractal qu'on lui a attribué et se redistribue la charge à mesure qu'elle tourne.;> Information sur éléments ?;[A) Jar de Wimshirst, B) Électrode, C) Sphère. ]; 
+faux=Très Bien vous métrisé déjà les technologies D.I.Y.
+element=data
+Liste=Etape
+SI=COND
+vrai=A=La Jar de Wimshirst est un type très spécial d'accumulateur électrique. Son nom est hérité de celui de son inventer et elle reste une composante qui a peu servie dans le monde technologique. Elle consiste en une Jar de Silicium entouré d'une double paroi conductrice isolée. Comme le condensateur une charge électron se concentre en son centre, sauf exception qu'il s’agit d'énergie statique en total intrication utilise la superposition d'état. ;B=L'Électrode est un simple conducteur de cuivre, à la différence qu'elle se terminé en brosse multibrin épineux. Son but est de diffusé une forte charge à travers l'aire. ;C=La Sphère est faite de Mika. C'est un isolent prodigieux pour la charge statique, par contre elle laisse filtré son influence électronégative sans mal, ce qui en fait un matériau irremplaçable pour faire tourner de grand charge électrique. Elle capte un niveau énergétique ou l'isole par son relief entrelacé suivant la surface fractal qu'on lui a attribué et se redistribue la charge à mesure qu'elle tourne. ;> Information sur éléments ?;[A) Jar de Wimshirst, B) Électrode, C) Sphère. ]; 
+faux=Très Bien vous métrisé déjà les technologies D.I.Y.
+element=data
+Liste=Etape
+SI=COND
+/Séquence assemblage de la Chromosphère de Wimshirst
+Score=0
+Circuit 1
+A=Arrimage du premier véhicule réussie. :Score+1
+B=Arrimage du premier véhicule réussie.
+C=Arrimage du premier véhicule réussie.
+> Quel élément du circuit vous choisissez ?
+[A) Jar, B) Électrode, C) Sphère. ]
+A=Branchement en série. :Score+2
+B=Branchement en parallèle. Pas de résultat...
+C=Branchement circuit mixte. Pas de résultat...
+> Quel type de branchement vous choisissez ?
+[A) Série, B) Parallèle, C) circuit mixte. ]
+Circuit 2
+A=Arrimage du second véhicule réussie.
+B=Arrimage du second véhicule réussie. :Score+4
+C=Arrimage du second véhicule réussie. :Score+64
+> Quel élément du circuit vous choisissez ?
+[A) Jar, B) Électrode, C) Sphère. ]
+A=Branchement en série.
+B=Branchement en parallèle. :Score+128
+C=Branchement circuit mixte. :Score+8
+> Quel type de branchement vous choisissez ?
+[A) Série, B) Parallèle, C) circuit mixte. ]
+Circuit 3
+A=Arrimage du troisième véhicule réussie.
+B=Arrimage du troisième véhicule réussie.
+C=Arrimage du troisième véhicule réussie. :Score+16
+> Quel élément du circuit vous choisissez ?
+[A) Jar, B) Électrode, C) Sphère. ]
+A=Branchement en série. Pas de résultat...
+B=Branchement en parallèle. :Score+32
+C=Branchement circuit mixte. Pas de résultat...
+> Quel type de branchement vous choisissez ?
+[A) Série, B) Parallèle, C) circuit mixte. ]
+Circuit 4
+A=Arrimage du quatrième véhicule réussie.
+B=Arrimage du quatrième véhicule réussie. :Score+4
+C=Arrimage du quatrième véhicule réussie. :Score+64
+> Quel élément du circuit vous choisissez ?
+[A) Jar, B) Électrode, C) Sphère. ]
+A=Branchement en série. Pas de résultat...
+B=Branchement en parallèle. :Score+128
+C=Branchement circuit mixte. :Score+8
+> Quel type de branchement vous choisissez ?
+[A) Série, B) Parallèle, C) circuit mixte. ]
+Circuit 5
+A=Arrimage du cinquième véhicule réussie. :Score+256
+B=Arrimage du cinquième véhicule réussie.
+C=Arrimage du cinquième véhicule réussie.
+> Quel élément du circuit vous choisissez ?
+[A) Jar, B) Électrode, C) Sphère. ]
+A=Branchement en série. :Score+512
+B=Branchement en parallèle. Pas de résultat...
+C=Branchement circuit mixte. Pas de résultat...
+> Quel type de branchement vous choisissez ?
+[A) Série, B) Parallèle, C) circuit mixte. ]
+Jar Wimshirst Output Mega-Volt:/1023 MEV
+(Score)
+vrai=Par précaution vous congédier vos rend-forts aérien et tournée la Sphère vers le bas. Vous entendez le Jar de Wimshirst se charger, des arcs électriques apparaissent de tous les couleurs au bout des électrodes métalliques et un ora d'énergie brille tout autour de la Sphère. Vous appuyez sur Feu alors que les sphères sont toujours dirigées vers le bas et une indescriptible zone de noirceur surgi. L'onde de choc a rebondit sur le sol et aspire la sphère avant d'être effacé de la réalité. Vous n'avez plus le moindre souvenir de ce qui viens de se passé, le drone patrouille confusément comme s'il cherchait à scané le terrain pour la première fois. Vous avez effacez la Chromosphère de Wimshirst! Même si vous ne savez pas ce que s'est, l'OSP non plus et ils ne pourront plus s'en servir. Triple Bravo!
+faux=Quelque chose n'a pas dû être bien branché, car au moment de faire Feu, non seulement la chrono Sphère de Wimshirst a disparu, mais vous avec elle! :(pause):(over)
+element=1023
+Liste=Score
+SI=VAR
+Pour votre débrouillardise et pour être resté stratégique dans votre infiltration à distance. Vous avez sus utilisé le transport furtif et vos connaissances tactiques pour vous débarrassé des gardes armés. Dans le centre de recherche au fond de vous trouver du matériel de développement IA ou LED...
+Trophe=Recruter L'Elite
+Etape=Sauvetage
+(TROPHE)
+A=LV=12:Etape=12:sourcefile=missionUp
+B=
+C=
+D=
+E=
+vrai=
+faux=
+element=
+Liste=
+> Appuyer sur A pour Retour.
+[A) Continué ]

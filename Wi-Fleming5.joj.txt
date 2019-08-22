@@ -1,0 +1,217 @@
+/CA OU PR
+Mission 5.
+Rapport Météo: Avant-midi Ensoleillé 21 degré Celsius, ciel variable et faible humidité. Zone de micro climat anormal détecté !
+Rapport Situation: Vous entrez dans l'espace aérien non contrôlé par l'OSP, le satellite vous a conduit jusqu'ici pour que vous récupériez un conteneur classifié. L'IA vient de détecter une épave d'avion au centre d’une faille spatiale temporelle. Le périmètre est jeté dans l'obscurité dus à la lumière noire qui se dégage d'un élément défaillant de cette appareille. Une bulle de ténèbres grandis lentement déjà sur plusieurs kilomètres autour de l'épave et aucunes données n'est disponible sur ce qui se passe là-dedans. A en jugé par l'urgence de la situation, vous diriez qu'une technologie nouvelle a été mis à l'essai et que l'expérience a mal tournée. La matière noire qui se répand a peut-être ouvert un trou entre les dimensions et la conséquence se voit par l'arrivé de lumière noir en sphère grossissante. Attention! Vous allez entrer dans un lieu où le temps et l'espace se confondent et où tout est possible.
+(pause)
+Ça ne vous posera pas de problème avec votre nouveau moyen de transport, si vous avez un parachute équiper sur votre costume vous pourrez sauter immédiatement et arrivé en premier jusqu’au lieu du crash. Ou si vous avez 2 IA activé sur un de vos avioniques, celui-ci vous guidera à travers la zone d'instabilité. Vous êtes maintenant en mission officiel. 
+Utilisez l'Avion autant que vous le pouvez et s'il entre dans la lumière noire pausé vous d'est que possible et ne vous fiez plus à vos sanses.
+Objectif, récupérez le matérielle avant les équipes d'expert de l'OSP qui sont peut-être déjà sur les lieux et détruisez l'élément instable qui a ouvert cette brèche dans l'espace-temps.
+/Le niveau technologique précédent vous a donné IA ou Parachute. Le parachute est utile pour sauter ou monté dans l'avion en vol. IA permet de faire plus de choses à votre place.
+A=Vous continuez à explorer la région en mission aérienne.
+>  Continué la mission aérien ?
+[A) Commencer. ]
+L'Avion pourra bouger de façon automatique si vous le laissez piloté. Par contre, il ne pourra pas vous suivre à distance n'importe où avec son module trekking autonome, si vous entrez dans la zone obscure. Sa fonction est de filmé en très grand angle et vous fournir des informations sur la position ennemie sans être repéré. Il enregistre ou brouille les communications radio de l'ennemie et détecté tout mouvement aérien avec son radar long porté.
+(pause)
+Une Stratégie avec l'avion furtive consiste à l'envoyé tourné en espion, quand stealthRay1 est indisponible ou de le caché d'illusion quand il est au sol. Ou de vous amener au-dessus de la lumière noire pour vous laisser sauter en parachute à l'intérieur. Il se peut qu'un ennemi détecte l'avion et le descendre, à ce moment vous devez y aller discrètement et le réparer à l'aide du Drone ou d'outils adapté.
+1. Descendre en rase motte........60%
+2. Brouillage Communication.......60%
+3. Pausé vertical limite zone.....60%
+4. Cacher l'appareil d'illusion...60%
+5. Lancer le Drone reconnaissance.60%
+A=Descente rase motte réussie. :Etape=rase motte
+B=Brouillage Communication réussie.
+C=Atterrissage vertical ou Saut Parachute.
+D=Cacher l'appareil d'illusion réussie.
+E=Lancer le Drone reconnaissance réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Rase motte, B) Brouillage, C) Atterrissage/Saut, D) Disparaitre, E) Drone. ]
+Score=0
+vrai=Score+1;Etape-rase motte
+faux=Vous deviez demander la descendre en rase motte pour augmenter la furtivité. Correction en coure...Done.:L'IA s'en est chargé pour vous, en baissant l'altitude à moins de 100  
+pieds du sol. Les systèmes de détection et autres 'contre furtivité', ne pourrons jamais vous voire.
+element=rase motte
+liste=Etape
+SI=COND
+A=Rase motte réussie.
+B=Brouillage Communication. :Etape=Brouillage
+C=Atterrissage vertical ou Saut Parachute.
+D=Cacher l'appareil d'illusion réussie.
+E=Lancer le Drone reconnaissance réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Rase motte, B) Brouillage, C) Atterrissage/Saut, D) Disparaitre, E) Drone. ]
+vrai=Score+1;Etape-Brouillage
+faux=Vous deviez lancer le Brouillage de Communication, pour que si un ennemi vous voie qu'il soit difficile de donné l'alerte. Correction en coure...Done.:L'IA s'en est chargée pour  vous, en branchant en haut décibel tous les canaux sur hystérésis.
+element=Brouillage
+liste=Etape
+SI=COND
+/saut en parachute ?
+Vrai=A=Vous ouvrez la soute quand l'avion passe au-dessus de la zone obscure et sauter en parachute. :Etape=Atterrissage/Saut;B=Atterrissage vertical réussie. Le train d'atterrissage se déploie et la soute s'ouvre pour vous laisser descendre. :Etape=Atterrissage/Saut;> Voulez-vous faire usage du 'Parachute' ?;[A) Oui, B) Non, se poser. ]; 
+faux=A=Rase motte réussie. ;B=Brouillage Communication. ;C=Atterrissage vertical réussie. Le train d'atterrissage se déploie et la soute s'ouvre pour vous laisser descendre. :Etape=Atterrissage vertical;D=Cacher l'appareil d'illusion réussie. ;E=Lancer le Drone reconnaissance réussie.;> Quelle stratégie vous adopterez ici ?;[A) Rase motte, B) Brouillage, C) Atterrissage vertical, D) Disparaitre, E) Drone. ]; 
+element=COPA
+Liste=Etape
+SI=COND
+vrai=Score+1;Etape-Atterrissage/Saut
+faux=Vous deviez atterrir avant d'entrer dans la limite de la zone de distorsion. Correction en coure...Done.:L'IA s'en est chargé pour vous, avant d'être repéré l'avion se pose à la verticale en silence. Le train d'atterrissage se déploie et la soute s'ouvre pour vous laisser descendre.
+element=Atterrissage/Saut
+liste=Etape
+SI=COND
+vrai=Vous sauter de l'avion et déployez le parachute. Vous remarquez qu'il est également fait en tissus écran blanc. StealRay1 a repéré la manouvre aérien et vous a aussitôt fait disparaitre en vol. Vous descendez invisible et entrer dans la bulle de ténèbres, c'est étrange comme plongé dans un trou noir vous ne voyez plus le ciel et le sol c'est changer en un caléidoscope de forme et d'horizon changent. Vous ne distinguez plus le haut du bas et les couleurs ont fui cet univers pour faire un négatif de la réalisée. Quand vous touché le sol, vous avez l'impression de marché au plafond et le temps semble figué comme si tout bougeait au super ralentie. Le parachute se rembobine automatiquement et se pli dans votre sac.
+element=COPA
+Liste=Etape
+SI=COND
+A=Rase motte réussie.
+B=Brouillage Communication.
+C=Atterrissage vertical limite zone réussie.
+D=Cacher l'appareil d'illusion réussie. Le satellite en verrouillant sur la position de l'avion, projet une image très précise de l'environnement au sol sur son revêtement de tissu écran. :Etape=Disparaitre
+E=Lancer le Drone reconnaissance réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Rase motte, B) Brouillage, C) Atterrissage vertical, D) Disparaitre, E) Drone. ]
+vrai=Score+1;Etape-Disparaitre
+faux=Vous deviez demandé au satellite StealthRay1 de projeté une illusion sur l'avion pour le faire disparaitre. Correction en coure...Done.:L'IA s'en est chargé pour vous, en verrouillant sur la position de l'avion. Une image très précise de l'environnement au sol, se projettent sur le revêtement de tissus écran.
+element=Disparaitre
+liste=Etape
+SI=COND
+A=Descente rase motte réussie.
+B=Brouillage Communication réussie.
+C=Atterrissage vertical limite zone réussie.
+D=Cacher l'appareil d'illusion réussie.
+E=Lancer le Drone reconnaissance réussie. Il s'envole en patrouille au ras du sol pour reporter tout type de changement dans la faille temporelle. Le satellite va également le suivre en le couvrant d'illusion, tant que la zone le permet. :Etape=Lancer Drone
+> Quelle stratégie vous adopterez ici ?
+[A) Rase motte, B) Brouillage, C) Atterrissage vertical, D) Disparaitre, E) Drone. ]
+vrai=Score+1;Etape-Lancer Drone
+faux=Vous deviez lancer la Drone en reconnaissance, pour reporter des changements dans la zone ennemi. Correction en coure...Done.:L'IA s'en est chargé pour vous, téléguidant le robot au centre du secteur.
+element=Lancer Drone
+liste=Etape
+SI=COND
+vrai=Etape-rase motte
+element=rase motte
+liste=Etape
+SI=COND
+vrai=Etape-Brouillage
+element=Brouillage
+liste=Etape
+SI=COND
+vrai=Etape-Atterrissage/Saut
+element=Atterrissage/Saut
+liste=Etape
+SI=COND
+vrai=Etape-Disparaitre
+element=Disparaitre
+liste=Etape
+SI=COND
+vrai=Etape-Lancer Drone
+element=Lancer Drone
+liste=Etape
+SI=COND
+vrai=Trophe=Le Commando de la peur 
+faux=Trophe=Stranger Things 
+element=5
+liste=Score
+SI=VAR
+score=0
+Le Drone reviens de la black zone avec très peu de donné, tout est noir et la vision de nuit est inutile ici. Sois le centre zone de distorsion est désert, soit l'épave est invisible avec tous la forêt avec. Vous devez y aller sans être repéré et conservé votre santé mental, trouvé l'avion et désactivé son générateur de matière obscure quelque part dans la zone.
+Sitrep: Les lois de la physique ne s'applique pas ici. Vous ne santé rien sauf le sol sous vos pied, mais après un moment vos yeux s'habitue à l'obscurité. C'est comme une image inversé, un négatif de la réalité. Le ciel est noir les ombres sont lumineuse, il y a des plantes, des arbres, des rochers mais pas de couleurs et tout semble figé dans le temps. Vous arrivez a respiré, l'aire est bien présent dans les ténèbres mais pas un son, les animaux ont peut-être fuis la zone ça ne vous étonnerait pas.
+A=Correct. Vous prenez le temps de tourner dans la zone pour bien l'exploré et vous familiarisé sur celui-ci. Malheureusement le terrain change trop souvent de forme et d'échelle pour reconnaitre quoi que ce soit, vous pourriez avancer en ligne droite et ne jamais en sortir.
+B=Très Bien. Vous suivez la route tapé qui est également la dénivellation naturelle de l'environnement. Malheureusement le terrain change trop souvent de forme et d'échelle pour reconnaitre quoi que ce soit, vous pourriez avancer en ligne droite et ne jamais en sortir.
+C=Excellant. Vous n'êtes pas obligé de suivre un chemin, la ligne droite vous fait économiser vos forces. Malheureusement le terrain change trop souvent de forme et d'échelle pour reconnaitre quoi que ce soit, vous pourriez avancer en ligne droite et ne jamais en sortir.
+D=Bien. Vous ouvrez l'œil pour découvrir quelque chose d'utile pour sortir des sentiers battue. Malheureusement le terrain change trop souvent de forme et d'échelle pour reconnaitre quoi que ce soit, vous pourriez avancer en ligne droite et ne jamais en sortir.
+E=Erreur. Vous y aller en toute discrétion mais les illusions ne fonctionne pas ici. Malheureusement le terrain change trop souvent de forme et d'échelle pour reconnaitre quoi que ce soit, vous pourriez avancer en ligne droite et ne jamais en sortir.
+> Comment vous infiltrez vous ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) Se rendre invisible. ]
+C'est étrange. Durant que vous avancez dans la zone négative, l'environnement qui aurait dû être immobile bouge ne s'accorde pas avec son image reflété, on dirait une sorte de fractal d'ombre et de lumière. Comme si vous marchiez dans un tasseract et que de léger décalage dans l'espace qui cas le réalisme. Le décor est purement irréaliste, mais en regardant de plus près et en touchant l'arbre, vous êtes pris de vertige quand celui-ci recule au loin. Ce décalage entre vos sens de la vue et du touché et réellement inconfortable et réveille chez vous une sorte d’instinct proche de la peur. Votre esprit est frappé d'un malaise insidieux, quelque chose ne tourne pas rond et pourtant tout est là. Il faut du temps pour s'y habitué sachant que la réalité est tout autre. Il est impossible de savoir ce qui vous attend à chaque pas, vous avez autan de chance de sortir par votre point de départ que d'en arriver au milieu à tout instant.
+(pause)
+A=Vous cueillez des cailloux blanc partout où vous pouvez et les semé sur votre route. Ça avance pas mal mais au bout d'un moment vous apercevez quelqu'un de dos devant vous qui les ramasse également. Vous vous retournez et un autre homme en costume semblable se retourne aussi plus loin derrière. Quand vous agitez les bras, le même geste en éco se reflet à l’ infini de vous-même. Vous devez être sure que ce n'est pas une illusion et vous lui jeté un caillou dans le dos. Aille! Aille! Aille! ... C'est bien réelle vous l'avez senti derrière. Il est temps de changé de stratégie alors!
+B=Vous prenez le couteau et entaillez les arbres a porté de mains sur le chemin. Mais à quoi bon aussi tôt détourné la forêt a changé de configuration et les marqueurs se retrouve parfois devant vous. S'en est étourdissant vous n'y arriverait pas de cette façon. Il est temps de changé de stratégie alors!
+C=L'équille du compas ne bouge pas. Vous tournez la boussole dans tous les sanses et le seul endroit où elle vibre c'est vers la bas rien a en tiré. Il est temps de changé de stratégie alors!
+D=Il y a un ciel noir avec de rapide mouvement nuageux mais pas d'étoile. C'est bien le jour, mais a différent moment de l'avant-midi partout à la fois. Il est temps de changé de stratégie alors!
+E=Vous fermez les yeux et avancé à tâtons. Ça va un peu mieux même si vous n'y voyez rien, l'environnement ne vous distrait plus.
+> Comment allez-vous retrouver l'épave ?
+[A) Semé des cailloux, B) Entaillé les arbres, C) Suivre boussole, D) Navigué étoile, E) Les yeux fermés. ]
+A=Vous cueillez des cailloux blanc partout où vous pouvez et les semé sur votre route. Ça avance pas mal mais au bout d'un moment vous apercevez quelqu'un de dos devant vous qui les ramasse également. Vous vous retournez et un autre homme en costume semblable se retourne aussi plus loin derrière. Quand vous agitez les bras, le même geste en éco se reflet à l’ infini de vous-même. Vous devez être sure que ce n'est pas une illusion et vous lui jeté un caillou dans le dos. Aille! Aille! Aille! ... C'est bien réelle vous l'avez senti derrière. Il est temps de changé de stratégie alors!
+B=Vous prenez le couteau et entaillez les arbres a porté de mains sur le chemin. Mais à quoi bon aussi tôt détourné la forêt a changé de configuration et les marqueurs se retrouve parfois devant vous. S'en est étourdissant vous n'y arriverait pas de cette façon. Il est temps de changé de stratégie alors!
+C=L'équille du compas ne bouge pas. Vous tournez la boussole dans tous les sanses et le seul endroit où elle vibre c'est vers la bas rien a en tiré. Il est temps de changé de stratégie alors!
+D=Il y a un ciel noir avec de rapide mouvement nuageux mais pas d'étoile. C'est bien le jour, mais a différent moment de l'avant-midi partout à la fois. Il est temps de changé de stratégie alors!
+E=Vous fermez les yeux et avancé à tâtons. Ça va un peu mieux même si vous n'y voyez rien, l'environnement ne vous distrait plus.
+> Comment allez-vous retrouver l'épave ?
+[A) Semé des cailloux, B) Entaillé les arbres, C) Suivre boussole, D) Navigué étoile, E) Les yeux fermés. ]
+A=Vous cueillez des cailloux blanc partout où vous pouvez et les semé sur votre route. Ça avance pas mal mais au bout d'un moment vous apercevez quelqu'un de dos devant vous qui les ramasse également. Vous vous retournez et un autre homme en costume semblable se retourne aussi plus loin derrière. Quand vous agitez les bras, le même geste en éco se reflet à l’ infini de vous-même. Vous devez être sure que ce n'est pas une illusion et vous lui jeté un caillou dans le dos. Aille! Aille! Aille! ... C'est bien réelle vous l'avez senti derrière. Il est temps de changé de stratégie alors!
+B=Vous prenez le couteau et entaillez les arbres a porté de mains sur le chemin. Mais à quoi bon aussi tôt détourné la forêt a changé de configuration et les marqueurs se retrouve parfois devant vous. S'en est étourdissant vous n'y arriverait pas de cette façon. Il est temps de changé de stratégie alors!
+C=L'équille du compas ne bouge pas. Vous tournez la boussole dans tous les sanses et le seul endroit où elle vibre c'est vers la bas rien a en tiré. Il est temps de changé de stratégie alors!
+D=Il y a un ciel noir avec de rapide mouvement nuageux mais pas d'étoile. C'est bien le jour, mais a différent moment de l'avant-midi partout à la fois. Il est temps de changé de stratégie alors!
+E=Vous fermez les yeux et avancé à tâtons. Ça va un peu mieux même si vous n'y voyez rien, l'environnement ne vous distrait plus.
+> Comment allez-vous retrouver l'épave ?
+[A) Semé des cailloux, B) Entaillé les arbres, C) Suivre boussole, D) Navigué étoile, E) Les yeux fermés. ]
+A=Vous cueillez des cailloux blanc partout où vous pouvez et les semé sur votre route. Ça avance pas mal mais au bout d'un moment vous apercevez quelqu'un de dos devant vous qui les ramasse également. Vous vous retournez et un autre homme en costume semblable se retourne aussi plus loin derrière. Quand vous agitez les bras, le même geste en éco se reflet à l’ infini de vous-même. Vous devez être sure que ce n'est pas une illusion et vous lui jeté un caillou dans le dos. Aille! Aille! Aille! ... C'est bien réelle vous l'avez senti derrière. Il est temps de changé de stratégie alors!
+B=Vous prenez le couteau et entaillez les arbres a porté de mains sur le chemin. Mais à quoi bon aussi tôt détourné la forêt a changé de configuration et les marqueurs se retrouve parfois devant vous. S'en est étourdissant vous n'y arriverait pas de cette façon. Il est temps de changé de stratégie alors!
+C=L'équille du compas ne bouge pas. Vous tournez la boussole dans tous les sanses et le seul endroit où elle vibre c'est vers la bas rien a en tiré. Il est temps de changé de stratégie alors!
+D=Il y a un ciel noir avec de rapide mouvement nuageux mais pas d'étoile. C'est bien le jour, mais a différent moment de l'avant-midi partout à la fois. Il est temps de changé de stratégie alors!
+E=Vous fermez les yeux et avancé à tâtons. Ça va un peu mieux même si vous n'y voyez rien, l'environnement ne vous distrait plus.
+> Comment allez-vous retrouver l'épave ?
+[A) Semé des cailloux, B) Entaillé les arbres, C) Suivre boussole, D) Navigué étoile, E) Les yeux fermés. ]
+A=Vous cueillez des cailloux blanc partout où vous pouvez et les semé sur votre route. Ça avance pas mal mais au bout d'un moment vous apercevez quelqu'un de dos devant vous qui les ramasse également. Vous vous retournez et un autre homme en costume semblable se retourne aussi plus loin derrière. Quand vous agitez les bras, le même geste en éco se reflet à l’ infini de vous-même. Vous devez être sure que ce n'est pas une illusion et vous lui jeté un caillou dans le dos. Aille! Aille! Aille! ... C'est bien réelle vous l'avez senti derrière. Il est temps de changé de stratégie alors!
+B=Vous prenez le couteau et entaillez les arbres a porté de mains sur le chemin. Mais à quoi bon aussi tôt détourné la forêt a changé de configuration et les marqueurs se retrouve parfois devant vous. S'en est étourdissant vous n'y arriverait pas de cette façon. Il est temps de changé de stratégie alors!
+C=L'équille du compas ne bouge pas. Vous tournez la boussole dans tous les sanses et le seul endroit où elle vibre c'est vers la bas rien a en tiré. Il est temps de changé de stratégie alors!
+D=Il y a un ciel noir avec de rapide mouvement nuageux mais pas d'étoile. C'est bien le jour, mais a différent moment de l'avant-midi partout à la fois. Il est temps de changé de stratégie alors!
+E=Vous fermez les yeux et avancé à tâtons. Ça va un peu mieux même si vous n'y voyez rien, l'environnement ne vous distrait plus.
+> Comment allez-vous retrouver l'épave ?
+[A) Semé des cailloux, B) Entaillé les arbres, C) Suivre boussole, D) Navigué étoile, E) Les yeux fermés. ]
+A=Vous consultez votre application mais il n'y a pas de signal.
+B=Inutile, le satellite ne vois rien dans la boule de lumière noire.
+C=Vous demandez au Drone de revenir vous cherché, mais pas de signal rien n'entre ni ne sort de la distorsion.
+D=Vous demandez à l'avion de venir vous cherché, mais pas de signal rien n'entre ni ne sort de la distorsion.
+E=En rebroussant chemin vous êtes encore plus dérouté. L'espace cherche à vous avalé par une série de distorsion de la réalité. Le temps s'étire ou s'accélère, tantôt vous avancez à reculons ou manquez de tombé dans un gouffre qui n'était pas là une seconde avant, vous croyez perdre l'esprit lorsque les choses change de perspectives parfois géant, parfois tout petite. C'est bon signe vous devez approcher du but, car les déformations spatiaux temporelle empirent.
+> A quoi vous rattachez ? Tentative #1
+[A) GPS, B) Satellite, c) Drone, D) Avion, E) Revenir sur vos pas. ]
+A=Vous consultez votre application mais il n'y a pas de signal.
+B=Inutile, le satellite ne vois rien dans la boule de lumière noire.
+C=Vous demandez au Drone de revenir vous cherché, mais pas de signal rien n'entre ni ne sort de la distorsion.
+D=Vous demandez à l'avion de venir vous cherché, mais pas de signal rien n'entre ni ne sort de la distorsion.
+E=En rebroussant chemin vous êtes encore plus dérouté. L'espace cherche à vous avalé par une série de distorsion de la réalité. Le temps s'étire ou s'accélère, tantôt vous avancez à reculons ou manquez de tombé dans un gouffre qui n'était pas là une seconde avant, vous croyez perdre l'esprit lorsque les choses change de perspectives parfois géant, parfois tout petite. C'est bon signe vous devez approcher du but, car les déformations spatiaux temporelle empirent.
+> A quoi vous rattachez ? Tentative #2
+[A) GPS, B) Satellite, c) Drone, D) Avion, E) Revenir sur vos pas. ]
+A=Vous consultez votre application mais il n'y a pas de signal.
+B=Inutile, le satellite ne vois rien dans la boule de lumière noire.
+C=Vous demandez au Drone de revenir vous cherché, mais pas de signal rien n'entre ni ne sort de la distorsion.
+D=Vous demandez à l'avion de venir vous cherché, mais pas de signal rien n'entre ni ne sort de la distorsion.
+E=En rebroussant chemin vous êtes encore plus dérouté. L'espace cherche à vous avalé par une série de distorsion de la réalité. Le temps s'étire ou s'accélère, tantôt vous avancez à reculons ou manquez de tombé dans un gouffre qui n'était pas là une seconde avant, vous croyez perdre l'esprit lorsque les choses change de perspectives parfois géant, parfois tout petite. C'est bon signe vous devez approcher du but, car les déformations spatiaux temporelle empirent.
+> A quoi vous rattachez ? Tentative #3
+[A) GPS, B) Satellite, c) Drone, D) Avion, E) Revenir sur vos pas. ]
+A=Vous consultez votre application mais il n'y a pas de signal.
+B=Inutile, le satellite ne vois rien dans la boule de lumière noire.
+C=Vous demandez au Drone de revenir vous cherché, mais pas de signal rien n'entre ni ne sort de la distorsion.
+D=Vous demandez à l'avion de venir vous cherché, mais pas de signal rien n'entre ni ne sort de la distorsion.
+E=En rebroussant chemin vous êtes encore plus dérouté. L'espace cherche à vous avalé par une série de distorsion de la réalité. Le temps s'étire ou s'accélère, tantôt vous avancez à reculons ou manquez de tombé dans un gouffre qui n'était pas là une seconde avant, vous croyez perdre l'esprit lorsque les choses change de perspectives parfois géant, parfois tout petite. C'est bon signe vous devez approcher du but, car les déformations spatiaux temporelle empirent.
+> A quoi vous rattachez ? Tentative #4
+[A) GPS, B) Satellite, c) Drone, D) Avion, E) Revenir sur vos pas. ]
+A=Vous consultez votre application mais il n'y a pas de signal.
+B=Inutile, le satellite ne vois rien dans la boule de lumière noire.
+C=Vous demandez au Drone de revenir vous cherché, mais pas de signal rien n'entre ni ne sort de la distorsion.
+D=Vous demandez à l'avion de venir vous cherché, mais pas de signal rien n'entre ni ne sort de la distorsion.
+E=En rebroussant chemin vous êtes encore plus dérouté. L'espace cherche à vous avalé par une série de distorsion de la réalité. Le temps s'étire ou s'accélère, tantôt vous avancez à reculons ou manquez de tombé dans un gouffre qui n'était pas là une seconde avant, vous croyez perdre l'esprit lorsque les choses change de perspectives parfois géant, parfois tout petite. C'est bon signe vous devez approcher du but, car les déformations spatiaux temporelle empirent.
+> A quoi vous rattachez ? Tentative #5
+[A) GPS, B) Satellite, c) Drone, D) Avion, E) Revenir sur vos pas. ]
+Vous avez comme un impression de déjà vu avant de trébuchez sur une caisse de métal qui n'était pas là l'instant d'avant. C'est une chance de tombé par hasard sur du matériel en provenance du crash.
+A=Vous ouvrez le coffre et trouvez des munitions de tout calibre, pistolet, fusil assaut ou sniper et plusieurs Grenades à fragmentation, incendièrent et impulsion électromagnétique. :Objet=Grenade
+B=Mystérieusement, vous vous rappelez avoir déjà vue cette scène auparavant. Le coffre est ouvert et vous tenez à la main une grenade. :Objet=Grenade
+> Allez-vous l'ouvrir ?
+[A) OUI, B) Regardez dans votre main! ]
+Il semble que vous êtes déjà passé par là, il fait de plus en plus noir et un maelström de carcasse d'avion, d'arbres et de terre enflammé, s'étire en colonne vers le ciel. Vous y voyez en boucle l'évènement du crash, il vol et s'écrase avant de s'étirer en abyme passant d'une tangente infiniment négative et positive. S'arrêtent périodiquement sur un évènement de sa dernière vie avant de se remettre a tournée dans la direction inverse. C'est à la fois effrayant et magnifique a observé!
+A=Vous lancer la grenade à bord de la caque éventré quand celle-ci passe près de vous. Il semble s'écoulé une éternité avant que l'explosion ne survienne, mais quand elle arrive une grande lumière blanche vous aveugle! Vous l'avez échappé belle, la faille est maintenant refermé.
+B=Vous sauter la caque éventré quand celle-ci passe près de vous. Le temps est encore plus au ralenti que d'habitude et l'intérieur de l'appareil est devenu ridiculement grand tout à coup. Vous cherchez l'interrupteur au travers de la machinerie et croyez l'atteindre quand le sol s'ouvre sous vos pieds. Vous avez le vertige emporté dans ce tourbillon sans fond. Des siècles se passent avant que vous ne disparaissiez avalé par le néant. :(pause):(quite)
+> Voulez-vous le faire sauter ?
+[A) Oui, B) Non. ]
+Le clame est revenu et il n'y a plus de noirceur dans la zone.
+Félicitation pour votre débrouillardise et pour être resté stratégique dans votre infiltration à distance. Vous avez sus utilisé le transport furtif, le drone et votre costume tactiques pour vous débarrassé des gardes armés. Dans le cargo de l'appareil il y a un ordinateur en morceau et un générateur très complexe de collisionneur statique pour produire la matière obscure. Il semble que dans cette épave, ils utilisaient une technologie équivalente au système de vision et projection du StealRay1 mais conçu pour les Avions et les Drones.
+Trophe=Le vol du phénix 
+(TROPHE)
+A=LV=5:Etape=5:sourcefile=missionUp
+B=
+C=
+D=
+E=
+vrai=
+faux=
+element=
+Liste=
+> Appuyer sur A pour Retour.
+[A) Continué ]

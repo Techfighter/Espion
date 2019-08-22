@@ -1,0 +1,242 @@
+Mission 2:
+Rapport Météo: Nuit claire 18 degré Celsius, ciel dégagé et faible humidité.
+Rapport Situation: Vous entrez dans une zone contrôlé par l'OSP, le GPS vous a conduit jusqu'ici pour que vous récupériez du matériel classifié. L'image satellite vient de détecter un ennemi isolé à proximité, c'est le moment de faire vos preuves.
+Vous passez maintenant dans l'Entrainement Avancer.
+A=Vous Commencé l'entrainement en situation réel.  
+>  Commencé l'entrainement en situation réel?
+[A) Commencer. ]
+Le Système StealtRay1 n'est pas seulement conçu pour vous rendre invisible ou faire des manipulations de luminosité. Il a aussi le pouvoir de vous donner l'appende physique de tous et chacun. La projection d'image au sol a été grandement améliorée et elle peut sous certain angle capturé la signature physique de n'importe quelle personne. Vous pouvez grâce à l'application donné l'ordre au satellite se verrouillé sur un ennemi et faire la capture de sa silhouette et forme du vissage. Quelque minute suffisent à cette tâche et le Big Data de StrealRay1 enregistré jusqu'a 1024 cible possible. Vous n'avez qu'a localisé un individu dans une zone dégagé et le chiffré, à l'aide d'un geste macro. Les macros sont sélectionné d'un signe de la main ou en combinaison des deux mains.
+(pause)
+Un garde patrouille dans le champ devant vous, il est immobile et ne vous a pas vu.
+1. Vous verrouillez le satellite sur lui et un flash le surprend..........100%
+2. Il peut par reflex de lever la tête l'exposent à une Capture du vissage.50%
+3. Vous vous rapprochez de lui pour enregistrer un échantillon de sa voix..25%
+4. Vous le neutralisez pour éviter qu'un de ses allier vous surprenne......25%
+5. La projection. Porté votre masque réfléchissent avec modulateur de voix.75%
+A=Vous observez l'image satellite et verrouillez sur la position de l'ennemie. :Etape=Verrouillage
+B=Capture du Vissage réussie.
+C=Enregistré sa Voix réussie.
+D=Assommé l'ennemi réussie.
+E=Transformation réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Verrouillé, B) Capture, C) Enregistrement, D) Neutralisé, E) Transformation. ]
+Score=0
+vrai=Score+1;Etape-Verrouillage
+faux=Vous deviez commencé par verrouillé le Satellite sur l'ennemi. Correction en coure...Done. :L'IA de stealtRay1 s'en est chargé pour vous, elle enregistre dans l'espace la signature physique du garde d'on la taille vous rapproche le plus.
+element=Verrouillage
+liste=Etape
+SI=COND
+A=Verrouillage réussie.
+B=Vous zoomer sur la tête de l'ennemie et faite une bonne capture digital. .:Etape=Capture du Vissage
+C=Enregistré sa Voix réussie.
+D=Assommé l'ennemi réussie.
+E=Transformation réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Verrouillé, B) Capture, C) Enregistrement, D) Neutralisé, E) Transformation. ]
+vrai=Score+1;Etape-Capture du Vissage
+faux=Vous deviez Capture du Vissage de l'ennemi. Correction en coure...Done. :L'IA de StealtRay1 s'en est chargé pour vous lorsqu'il a levé la tête un instant.
+element=Capture du Vissage
+liste=Etape
+SI=COND
+A=Verrouillage réussie.
+B=Capture du Vissage réussie.
+C=Vous dirigez le microphone sur la tête de l'ennemie lorsqu'il parle a un de ces collègues.:Etape=Enregistré Voix
+D=Assommé l'ennemi réussie.
+E=Transformation réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Verrouillé, B) Capture, C) Enregistrement, D) Neutralisé, E) Transformation. ]
+vrai=Score+1;Etape-Enregistré Voix
+faux=Vous deviez Enregistré la Voix de l'ennemi. Correction en coure...Done. :L'IA de StealtRay1 s'en est chargé pour vous en approchant le drone qu'il garde invisible.
+element=Enregistré Voix
+liste=Etape
+SI=COND
+A=Verrouillage réussie.
+B=Capture du Vissage réussie.
+C=Enregistré sa Voix réussie.
+D=Vous vous avancez juste derrière lui sans qu'il ne vous voit et vous le neutralisé. :Etape=Neutralisé
+E=Transformation réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Verrouillé, B) Capture, C) Enregistrement, D) Neutralisé, E) Transformation. ]
+vrai=Score+1;Etape-Neutralisé
+faux=Vous deviez Assommé l'ennemi. Correction en coure...Done. :L'IA de StealtRay1 s'en est chargé pour vous, en envoyant le Drone qu'il garde invisible, tiré une fléchette neutralisante à l'ennemie scanné.
+element=Neutralisé
+liste=Etape
+SI=COND
+A=Verrouillage réussie.
+B=Capture du Vissage réussie.
+C=Enregistré sa Voix réussie.
+D=Assommé l'ennemi réussie.
+E=Vous verrouillez le satellite sur votre position et activé la projection. :Etape=Transformation
+> Quelle stratégie vous adopterez ici ?
+[A) Verrouillé, B) Capture, C) Enregistrement, D) Neutralisé, E) Transformation. ]
+vrai=Score+1;Etape-Transformation
+faux=Vous deviez faire la Transformation par projection satellite. Correction en coure...Done. :L'IA de StealtRay1 s'en est chargé pour vous lorsque vous aviez tous les data en banque pour une image complète de l'ennemie. Vous êtes libre de mouvement et d'interaction avec tout le monde, qui ne vous reconnaitrons pas.
+element=Transformation
+liste=Etape
+SI=COND
+vrai=Trophe=Mystique 1er Classe
+faux=Trophe=Première Transformation
+element=5
+liste=Score
+SI=VAR
+score=0
+vrai=
+faux=
+element=
+Liste=
+
+Vous avez maintenant pris complétement l'apparence de se garde. Faite bien attention de resté dans les zones ou le ciel est dégagé et surveillé de près les Rapport Météos changeant. Vous êtes libre de circulez a votre aise dans les installations ennemie à condition de vous comporter comme un garde des Nations Unis.
+Son équipement et son arme vous serrons très utile si ça tournais mal, mais des points supplémentaire serrons attribué si vous trouvez une solution non létal.
+Beep! 'ALFA ALFA ICI BRAVO BRAVO, RADIO SHECK A VOUS!'
+A=Objet=Mitraillette AK47:Objet=Munition AK47:Objet=Radio Ennemi:Objet=Ration de Guerre
+B=Pas besoin. Vous voyagerez léger.
+> Allez-vous le fouillé?
+[A) Fouillez, B) Non, Continué. ]
+Sitrep: Le système viens de repéré deux nouvelle cibles qui se dirige dans le secteur. Il s’agit de gardes armé de l'OSP.
+A=Vous le laissez là pour ne pas le réveillé. Les autres gardes s'approchent et donne l'alerte en l'apercevant. Vous êtes attaqué! :'Alerte Général un intrus c'est introduit dans le Terrain d'Opération! Il est seul, Armé et dangereux!' Les gardes vous menassent de leur arme. Vous avez échoué votre Mission! :(pause):(quit)
+B=Vous ne prenez aucun risque. Une cible copié doit être éliminée, puis vous le jeté dans le buisson pour ne plus être découvert par la suite. :Etape=létal
+C=Vous attrapez l'homme inconscient et le trainé loin de la vue, dans un buisson. :Etape=discrétion
+> Qu'allez-vous faire du corps ?
+[A) Laissé dormir, B) Tuée, C) Caché]
+vrai=A=Vous épaulez l'arme AK47 et vidé tout un charger sur les deux hommes avant qu'ils ne vous tue. Bientôt plus de garde arrivent à cause du bruit et il vous tue de loin! :(pause):(quit);B=Vous activez le 'flash aveuglant' à l'aide d'une macro gestuelle les mains sur les yeux, ce qui neutralisent les gardes et vous permet de vous enfuir mais vous avez échoué votre mission!:(pause):(quit);C=Vous activez l'application de camouflage et disparaissez dans la végétation, mais c'est trop tard les gardes savent déjà où vous êtes! Ils sont surpris de vous voire changé en caméléon et ouvre le feu sur vous! Vous êtes Mort!:(pause):(quit);> Qu'allez-vous faire ?;[A) Attaque AK47, B) Neutraliser, C) Disparaitre ]; 
+faux=
+element=alert
+Liste=Etape
+SI=COND
+vrai=
+faux=Les gardes sont là, ils se demandent pourquoi vous n'avez pas répondu à leurs appel ?
+element=alert
+Liste=Etape
+SI=COND
+A=J'ai plus de Radio. :Le garde surprit, réessaie avec son walkie-talkie. 'ALFA ALFA ici BRAVO BRAVO, RADIO SHECK A VOUS!' La Radio du garde s'allume brillamment! 'Vous avez menti Patrouilleur, un blâme serra noté pour votre inconduite! Vous devez répondre à tous vos messages dorénavant, ramassé moi cette Radio!'
+B=J'étais partie pissé. :Il vous adresse un blâme sévère pour votre inconduite. 'Un Patrouiller ne doit pas laissé de trace ADN sur le Terrain d'Opération! Imaginé qu'un Chien pister passe par là et le découvre, ont seraient repéré par votre faute! Ramassé moi cette radio!'
+C=Veux pas vous répondre! :'Patrouilleur, un blâme sévère serra noté pour votre inconduite! Vous devez répondre à tous vos messages dorénavant, ramassé moi cette Radio!'
+D=On me l'a volé. :Le garde surprit, réessaie avec son walkie-talkie. 'ALFA ALFA ICI BRAVO BRAVO, RADIO SHECK A VOUS!' La Radio du garde s'allume brillamment! 'Vous avez menti Patrouilleur, un blâme sévère serra noté pour votre inconduite! Vous devez être maître de votre matériel en tout temps et répondre à tous vos messages. Ramassé moi cette Radio!'
+E=Je l'ai jeté. :Le garde surprit, réessaie avec son walkie-talkie. 'ALFA ALFA ICI BRAVO BRAVO, RADIO SHECK A VOUS!' La Radio du garde s'allume bruyamment 'Patrouilleur, un blâme sévère serra noté pour votre inconduite! Vous devez être maître de votre matériel en tout temps et répondre à tous vos messages. Ramassé moi cette Radio!'
+> Qu'allez-vous leurs répondre ?
+[A) Pas de Radio, B) Partie pissé, C) Veux pas répondre, D) On me l'a volé, E) Je l'ai jeté ]
+vrai=Vous prenez la Radio a votre ceinture et pressez le détenteur d'alternat. 'BRAVO BRAVO ICI ALFA ALFA, REÇU FORT ET CLAIRE TERMINÉ!' Ils vous souillent. 'Tu vois, ce n’était pas si difficile' Ils partent rejoindre leurs position d'origine et ne vous ont jamais reconnu.
+faux=Vous marchez jusque dans le buisson pour cueillir la Radio et c'est là que les gardes se rende compte qu'une ombre trouble votre ora d'illusion. Surpris ils s'avancent pour mieux voir et découvre le corps de leurs collègue. 'Alerte Général un intrus c'est introduit dans le Terrain d'Opération! Il est seul et Non Armé!' L'autre garde vous menace de son arme. :Etape=alert2 
+element=Radio Ennemi
+Liste=Objet
+SI=COND
+vrai=A=Vous arrachez l'arme d'un des gardes et vidé tout un charger sur les deux hommes avant qu'ils ne vous tue. Bientôt plus de garde arriverons à cause du bruit. :Objet=Mitraillette AK47:Etape=alert2:Etape=alert2;B=Vous activez le 'flash aveuglant' à l'aide d'une macro gestuelle les mains sur les yeux, ce qui neutralisent les gardes et vous permet de vous enfuir! Ils sont aveugle et tire dans les aires! Bientôt plus de garde arriveront à cause du bruit. :Etape=alert2;C=Vous activez l'application de camouflage et disparaissez dans la végétation, mais c'est trop tard les gardes savent déjà où vous êtes! Ils sont surpris de vous voire changé en caméléon et ouvre le feu sur vous! Vous êtes Mort!:(pause):(quit);> Qu'allez-vous faire ?;[A) Attaqué, B) Neutraliser, C) Disparaitre ]; 
+faux=Vous l'avez échappé belle! Heureusement pour vous votre parade s'est avérée crédible. (Si vous n'aviez pas cette radio a porté de main tout était perdus.)
+element=alert2
+Liste=Etape
+SI=COND
+vrai=Vous êtes en sécurité encore pour quelque minutes, mais vous devez trouver une stratégie car l'alerte est donné et vous serez bientôt submerger d'ennemi qui vous cherche activement.
+faux=Vous êtes infiltré dans le terrain d'opération. Pas de risque pour l'instant, mais vous devez trouver une stratégie pour passer les patrouilles sinon vous serez bientôt submerger d'ennemi qui se demandera ce que vous faite là.
+element=alert2
+Liste=Etape
+SI=COND
+(PAUSE)
+Une Stratégie optimal consiste à faire plusieurs types d'illusion à la fois. Il se peut que plusieurs ennemis reviennent à la charge ou avec des renforts.
+1. Vous verrouillez le satellite sur toutes les cibles.............75%
+2. Capture des éléments de l'environnement........................100%
+3. Recadrage d'une zone d'obscurcissement pour vous dissimulé......75%
+4. La projection de multiple Transformation sur toutes les cibles.25%
+5. Vous neutralisez toutes les cibles pour éviter d'être tué......25%
+A=Vous observez l'image satellite et verrouillez sur toute les positions ennemie. :Etape=Verrouillages
+B=Capture de l'environnement réussie.
+C=Recadrage de votre zone d'obscurcissement réussie.
+D=Transformation réussie.
+E=Assommé l'ennemi réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Les Verrouillés, B) Captures Environnement, C) Créer une zone d'Ombre, D) Transformations. E) Neutralisés]
+Score=0
+vrai=Score+1;Etape-Verrouillages
+faux=Vous deviez commencé par verrouillé le Satellite sur les ennemis. Correction en coure...Done.:L'IA s'en est chargé pour vous, elle enregistre dans l'espace la signature physique de tous les gardes et ajuste individuellement la taille de ses illusions.
+element=Verrouillages
+liste=Etape
+SI=COND
+A=Verrouillages réussie.
+B=Vous zoomer sur les éléments de l'environnement et faite des captures digital. :Etape=Capture de l'environnement
+C=Recadrage de votre zone d'obscurcissement réussie.
+D=Transformations réussie.
+E=Neutralisé les ennemis réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Les Verrouillés, B) Captures Environnement, C) Créer une zone d'Ombre, D) Transformations. E) Neutralisés]
+vrai=Score+1;Etape-Capture de l'environnement
+faux=Vous deviez Capture des éléments de l'environnement. Correction en coure...Done.:L'IA s'en est chargé d'est que vous vous êtes entré dans la zone.
+element=Capture de l'environnement
+liste=Etape
+SI=COND
+A=Verrouillages réussie.
+B=Capture de l'environnement réussie.
+C=Recadrage de votre zone d'obscurcissement réussie. :Etape=Zone d'obscurcissement
+D=Transformation réussie.
+E=Assommé l'ennemi réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Les Verrouillés, B) Captures Environnement, C) Créer une zone d'Ombre, D) Transformations. E) Neutralisés]
+vrai=Score+1;Etape-Zone d'obscurcissement
+faux=Vous deviez recadrage de la zone d'obscurcissement avant que l'ennemie n’y entre. Correction en coure...Done.:L'IA s'en est chargé pour vous en se basent sur votre position pour vous garder caché.
+element=Zone d'obscurcissement
+liste=Etape
+SI=COND
+A=Verrouillages réussie.
+B=Capture de l'environnement réussie.
+C=Recadrage de votre zone d'obscurcissement réussie.
+D=Vous verrouillez le satellite sur chacune de leurs position et activé la projection.:Etape=Transformations
+E=Assommé l'ennemi réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Les Verrouillés, B) Captures Environnement, C) Créer une zone d'Ombre, D) Transformations. E) Neutralisés]
+vrai=Score+1;Etape-Transformations
+faux=Vous deviez faire leurs Transformations par projection satellite. Correction en coure...Done.:L'IA s'en est chargé pour vous lorsque vous aviez tous les data en banque en plus de votre image complète. Le Big-Data de StealthRay1 est très utile pour ce genre de manouvre et l'algorithme à compris ou vous vouliez en venir avec les précédente étapes.
+element=Transformations
+liste=Etape
+SI=COND
+A=Verrouillages réussie.
+B=Capture de l'environnement réussie.
+C=Recadrage de votre zone d'obscurcissement réussie.
+D=Assommé l'ennemi réussie.
+E=Vous sortez de l'ombre juste derrière eux sans qu'ils ne vous voient et vous les neutralisés un par un quand ils passent à proximité. :Etape=Neutralisés
+> Quelle stratégie vous adopterez ici ?
+[A) Verrouillés, B) Capture, C) Enregistrement, D) Neutralisé, E) Transformation. ]
+vrai=Score+1;Etape-Neutralisés
+faux=Vous deviez Assommé l'ennemi. Correction en coure...Done.:L'IA s'en est chargé pour vous, en envoyant le Drone qu'il garde invisible, tiré une fléchette neutralisante à chaqu'un des ennemis verouillé.
+element=Neutralisés
+liste=Etape
+SI=COND
+vrai=Trophe=Maître des Illusions
+faux=Trophe=Multiple Transformations
+element=5
+liste=Score
+SI=VAR
+score=0
+
+faux=Vous êtes survolé par un Drone ennemi. Il vous a détecté avec ça caméra et maintenant il disparait en altitude. Alerte! Vous avez été repéré!:Etape=alert2
+element=alert2
+Liste=Etape
+SI=COND
+vrai=A=Vous allez utiliser le système d'imagerie du Satellite pour vous dérobez à leurs yeux. Tout d’abord le Satellite va se servir de l'obscurité de la nuit, pour vous garder dans une zone d'ombre artificielle. Puis vous restez immobile un certain temps pour qu'on vous oubli jusqu'à la fin de l'alerte. Puis vous les suivez un par un pour les assommés et caché leurs corps. :Etape-alert2;B=Vous allez utiliser le système d'imagerie du Satellite pour créer des illusions et piégez vos ennemis. La manouvre est complexe mais pas impossible, vous devez vous servir du terrain accidenté pour y mettre l'illusion qu'il n'y a rien. Par exemple cacher la présence d'un trou, d'un gros arbre ou d'une rivière et attendre qu'un ennemi s'y fasse prendre. C'est le chaos, plusieurs finissent assommés en courant dans les bois ou tombent dans leurs tranchées et même un péri noyé. :Etape-alert2;C=Vous allez utiliser le système d'imagerie du Satellite pour transformer vos ennemis comme vous. C'est le chaos total chez eux. Dans la plus grande confusion les gardes se tirent les uns les autres. :Etape-alert2;> Ils arrivent, qu'allez-vous faire ?;[A) Ombre, B) Illusion, C) Transformations ]; 
+faux=
+element=alert2
+Liste=Etape
+SI=COND
+vrai=A=Vous allez utiliser le système d'imagerie du Satellite pour vous dérobez à leurs yeux. Tout d’abord le Satellite va se servir de l'obscurité de la nuit, pour vous garder dans une zone d'ombre artificielle. Puis vous restez immobile un certain temps pour qu'on vous oubli jusqu'à la fin de l'alerte. Puis vous les suivez un par un pour les assommés et caché leurs corps. :Etape-alert2;B=Vous allez utiliser le système d'imagerie du Satellite pour créer des illusions et piégez vos ennemis. La manouvre est complexe mais pas impossible, vous devez vous servir du terrain accidenté pour y mettre l'illusion qu'il n'y a rien. Par exemple cacher la présence d'un trou, d'un gros arbre ou d'une rivière et attendre qu'un ennemi s'y fasse prendre. C'est le chaos, plusieurs finissent assommés en courant dans les bois ou tombent dans leurs tranchées et même un péri noyé. :Etape-alert2;C=Vous allez utiliser le système d'imagerie du Satellite pour transformer vos ennemis comme vous. C'est le chaos total chez eux. Dans la plus grande confusion les gardes se tirent les uns les autres. :etape-alert2;> D'autre Gardes arrivent, qu'allez-vous faire ?;[A) Ombre, B) Illusion, C) Transformations ]; 
+faux=
+element=alert2
+Liste=Etape
+SI=COND
+vrai=A=Vous allez utiliser le système d'imagerie du Satellite pour vous dérobez à leurs yeux. Tout d’abord le Satellite va se servir de l'obscurité de la nuit, pour vous garder dans une zone d'ombre artificielle. Puis vous restez immobile un certain temps pour qu'on vous oubli jusqu'à la fin de l'alerte. Puis vous les suivez un par un pour les assommés et caché leurs corps. :Etape-alert2;B=Vous allez utiliser le système d'imagerie du Satellite pour créer des illusions et piégez vos ennemis. La manouvre est complexe mais pas impossible, vous devez vous servir du terrain accidenté pour y mettre l'illusion qu'il n'y a rien. Par exemple cacher la présence d'un trou, d'un gros arbre ou d'une rivière et attendre qu'un ennemi s'y fasse prendre. C'est le chaos, plusieurs finissent assommé en courant dans les bois ou tombent dans leurs tranchées et même un péri noyé. :Etape-alert2;C=Vous allez utiliser le système d'imagerie du Satellite pour transformer vos ennemis comme vous. C'est le chaos total chez eux. Dans la plus grande confusion les gardes se tirent les uns les autres. :Etape-alert2;> Un nouvelle assaut arrivent, qu'allez-vous faire ?;[A) Ombre, B) Illusion, C) Transformations ]; 
+faux=
+element=alert2
+Liste=Etape
+SI=COND
+Le clame est revenu et il n'y a plus d'ennemie dans la zone.
+Félicitation pour votre débrouillardise et pour être resté stratégique dans votre infiltration. Vous avez sus utilisé vos connaissances tactiques pour vous débarrassé des gardes armés. Vous prenez l'identité de l'un d'eux et entré dans le camp. La dernière tente comptien du matériel de développement électronique pour l'avionique et un model très récent de Drone Furtif.
+Trophe=Opperater Robot
+(TROPHE)
+> Fin de l'entrainement. Appuyer sur une touche pour continuer.
+A=LV=2:Etape=2:sourcefile=MissiOnUp
+B=
+C=
+D=
+E=
+vrai=
+faux=
+element=
+Liste=
+> Appuyer sur A pour Retour.
+[A) Continué ]

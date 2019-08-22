@@ -1,0 +1,573 @@
+Militari Software Détecté
+Bienvenu dans le tutoriel d'entrainement Stealt en milieu virtuel. Vous allez vivre une expérience hors du commun avec la plus récente technologie de recherche et développement de la Cie WarpCorp. Il s'agit de mesurer votre débrouillardise en situation tactique munit de la nouvelle application satellite stealtRay1.
+Tout d'abord sachez qu'il s’agit d'un prototype secret de projection a image ultra grande portée et qu'il n'en existe aucun autre exemplaire. Alor si vous perdez l'appareil ou si vous êtes fait prisonnier, ces commandes se verrouilleront et sa mémoire sera autodétruite dans la minute qui suivra.
+Signé le commandement tactique.
+Quete=Ghost in the Shell
+Etape1: Prenez l'application en main et dit votre nom d'espion. Ceci servira de mot de passe à l'avenir.
+A=Welcome back Mr.Fleming
+> Quelle est votre nom ?
+[A) Fleming.]
+
+Etape2: Activez le scan biométrique. L'enregistrement de vos données dans le certificat vous garantis l'exclusivité d'accès rapide et une sous routine de reconnaissance saura si c'est bien vous qui utilisez l'application.
+B=Merci, Donnés biométrique enregistré avec Succès.
+> Appuyer sur B pour lancer le scan.
+[B) Scan.]
+
+Etape3: Lancement de la Triangulation.
+StealtRay1 arrive en position à partir de votre signal GPS. Cette opération peux prendre quelque instant veuillez rester immobile.
+Recherche Satellite de votre position... StealRay1 viens de vous verrouillez. (Vous voyez un Flash de lumière blanc!)
+Le satellite va procéder à une Enregistrement spécial. Il S'agit d'une toute nouvelle technologie digitale comparable à celui utilisé par la NASA pour détecter des exoplanets aux confins de la galaxie. Mais celle-ci est tournée vers le sol et vous fait une analyse spectroscopique. Comme il s'agit de donné personnel, nous avons besoin de votre autorisation.
+C=Pour Information. Le système d'imagerie Satellite qui est placé à 16000 km au-dessus de vous, viens de numérisé votre model tridimensionnel. Cette Capture se complexifiera à mesure que vous bougerez pour apprendre comment vous êtes en toute situation.
+> Enregistré votre signature physique.
+[C) Lancer la signature.]
+D=Bip! Un visage manque à votre profil.
+> Passer à l'étape suivante.
+[D) Suivent.]
+Etape4: capture du Visage.
+Veuillez inclinez légèrement la tête vers le ciel et tenir l'application droit devant vous a bout de bras. Puis tout en restant dans cet angle d'élévation, fait un lent mouvement de rotation d'au moins 120 degré de gauche vers la droite. Un algorithme va utiliser cette vidéo pour construire un model parfait de vos traits de visage.
+E=Flash! Signature physique terminé
+> Appuyez sur E pour faire la Capture.
+[E) Lancer la Capture]
+Quete-Ghost in the Shell
+Trophe=Big Browser watching You
+Lancement de la simulation.
+En situation réel un espion se doit d'être en mesure de s'infiltré partout, se fondre dans l'environnement, voire sans être vu. C'est par ceci que nous commencerons. Vous allez avancer dans le parcours que vous indiqueront les flèches lumineuses sans entrer dans la zone dangereuse.
+(Vous avez 5 Chance, Explorez les possibilités )
+A=Le système de projection d'image au sol, émet une grille de faisceaux rouge quadriller aux mètre et numéroté sur un km carré. Celle-ci vous aidera à savoir en tout temps ou vous vous trouvez et la distance parcourut sans consulter l'écran. Vous pouvez régler la distance de rognage sur un périmètre autour de vous.
+B=Le système de projection d'image au sol, émet une carte topographique en faisceaux rouge qui met en évidence la dénivellation du terrain. Ainsi vous pourrez choisir quel chemin est le moins fatigant, car c'est sur énergie sauvé que repose votre chance de vaincre un ennemi si vous êtes détecté.
+C=Le système de projection d'image au sol, émet un tracer stratégique de routage sous forme de flèches. Celle-ci optimise vos déplacements et vous guide directement à votre plus proche objectif. Ainsi vous ne pouvez pas vous perdre même si c'est la première fois que vous visité la zone.
+D=Le système de projection d'image au sol, émet un point lumineux qui fait briller tout éléments non naturelle de l'environnement. Ainsi si quelque matérielle est caché près de vous, le satellite vous révélera sa présence. Plusieurs parcourt secondaire sont disponible sur la carte.
+E=Le système de projection d'image au sol, émet une image de cette même localisation pour vous faire disparaitre a travers celui-ci. A condition que vous portier votre costume blanc réfléchissant, et de vous trouver dans une portion de ciel dégagé. Vous vous effacerez tel un caméléon dans la verdure.
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) Se coucher par Terre ]
+A=Le système de projection d'image au sol, émet une grille de faisceaux rouge quadriller aux mètre et numéroté sur un km carré. Celle-ci vous aidera à savoir en tout temps ou vous vous trouvez et la distance parcourut sans consulter l'écran. Vous pouvez régler la distance de rognage sur un périmètre autour de vous.
+B=Le système de projection d'image au sol, émet une carte topographique en faisceaux rouge qui met en évidence la dénivellation du terrain. Ainsi vous pourrai choisir quel chemin est le moins fatigant, car c'est sur énergie sauvé que repose votre chance de vaincre un ennemie si vous êtes détecté.
+C=Le système de projection d'image au sol, émet un tracer stratégique de routage sous forme de flèches. Celle-ci optimise vos déplacements et vous guide directement à votre plus proche objectif. Ainsi vous ne pouvez pas vous perdre même si c'est la première fois que vous visité la zone.
+D=Le système de projection d'image au sol, émet un point lumineux qui fait briller tout éléments non naturelle de l'environnement. Ainsi si quelque matérielle est caché près de vous, le satellite vous révélera sa présence. Plusieurs parcourt secondaire sont disponible sur la carte.
+E=Le système de projection d'image au sol, émet une image de cette même localisation pour vous faire disparaitre à travers celui-ci. A condition que vous portier votre costume blanc réfléchissant, et de vous trouver dans une portion de ciel dégagé. Vous vous effacerez tel un caméléon dans la verdure.
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) Se coucher par Terre ]
+A=Le système de projection d'image au sol, émet une grille de faisceaux rouge quadriller aux mètre et numéroté sur un km carré. Celle-ci vous aidera à savoir en tout temps ou vous vous trouvez et la distance parcourut sans consulter l'écran. Vous pouvez régler la distance de rognage sur un périmètre autour de vous.
+B=Le système de projection d'image au sol, émet une carte topographique en faisceaux rouge qui met en évidence la dénivellation du terrain. Ainsi vous pourrai choisir quel chemin est le moins fatigant, car c'est sur énergie sauvé que repose votre chance de vaincre un ennemie si vous êtes détecté.
+C=Le système de projection d'image au sol, émet un tracer stratégique de routage sous forme de flèches. Celle-ci optimise vos déplacements et vous guide directement à votre plus proche objectif. Ainsi vous ne pouvez pas vous perdre même si c'est la première fois que vous visité la zone.
+D=Le système de projection d'image au sol, émet un point lumineux qui fait briller tout éléments non naturelle de l'environnement. Ainsi si quelque matérielle est caché près de vous, le satellite vous révélera sa présence. Plusieurs parcourt secondaire sont disponible sur la carte.
+E=Le système de projection d'image au sol, émet une image de cette même localisation pour vous faire disparaitre à travers celui-ci. A condition que vous portier votre costume blanc réfléchissant, et de vous trouver dans une portion de ciel dégagé. Vous vous effacerez tel un caméléon dans la verdure.
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) Se coucher par Terre ]
+A=Le système de projection d'image au sol, émet une grille de faisceaux rouge quadriller aux mètre et numéroté sur un km carré. Celle-ci vous aidera à savoir en tout temps ou vous vous trouvez et la distance parcourut sans consulter l'écran. Vous pouvez régler la distance de rognage sur un périmètre autour de vous.
+B=Le système de projection d'image au sol, émet une carte topographique en faisceaux rouge qui met en évidence la dénivellation du terrain. Ainsi vous pourrai choisir quel chemin est le moins fatigant, car c'est sur énergie sauvé que repose votre chance de vaincre un ennemie si vous êtes détecté.
+C=Le système de projection d'image au sol, émet un tracer stratégique de routage sous forme de flèches. Celle-ci optimise vos déplacements et vous guide directement à votre plus proche objectif. Ainsi vous ne pouvez pas vous perdre même si c'est la première fois que vous visité la zone.
+D=Le système de projection d'image au sol, émet un point lumineux qui fait briller tout éléments non naturelle de l'environnement. Ainsi si quelque matérielle est caché près de vous, le satellite vous révélera sa présence. Plusieurs parcourt secondaire sont disponible sur la carte.
+E=Le système de projection d'image au sol, émet une image de cette même localisation pour vous faire disparaitre à travers celui-ci. A condition que vous portier votre costume blanc réfléchissant, et de vous trouver dans une portion de ciel dégagé. Vous vous effacerez tel un caméléon dans la verdure.
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) Se coucher par Terre ]
+A=Le système de projection d'image au sol, émet une grille de faisceaux rouge quadriller aux mètre et numéroté sur un km carré. Celle-ci vous aidera à savoir en tout temps ou vous vous trouvez et la distance parcourut sans consulter l'écran. Vous pouvez régler la distance de rognage sur un périmètre autour de vous.
+B=Le système de projection d'image au sol, émet une carte topographique en faisceaux rouge qui met en évidence la dénivellation du terrain. Ainsi vous pourrai choisir quel chemin est le moins fatigant, car c'est sur énergie sauvé que repose votre chance de vaincre un ennemie si vous êtes détecté.
+C=Le système de projection d'image au sol, émet un tracer stratégique de routage sous forme de flèches. Celle-ci optimise vos déplacements et vous guide directement à votre plus proche objectif. Ainsi vous ne pouvez pas vous perdre même si c'est la première fois que vous visité la zone.
+D=Le système de projection d'image au sol, émet un point lumineux qui fait briller tout éléments non naturelle de l'environnement. Ainsi si quelque matérielle est caché près de vous, le satellite vous révélera sa présence. Plusieurs parcourt secondaire sont disponible sur la carte.
+E=Le système de projection d'image au sol, émet une image de cette même localisation pour vous faire disparaitre à travers celui-ci. A condition que vous portier votre costume blanc réfléchissant, et de vous trouver dans une portion de ciel dégagé. Vous vous effacerez tel un caméléon dans la verdure.
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) Se coucher par Terre ]
+Faite le bon Choix. Sacher que vous pouvez combiner ces mode tous à la fois et choisir la fréquence lumineuse qui vous semble le mieux adapté au terrain. Inconvénient est que l'ennemi peux aussi voir les traits lumineux et vous repéré grâce à cela. Porté vos verre polarisé et choisissez une longueur d'onde UV spécial, pour être le seul à voir les indications.
+Signé Commandement tactique.
+Durant tous les parcours où vous arriverez dans une nouvelle zone, une alerte par vibration vous sera donnée. Cela signe que vous devriez consulter l'application si une nouvelle stratégie s'impose. Noté qu'une codification spécial apparaitra sous forme de Report, pour abrégé la lecture. Il y en n'a 3 différente Envrep, Sitrep, Metrep. Environnement Report, Situation Report et Météorologique Report.
+A=Analyse de l'environnement...Un parcours de 1km viens d'être créé sur la zone ou vous vous trouvez. Il y aura des ennemies virtuelle qui patrouillent dans la zone, qu'il vous faudra évitez. Immobilisez-vous et utilisez la commande Camouflage avant que ceux si n'arrivent a porté de vue.
+> Appuyer sur A pour commencer l'épreuve?
+[A) Commencer. ]
+Quete=Tutoriel d'espion
+Envrep: Un sentier tortueux se trouve devant vous, courant à travers champ. L'herbe est court et de texture uniforme.
+Metrep: Ici le ciel est largement ouvert et la nuit est belle.
+A=Correct. Vous prenez le temps de tourner dans la zone pour bien l'exploré et vous familiarisé sur celui-ci.
+B=Très Bien. Vous suivez la route tapé qui est également la dénivellation naturelle de l'environnement.
+C=Excellant. Vous n'êtes pas obligé de suivre un chemin sinueux, la ligne droite vous fait économiser vos forces.
+D=Bien. Vous ouvrez l'œil pour découvrir quelque chose d'utile pour sortir des sentiers battue.
+E=Exacte. Vous y aller en toute discrétion ce qui vous fait prendre le moins de risque possible.
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) Se coucher par Terre. ]
+Envrep: De gros arbres forme une canopée danse, le ciel n'est plus dégagé pour la couverture satellite. 
+A=Excellant. Vous naviguez a vue dans la zone du champ occulté pour en sortir.
+B=Bien. Procédez comme il vous plait mais faite attention car aucune aide n'est disponible dans la zone de champ occulté.
+C=Excellant. Vous pouvez continuer immédiatement votre route pour sortir de la zone occultée.
+D=Erreur. Vous ne pouvez utiliser la fonction de repérage ici parce que le ciel au-dessus de vous n'est pas dégagé.
+E=Impossible. Vous ne pouvez utiliser la projection de camouflage temps que le ciel au-dessus de vous n'est pas dégagé.
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) Se coucher par Terre. ]
+Sitrep: Dans le champ devant vous un ennemi patrouille sur 50 pieds perpendiculairement au sentier. Vous voyez des faisceaux de lumière modélisé le garde dans la brume du soir. Comme il s'agit d'une simulation transparente, vous aurez de la difficulté à savoir où il regarde quand il vire de bord. C'est yeux brillent pour donner un indice et ces mouvement sont lent.
+Envrep: Le terrain est plat et l'herbe courte.
+A=Erreur. Le terrain est déjà très dégagé et vous ne voyez rien à explorer en cette situation.
+B=Faux. Il y a très peu d'obstacle a utilisé entre vous et le garde. Vous devez attendre qu'il s'éloigne et vous dépêché à passer.
+C=Bon. Un peu risqué mais si vous êtes rapide et silencieux, le garde peux ne pas vous repéré quand il s'éloignera vers la gauche ou vers la droite.
+D=A Éviter. Pas le temps de chercher du matériel dans une zone patrouillé, il n'y  a rien à récupérer ici. A moins qu'il ne s’agisse d'un vrai garde équipé vous devriez le neutralisé avant tout.
+E=Excellant. Vous vous couchez dans l'herbe et le système d'imagerie vous camoufle avec la même végétation. Quand vous approchez du parcours emprunter par le garde holographique vous vous assurez qu'il éloigne de votre côté du sentier. C'est réussi.
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) Se coucher par Terre. ]
+Envrep: La route vous mène à une rivière peu profonde, enjambé par un pont de bois. Une dizaine de mètre vous sépare de l'autre rive.
+A=Bon. Aucun soucis a ce faire, vous avez une voie dégagé et le pond est solide a traversé.
+B=Parfait. Vous traversez la petite rivière en sautent de tronc en pierre sans vous mouillé.
+C=Bien. Vous passez sur le pont à la course profitant qu'il n'y a aucune ennemie.
+D=Oui. Vous avez le temps de chercher en surface du pont, mais aucun objet utile n'est révélé par ici, Peut-être sous le pont sur l'une des berges aurait pu échapper à l'attention du Satellite?
+E=Non. Vous pourriez être repérez en traversant sur le pont même camouflé. En passant dessous vous perdez la couverture satellite mais au moins l'ennemie ne pourra pas vous voire ni entendre.
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) En camouflage. ]
+Sitrep: Plusieurs ennemis patrouille en cercle dans la zone, chacun rejoignant la position de son prédécesseur. Une 50e de pied les espacent tous les quatre.
+A=Correct. Mais la reconnaissance vous démontre que leurs défense est sans faille et qu'il vous faudrait les contournés très loin à l'extérieur du cercle.
+B=Erreur. Le terrain n'est pas accidenté et debout les gardes vous aperçoivent. 
+C=Fail! Vous vous faite prendre en courant au travers d'eux. 
+D=Dangereux. Le système révèle un tas de détritus dans un coin au centre et le rayon attire l'attention d'un garde derrière le plus proche. L'alerte donnée les gardes s'attroupe vers l'objet brillant et vous avez le champ libre momentanément.  
+E=Parfait. Vous pourriez même passer au centre du cercle qu'ils ne verraient pas, surtout si vous arrivez a entré et ressortir derrière l'un deux.  
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) En camouflage. ]
+Sitrep: En marchant entre les buissons vous vous prenez les pieds dans un fils de fer qui déclenche un Flair à quelque mètre de vous. La fusée s'élance dans les airs telle a un feu d'artifice et s'embrase éclairent partout d'une forte lumière blanche. Le petit parachute s’ouvre et le terrain est clair comme en plein jour durant 1 minute.
+A=Erreur. Vous ne devez pas bouger d'un cil tant que la lumière est allumée, L'immobilité est votre meilleur ami ici entre les buissons. 
+B=Fail! Vous sautez le fil et courez-vous caché plus loin, mais le mouvement attire l'attention sur vous. L’ennemi connaissant la position du piège vous retrouve aussi vite.  
+C=Très bien. Vous fermez un œil pour ne pas être éblouis mais vous ouvrez l'autre pour rester à l'affut des mouvements ennemis cachés dans le coin. L'immobilité totale vous permet de ne pas être détecté d'eux, même si ils savent que vous êtes là.  
+D=Non. Dommage que vous ne l'aviez pas activé plus tôt, ceci aurait pu vous permettre de détecté le Flaire et même de le récupéré.
+E=Très bonne idée. Couché vous par terre et profité d'obscurcissement pour disparaitre digitalement avec l'aide de StealtRay1. Resté le plus immobile jusqu'à ce que le pyrotechnique disparaisse et vous échapperez peut-être aux ennemis de la zone.  
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Stratégie, D) Harvester, E) En camouflage. ]
+Envrep: La forêt est un peu plus danse par ici et vous passez par ces éclaircies et des zones occultées au ciel. Le terrain semble avoir subi des modifications ressente.
+(Première Tentative sur 5)
+A=Exacte. La reconnaissance s'impose ici. Vous découvrez que le terrain a été piégé de plusieurs façons. Low wire, piquet d'acier, Rouleaux de fil barbelé, piège acon, hameçons suspendus aux branches d'arbre, fausse, mine antipersonnel, Flaire et grenadé dégoupillé remplisse cette partie de la forêt.
+B=Excellant. Vous allez en avoir besoin mais prenez votre temps car les artifices purulent. L'ennemis y ont mis le paquet et au diable la convention de genèse.
+C=Dangereux. Vous ignorez tout ce qu'a pu faire l'ennemis a cette forêt et il fait noir je vous le rappel. 
+D=Bien. Vous allumez le scan qui révèle une grande quantité d'objet inhabituelle partout dans la zone. Beaucoup de pièges, de fil de fer, le pyrotechnique, accroché aux arbres, en surface ou semi-enterré. Ce qui vous inquiète est qu'avec le couvert des branches le satellite ne peuvent pas tout repérer.  
+E=Faux. Le camouflage est presque inutile par ici et il vous nuira si vous détecté les différents artifices que l'ennemis a pu mettre sur le terrain. 
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) En camouflage. ]
+Envrep: La forêt est un peu plus danse par ici et vous passez par ces éclaircies et des zones occultées au ciel. Le terrain semble avoir subi des modifications ressente.
+(Deuxième Tentative)
+A=Exacte. La reconnaissance s'impose ici. Vous découvrez que le terrain a été piégé de plusieurs façons. Low wire, piquet d'acier, Rouleaux de fil barbelé, piège acon, hameçons suspendus aux branches d'arbre, fausse, mine antipersonnel, Flaire et grenadé dégoupillé remplisse cette partie de la forêt.
+B=Excellant. Vous allez en avoir besoin mais prenez votre temps car les artifices purulent. L'ennemis y ont mis le paquet et au diable la convention de genèse.
+C=Dangereux. Vous ignorez tout ce qu'a pu faire l'ennemis a cette forêt et il fait noir je vous le rappel. 
+D=Bien. Vous allumez le scan qui révèle une grande quantité d'objet inhabituelle partout dans la zone. Beaucoup de pièges, de fil de fer, le pyrotechnique, accroché aux arbres, en surface ou semi-enterré. Ce qui vous inquiète est qu'avec le couvert des branches le satellite ne peuvent pas tout repérer.  
+E=Faux. Le camouflage est presque inutile par ici et il vous nuira si vous détecté les différents artifices que l'ennemis a pu mettre sur le terrain. 
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) En camouflage. ]
+Envrep: La forêt est un peu plus danse par ici et vous passez par ces éclaircies et des zones occultées au ciel. Le terrain semble avoir subi des modifications ressente.
+(Troisième Tentative)
+A=Exacte. La reconnaissance s'impose ici. Vous découvrez que le terrain a été piégé de plusieurs façons. Low wire, piquet d'acier, Rouleaux de fil barbelé, piège acon, hameçons suspendus aux branches d'arbre, fausse, mine antipersonnel, Flaire et grenadé dégoupillé remplisse cette partie de la forêt.
+B=Excellant. Vous allez en avoir besoin mais prenez votre temps car les artifices purulent. L'ennemis y ont mis le paquet et au diable la convention de genèse.
+C=Dangereux. Vous ignorez tout ce qu'a pu faire l'ennemis a cette forêt et il fait noir je vous le rappel. 
+D=Bien. Vous allumez le scan qui révèle une grande quantité d'objet inhabituelle partout dans la zone. Beaucoup de pièges, de fil de fer, le pyrotechnique, accroché aux arbres, en surface ou semi-enterré. Ce qui vous inquiète est qu'avec le couvert des branches le satellite ne peuvent pas tout repérer.  
+E=Faux. Le camouflage est presque inutile par ici et il vous nuira si vous détecté les différents artifices que l'ennemis a pu mettre sur le terrain. 
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) En camouflage. ]
+Envrep: La forêt est un peu plus danse par ici et vous passez par ces éclaircies et des zones occultées au ciel. Le terrain semble avoir subi des modifications ressente.
+(Quatrième Tentative)
+A=Exacte. La reconnaissance s'impose ici. Vous découvrez que le terrain a été piégé de plusieurs façons. Low wire, piquet d'acier, Rouleaux de fil barbelé, piège acon, hameçons suspendus aux branches d'arbre, fausse, mine antipersonnel, Flaire et grenadé dégoupillé remplisse cette partie de la forêt.
+B=Excellant. Vous allez en avoir besoin mais prenez votre temps car les artifices purulent. L'ennemis y ont mis le paquet et au diable la convention de genèse.
+C=Dangereux. Vous ignorez tout ce qu'a pu faire l'ennemis a cette forêt et il fait noir je vous le rappel. 
+D=Bien. Vous allumez le scan qui révèle une grande quantité d'objet inhabituelle partout dans la zone. Beaucoup de pièges, de fil de fer, le pyrotechnique, accroché aux arbres, en surface ou semi-enterré. Ce qui vous inquiète est qu'avec le couvert des branches le satellite ne peuvent pas tout repérer.  
+E=Faux. Le camouflage est presque inutile par ici et il vous nuira si vous détecté les différents artifices que l'ennemis a pu mettre sur le terrain. 
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) En camouflage. ]
+Envrep: La forêt est un peu plus danse par ici et vous passez par ces éclaircies et des zones occultées au ciel. Le terrain semble avoir subi des modifications ressente.
+(Cinquième et dernière Tentative)
+A=Exacte. La reconnaissance s'impose ici. Vous découvrez que le terrain a été piégé de plusieurs façons. Low wire, piquet d'acier, Rouleaux de fil barbelé, piège acon, hameçons suspendus aux branches d'arbre, fausses, mines antipersonnel, Flaires et grenade dégoupillées, remplissent cette partie de la forêt.
+B=Excellant. Vous allez en avoir besoin mais prenez votre temps car les artifices pullulent. L'ennemis y ont mis le paquet et au diable la convention de genèse.
+C=Dangereux. Vous ignorez tout ce qu'a pu faire l'ennemis a cette forêt et il fait noir je vous le rappel. 
+D=Bien. Vous allumez le scan qui révèle une grande quantité d'objet inhabituelle partout dans la zone. Beaucoup de pièges, de fil de fer, le pyrotechnique, accroché aux arbres, en surface ou semi-enterré. Ce qui vous inquiète est qu'avec le couvert des branches le satellite ne peuvent pas tout repérer.  
+E=Faux. Le camouflage est presque inutile par ici et il vous nuira si vous détecté les différents artifices que l'ennemis a pu mettre sur le terrain. 
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) En camouflage. ]
+vrai=Un Drone est passé s'accroché à vos épaules pour vous faire passer l'obstacle. Il en n'a profité pour vous défibrillé, réparer vos vêtements, une piqure et une tape sur les fesses.
+faux=Après une série d'écorchages, de bleus, d'hameçon dans les oreilles, de brûlures, d'éblouissements et d'explosion assourdissent, vous arrivé à sortir du bois en un seul morceau.
+element=2DRBR
+Liste=Etape
+SI=COND
+Envrep: Vous arrivez devant un camp de base qui porte les insignes des Nation Unis. Il est vaste, bétonné, clôturé et bien éclairé. Il est compartimenté par section, des véhicules deux tonne et demi chargé sont stationnés près de l'entré, une cantine extérieur dans un camion, un Poste de commandement, une infirmerie et 8 tante modulaire à l'arrière. Un tour de garde est instauré dans chaque coin, 4 homme et un sous officié sont de veille. 
+Sitrep: Du matérielle est bien visible au centre du square et des gardes surveillent chacun dans leurs coin.
+(Première Chance)
+A=Très bonne idée. Vous faite le tour du périmètre extérieur en repèrent tout ce qu'il y a à voir à l'intérieur. La zone est bien éclairé et vous vous familiarisé avec le mouvement des gardes.  
+B=Risqué. Vous serez livré à vous-même pour entrer dans le camp. Grimpé une clôture, sauté une barrière, rampez dans les faussés ou sous les véhicule.
+C=Dangereux. Vous risquez de vous faire repérer à tout instant dans une zone hautement surveillé. 
+D=Excellant. Le système de localisation allume des cibles un peu partout et comme le camp est bien éclairé les gardes ne s'aperçoivent de rien tant qu’ils restent loin.  
+E=Bien. Vous pourrez entrer et passé inaperçus à l'intérieur, tant que vous vous déplacé à ciel ouvert. N'entre pas dans les tantes, ne rampé pas sous leurs véhicules et resté hors de portée des gardes.  
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) En camouflage. ]
+Sitrep: Du matérielle est bien visible au centre du square et des gardes surveillent chacun dans leurs coin.
+(Deuxième Chance)
+A=Très bonne idée. Vous faite le tour du périmètre extérieur en repèrent tout ce qu'il y a à voir à l'intérieur. La zone est bien éclairé et vous vous familiarisé avec le mouvement des gardes.  
+B=Risqué. Vous serez livré à vous-même pour entrer dans le camp. Grimpé une clôture, sauté une barrière, rampez dans les faussés ou sous les véhicule.
+C=Dangereux. Vous risquez de vous faire repérer à tout instant dans une zone hautement surveillé. 
+D=Excellant. Le système de localisation allume des cibles un peu partout et comme le camp est bien éclairé les gardes ne s'aperçoivent de rien tant qu’ils restent loin.  
+E=Bien. Vous pourrez entrer et passé inaperçus à l'intérieur, tant que vous vous déplacé à ciel ouvert. N'entre pas dans les tantes, ne rampé pas sous leurs véhicules et resté hors de portée des gardes.  
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) En camouflage. ]
+Sitrep: Du matérielle est bien visible au centre du square et des gardes surveillent chacun dans leurs coin.
+(Troisième et Dernière chance)
+A=Très bonne idée. Vous faite le tour du périmètre extérieur en repèrent tout ce qu'il y a à voir à l'intérieur. La zone est bien éclairé et vous vous familiarisé avec le mouvement des gardes.  
+B=Risqué. Vous serez livré à vous-même pour entrer dans le camp. Grimpé une clôture, sauté une barrière, rampez dans les faussés ou sous les véhicule.
+C=Dangereux. Vous risquez de vous faire repérer à tout instant dans une zone hautement surveillé. 
+D=Excellant. Le système de localisation allume des cibles un peu partout et comme le camp est bien éclairé les gardes ne s'aperçoivent de rien tant qu’ils restent loin.  
+E=Bien. Vous pourrez entrer et passé inaperçus à l'intérieur, tant que vous vous déplacé à ciel ouvert. N'entre pas dans les tantes, ne rampé pas sous leurs véhicules et resté hors de portée des gardes.  
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) En camouflage. ]
+Quete-Tutoriel d'espion
+Trophe=Agent Stealt
+Vous venez de terminé l'entrainement virtuelle de situation tactique. Et vous vous méritez le trophée Agent Stealt. De nouvelle fonctionnalité viennent de s'ajouté à l'application. Vous pourrez communiquer de manière gestuelle avec le satellite sans tenir l'application en main. Celui-ci vous regarde et a analysé vos différentes postures. Si vous lever le pouce StealtRay1 le saura et son intelligence artificielle vous assistera par apprentissage.
+Les hologrammes disparaissent tout autour de vous. Le camp de l'OSP avec tout le matériel et les gardes ne sont plus là. Le parcours de 1km a travers la campagne n'est plus est un sentiment fierté vous envahi. L'application vous demande de côté sur 5 votre appréciation de l'expérience.
+En plaçant la paume de la main gauche devant vous dans une zone dégagé, faite les signe de 1 à 5 pour répondre aux choix a, b, c, d, e.
+> Combien d'étoile vous décernez à cette simulation ?
+A=5 Étoiles
+B=4 Étoiles
+C=3 Étoiles
+D=2 Étoiles
+E=1 Étoile
+[A) *****, B) ****-, C) ***--, D) **---, E) *---. ]
+Merci, cette évaluation va être analysée par I.A. de StealtRay1 qui génère des épreuves enrichissantes à partir de terrain sécurisé. L'application Task Master, pour vous garder au Top niveau, vous mettra à l'épreuve quand le moment sera venu avec des défis de plus en plus grands. Ceci contribuera à maintenir de votre forme physique ainsi qu'à votre habilité cognitive dans un environnement contrôlé. Merci de votre contribution.
+Signé le Commandement Tactique.
+A=Mission 1:
+> Appuyer sur A pour continuer.
+[A) Continuer ]
+Rapport Météo: Crépuscule 21 degée Celcius, ciel variable.
+Repport Situation: Vous entrez dans une zone contrôlé par l'OSP, (Organisation Secteur Privé) le GPS vous a conduit jusqu'ici pour que vous récupériez du matériel classifié. L'image satellite viens de détecté 4 Objectifs à proximité, vous devez les reconnaitres et évités les ennuis. Puis entré au centre du périmètre pour y trouvé Objectif Principal.
+Vous passez maintenant dans à 'l'Entrainement Intermédière'.
+A=Vous Commencez l'infiltration en zone contrôlé.
+>  Commencer l'infiltration en zone contrôlé?
+[A) Commencer. ]
+A l'origine, StealtRay1 avait été développé pour aidé des réfugiés à trouvé du secour quand ils passaient la frontières. Des drones assisté par satellite veillaient en discretion, a les guidées hors du danger et des combats. Le Système n'est pas seulement conçu pour vous guidez géographiquement et repéré des obstacles, il est capable de faire des manipulations de luminosité, vous révellez la présence d'objets de première nécéssité et ultimenent vous rendre invisible. Il a aussi le pouvoir de vous faire voire directement sur le sol des données géographique précise, par projection et sur un spectre lumineux UV qui ne révellera pas votre présence à l'ennemie. Exemple, si vous êtes perdus en campagne pas besoin de carte, vous faite apparaitre une grille numéroté en mètre et km carré avec devant vous les coordonnées gps ou un tracé topographique qui donne même l'altitude par couche du terrain.
+(PAUSE)
+Une Stratégie optimal consiste a faire plusieurs type de projection à la fois. Pour accéléré la colects d'objet et minimisé votre présence dans la zone à risque. Il se peux que des ennemis vois vos phénomènes lumineux et arrivent avec des renfords. L'IA vous propose cette stratégie a suivre et vous familiarisez avec chacune des différentes fonctionnalitées:
+1. Lancer la détection d'objets de première nécéssité.............75%
+2. Optimisation du parcour, suivez la fléche du Path Finder......100%
+3. Allumé une zone d'éclairsisement, comme en plain jour.........100%
+4. Recadrage d'une zone d'obscursisement pour vous dissimulez.....75%
+5. Vous neutralisez toutes les cibles par un Flash Aveuglent......50%
+/1
+A=Vous lancez la 'Détection d'objets' rare pour un rayon d'un km. Une série de point geographique s'illuminent sur un horizon restrain et vous donne les distances pour chaque azimute.:Etape=geocatching
+B=Parcoure 'Path Finder' réussie. Des fléches lumineuse apparaissent devant vous pour guisé vos pas.
+C=Recadrage de votre zone d'éclairsisement réussie. C'est comme si le Jour c'était levé autour de vous!
+D=Recadrage de votre zone d'obscursisement réussie. La nuit devien encore plus Noir, vous disparaissez!
+E=Flash aveuglent réussie. La zone entière c'est illuminé comme si la foudre était tombé a vos pieds!
+> Quelle stratégie vous adopterez ici ?
+[A) Détection Objet, B) Path Finder, C) Éclairsisement, D) Obscursisement, E) Neutralisés ]
+Score=0
+vrai=Score+1;Etape-geocatching
+faux=Vous deviez commencé par Détectez les Objets de première nécésiter dans la zone. Correction en coure...Done.:L'IA s'en est chargé pour vous, elle a enregistre la position des choses autour de vous.dans l'espace la position.
+element=geocatching
+liste=Etape
+SI=COND
+A=Détection d'objets réussie.
+B=Parcoure 'Path Finder' réussie. Des fléches lumineuse apparaissent devant vous pour guisé vos pas jusqu'aux sites de matériel détecté.:Etape=optimisation
+C=Recadrage de votre zone d'éclairsisement réussie. C'est comme si le Jour c'était levé autour de vous!
+D=Recadrage de votre zone d'obscursisement réussie. La nuit devien encore plus Noir, vous disparaissez!
+E=Flash aveuglent réussie. La zone entière c'est illuminé comme si la foudre était tombé a vos pieds!
+> Quelle stratégie vous adopterez ici ?
+[A) Détection Objet, B) Path Finder, C) Éclairsisement, D) Obscursisement, E) Neutralisés ]
+Score=0
+vrai=Score+1;Etape-optimisation
+faux=Vous deviez continué en activent le tracé de déplacement optimal, pour trouvé tout les positions d'Objets dans la zone. Correction en coure...Done.:L'IA s'en est chargé pour vous, elle a calculé le plus courte chemin passant entre chaque objectifs. Vous n'avez qu'a suivre le trajet 'Path Finder'.
+element=optimisation
+liste=Etape
+SI=COND
+A=Détection d'objets réussie.
+B=Parcoure 'Path Finder' réussie.
+C=Recadrage de votre zone d'éclairsisement réussie. C'est comme si le Jour c'était levé autour de vous! Le point d'objectif vous apparait très net comme sous les projecteurs.:Etape=Spot-Light
+D=Recadrage de votre zone d'obscursisement réussie.
+E=Flash aveuglent réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Détection Objet, B) Path Finder, C) Éclairsisement, D) Obscursisement, E) Neutralisés ]
+Score=0
+vrai=Score+1;Etape-Spot-Light
+faux=Vous deviez commencé des recherches minucieuse quelque chose a cette coordonnée. Correction en coure...Light!:L'IA s'est chargé de vous allumé la zone de toute la lumière disponible sur quelque mètres vous voyez comme en plain jour.
+element=Spot-Light
+liste=Etape
+SI=COND
+Ici vous trouvez un sac munie d'un parachute miniature, vous l'attrapez et parté continuez votre récolte sur les site sembleble.
+Objet=Bouteille d'eau
+Pas d'ennemie entre vous et le prochain Objectifs. La vois est libre.
+/2
+A=Vous lancez la 'Détection d'objets' rare pour un rayon d'un km. Une série de point geographique s'illuminent sur un horizon restrain et vous donne les distances pour chaque azimute.:Etape=geocatching
+B=Parcoure 'Path Finder' réussie. Des fléches lumineuse apparaissent devant vous pour guisé vos pas.
+C=Recadrage de votre zone d'éclairsisement réussie. C'est comme si le Jour c'était levé autour de vous!
+D=Recadrage de votre zone d'obscursisement réussie. La nuit devien encore plus Noir, vous disparaissez!
+E=Flash aveuglent réussie. La zone entière c'est illuminé comme si la foudre était tombé a vos pieds!
+> Quelle stratégie vous adopterez ici ?
+[A) Détection Objet, B) Path Finder, C) Éclairsisement, D) Obscursisement, E) Neutralisés ]
+Score=0
+vrai=Score+1;Etape-geocatching
+faux=Vous deviez commencé par Détectez les Objets de première nécésiter dans la zone. Correction en coure...Done.:L'IA s'en est chargé pour vous, elle a enregistre la position des choses autour de vous.dans l'espace la position.
+element=geocatching
+liste=Etape
+SI=COND
+A=Détection d'objets réussie.
+B=Parcoure 'Path Finder' réussie. Des fléches lumineuse apparaissent devant vous pour guisé vos pas jusqu'aux sites de matériel détecté.:Etape=optimisation
+C=Recadrage de votre zone d'éclairsisement réussie. C'est comme si le Jour c'était levé autour de vous!
+D=Recadrage de votre zone d'obscursisement réussie. La nuit devien encore plus Noir, vous disparaissez!
+E=Flash aveuglent réussie. La zone entière c'est illuminé comme si la foudre était tombé a vos pieds!
+> Quelle stratégie vous adopterez ici ?
+[A) Détection Objet, B) Path Finder, C) Éclairsisement, D) Obscursisement, E) Neutralisés ]
+Score=0
+vrai=Score+1;Etape-optimisation
+faux=Vous deviez continué en activent le tracé de déplacement optimal, pour trouvé tout les positions d'Objets dans la zone. Correction en coure...Done.:L'IA s'en est chargé pour vous, elle a calculé le plus courte chemin passant entre chaque objectifs. Vous n'avez qu'a suivre le trajet 'Path Finder'.
+element=optimisation
+liste=Etape
+SI=COND
+A=Détection d'objets réussie.
+B=Parcoure 'Path Finder' réussie.
+C=Recadrage de votre zone d'éclairsisement réussie. C'est comme si le Jour c'était levé autour de vous! Le point d'objectif vous apparait très net comme sous les projecteurs.:Etape=Spot-Light
+D=Recadrage de votre zone d'obscursisement réussie.
+E=Flash aveuglent réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Détection Objet, B) Path Finder, C) Éclairsisement, D) Obscursisement, E) Neutralisés ]
+Score=0
+vrai=Score+1;Etape-Spot-Light
+faux=Vous deviez commencé des recherches minucieuse quelque chose a cette coordonnée. Correction en coure...Light!:L'IA s'est chargé de vous allumé la zone de toute la lumière disponible sur quelque mètres vous voyez comme en plain jour.
+element=Spot-Light
+liste=Etape
+SI=COND
+Ici vous trouvez un sac munie d'un parachute miniature, vous l'attrapez et parté continuez votre récolte sur les site sembleble.
+Objet=Barre Protéinné
+Pas de patrouille en Vue.
+/3
+A=Vous lancez la 'Détection d'objets' rare pour un rayon d'un km. Une série de point geographique s'illuminent sur un horizon restrain et vous donne les distances pour chaque azimute.:Etape=geocatching
+B=Parcoure 'Path Finder' réussie. Des fléches lumineuse apparaissent devant vous pour guisé vos pas.
+C=Recadrage de votre zone d'éclairsisement réussie. C'est comme si le Jour c'était levé autour de vous!
+D=Recadrage de votre zone d'obscursisement réussie. La nuit devien encore plus Noir, vous disparaissez!
+E=Flash aveuglent réussie. La zone entière c'est illuminé comme si la foudre était tombé a vos pieds!
+> Quelle stratégie vous adopterez ici ?
+[A) Détection Objet, B) Path Finder, C) Éclairsisement, D) Obscursisement, E) Neutralisés ]
+Score=0
+vrai=Score+1;Etape-geocatching
+faux=Vous deviez commencé par Détectez les Objets de première nécésiter dans la zone. Correction en coure...Done.:L'IA s'en est chargé pour vous, elle a enregistre la position des choses autour de vous.dans l'espace la position.
+element=geocatching
+liste=Etape
+SI=COND
+A=Détection d'objets réussie.
+B=Parcoure 'Path Finder' réussie. Des fléches lumineuse apparaissent devant vous pour guisé vos pas jusqu'aux sites de matériel détecté.:Etape=optimisation
+C=Recadrage de votre zone d'éclairsisement réussie. C'est comme si le Jour c'était levé autour de vous!
+D=Recadrage de votre zone d'obscursisement réussie. La nuit devien encore plus Noir, vous disparaissez!
+E=Flash aveuglent réussie. La zone entière c'est illuminé comme si la foudre était tombé a vos pieds!
+> Quelle stratégie vous adopterez ici ?
+[A) Détection Objet, B) Path Finder, C) Éclairsisement, D) Obscursisement, E) Neutralisés ]
+Score=0
+vrai=Score+1;Etape-optimisation
+faux=Vous deviez continué en activent le tracé de déplacement optimal, pour trouvé tout les positions d'Objets dans la zone. Correction en coure...Done.:L'IA s'en est chargé pour vous, elle a calculé le plus courte chemin passant entre chaque objectifs. Vous n'avez qu'a suivre le trajet 'Path Finder'.
+element=optimisation
+liste=Etape
+SI=COND
+A=Détection d'objets réussie.
+B=Parcoure 'Path Finder' réussie.
+C=Recadrage de votre zone d'éclairsisement réussie. C'est comme si le Jour c'était levé autour de vous! Le point d'objectif vous apparait très net comme sous les projecteurs.:Etape=Spot-Light
+D=Recadrage de votre zone d'obscursisement réussie.
+E=Flash aveuglent réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Détection Objet, B) Path Finder, C) Éclairsisement, D) Obscursisement, E) Neutralisés ]
+Score=0
+vrai=Score+1;Etape-Spot-Light
+faux=Vous deviez commencé des recherches minucieuse quelque chose a cette coordonnée. Correction en coure...Light!:L'IA s'est chargé de vous allumé la zone de toute la lumière disponible sur quelque mètres vous voyez comme en plain jour.
+element=Spot-Light
+liste=Etape
+SI=COND
+Ici vous trouvez le troisième sac munie d'un parachute. vous l'attrapez et parté continuez votre récolte sur les site sembleble.
+Objet=Piles électrique
+Toujours pas d'ennemie en Vue.
+/4
+A=Vous lancez la 'Détection d'objets' rare pour un rayon d'un km. Une série de point geographique s'illuminent sur un horizon restrain et vous donne les distances pour chaque azimute.:Etape=geocatching
+B=Parcoure 'Path Finder' réussie. Des fléches lumineuse apparaissent devant vous pour guisé vos pas.
+C=Recadrage de votre zone d'éclairsisement réussie. C'est comme si le Jour c'était levé autour de vous!
+D=Recadrage de votre zone d'obscursisement réussie. La nuit devien encore plus Noir, vous disparaissez!
+E=Flash aveuglent réussie. La zone entière c'est illuminé comme si la foudre était tombé a vos pieds!
+> Quelle stratégie vous adopterez ici ?
+[A) Détection Objet, B) Path Finder, C) Éclairsisement, D) Obscursisement, E) Neutralisés ]
+Score=0
+vrai=Score+1;Etape-geocatching
+faux=Vous deviez commencé par Détectez les Objets de première nécésiter dans la zone. Correction en coure...Done.:L'IA s'en est chargé pour vous, elle a enregistre la position des choses autour de vous.dans l'espace la position.
+element=geocatching
+liste=Etape
+SI=COND
+A=Détection d'objets réussie.
+B=Parcoure 'Path Finder' réussie. Des fléches lumineuse apparaissent devant vous pour guisé vos pas jusqu'aux sites de matériel détecté.:Etape=optimisation
+C=Recadrage de votre zone d'éclairsisement réussie. C'est comme si le Jour c'était levé autour de vous!
+D=Recadrage de votre zone d'obscursisement réussie. La nuit devien encore plus Noir, vous disparaissez!
+E=Flash aveuglent réussie. La zone entière c'est illuminé comme si la foudre était tombé a vos pieds!
+> Quelle stratégie vous adopterez ici ?
+[A) Détection Objet, B) Path Finder, C) Éclairsisement, D) Obscursisement, E) Neutralisés ]
+Score=0
+vrai=Score+1;Etape-optimisation
+faux=Vous deviez continué en activent le tracé de déplacement optimal, pour trouvé tout les positions d'Objets dans la zone. Correction en coure...Done.:L'IA s'en est chargé pour vous, elle a calculé le plus courte chemin passant entre chaque objectifs. Vous n'avez qu'a suivre le trajet 'Path Finder'.
+element=optimisation
+liste=Etape
+SI=COND
+A=Détection d'objets réussie.
+B=Parcoure 'Path Finder' réussie.
+C=Recadrage de votre zone d'éclairsisement réussie. C'est comme si le Jour c'était levé autour de vous! Le point d'objectif vous apparait très net comme sous les projecteurs.:Etape=Spot-Light
+D=Recadrage de votre zone d'obscursisement réussie.
+E=Flash aveuglent réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Détection Objet, B) Path Finder, C) Éclairsisement, D) Obscursisement, E) Neutralisés ]
+Score=0
+vrai=Score+1;Etape-Spot-Light
+faux=Vous deviez commencé des recherches minucieuse quelque chose a cette coordonnée. Correction en coure...Light!:L'IA s'est chargé de vous allumé la zone de toute la lumière disponible sur quelque mètres vous voyez comme en plain jour.
+element=Spot-Light
+liste=Etape
+SI=COND
+Ici vous trouvez le dernier sac munie d'un parachute miniature. Des ennemis ont appercu vos lumières! Ils courent droit sur votre position.
+Objet=Trousse médical
+A=Détection d'objets réussie.
+B=Parcoure 'Path Finder' réussie.
+C=Recadrage de votre zone d'éclairsisement réussie.
+D=Recadrage de votre zone d'obscursisement réussie. La nuit devien encore plus noir autour de vous et vous disparaissez dans l'ombre.:Etape=Down-under
+E=Flash aveuglent réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Détection Objet, B) Path Finder, C) Éclairsisement, D) Obscursisement, E) Neutralisés ]
+Score=0
+vrai=Score+1;Etape-Down-under
+faux=Vous deviez continué en activent la zone d'obscursisement. Correction en coure...Done.:L'IA s'en est chargé pour vous, elle a déduit l'urgence de vous protégé et la meilleur chance était de vous câchez dans l'ombre.
+element=Down-under
+liste=Etape
+SI=COND
+A=Détection d'objets réussie.
+B=Parcoure 'Path Finder' réussie.
+C=Recadrage de votre zone d'éclairsisement réussie.
+D=Recadrage de votre zone d'obscursisement réussie.
+E=Flash aveuglent réussie. La zone entière c'est illuminé comme si la foudre était tombé a vos pieds! Heureusement vos yeux était fermé mais tout les ennemies ont perdus leurs visions nocturne ou sont aveuglés.:Etape=Morsure du Soleil
+> Quelle stratégie vous adopterez ici ?
+[A) Détection Objet, B) Path Finder, C) Éclairsisement, D) Obscursisement, E) Neutralisés ]
+Score=0
+vrai=Score+1;Etape-Morsure du Soleil
+faux=Vous deviez finir par déclanché le 'Flash aveuglent'. Correction en coure...Flash!:L'IA s'en est chargé pour vous, elle a innondé de lumière une fraction de seconde tout autour de vous, se qui a eux pour effet de créer la cécitée temporère.
+element=Morsure du Soleil
+liste=Etape
+SI=COND
+vrai=Trophe=Chasser de trésore 
+faux=Trophe=Training Geocatch 
+element=14
+liste=Score
+SI=VAR
+score=0
+vrai=
+faux=
+Parcontre, maintenant que vous avez échappé aux forces de l'OSP
+Status=Soif
+Status=Faim
+Status=Niveau de batterie faible
+Status=Ampoules aux pieds
+Status=Fatigue
+Vous avez fait une longue route et prenez quelque minutes pour vous reposez. Prenez le temps de vous familiarisez avec les objets que vous avez récupéré.
+Vrai=A=L'eau étanche votre voif et vous rafréchie.:Status-Soif:Objet-Bouteille d'eau
+element=Bouteille d'eau
+Liste=Objet
+SI=COND
+vrai=B=La barre protéinné réduit votre faim.:Status-Faim:Objet-Barre Protéinné
+element=Barre Protéinné
+Liste=Objet
+SI=COND
+vrai=C=Les piles électriques sont changé dans l'application:Status-Niveau de batterie faible:Objet-Piles électrique
+element=Piles électrique
+Liste=Objet
+SI=COND
+vrai=D=La trousse médical cointien une éguille stéril et des pensements désinfectant.:Status-Ampoules aux pieds:Objet-Trousse médical matériel médical.
+element=Trousse médical
+Liste=Objet
+SI=COND
+E=Vous prenez une pause bien mérité assis dans l'herbe.:Status-Fatigue
+> Que faite-vous ?
+[A) Bouteille d'eau, B) Barre Protéinné, C) Piles électrique, D) Trousse médical, E) Vous reposez ]
+Vrai=A=L'eau étanche votre voif et vous rafréchie.:Status-Soif:Objet-Bouteille d'eau
+element=Bouteille d'eau
+Liste=Objet
+SI=COND
+vrai=B=La barre protéinné réduit votre faim.:Status-Faim:Objet-Barre Protéinné
+element=Barre Protéinné
+Liste=Objet
+SI=COND
+vrai=C=Les piles électriques sont changé dans l'application:Status-Niveau de batterie faible:Objet-Piles électrique
+element=Piles électrique
+Liste=Objet
+SI=COND
+vrai=D=La trousse médical cointien une éguille stéril et des pensements désinfectant.:Status-Ampoules aux pieds:Objet-Trousse médical
+element=Trousse médical
+Liste=Objet
+SI=COND
+E=Vous prenez une pause bien mérité assis dans l'herbe.:Status-Fatigue
+> Que faite-vous ?
+[A) Bouteille d'eau, B) Barre Protéinné, C) Piles électrique, D) Trousse médical, E) Vous reposez ]
+Vrai=A=L'eau étanche votre voif et vous rafréchie.:Status-Soif:Objet-Bouteille d'eau
+element=Bouteille d'eau
+Liste=Objet
+SI=COND
+vrai=B=La barre protéinné réduit votre faim.:Status-Faim:Objet-Barre Protéinné
+element=Barre Protéinné
+Liste=Objet
+SI=COND
+vrai=C=Les piles électriques sont changé dans l'application:Status-Niveau de batterie faible:Objet-Piles électrique
+element=Piles électrique
+Liste=Objet
+SI=COND
+vrai=D=La trousse médical cointien une éguille stéril et des pensements désinfectant.:Status-Ampoules aux pieds:Objet-Trousse médical
+element=Trousse médical
+Liste=Objet
+SI=COND
+E=Vous prenez une pause bien mérité assis dans l'herbe.:Status-Fatigue
+> Que faite-vous ?
+[A) Bouteille d'eau, B) Barre Protéinné, C) Piles électrique, D) Trousse médical, E) Vous reposez ]
+Vrai=A=L'eau étanche votre voif et vous rafréchie.:Status-Soif:Objet-Bouteille d'eau
+element=Bouteille d'eau
+Liste=Objet
+SI=COND
+vrai=B=La barre protéinné réduit votre faim.:Status-Faim:Objet-Barre Protéinné
+element=Barre Protéinné
+Liste=Objet
+SI=COND
+vrai=C=Les piles électriques sont changé dans l'application:Status-Niveau de batterie faible:Objet-Piles électrique
+element=Piles électrique
+Liste=Objet
+SI=COND
+vrai=D=La trousse médical cointien une éguille stéril et des pensements désinfectant.:Status-Ampoules aux pieds:Objet-Trousse médical
+element=Trousse médical
+Liste=Objet
+SI=COND
+E=Vous prenez une pause bien mérité assis dans l'herbe.:Status-Fatigue
+> Que faite-vous ?
+[A) Bouteille d'eau, B) Barre Protéinné, C) Piles électrique, D) Trousse médical, E) Vous reposez ]
+Vrai=A=L'eau étanche votre voif et vous rafréchie.:Status-Soif:Objet-Bouteille d'eau
+element=Bouteille d'eau
+Liste=Objet
+SI=COND
+vrai=B=La barre protéinné réduit votre faim.:Status-Faim:Objet-Barre Protéinné
+element=Barre Protéinné
+Liste=Objet
+SI=COND
+vrai=C=Les piles électriques sont changé dans l'application:Status-Niveau de batterie faible:Objet-Piles électrique
+element=Piles électrique
+Liste=Objet
+SI=COND
+vrai=D=La trousse médical cointien une éguille stéril et des pensements désinfectant.:Status-Ampoules aux pieds:Objet-Trousse médical
+element=Trousse médical
+Liste=Objet
+SI=COND
+E=Vous prenez une pause bien mérité assis dans l'herbe.:Status-Fatigue
+> Que faite-vous ?
+[A) Bouteille d'eau, B) Barre Protéinné, C) Piles électrique, D) Trousse médical, E) Vous reposez ]
+Dernière Étape. Vous arrivez devant une base de l'OSP, plusieurs patrouille surveille les camps. C'est là qu'ils cache le matériel classifié. Ils vous faut entré sans être reconnu. A vous de jouer.
+A=Détection d'objets réussie. Il y a bien ce que vous êtes venu chercher dans le petit batiment au fond, autour de celui-ci plusieurs gardes armé, pas de système de détection apparent ni de piège.
+B=Éclairsisement réussie. Erreur! L'ennemie vous vois entré, la lumière a attiré leurs attentions sur vous. Ils procèdent a votre arrestation immédiat:(gameover):(pause):(quit)
+C=Obscursisement réussie. Erreur! L'ennemie vous vois entré, la noirceure a attiré leurs attentions sur vous. Ils procèdent a votre arrestation immédiat:(gameover):(pause):(quit)
+> Comment vous y prendrez-vous ?
+[A) Détections, B) Entrer avec Éclairsisement, C) Entrer avec Obscursisement ]
+Vous pourriez créer une diversion, quelque fois déclanché l'alerte est une façon efficase d'entré.
+A=Vous activez des zones d'obscursisement aléatoire sur toutes les cibles ennemie. D'abord, ils ralentissent pour comprendre se qui leurs arrivent, puis ils avancent en aveugle ce heurtant les uns les autre ou immerge d'une zone noir pour êttre confondus avec l'ennemie. C'est la confusions général!
+B=Des flashs stroboscopes arrivent du ciel, vous avez heureusement pris soin de protégé votre vue avant. Les soldats sont aveuglé temporèrement et pris de pannique ne sachant pas ou ils vont. C'est la confusions général!
+C=Vous activé le tutoriel holographique d'entrainement de combat et des ennemies virtuelle apparaissent de partout. Surpris, les vrai soldats se croillent pris en embuscade et tire dans tout les directions, ils gaspillent leurs munitions et cours dans tout les senses pour comprendre se qui se passe!
+D=Illusions réussie. Vous faite entré un hologramme de votre personne que vous avez enregistré plus tôt. L'ennemie la vois arrivé, ce qui attiré l'attentions loins de vous. Ils procèdent a son arrestation immédiat, mais se rendent compte du supterfuge! L'alerte est donné!
+> Comment allez-vous faire ?
+[A) Ombres, B) Flashs, C) Leures, D) Appat ] 
+La panique régne loin à l'exterrieur de la zone, vous allez être tranquil quelque minutes, il n'y a plus d'ennemie dans la base.
+Félicitation pour votre débrouillardise et pour être resté stratégique dans votre inflitration. Vous avez sus utilisé vos connaissances tactique pour vous débarassé des gardes armés. Vous restez câché dans l'ombre et entré dans le camps. Dans une des salles du cartier maître, qui contien du matériel couture des imprimente 3D fait pour le textil. Vous découvrez un costume blanc d'un model très hergonomique, on dirait un des ces tissus écran fait de nano molécule insalissable et qui s'autoallimente. Il contien des puces électronique a traver les coutures, une cagoule blanche conçue pour emplifié vos senses et un cole à conduction osseuse que juste vous peux entendre sans gèné votre audition.
+(pause)
+Trophe=Agent White
+(TROPHE)
+Fin de l'entrainement.
+A=LV=1:Etape=1:sourcefile=MissionUp
+B=
+C=
+D=
+E=
+vrai=
+faux=
+element=
+Liste=
+> Appuyer sur A pour continué.
+[A) Continué ]

@@ -1,0 +1,311 @@
+/DEA OU LED
+Mission 10.
+Rapport Météo, Matin Brumeux 14 degré Celsius, ciel variable et forte humidité.
+Rapport Situation, Vous entrez dans une zone contrôlé par OSP, le GPS vous a conduit jusqu'ici pour que vous récupériez du matériel classifié. L'image satellite vient de détecter une petite piste atterrissage et un héliport à proximité. Ca ne devrait pas être trop difficile pour vous à ce stade. Vous êtes maintenant en mission officiel. Utilisez le Drone autant que vous le pouvez et s'il est détruit par l'ennemie, ne vous en fait pas, retrouvé le il est réparable. L'objectif, se familiarisé avec le Drone pour reconnaitre le terrain par mauvais temps ou dans des bâtiments, à l'intérieur de tunnel et sous la canopée, là où le Satellite ne passe pas.
+A=Vous Commencé l'entrainement en situation réel.
+>  Commencé l'infiltration à distance ?
+[A) Commencer. ]
+Le Drone pourra bouger de façon automatique si vous le laissez aller. Il peut vous suivre n'importe où avec son module pathfinder. Sa fonction est de filmé à vol d'oiseau en grand angle et vous fournir des informations sur la position ennemie sans être repéré. Il enregistre le son a distance et les communications radio de l'ennemie.
+(pause)
+/lancer un Drone
+Si il fait beau, une stratégie espionnage consiste à envoyer le Drone en reconnaissance et de le caché d'illusion à la fois. Il se peut qu'un ennemi détecte le Drone et le détruis, à ce moment vous devez y aller discrètement et le réparable.
+1. Reconnaissance.75%
+2. Scanner........100%
+3. Enregistrer....50%
+4. Retour.........75%
+5. Recharge......100%
+A=Vous lancer le Drone en exploration devant vous. A partir de la dernière image satellite il est envoyé patrouillé des secteurs où des changements apparaissent dans l'environnement. Un sentier fraichement piétiné, un mégot de cigarette, une tente camouflé dressée au milieu de nul pare, des choses  technologique aux pieds des arbres, tout ce qui aurait pu échapper à la caméra. Il en trouve beaucoup dans la forêt. :Etape=Reconnaissance
+B=Scan réussie.
+C=Enregistrement réussie.
+D=Retour réussie.
+E=Rechargement réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Scan, C) Enregistrer, D) Retour, E) Recharge. ]
+Score=0
+vrai=Score+1;Etape-Reconnaissance
+faux=Vous deviez lancer le Drone en reconnaissance. Correction en coure...Done. : L’IA s'en est chargée pour vous, à partir de la dernière image satellite elle l'a envoyé patrouillé des secteurs où des changements apparaissent dans l'environnement.
+element=Reconnaissance
+liste=Etape
+SI=COND
+A=Reconnaissance réussie.
+B=Le Drone s'immobilise a une cinquantaine de pied du sol a la bordure du champ des détecteurs et reste en silence. Ces capteurs scrutent 1km carré autour de lui plus précisément que ce que le satellite aurait fait par cette météo. Le Drone cherche le mouvement et cartographie les sources de stimuli sensorielle et vous retourne les informations. :Etape=Scan
+C=Enregistrement réussie.
+D=Retour réussie.
+E=Rechargement réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Scanner, C) Enregistrer, D) Retour, E) Recharge. ]
+vrai=Score+1;Etape-Scan
+faux=Vous deviez lui demander de scanner le secteur pour détecter du danger. Correction en coure...Done. : L’IA s'en est chargé pour vous, par reflex le Drone cherche le mouvement et cartographie les sources de stimuli sensorielle.
+element=Scan
+liste=Etape
+SI=COND
+A=Reconnaissance réussie.
+B=Scan réussie.
+C=Le Drone a fini de repéré les positions ennemie en se basant sur les sons dans le secteur il a enregistré tout ce qui sortait de l'ordinaire, communication radio y compris, et a réussie a en filmé la source. Vous avez leurs coordonnés ainsi qu'un échantillon de leurs voix. :Etape=Enregistrer
+D=Retour réussie.
+E=Rechargement réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Scan, C) Enregistrer, D) Retour, E) Recharge. ]
+vrai=Score+1;Etape-Enregistrer
+faux=Vous deviez cherchez des indices et enregistré des donnés dans le secteur. Correction en coure...Done. :L'IA s'en est chargé pour vous, en se basant sur les sons dans le secteur il a enregistré tout ce qui sortait de l'ordinaire et d'en filmé la source.
+element=Enregistrer
+liste=Etape
+SI=COND
+A=Reconnaissance réussie.
+B=Scan réussie.
+C=Enregistrement réussie.
+D=Vous avez tout ce qu'il vous faut pour débuter l'infiltration, il ne vous reste qu'a rappelé le Drone en lui donnant l'ordre de se caché en revenant à son point de départ. :Etape=Retour
+E=Rechargement réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Scan, C) Enregistrer, D) Retour, E) Recharge. ]
+vrai=Score+1;Etape-Retour
+faux=Vous deviez lancer l'ordre de retour au Drone pour le mettre en sécurité. Correction en coure...Done. :L'IA s'en est chargé pour vous, en lui donnant l'ordre de s'élevé et revenir à son point de départ.
+element=Retour
+liste=Etape
+SI=COND
+A=Reconnaissance réussie.
+B=Scaner réussie.
+C=Enregistrement réussie.
+D=Retour réussie.
+E=Le Drone a besoin d'une nouvelle charge électrique. Vous lui demandant de déployer ses plaques solaires et tombé en économie d'énergie pour un bout de temps. :Etape=Recharge
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Scan, C) Enregistrer, D) Retour, E) Recharge. ]
+vrai=Score+1;Etape-Recharge
+faux=Vous deviez lui donner une nouvelle charge électrique. Correction en coure...Done. :L'IA s'en est chargé pour vous, en lui demandant de déployer ses plaques solaires.
+element=Recharge
+liste=Etape
+SI=COND
+vrai=Trophe=Voir sans être Vu 
+faux=Trophe=Gestion de risque 
+element=5
+liste=Score
+SI=VAR
+score=0
+(pause)
+Le Drone revient se mettre à l'abri pour recharger, mais un coup de feu retendit. Il a été touché par un fusil de précision et tombe a mis chemin dans la plaine. Il est à l'abri pour l'instant mais vous devriez aller le récupéré pour réparer.
+A=Le terrain est semi-vallonné beaucoup avec de bosquets pour se caché. Vous avancez lentement et en fait le tour plusieurs fois pour trouver un angle mort. [Chance 75%]
+B=Le terrain est semi-vallonné beaucoup avec de bosquets pour se caché. Vous avancez en zig-zig et prenez tous les couverts possibles sans vous faire voire. [Chance 50%]
+C=Le terrain est semi-vallonné beaucoup avec de bosquets pour se caché. Vous avancez en courant dans le bus d'être visible le moins longtemps possible et peut-être prendre l'ennemie par surprise. [Chance 25%] 
+D=La carte dessiné par le Drone est plaine d'endroit à vérifier. Des objets qui ne cadre pas dans l'environnement, mais après examen rien de bien utile pour vous. Plusieurs bouteilles de plastique vide, deux ou trois canette et quelques cartouches de cigarette Vap, vous aurez au moins nettoyé le secteur.
+E=Il fait trop nuageux pour être invisible à l'aide de StealthRay1 et vous ne disposez pas d'autre source de projection pour l'instant. Vous allez donc retournez votre costume côté noir et bougé lentement pour rester le plus discrètement possible. [Chance 75%]
+> Quelle stratégie vous adopterez ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) Discrétion ]
+A peine vous avez posez le pied dans le périmètre qu'une balle de sniper éclate près de vous. Il vous à raté de peu et vous voyez le pointer laser danser autour de vous. Votre application vibre 3 coups dans votre poche signe de danger détecté. Vous plongez a couvert et consulté l'écran, il y a les coordonnées du tirer et le nombre de coup de feu qu'il a tiré (2). Ce sont les détails complet que vous a retransmit le Drone avant de tombé, type d'arme Long-range Famas, distance 1450m, load 3/5. Vous ne devez plus bougé de peur de subir le même sort ou trouver un moyen de passer inaperçu jusqu'à son point d'observation. Difficulté supplémentaire, des hommes converge maintenant vers votre position guidée par le sniper. Heureusement que vous êtes armez, vous devriez vérifier votre arme avant qu'ils n'approchent.
+Commencé par vérifier votre arme. (Éjecté, Munition, Recharger, Armé, Cran)
+A=Etape=Éjecté
+B=Vous ajoutez des munitions dans le charger.
+C=Vous replacez le charger.
+D=Vous armé la culasse.
+E=Vous enlevez le cran de sureté.
+> A quelle étape vous devriez être ?
+[C) Recharger, A) Éjecté, B) Munition, D) Armé, E) Cran. ]
+Score=0
+vrai=Score+1
+faux=Un ennemie arrive et se caché derrière une bute de terre. Vous appuyez sur la détente et Clic! Entreillage! Vous n'aviez plus de balle dans le charger. Il profite de l'occasion et vous tire dans le bras et se caché derrière un arbre! Vous êtes grièvement blessé.
+element=Éjecté
+liste=Etape
+SI=COND
+vrai=Vous éjectez le charger de l'arme et constaté qu'il est bien vide. Juste au moment ou un ennemie arrivait et vous n'avez d'autre choix que d'interrompre ce que vous faite pour mieux vous cachez.
+element=Éjecté
+liste=Etape
+SI=COND
+A=Vous éjectez le charger.
+B=Etape=Munition
+C=Vous replacez le charger.
+D=Vous armé la culasse.
+E=Vous enlevez le cran de sureté.
+> A quelle étape vous devriez être ?
+[A) Éjecté, D) Armé, B) Munition, C) Recharger, E) Cran. ]
+vrai=Score+1
+faux=Un ennemie arrive et se caché derrière un sapin. Vous appuyez sur la détente et Clic! Entreillage! Vous n'aviez pas mis de balle dans le charger. Il profite de l'occasion pour vous tire dans l'avant-bras et se cache derrière un autre conifère! Vous êtes grièvement blessé.
+element=Munition
+liste=Etape
+SI=COND
+vrai=Vous restez bien cachez et fouillé votre poche pour trouver les quelques munition qu'il vous reste. Vous en trouvez 5 en tout et vous les introduisez une à une dans le charger.
+element=Munition
+liste=Etape
+SI=COND
+A=Vous éjectez le charger.
+B=Vous ajoutez des munitions.
+C=Etape=Recharger
+D=Vous armé la culasse.
+E=Vous enlevez le cran de sureté.
+> A quelle étape vous devriez être ?
+[A) Éjecté, B) Munition, E) Cran, C) Recharger, D) Armé. ]
+vrai=Score+1
+faux=Un ennemie arrive et se caché derrière un bosquet. Vous appuyez sur la détente et Clic! Entreillage! Vous aviez oublié de mettre le charger. Il en profite de l'occasion pour vous tire dans la cuisse et se caché derrière un rocher! Vous êtes blessé.
+element=Recharger
+liste=Etape
+SI=COND
+vrai=Vous devez changer de cachette rapidement avant qu'un ennemie ne vous trouve là. Tout en restant discret, vous arrivez à inséré le charger plein dans le logement de l'arme.
+element=Recharger
+liste=Etape
+SI=COND
+A=Vous éjectez le charger.
+B=Vous ajoutez des munitions.
+C=Vous replacez le charger.
+D=Etape=Armé
+E=Vous enlevez le cran de sureté.
+> A quelle étape vous devriez être ?
+[B) Munition, D) Armé, C) Recharger, E) Cran, A) Éjecté. ]
+vrai=Score+1
+faux=Un ennemie arrive et se caché derrière une souche. Vous appuyez sur la détente et Clic! Entreillage! Vous aviez oublié d'armé la culasse. Il en profite de l'occasion pour vous tire dans l'épaule et se caché derrière un peuplier! Vous êtes très blessé.
+element=Armé
+liste=Etape
+SI=COND
+vrai=Vous n'oubliez pas de tirer sur la culasse pour armé la première balle, et appuyer sur l'arrêtoir de culasse pour que tout soit bien armé. Une fusillade éclate dans le corridor, plusieurs ennemie sont entré et tirent dans votre direction. Heureusement le terrain où vous vous êtes réfugié vous protège complètement.
+element=Armé
+liste=Etape
+SI=COND
+A=Vous éjectez le charger.
+B=Vous ajoutez des munitions.
+C=Vous replacez le charger.
+D=Vous armez la culasse.
+E=Etape=Cran
+> A quelle étape vous devriez être ?
+[E) Cran, A) Éjecté, D) Armé, B) Munition, C) Recharger. ]
+vrai=Score+1
+faux=Vous poussez sur le bouton du cran de sécurité qui c'était réenclenché automatiquement entre chaque rechargement. Maintenant tout est prêt pour le combat.
+element=Cran
+liste=Etape
+SI=COND
+vrai=Etape-Éjecté
+element=Éjecté
+liste=Etape
+SI=COND
+vrai=Etape-Munition
+element=Munition
+liste=Etape
+SI=COND
+vrai=Etape-Recharger
+element=Recharger
+liste=Etape
+SI=COND
+vrai=Etape-Armé
+element=Armé
+liste=Etape
+SI=COND
+vrai=Etape-Cran
+element=Cran
+liste=Etape
+SI=COND
+(Score)
+vrai=Trophe=Expert au fusil-d ’assaut
+faux=Trophe=Débutant au fusil-d ‘assaut
+element=10
+liste=Score
+SI=VAR
+Vous êtes fin prêt à les attaqués un par un. Attention le satellite ne peux vous aider et le Drone est hors service, vous devrez faire preuve de célérité et touché pour tuer.
+A=Vous épaulez l'arme visé et tiré à vue. :Etape=1
+B=Vous épaulez l'arme visé et tiré à vue.
+C=Vous épaulez l'arme visé et tiré à vue.
+D=Vous épaulez l'arme visé et tiré à vue.
+E=Vous épaulez l'arme visé et tiré à vue.
+> A quelle étape vous devriez être ?
+[A) Bute de terre, B) Sapin, C) Bosquet, D) Souche, E) sniper. ]
+Score=0
+vrai=Score+1
+faux=Les coups parte mais rien n'est touché. Fait sureté! Vous éjectez le charger de l'arme et constaté qu'il est bien au 3/4 plain. Juste au moment ou un ennemi arrivait et vous n'avez d'autre choix que d'interrompre ce que vous faite pour vous cacher.
+element=1
+liste=Etape
+SI=COND
+vrai=Un ennemie arrive et se caché derrière une bute de terre. Vous appuyez sur la détente et Boom! Vous le toucher dans le gilet par balle, il perte le souffle et s'écroule pour quelque assaut vous pourrez vous concentré sur d'autre cible.
+element=1
+liste=Etape
+SI=COND
+A=Vous changez de cible intuitivement.
+B=Vous changez de cible intuitivement. :Etape=2
+C=Vous changez de cible intuitivement.
+D=Vous changez de cible intuitivement.
+E=Vous changez de cible intuitivement.
+> A quelle étape vous devriez être ?
+[A) Derrière l'arbre, B) Derrière le Conifère, C) Rocher, D) Peuplier, E) sniper. ]
+vrai=Score+1
+faux=Vous restez bien cachez et fouillé votre poche pour trouver les quelques munition qu'il vous reste. Vous trouvez un deuxième charger que vous prenez le soin de scotcher au bas du premier pour être a porté de main rapidement.
+element=2
+liste=Etape
+SI=COND
+vrai=Un ennemie arrive et se caché derrière un sapin. Vous appuyez sur la détente et Boom! Boom! Vous aviez sélectionné le mode double détonation. Il tente de prendre couvert derrière son conifère mais le double impacte fini par traverser le mince tronc. Il ne s'attendait pas à ça et roule par terre, mais se coup n'était pas mortel.
+element=2
+liste=Etape
+SI=COND
+A=Vous regardez tout autour de vous et tiré sur ce qui bouge.
+B=Vous regardez tout autour de vous et tiré sur ce qui bouge.
+C=Vous regardez tout autour de vous et tiré sur ce qui bouge. :Etape=3
+D=Vous regardez tout autour de vous et tiré sur ce qui bouge.
+E=Vous regardez tout autour de vous et tiré sur ce qui bouge.
+> A quelle étape vous devriez être ?
+[A) Bute de terre, B) Sapin, C) Bosquet, D) Souche, E) sniper. ]
+vrai=Score+1
+faux=Un ennemie arrive et se caché derrière un bosquet. Vous appuyez sur la détente et Clic! Entreillage! Vous aviez une douille restée coincé dans la chambre. Il en profite de l'occasion pour vous tire dans la cuisse et se caché derrière un rocher! Vous avez une vilaine éraflure qui saigne abondamment.
+element=3
+liste=Etape
+SI=COND
+vrai=Un ennemie arrive et se caché derrière le bosquet. Vous appuyez sur la détente et Boom! Boom! Boom! Vous aviez sélectionné le mode triple détonation. Il tente de prendre couvert derrière son rocher mais le triple impacte fracasse la pierre et les éclats lui fouettent le visage. Il ne s'attendait pas à ça et roule par terre, mais se coup n'était pas mortel.
+element=3
+liste=Etape
+SI=COND
+A=L'arme s'est entreillé sur la dernière balle. Vous devez jeter une partie de vos munitions par une série de déchargement et de rechargement pour la décoincé. 
+B=L'arme s'est entreillé sur la dernière balle. Vous devez jeter une partie de vos munitions par une série de déchargement et de rechargement pour la décoincé.
+C=L'arme s'est entreillé sur la dernière balle. Vous devez jeter une partie de vos munitions par une série de déchargement et de rechargement pour la décoincé.
+D=L'arme s'est entreillé sur la dernière balle. Vous devez jeter une partie de vos munitions par une série de déchargement et de rechargement pour la décoincé. :Etape=4
+E=L'arme s'est entreillé sur la dernière balle. Vous devez jeter une partie de vos munitions par une série de déchargement et de rechargement pour la décoincé.
+> A quelle étape vous devriez être ?
+[A) Derrière l'arbre, B) Derrière le Conifère, C) Rocher, D) Peuplier, E) sniper. ]
+vrai=Score+1
+faux=Un ennemie arrive et se caché derrière un vieux peuplier. Vous appuyez sur la détente et le blessé grièvement. Il tire au hasard et se caché derrière un peuplier! Vous êtes très nerveux à présent.
+element=4
+liste=Etape
+SI=COND
+vrai=Une fusillade éclate dans le sentier, plusieurs ennemie sont arrivé et tirent dans votre direction. Heureusement le terrain où vous vous êtes réfugié vous protège presque complétement et beaucoup rate leurs cibles. Vous êtes très chanceux et leurs faible réussit vous donne l'occasion d'agir alors qu’il recharge.
+element=4
+liste=Etape
+SI=COND
+A=Vibration! 'Deux coups de feu supplémentaires en provenance de la position du sniper, load 1/5'.
+B=Vibration! 'Deux coups de feu supplémentaires en provenance de la position du sniper, load 1/5'.
+C=Vibration! 'Deux coups de feu supplémentaires en provenance de la position du sniper, load 1/5'.
+D=Vibration! 'Deux coups de feu supplémentaires en provenance de la position du sniper, load 1/5'.
+E=Vibration! 'Deux coup de feu supplémentaire en provenance de la position du sniper, load 1/5'.:Etape=5
+> A quelle étape vous devriez être ?
+[A) Bute de terre, B) Sapin, C) Bosquet, D) Souche, E) sniper. ]
+vrai=Score+1
+faux=Une fusillade éclate dans le sentier, plusieurs ennemie sont arrivé dans cette direction et tirent vers la vôtre. Heureusement le terrain où vous vous êtes réfugié vous protège presque complétement et beaucoup rate leurs cibles. Vous êtes très chanceux et leurs faible réussit vous donne l'occasion d'agir alors qu’ils rechargent. Vous engagé le mode automatique et vidé ce qu'il vous reste de munition. Par une chance inouïe votre attaque a parfaitement fonctionné vous êtes sauf.
+element=5
+liste=Etape
+SI=COND
+vrai=Vous retirez et inversé le sensé du charger pour lotir 30 nouvelle balle qui était scotcher face vers le bas a même votre charger. Poussez d'arrière en avant le bouton OTF de culasse pour armé plus vite, et vous enclenchez le mode empty magazine. Vous abattez en quelque secondes tous les cibles a demi cacher et non sans distinction, même les arbres s'écroulent après une tel rafale accélérer.
+element=5
+liste=Etape
+SI=COND
+Vous avez réussie à illimité tous les gardes avant d'épuisé vos munitions, il ne reste que le sniper.
+En fouillant les gardes tombés près de votre cachette vous récupérez plusieurs choses utiles.
+Objet=Munitions AK74
+Objet=Trousse de Soin
+Objet=Micro-Robots Réparation
+Metrep. 'Le ciel est découvert et la brume c'est dispersé. Vous avez à nouveau la couverture satellite.'
+A=StealthRay1 vous a localiser et rendus invisible. Vous ne trouvez aucune trace du nid de sniper, il c'est surement enfuit après la mort du dernier homme. Il n'y a rien d'autre de bien utile sur eux. Vous en profitez pour vous soigner et réparer le Drone avec la trousse de micro-robot à usage unique. [Chance 100%]
+B=StealthRay1 vous a localiser et rendus invisible. Vous ne trouvez aucune trace du nid de sniper, il c'est surement enfuit après la mort du dernier homme. Il n'y a rien d'autre de bien utile sur eux. Vous en profitez pour vous soigner et réparer le Drone avec la trousse de micro-robot à usage unique. [Chance 75%]
+C=StealthRay1 vous a localiser et rendus invisible. Vous ne trouvez aucune trace du nid de sniper, il c'est surement enfuit après la mort du dernier homme. [Chance 25%]
+D=StealthRay1 vous a localiser et rendus invisible. Il n'y a rien d'autre de bien utile sur les autres gardes. Vous en profitez pour vous soigner et réparer le Drone avec la trousse de micro-robot à usage unique. [Chance 75%]
+E=StealthRay1 vous a localiser et rendus invisible. Vous ne trouvez aucune trace du nid de sniper. Vous en profitez pour vous soigner et réparer le Drone avec la trousse de micro-robot à usage unique. [Chance 50%]
+> Quelle stratégie vous adopterez ici ?
+[A) Reco discrète, B) Ramassé tout, C) Débusqué Sniper, D) Réparé Drone, E) Invisibilité. ]
+Objet-Trousse de Soin
+Objet-Micro-Robots Réparation
+(pause)
+Le clame est revenu et il n'y a plus d'ennemie dans la zone. Toutes les images satellite le confirment et le Drone n'a rien trouvé au scan.
+Pour votre débrouillardise et pour être resté stratégique dans votre infiltration a distance. Vous avez sus utilisé le transport furtif et vos connaissances tactiques pour vous débarrassé des gardes armés. A votre retour dans le présent la brêche se referme aussitôt derrière vous et l'avion vous conduit jusqu'a une base innocupé de l'OSP. Dans ce qu'il reste du centre de recherche au fond de vous trouvez du matériel de développement médical DEA et un net de camouflage LED en bonne état. Malheureusement vous ne pouvez en prendre qu'un seul des deux, car le contener est piégé avec un arcaique 'système de téléportation du choix B'. Un classique, bref l'autre disparaitera quelque part ailleur et servira d'autre causes belliqueuse.
+Trophe=Sauvetage de l'aviatrice Amélia Heartart
+(TROPHE)
+Etape=Sauvetage
+A=LV=10;Etape=10;sourcefile=missionUp; 
+B=
+C=
+D=
+E=
+vrai=
+faux=
+element=
+Liste=
+> Appuyer sur A pour Retour.
+[A) Continué. ]

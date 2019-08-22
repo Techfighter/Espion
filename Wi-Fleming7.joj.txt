@@ -1,0 +1,241 @@
+/BR OU PA
+/Arrêté Le Weather Control device
+Mission 7.
+Rapport Météo: Matin Ensoleillé 17 degré Celsius, ciel variable et humidité moyen.
+Rapport Situation: Vous entrez dans l'espace aérien d'une zone contrôlé par l'OSP, le GPS vous a conduit jusqu'ici pour que vous récupériez un conteneur classifié. L'image satellite vient de détecter une grande zone dégagé en béton avec des séries d'entainne très concentré avec et un centre de recherche dans la proximité. Ça ne vous posera pas de problème avec votre nouveau moyen de transport.
+Vous êtes maintenant en mission officiel. Utilisez l'Avion autant que vous le pouvez et s'il est détruit par l'ennemie, ne vous en fait pas, retrouvé le il est réparable.
+Objectif, Se familiarisé avec l'Avion Furtif pour reconnaitre le terrain en tout temps ou sur de grande distance.
+A=Vous Commencé l'entrainement en situation réel.
+>  Commencé l'infiltration à distance ?
+[A) Commencer. ]
+L'avion et le Drone pourront bouger de façon automatique si vous le laissez aller. Il peut vous suivre de n'importe où avec son module pathfinder. Sa fonction est de filmé à vol d’oiseau en grand angle et vous fournir des informations sur la position ennemie sans être repéré. Il enregistre le son à distance et les communications radio de l'ennemie.
+(pause)
+Une Stratégie consiste à survolé le terrain et envoyé le Drone en reconnaissance en les cachent d'illusion les deux à la fois. Il se peut qu'un  
+ennemi détecte l'avion ou le Drone et les détruisent, à ce moment vous devez y aller discrètement les retrouvé et les réparer.
+1. Demander au Satellite de caché votre présence......34%
+2. Tourné autour de la position à bonne limite........75%
+3. Scanner pour découvrir les positions ennemies........50%
+4. Lancer le Drone en plein vol pour espionner de près.75%
+5. Se parachuter dans une zone claire d'ennemie.......50%
+A=Vous demander au Satellite de caché votre présence visuellement. Camouflage réussie. :Etape=camo6
+B=Survole circulaire réussie.
+C=Scan de la zone réussie.
+D=Lancement du Drone réussie.
+E=Parachutage réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Camouflage, B) Survole, C) Scan, D) Drone, E) Parachuter. ]
+Score=0
+vrai=Score+1;Etape-camo6
+faux=Vous deviez demander au Satellite de caché visuellement votre présence. Correction en coure...Done. : L’IA s'en est chargée pour vous, en demandant un camouflage optiquement. Vous êtes maintenant furtif a 100% radar et invisible a 50% visuelle.
+element=camo7
+liste=Etape
+SI=COND
+A=camouflage réussie.
+B=Survole circulaire réussie. L'avion fonctionne maintenant sans pilot. :Etape=Survol6
+C=Scan de la zone réussie.
+D=Lancement du Drone réussie.
+E=Parachutage réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Camouflage, B) Survole, C) Scan, D) Drone, E) Parachuter. ]
+vrai=Score+1;Etape-Survol7
+faux=Vous deviez demander un survol à l'extérieur de la zone ennemie. Correction en coure...Done. :L'IA s'en est chargé pour vous, en demandent un Survole circulaire du périmètre ennemie.
+element=Survol7
+liste=Etape
+SI=COND
+A=camouflage réussie.
+B=Survole circulaire réussie.
+C=Scan de la zone réussie. Ça grouille de drone ennemi équiper de mini-gun, ils sont vraiment paranoïaque par ici. L’OSP doit garder un secret important sur ce site. :Etape=Scane7
+D=Lancement du Drone réussie.
+E=Parachutage réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Camouflage, B) Survole, C) Scan, D) Drone, E) Parachuter. ]
+vrai=Score+1;Etape-Scane7
+faux=Vous deviez scan la zone pour trouver la position d'ennemie. Correction en coure...Done. : L’IA s'en est chargé pour vous, et durant le scan il détecte beaucoup robots. Ça grouille de drone ennemi équiper de mini-gun, ils sont vraiment paranoïaque par ici. L’OSP doit garder un secret important sur ce site.
+element=Scane7
+liste=Etape
+SI=COND
+A=camouflage réussie.
+B=Survole circulaire réussie.
+C=Scan de la zone réussie.
+D=Lancement du Drone réussie. Le bras robot le glisse par la soute et il tombe en chute libre avant d'allumé ces moteur pour se positionné a 20 pied du sol. Il patrouille dans la zone devant vous. Le satellite s'occupe de le camouflé individuellement depuis l'espace de la même façon que votre costume. :Etape=drone7
+E=Parachutage réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Camouflage, B) Survole, C) Scan, D) Drone, E) Parachuter. ]
+vrai=Score+1;Etape-drone7
+faux=Vous deviez lancer le Drone ensuite pour être vos yeux et vos oreille en bas. Correction en coure...Done. : L'IA s'en est chargé pour vous, le bras robot le glisse par la soute et il tombe en chute libre avant d'allumé ces moteur pour se positionné a 20 pied du sol. Il patrouille dans la zone devant vous caché à 50% par le satellite.
+element=drone7
+liste=Etape
+SI=COND
+A=camouflage réussie.
+B=Survole circulaire réussie.
+C=Scan de la zone réussie.
+D=Lancement du Drone réussie.
+E=Parachutage réussie. Vous sautez de l'avion soute ouvert et déployer votre aille furtive pour glisser en silence dans la plaine. :Etape=Parachut7
+> Quelle stratégie vous adopterez ici ?
+[A) Camouflage, B) Survole, C) Scan, D) Drone, E) Parachuter. ]
+vrai=Score+1;Etape-Parachut7
+faux=Vous deviez sauter maintenant de l'appareil avant de manqué votre fenêtre d'atterrissage. Correction en coure...Done. : L'IA s'en est chargée pour vous, vous pouvez compter sur une bonne poussée dans le dos, gracieuseté du bras robot dans la soute pour ne pas manquer votre rendez-vous.
+element=Parachut7
+liste=Etape
+SI=COND
+vrai=Trophe=Bon travail 
+faux=Trophe=Le couteau le moins déguisé du tiroir  
+element=5
+liste=Score
+SI=VAR
+faux=
+Vous allez tenter votre chance en testent leurs dispositifs de détection.
+Score=0
+Ch=Ran
+(Ch)
+vrai=INTRUE DÉTECTÉ!;Etape=alert7
+faux=Vous avez de la chance!
+element=4
+Liste=Ch
+SI>VAR
+vrai=Vous êtes survolé par un Drone ennemi. Il vous a détecté avec sa caméra spectral et maintenant il appel du rend fort. Alerte! Vous avez été encerclé par un bataillon de machine qui mitraille à qui mieux mieux! Il y a autre chose d'étrange à propos de leurs rafales de balles. Ce n'est pas sans hasard s’ils pétaradent comme ça, vous tendez l'oreille et voyez un schéma auditif se formé... Vous savez d'avance que l'avion brouille leurs communications depuis votre arrivé, mais les drones se sont organisé très vite et ont réussie a se parlé en morse abrégé. Leurs munitions ne prouvent manqué par un système de téléportation et de recharge interne. Ils ont adopté ce code par nécessité.
+element=alert7
+Liste=Etape
+SI=COND
+vrai=A=Votre position est compromise. Vous courez comme le vent et les bales éclatent tout autour de vous. Après quelque seconde de panique vous constatez qu’ils ne vous tirent pas dessus, mais qu’ils vous manquent volontairement. Le schéma des impactent ressemble à une spirale rétrécissant tout autour et qui vous oblige a toujours tournée dans une direction plutôt qu'une autre. Ils vous évacué de la zone ou vous conduisent en détention. ;B=Vous croyez qu'en ne bougent pas ils vous oublierons, mais les bales commences a éclaté à vos pieds, vous êtes obligé de bondir pour les évités et finalement prendre la fuite mais par où ils sont déjà trop nombreux a vous encerclé ? Après quelque seconde de panique vous constatez qu’ils ne vous tirent pas dessus, mais qu’ils vous manquent volontairement. Le schéma des impactent ressemble à une spirale rétrécissant tout autour et qui vous oblige a toujours tournée dans une direction plutôt qu'une autre. Ils vous évacué de la zone ou vous conduisent en détention. ;C=Vous plongez a couvert comme dans l'entrainement et resté en mouvement. Jamais plus de 10 secondes par cachettes en prenant des décisions au hasard. L'algorithme qui pilot ces drone n'y comprend bientôt rien et commet des erreurs que vous exploitez a la première opportunité. Seulement vous rattrape et les bales éclatent tout autour de vous. Après quelque seconde de panique vous constatez qu’ils ne vous tirent pas dessus, mais qu’ils vous manquent volontairement. Le schéma des impactent ressemble à une spirale rétrécissant tout autour et qui vous oblige a toujours tournée dans une direction plutôt qu'une autre. Ils vous évacué de la zone ou vous conduisent en détention. ;D=Dommage que vous ne possédiez pas encore 3 intelligence artificielle sur vos améliorations. Vous réussissez au moins a brouillez le premier qui semble être le seul a possédé une caméra spectral et pas d'armement, ainsi les sentinelles ne pourront plus vous apercevoir. :Etape-alert7;E=Vous demandez du rend fort aérien, comme vos appareilles sont déjà occulté a 50% et que la caméra est seulement braqué sur vous pour les occupé, le drone et l'avion si ils sont munie d'un bras robot peux les accrochés un par un et faire tomber de l'arrière.:Etape-alert7;> Ils arrivent, qu'allez-vous faire ?;[A) Courir, B) Immobile, C) Chat et la souris, D) Piraté, E) Air-Strike. ]; 
+faux=
+element=alert7
+Liste=Etape
+SI=COND
+vrai=A=Votre position est compromise. Vous bougez sur place pour éviter leurs tirs de sommation. Rien à voir avec la Moon dance, ça les perturbent apparemment...continué à faire diversion les secours arrivent!;B=Vous croyez qu'en ne bougent pas ils vous oublierons, mais les bales commences a éclaté à vos pieds, vous êtes obligé de bondir pour les évités et finalement prendre la fuite mais par où ils sont déjà trop nombreux a vous encerclé ? Après quelque seconde de panique vous constatez qu’ils ne vous tirent pas dessus, mais qu’ils vous manquent volontairement. Le schéma des impactent ressemble à une spirale rétrécissant tout autour et qui vous oblige a toujours tournée dans une direction plutôt qu'une autre. Ils vous évacué de la zone ou vous conduisent en détention. ;C=Vous plongez a couvert comme dans l'entrainement et resté en mouvement. Jamais plus de 10 secondes par cachettes en prenant des décisions au hasard. L'algorithme qui pilot ces drone n'y comprend bientôt rien et commet des erreurs que vous exploitez a la première opportunité. Seulement vous rattrape et les bales éclatent tout autour de vous. Après quelque seconde de panique vous constatez qu’ils ne vous tirent pas dessus, mais qu’ils vous manquent volontairement. Le schéma des impactent ressemble à une spirale rétrécissant tout autour et qui vous oblige a toujours tournée dans une direction plutôt qu'une autre. Ils vous évacué de la zone ou vous conduisent en détention. ;D=Dommage que vous ne possédiez pas encore 3 intelligence artificielle sur vos améliorations. Vous réussissez au moins a brouillez le premier qui semble être le seul a possédé une caméra spectral et pas d'armement, ainsi les sentinelles ne pourront plus vous appercevoir.:Etape-alert7;E=Vous demandez du rend fort aérien, comme vos appareilles sont déjà occulté a 50% et que la caméra est seulement braqué sur vous pour les occupé, le drone et l'avion si ils sont munie d'un bras robot peux les accrochés un par un et faire tomber de l'arrière.:Etape-alert7;> Ils arrivent, qu'allez-vous faire ?;[A) Danser, B) Immobile, C) Chat et la souris, D) Piraté, E) Air-Strike. ]; 
+faux=
+element=alert7
+Liste=Etape
+SI=COND
+vrai=A=Votre position est compromise. Vous courez comme le vent et les bales éclatent tout autour de vous. Après quelque seconde de panique vous constatez qu’ils ne vous tirent pas dessus, mais qu’ils vous manquent volontairement. Le schéma des impactent ressemble à une spirale rétrécissant tout autour et qui vous oblige a toujours tournée dans une direction plutôt qu'une autre. Ils vous évacué de la zone ou vous conduisent en détention. ;B=Vous demandez plus de couverture imagé sur vous! Les Drones militaire viennent vous filmé un par un, car ils sont attiré par le mouvement, mais se désintéressent de vous rapidement. Pour eux vous avez l'aire d'un CAPCHAT humain avec votre costume de camouflage. C'est un peu comme si on vous avait tatoué un code-barres sur le dos qui disait 'No-scan'. Si on est tenté de le lire rien ne comput après coup. Vous êtes un Phantom dans la rush cybernétique. Vous êtes libre mais du Troisième coup!:element=alert1.;C=Vous plongez a couvert comme dans l'entrainement et resté en mouvement. Jamais plus de 10 secondes par cachettes en prenant des décisions au hasard. L'algorithme qui pilot ces drone n'y comprend bientôt rien et commet des erreurs que vous exploitez a la première opportunité. Seulement vous rattrape et les bales éclatent tout autour de vous. Après quelque seconde de panique vous constatez qu’ils ne vous tirent pas dessus, mais qu’ils vous manquent volontairement. Le schéma des impactent ressemble à une spirale rétrécissant tout autour et qui vous oblige a toujours tournée dans une direction plutôt qu'une autre. Ils vous évacué de la zone ou vous conduisent en détention. ;D=Dommage que vous ne possédiez pas encore 3 intelligence artificielle sur vos améliorations. Vous réussissez au moins a brouillez le premier qui semble être le seul a possédé une caméra spectral et pas d'armement, ainsi les sentinelles ne pourront plus vous apercevoir. :Etape-alert7;E=Vous demandez du rend fort aérien, comme vos appareilles sont déjà occulté a 50% et que la caméra est seulement braqué sur vous pour les occupé, le drone et l'avion si ils sont munie d'un bras robot peux les accrochés un par un et faire tomber de l'arrière.:Etape-alert7;> Ils arrivent, qu'allez-vous faire ?;[A) Courir, B) Illusion, C) Chat et la souris, D) Piraté, E) Air-Strike. ]; 
+faux=Les Drones militaire viennent vous filmé un par un, car ils sont attiré par le mouvement, mais se désintéressent de vous rapidement. Pour eux vous avez l'aire d'un CAPCHAT humain avec votre costume de camouflage. C'est un peu comme si on vous avait tatoué un code-barres sur le dos qui disait 'No-scan'. Si on est tenté de le lire rien ne comput après coup. Vous êtes un Phantom dans la rush cybernétique. Vous êtes libre. :(pause)
+element=alert7
+Liste=Etape
+SI=COND
+vrai=Vous êtes escortez de force par les machines dans un bunker réaffecté de l'OSP. Les lourdes portes d'acier blinder témoigne de l'époque près Holocauste, vous ne vous sentez pas rassuré. Elles se referment derrière vous dans un grincement sinistre. Personne ne viendra vous chercher vous êtes oublié ici:(pause):(quit)
+faux=
+element=alert7
+Liste=Etape
+SI=COND
+Vous leurs faussé donc compagnie et rejoignez l'emplacement de la machine infernal.
+A première vue, il s’agit d'un immense réseau d'entainne matriciel de forme conique et doré, mais vous vous douté que sous la surface se trouve des milliers de circuit de Villard bien synchroniser pour transformé le haut débit d'Ampère en Giga-électronvolt d'onde porteuse. Bref, de quoi transmuté le ciel en Aurore Boréal' même en plein jour en cette saison jusqu'à cette basse latitude! Mais vous ne devez que la mettre hors d'état de nuire et freiner OSP dans la conquête du monde par ces nouvelles armes de destructions massive. Le dispositif s'appelle 'Weater Contrôle Device' il sert à charger le poches d'humidité contenu dans l'atmosphère en tempête. C'est peut-être pour lancer un cyclone sur une ville, ou provoqué des tremblements de terre au antipode du monde qu'il existe.
+(pause)
+Comment fait ont pour orienter le flux d'ions avec des mats fixe bien aligné? La matrice de transmetteur fait 142 x 142. Si l'impulsion se déclenché simultanément sur tous les entainne, le flux se dirige parfaitement à la vertical. Par contre si l'impulsion commence d’abord à une extrémité de la matrice et se propage vers l'autre extrémité, le flux va obliquer sur un angle déterminé. Ensuite, viens le contact avec la couche supérieur de l'ionosphère qui oscille à la même fréquence. Celle-ci créer un effet de miroir et retourne vers le bas, le flux très amplifier qui frappera le sol quelque part selon l'angle de départ.
+(pause)
+Ces différente composantes, quoi que gigantesque sont démonté quand 'Weather contrôle device' ne sert pas. Et pour en faciliter l'entretien, ces sections sont installées sur des véhicules robots opérable à distance, ou conduit par l'homme ou par les Drones. Il y en n'a 2 types différents, Condensateur, Relai Tri-Way. Que vous pouvez brancher en Série comme en Parallèle, ou en circuit Mixte avec la suivante, pour obtenir différent circuit possible et niveau de puissance. Attention! Si plusieurs possibilité son bonne pour assemblé le générateur, d'autres sont dangereuse et pourraient autodétruire la machine trop vite :P
+(pause)
+A=Vous créer un lien VPN avec les machines et les téléguidés à partir de votre application. Très Bien!:Score=0
+B=Vous trouvez les clés sur le contacte et conduisez une par une les robots véhicules en place. Génial!:Score=0
+C=Vous appelez le Drone en rend-fort qui entre se branché sur le toit des robots véhicules et les conduits. Super!:Score=0
+> Comment allez-vous manœuvré les 'Véhicules composante' ?
+[A) Avec l'application, B) Grimper au volant, C) Drone conduit.]
+Voici a quoi la manouvre d'assemblage peux ressembler, vous n'êtes pas obligé de suivre cette recette en particulier mais vous n'aurez droit qu'à un seul essaie. Certain éléments peuvent être inversé en série ou en parallèle sans faire de différence, mais d'autre ne peuvent être intervertit. D'une manière général si toute la suite est inversée il n'y a pas de problème aussi. Exemple 12212=21221
+(pause)
+En piratent leur système vous trouvez 2 fichiers.
+1. file_C 'Le Condensateur.'
+2. file_F 'Relai Tri-Way.'
+A=Etape=data
+B=Très Bien vous métrisé déjà les technologies M.A.D.
+> Voulez-vous lire sur le fonctionnement des éléments ?
+[A) OUI, B) Non ]
+vrai=A=Le Condensateur ou Capaciteur, est un élément de charge qui produit une amplitude en retard sur la tension. Il a un effet capacitif sur le circuit, qui s'additionne en parallèle et se divise en série. On peut le considérer comme un réservoir électrique qui se remplit lentement et se vide rapidement. ;B=Le Relai est un interrupteur géant munie d'une entré et deux sortie, commander par un noyau électro-aimant. Celui-ci est d'un type spécial qui peut être branché en circuit mixte ou tri-Way, comme en série ou parallèle. Il possède un effet de mémoire qui peut être utile a redresser un fort courant dans les deux direction.;> Information sur éléments ?;[A) Condensateur, B) Relai Tri-way. ]; 
+faux=Del file_C
+element=data
+Liste=Etape
+SI=COND
+/vrai=A=;B=Etape-data;> Voulez-vous lire sur un autre éléments ?;[A) OUI, B) Non ]; 
+/faux=
+/element=data
+/Liste=Etape
+/SI=COND
+vrai=A=Le Condensateur ou Capaciteur, est un élément de charge qui produit une amplitude en retard sur la tension. Il a un effet capacitif sur le circuit, qui s'additionne en parallèle et se divise en série. On peut le considérer comme un réservoir électrique qui se remplit lentement et se vide rapidement. ;B=Le Relai est un interrupteur géant munie d'une entré et deux sortie, commander par un noyau électro-aimant. Celui-ci est d'un type spécial qui peut être branché en circuit mixte ou tri-Way, comme en série ou parallèle. Il possède un effet de mémoire qui peut être utile a redresser un fort courant dans les deux direction.> Information sur éléments ?;[A) Condensateur, B) Relai Tri-way. ]; 
+faux=Del file_F
+element=data
+Liste=Etape
+SI=COND
+/Séquence assemblage Weather Contrôle
+Score=0
+Circuit 1
+A=Arrimage du premier véhicule réussie.:Score+1
+B=Arrimage du premier véhicule réussie.:Score+16
+> Quel élément du circuit vous choisissez ?
+[A) Condensateur, B) Relai Tri-Way. ]
+A=Branchement en série.:Score+32
+B=Branchement en parallèle.:Score+32
+C=Branchement circuit mixte.:Score+512
+D=Branchement au neutre. Pas de résultat...
+E=Branchement à la source. Boom!! Vous êtes mort:(pause):(quit)
+> Quel type de branchement vous choisissez ?
+[A) Série, B) Parallèle, C) circuit mixte, D) Au Neutre, E) Alimentation. ]
+Circuit 2
+A=Arrimage du premier véhicule réussie.:Score+8
+B=Arrimage du premier véhicule réussie.:Score+2
+> Quel élément du circuit vous choisissez ?
+[A) Condensateur, B) Relai Tri-Way. ]
+A=Branchement en série.:Score+256
+B=Branchement en parallèle.:Score+256
+C=Branchement circuit mixte.:Score+64
+D=Branchement au neutre. Pas de résultat...
+E=Branchement à la source. Boom!! Vous êtes mort:(pause):(quit)
+> Quel type de branchement vous choisissez ?
+[A) Série, B) Parallèle, C) circuit mixte, D) Au Neutre, E) Alimentation. ]
+Circuit 3
+A=Arrimage du premier véhicule réussie.
+B=Arrimage du premier véhicule réussie.:Score+4
+> Quel élément du circuit vous choisissez ?
+[A) Condensateur, B) Relai Tri-Way. ]
+A=Branchement en série.
+B=Branchement en parallèle.
+C=Branchement circuit mixte.:Score+128
+D=Branchement au neutre. Pas de résultat...
+E=Branchement à la source. Boom!! Vous êtes mort:(pause):(quit)
+> Quel type de branchement vous choisissez ?
+[A) Série, B) Parallèle, C) circuit mixte, D) Au Neutre, E) Alimentation. ]
+Circuit 4
+A=Arrimage du premier véhicule réussie.:Score+8
+B=Arrimage du premier véhicule réussie.:Score+2
+> Quel élément du circuit vous choisissez ?
+[A) Condensateur, B) Relai Tri-Way. ]
+A=Branchement en série.:Score+256
+B=Branchement en parallèle.:Score+256
+C=Branchement circuit mixte.
+D=Branchement au neutre. Pas de résultat...
+E=Branchement à la source. Boom!! Vous êtes mort:(pause):(quit)
+> Quel type de branchement vous choisissez ?
+[A) Série, B) Parallèle, C) circuit mixte, D) Au Neutre, E) Alimentation. ]
+Circuit 5
+A=Arrimage du premier véhicule réussie.:Score+1
+B=Arrimage du premier véhicule réussie.:Score+16
+> Quel élément du circuit vous choisissez ?
+[A) Condensateur, B) Relai Tri-Way. ]
+A=Branchement en série.
+B=Branchement en parallèle.
+C=Branchement circuit mixte.:Score+512
+D=Branchement au neutre. Pas de résultat...
+E=Branchement à la source. Boom!! Vous êtes mort:(pause):(quit)
+> Quel type de branchement vous choisissez ?
+[A) Série, B) Parallèle, C) circuit mixte, D) Au Neutre, E) Alimentation. ]
+Matrice Entaine Output Mega-Volt:/1023 MEV
+(Score)
+
+vrai=Par précaution vous congédier vos rend-fort aérien et tournée la trajectographie vers le Zénith. Vous entendez le complexe d'entainne se charger, des arcs électriques apparaissent de tous les couleurs au bout des mats métalliques et un ora d'énergie brille tout autour de la matrice. Vous appuyez sur Feu alors que les entainne sont toujours dirigé vers le haut et un fort éclat lumineux surgi. L'onde de choc a rebondit sur l'ionosphère avant de retombé sur son point de départ. Ca viens de grillé toute l'installation militaire, les drones de patrouille se crashent par terre et brulent. Vous avez détruit le Weather contrôle device, l'OSP ne pourra plus s'en servir. Double Bravo!
+faux=Quelque chose n'a pas dû être bien branché, car au moment de faire Feu, non seulement le Weather contrôle device a explosé, mais vous avec lui! :(pause):(quit)
+element=1023
+Liste=Score
+SI=VAR
+Le clame est revenu et il n'y a plus d'ennemie dans la zone.
+(pause)
+Pour votre débrouillardise et pour être resté stratégique dans votre infiltration à distance. Vous avez sus utilisé le transport furtif pour vous couvrir, le drone votre reconnaissance et vos aptitudes tactique pour vous débarrassé des drones armés. Dans le centre de recherche au fond de vous trouver du matériel de développement optique, dont un Net LED de camouflage visuelle et une boite blanche DEA compatible avec le Drone comme appuie médical. Le conteneur est équiper d'un 'système de téléportation du choix B'. Vous avez donc le premier choix mais l'autre objet disparait physiquement. Un classique OSP encore très efficace.
+Trophe=Weather contrôle DIY
+(TROPHE)
+A=LV=7:Etape=7:sourcefile=missionUp
+B=
+C=
+D=
+E=
+vrai=
+faux=
+element=
+Liste=
+> Appuyer sur A pour Retour.
+[A) Continué ]

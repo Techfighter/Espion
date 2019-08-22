@@ -1,0 +1,709 @@
+
+A=
+B=
+C=
+D=
+E=
+vrai=
+faux=
+element=
+Liste=vrai=Vous gagnez un Niveau de Technologique.
+element=1
+Liste=LV
+SI>VAR
+(LV)
+vrai=Etape-0
+element=1
+Liste=Etape
+SI=COND
+vrai=Etape-1
+element=2
+Liste=Etape
+SI=COND
+vrai=Etape-2
+element=3
+Liste=Etape
+SI=COND
+vrai=Etape-3
+element=4
+Liste=Etape
+SI=COND
+vrai=Etape-4
+element=5
+Liste=Etape
+SI=COND
+vrai=Etape-5
+element=6
+Liste=Etape
+SI=COND
+vrai=Etape-6
+element=7
+Liste=Etape
+SI=COND
+vrai=Etape-7
+element=8
+Liste=Etape
+SI=COND
+vrai=Etape-8
+element=9
+Liste=Etape
+SI=COND
+vrai=Etape-9
+element=10
+Liste=Etape
+SI=COND
+vrai=Etape-10
+element=11
+Liste=Etape
+SI=COND
+vrai=Etape-11
+element=12
+Liste=Etape
+SI=COND
+vrai=Vous venez d'aquérir un acces priver a une technologie spacial d'inflitration. Un satelite secret de l'armé conçu pour entré en communication visuel avec le sol. Munie de camera spectral ultra haut définision et d'un projecteur d'un nouveau genre. L'intéligence articifielle du StealthRay1 vous localise et arrive a projeté des illusions capable de vous faire disparaitre totalement. Pourvu que vous disposez d'une ligne de vision depuis l'espace.;Objet=GPS;Etape=SAIA;Etape=SACA;Etape=SAPR;Etape=GPSIA;Etape=Projection;Etape=Path Finder;Etape=Palentir;Etape=PTIA;Etape=PTCA; 
+element=0
+Liste=Etape
+SI=COND
+vrai=Vous venez d'aquérir un outil indispansable a l'inflitration. Un costume de camouflage en tissus écran réfléchisant. Munie de gans et d'une cagoule, vous pouvez disparaitre totalement avec l'aide du Satelite de projection StealthRay1. Pourvu que vous disposez d'une ligne de vision depuis l'espace.;Etape=Costume Black;Objet=Costume Ecran;Etape=Entrainement;Etape=Camouflage; 
+element=1
+Liste=Etape
+SI=COND
+vrai=Vous venez d'aquérir un outil très utile a la reconnaissance. Un drone de repérage munie de capteurs électronique dernier cris. Avec lui vous pouvez voire a l'horizontal plus loins et sans être vu. Il fonctionne en bas altitude là où le Satelite ne peut avoir de ligne de vision en plus d'être furtif et silencieu. Le drone entièrement autonhome est capable de traqué une cible sans être detecté de celui-ci.;Etape=XSpider;Objet=Drone Furtif;Etape=AVBR; 
+element=2
+Liste=Etape
+SI=COND
+vrai=Vous venez d'aquérir un véhicule très utile a la reconnaissance. Un Avion de repérage équippé de capteurs électronique dernier cris. Avec lui vous pouvez voire a la vertical même par mauvet temps et sans être repéré. Il fonctionne en moyen altitude là où le Satelite ne peut avoir de ligne de vision en plus d'être furtif. Ses moteurs de type sonic aténuater phonique, sont conçu pour se posé sans piste ou faire du surplace. Elle est munit d'une petite soute et fonctionne sans pilot.;Etape=XAéroglis;Objet=Avion Furtif; 
+element=3
+Liste=Etape
+SI=COND
+vrai=Vous venez de trouvé un conteneur de l'armé. Deux choix s'offre a vous, mais Attention vous ne pourez choisir qu'un élément dans ceux-ci.;A=Objet=IA:Etape=XPA:Vous venez de trouvé une programme d'intéligence artificielle de base. Avec une ou plusieurs de ces programme, vous pouvez augmenté les posibilités de vos appareilles d'infiltration.;B=Objet=Parachute:Etape=XIA:Vous venez de trouvé un sac de parachute conçu pour la montée ou la dessente. Avec un ballon d'air spacial gonflé d'hélium et rétroéclairé, vous avez la posibilitée d'être attrapé par un crochet d'avion puis remorqué.;> Choisisez une des technologies ?;[A) IA, B) Parachute ]; 
+element=4
+Liste=Etape
+SI=COND
+vrai=Vous venez de trouvé un conteneur de l'armé. Deux choix s'offre a vous, mais Attention vous ne pourez choisir qu'un élément dans ceux-ci.;A=Vous venez de trouvé une caméra multispectral. Avec elle équippé sur un de vos appareils vous avec la posibilitée de voire tout les élément sur une vaste surface, même si le satélite ne peut avoir de ligne de vision.:Objet=Caméra:Etape=XPR;B=Vous venez de trouvé le projecteur d'énergie noir. La même technologie que sur le Satelite StealthRay1. Avec elle équippé sur un de vos appareils vous avec la posibilitée de tranformer tout les élément sur une vaste surface, même si le satélite ne peut avoir de ligne de vision.:Objet=Projecteur:Etape=XCA;> Choisisez une des technologies ?;[A) Caméra, B) Projecteur ]; 
+element=5
+Liste=Etape
+SI=COND
+vrai=Vous venez de trouvé un conteneur de l'armé. Deux choix s'offre a vous, mais Attention vous ne pourez choisir qu'un élément dans ceux-ci.;A=Vous venez de trouvé une boite blanche de survie. Avec son assisstance médical automatisé, vous augmentez de 1 votre chance de salut. Il sufit de l'ajouté a un de vos équippement, pour recevoir en cas de mort subit, un coktail de morphine, d'adrénaline ou d'électro-choc pour vous sauvé.:Objet=DEA:Etape=XLED;B=Vous venez de trouvé une surface de soie LED conçu pour le camouflage visuelle raproché. Activé par votre application stealth, la matrice de LED immite a la perfection l'image de ce que vous voulez. Visages, vêtements, objets et carosseries. Avec accer de tissus vous pourriez vous faire un nouveau costume ou totalement disparaitre un de vos appareils.:Objet=LED:Etape=XLED;> Choisisez une des technologies ?;[A) DEA, B) LED ]; 
+element=6
+Liste=Etape
+SI=COND
+vrai=Vous venez de trouvé un conteneur de l'armé. Deux choix s'offre a vous, mais Attention vous ne pourez choisir qu'un élément dans ceux-ci.;A=Vous venez de trouvé un bras robot ambidex. Avec un bras équippé sur un de vos appareils, vous avec la posibilitée de lui faire intéragir avec l'environement ou manipulé 1 objet.:Objet=Bras Robot:Etape=XPA;B=Vous venez de trouvé un sac de parachute conçu pour la montée ou la dessente. Avec un ballon d'air spacial gonflé d'hélium et rétroéclairé, vous avez la posibilitée d'être attrapé par un crochet d'avion puis remorqué.:Objet=Parachute:Etape=XBR;> Choisisez une des technologies ?;[A) Bras Robot, B) Parachute ]; 
+element=7
+Liste=Etape
+SI=COND
+vrai=Vous venez de trouvé un conteneur de l'armé. Deux choix s'offre a vous, mais Attention vous ne pourez choisir qu'un élément dans ceux-ci.;A=Vous venez de trouvé une programme d'intéligence artificielle de base. Avec une ou plusieurs de ces programme, vous pouvez augmenté les posibilités de vos appareilles d'infiltration.:Objet=IA:Etape=XLED;B=Vous venez de trouvé une surface de soie LED conçu pour le camouflage visuelle raproché. Activé par votre application stealth, la matrice de LED immite a la perfection l'image de ce que vous voulez. Visages, vêtements, objets et carosseries. Avec accer de tissus vous pourriez vous faire un nouveau costume ou totalement disparaitre un de vos appareils.:Objet=LED:Etape=XIA;> Choisisez une des technologies ?;[A) IA, B) LED ]; 
+element=8
+Liste=Etape
+SI=COND
+vrai=Vous venez de trouvé un conteneur de l'armé. Deux choix s'offre a vous, mais Attention vous ne pourez choisir qu'un élément dans ceux-ci.;A=Vous venez de trouvé une caméra multispectral. Avec elle équippé sur un de vos appareils vous avec la posibilitée de voire tout les élément sur une vaste surface, même si le satélite ne peut avoir de ligne de vision.:Objet=Caméra:Etape=XPR;B=Vous venez de trouvé le projecteur d'énergie noir. La même technologie que sur le Satelite StealthRay1. Avec elle équippé sur un de vos appareils vous avec la posibilitée de tranformer tout les élément sur une vaste surface, même si le satélite ne peut avoir de ligne de vision.:Objet=Projecteur:Etape=XCA;> Choisisez une des technologies ?;[A) Caméra, B) Projecteur ]; 
+element=9
+Liste=Etape
+SI=COND
+vrai=Vous venez de trouvé un conteneur de l'armé. Deux choix s'offre a vous, mais Attention vous ne pourez choisir qu'un élément dans ceux-ci.;A=Vous venez de trouvé une boite blanche de survie. Avec son assisstance médical automatisé, vous augmentez de 1 votre chance de salut. Il sufit de l'ajouté a un de vos équippement, pour recevoir en cas de mort subit, un coktail de morphine, d'adrénaline ou d'électro-choc pour vous sauvé.:Objet=DEA:Etape=XLED;B=Vous venez de trouvé une surface de soie LED conçu pour le camouflage visuelle raproché. Activé par votre application stealth, la matrice de LED immite a la perfection l'image de ce que vous voulez. Visages, vêtements, objets et carosseries. Avec accer de tissus vous pourriez vous faire un nouveau costume ou totalement disparaitre un de vos appareils.:Objet=LED:Etape=XDEA;> Choisisez une des technologies ?;[A) DEA, B) LED ]; 
+element=10
+Liste=Etape
+SI=COND
+vrai=Vous venez de trouvé un conteneur de l'armé. Deux choix s'offre a vous, mais Attention vous ne pourez choisir qu'un élément dans ceux-ci.;A=Vous venez de trouvé un bras robot ambidex. Avec un bras équippé sur un de vos appareils, vous avec la posibilitée de lui faire intéragir avec l'environement ou manipulé 1 objet.:Objet=Bras Robot:Etape=XPA;B=Vous venez de trouvé un sac de parachute conçu pour la montée ou la dessente. Avec un ballon d'air spacial gonflé d'hélium et rétroéclairé, vous avez la posibilitée d'être attrapé par un crochet d'avion puis remorqué.:Objet=Parachute:Etape=XBR;> Choisisez une des technologies ?;[A) Bras Robot, B) Parachute ]; 
+element=11
+Liste=Etape
+SI=COND
+vrai=Vous venez de trouvé un conteneur de l'armé. Deux choix s'offre a vous, mais Attention vous ne pourez choisir qu'un élément dans ceux-ci.;A=Vous venez de trouvé une programme d'intéligence artificielle de base. Avec une ou plusieurs de ces programme, vous pouvez augmenté les posibilités de vos appareilles d'infiltration.:Objet=IA:Etape=XLED;B=Vous venez de trouvé une surface de soie LED conçu pour le camouflage visuelle raproché. Activé par votre application stealth, la matrice de LED immite a la perfection l'image de ce que vous voulez. Visages, vêtements, objets et carosseries. Avec accer de tissus vous pourriez vous faire un nouveau costume ou totalement disparaitre un de vos appareils.:Objet=LED:Etape=XIA;> Choisisez une des technologies ?;[A) IA, B) LED ]; 
+element=12
+Liste=Etape
+SI=COND
+(pause)
+/M.X doit récupéré des trésors juste dérrière vous et se faire c'est propre amélioration. (Anti-Hero)
+vrai=Etape=3XIA:Etape-XIA:Etape-XIA:Etape-XIA
+element=XIA
+Liste=Etape
+COND=3
+vrai=Etape=2XCA:Etape-XCA:Etape-XCA
+element=XCA
+Liste=Etape
+COND=2
+vrai=Etape=4XLED:Etape-XLED:Etape-XLED:Etape-XLED:Etape-XLED
+element=XLED
+Liste=Etape
+COND=4
+vrai=Etape=2XLED:Etape-XLED:Etape-XLED
+element=XLED
+Liste=Etape
+COND=2
+vrai=Etape=4XLED:Etape-2XLED:Etape-2XLED
+element=2XLED
+Liste=Etape
+COND=2
+vrai=Etape=2XDEA:Etape-XDEA:Etape-XDEA
+element=XDEA
+Liste=Etape
+COND=2
+/vrai=Etape=3XPA:Etape-XPA:Etape-XPA:Etape-XPA
+/element=XPA
+/Liste=Etape
+/COND=3
+/vrai=Etape=2XPA:Etape-XPA:Etape-XPA
+/element=XPA
+/Liste=Etape
+/COND=2
+vrai=Etape=2XPR:Etape-XPR:Etape-XPR
+element=XPR
+Liste=Etape
+COND=2
+vrai=Etape=2XBR:Etape-XBR:Etape-XBR
+element=XBR
+Liste=Etape
+COND=2
+/Améliorations Ennemi
+vrai=Etape-XSpider:Etape=SD2IA:Etape=AGIA
+element=3XIA
+Liste=Etape
+SI=COND
+vrai=Etape-XAéroglis:Etape=AGMR
+element=4XLED
+Liste=Etape
+SI=COND
+vrai=Etape-XAéroglis:Etape=SPMR
+element=2XLED
+Liste=Etape
+SI=COND
+vrai=Etape-2XCA:Etape=SDCA:Etape=AGCA
+element=2XCA
+Liste=Etape
+SI=COND
+vrai=Etape-XCA:Etape=SDCA
+element=XCA
+Liste=Etape
+SI=COND
+vrai=Etape-2XPR:Etape=SDPR:Etape=AGPR
+element=2XPR
+Liste=Etape
+SI=COND
+vrai=Etape-XPR:Etape=SDPR
+element=XPR
+Liste=Etape
+SI=COND
+vrai=Etape-2XDEA:Etape=SDDEA:Etape=BLDEA
+element=2XDEA
+Liste=Etape
+SI=COND
+vrai=Etape-XDEA:Etape=BLDEA
+element=XDEA
+Liste=Etape
+SI=COND
+vrai=Etape-2XBR:Etape=SDBR:Etape=AGBR
+element=2XBR
+Liste=Etape
+SI=COND
+vrai=Etape-XBR:Etape=SDBR
+element=XBR
+Liste=Etape
+SI=COND
+vrai=Etape-XPA:Etape-XPA:Etape-XPA:Etape=AGPA
+element=XPA
+Liste=Etape
+COND=3
+vrai=Etape-XPA:Etape-XPA:Etape=SDPA:Etape=BLPA
+element=XPA
+Liste=Etape
+COND=2
+vrai=Etape-XPA:Etape=SDPA
+element=XPA
+Liste=Etape
+SI=COND
+/Correction équilibré des doublons
+vrai=Etape-SDPA:Etape=BLPA
+element=SDPA
+Liste=Etape
+COND=2
+vrai=Etape-SDPR:Etape=AGPR
+element=SDPR
+Liste=Etape
+COND=2
+vrai=Etape-BLDEA:Etape=SDDEA
+element=BLDEA
+Liste=Etape
+COND=2
+vrai=Etape-SDPR:Etape=AGPR
+element=SDPR
+Liste=Etape
+COND=2
+vrai=Etape-SDCA:Etape=AGCA
+element=SDCA
+Liste=Etape
+COND=2
+vrai=Etape-SDMR:Etape=AGMR
+element=SDMR
+Liste=Etape
+COND=2
+/SA=SATELITE
+/AV=AVION
+/DR=DRONE
+/CO=COSTUME_WH
+/PT=PALENTIR
+/AG=AEROGLIS
+/SP=SPIDER
+/BL=BLACK_CO
+/Il faut un système de display pour informé ou en est le joueur.
+vrai=Vous disposé d'élément technologique
+element=4
+Liste=LV
+SI>VAR
+vrai=(OBJET):(Trophe): 
+element=4
+Liste=LV
+SI>VAR
+vrai=Satelite 'StealthRay1'
+element=GPS
+Liste=Objet
+SI=COND
+vrai= Caméra 'Spectral'
+element=SACA
+Liste=Etape
+SI=COND
+vrai= Projecteur 'Énergie Noir'
+element=SAPR
+Liste=Etape
+SI=COND
+vrai= IA x3
+element=3SAIA
+Liste=Etape
+SI=COND
+vrai= IA x2
+element=SAIA
+Liste=Etape
+COND=2
+vrai= IA x1
+element=SAIA
+Liste=Etape
+COND=1
+vrai= Parachute x3
+element=3SAPA
+Liste=Etape
+SI=COND
+vrai= Parachute x2
+element=SAPA
+Liste=Etape
+COND=2
+vrai= Parachute x1
+element=SAPA
+Liste=Etape
+COND=1
+vrai=Avion Furtif sans pilot
+element=Avion Furtif
+Liste=Objet
+SI=COND
+vrai= Caméra 'Spectral'
+element=AVCA
+Liste=Etape
+SI=COND
+vrai= Projecteur 'Énergie Noir'
+element=AVPR
+Liste=Etape
+SI=COND
+vrai= IA x3
+element=3AVIA
+Liste=Etape
+SI=COND
+vrai= IA x2
+element=AVIA
+Liste=Etape
+COND=2
+vrai= IA x1
+element=AVIA
+Liste=Etape
+COND=1
+vrai= Parachute x3
+element=3AVPA
+Liste=Etape
+SI=COND
+vrai= Parachute x2
+element=AVPA
+Liste=Etape
+COND=2
+vrai= Parachute x1
+element=AVPA
+Liste=Etape
+COND=1
+vrai= Matrice LED x4
+element=4AVLED
+Liste=Etape
+SI=COND
+vrai= Matrice LED x2
+element=2AVLED
+Liste=Etape
+SI=COND
+vrai= Matrice LED x1
+element=AVLED
+Liste=Etape
+COND=1
+vrai= Bras Robot x2
+element=2AVBR
+Liste=Etape
+SI=COND
+vrai= Bras Robot x1
+element=AVBR
+Liste=Etape
+COND=1
+vrai=Drone Furtif
+element=Drone Furtif
+Liste=Objet
+SI=COND
+vrai= Caméra 'Spectral'
+element=DRCA
+Liste=Etape
+SI=COND
+vrai= Projecteur 'Énergie Noir'
+element=DRPR
+Liste=Etape
+SI=COND
+vrai= Énergie 'Pile Combustible'
+element=DRPC
+Liste=Etape
+SI=COND
+vrai= IA x3
+element=3DRIA
+Liste=Etape
+SI=COND
+vrai= IA x2
+element=DRIA
+Liste=Etape
+COND=2
+vrai= IA x1
+element=DRIA
+Liste=Etape
+COND=1
+vrai= Parachute x1
+element=DRPA
+Liste=Etape
+COND=1
+vrai= Matrice LED x2
+element=2DRLED
+Liste=Etape
+SI=COND
+vrai= Matrice LED x1
+element=DRLED
+Liste=Etape
+COND=1
+vrai= Bras Robot x2
+element=2DRBR
+Liste=Etape
+SI=COND
+vrai= Bras Robot x1
+element=DRBR
+Liste=Etape
+COND=1
+vrai= Boite Blanche DEA x1
+element=DRDEA
+Liste=Etape
+SI=COND
+vrai=Costume Écran
+element=Costume Ecran
+Liste=Objet
+SI=COND
+vrai= Parachute x1
+element=COPA
+Liste=Etape
+COND=1
+vrai= Matrice LED x2
+element=2COLED
+Liste=Etape
+SI=COND
+vrai= Matrice LED x1
+element=COLED
+Liste=Etape
+COND=1
+vrai= Boite Blanche DEA x1
+element=CODEA
+Liste=Etape
+SI=COND
+vrai= Énergie 'Pile Combustible'
+element=COPC
+Liste=Etape
+SI=COND
+vrai=Application GPS
+element=GPS
+Liste=Objet
+SI=COND
+vrai= IA x3
+element=3GPSIA
+Liste=Etape
+SI=COND
+vrai= IA x2
+element=GPSIA
+Liste=Etape
+COND=2
+vrai= IA x1
+element=GPSIA
+Liste=Etape
+COND=1
+vrai= Énergie 'Pile Combustible'
+element=GPSPC
+Liste=Etape
+SI=COND
+vrai= De nouvelles options s'offre a vous. Comme vous ne pouvez transporté autend de matériel, prenez le temps de choisir immédiatement où vous voudriez les installées.
+element=4
+Liste=LV
+SI>VAR
+vrai=Vous avez un Projecteur a installé ou vous voudrez.;A=Etape=1PR;B=La prochaine fois.;> Voulez vous procédé ?;[A) OUI, B) NON ]; 
+element=Projecteur
+Liste=Objet
+SI=COND
+vrai=A=Vous installez le Projecteur a énergie noir sur le Drone. Cette amélioration vous offre une source de mirage en bas altitude, même en cas de mauvet temps, vous pouvez profité de l'option stealth.:Objet-Projecteur:Etape=DRPR:Etape-1PR;B=Vous installez le Projecteur a énergie noir sur l'avion. Cette amélioration vous offre une source de mirage a moyen altitude, même en cas de mauvet temps. Même sur le Drone peut profiter de l'option stealth.:Objet-Projecteur:Etape=AVPR:Etape-1PR;> Appareil a modifié ?;[A) Drone, B) Avion ]; 
+element=1PR
+Liste=Etape
+SI=COND
+vrai=Vous avez une Caméra a installé ou vous voudrez.;A=Etape=1CA;B=La prochaine fois.;> Voulez vous procédé ?;[A) OUI, B) NON ]; 
+element=Caméra
+Liste=Objet
+SI=COND
+vrai=A=Vous installez la Caméra multispectrale sur le Drone. Cette amélioration vous offre une optique total 360 en bas altitude, même en cas de mauvet temps.:Objet-Caméra:Etape=DRCA:Etape-1CA;B=Vous installez la Caméra multispectrale sur l'Avion. Cette amélioration vous offre une optique total grand surface a moyen altitude, même en cas de mauvet temps.:Objet-Caméra:Etape=AVCA:Etape-1CA;> Appareil a modifié ?;[A) Drone, B) Avion ]; 
+element=1CA
+Liste=Etape
+SI=COND
+vrai=Il vous rest 2 Bras robot, vous pourriez installer le premier où voudrez.;A=Etape=2BR;B=La prochaine fois.;> Voulez vous procédé ?;[A) OUI, B) NON ]; 
+element=Bras Robot
+Liste=Objet
+COND=2
+vrai=A=Vous installez un second Robot ambidex sur le Drone. Cette amélioration vous offre une maine de plus pour intéragir avec l'environement ou manipulé deux objet. En cas exceptionnel vous pouvez vous faire remorqué par lui sur de courte distance, amortir une chute ou faire des réparations sur votre costume.:Objet-Bras Robot:Objet-Bras Robot:Etape=2DRBR:Etape-2BR;B=Vous installez le second Bras Robot ambidex sur l'avion. Cette amélioration vous offre une option de réparation du Drone ou du costume lorsque qu'il se trouve dans sa soute.:Objet-Bras Robot:Objet-Bras Robot:Etape=2AVBR:Etape-2BR;> Appareil a modifié ?;[A) Drone, B) Avion ]; 
+element=2BR
+Liste=Etape
+SI=COND
+vrai=Vous avez au moins 1 Bras Robot a installé ou vous voudrez.;A=Etape=1BR;B=La prochaine fois.;> Voulez vous procédé ?;[A) OUI, B) NON ]; 
+element=Bras Robot
+Liste=Objet
+SI=COND
+vrai=A=Vous installez le Bras Robot ambidex sur le Drone. Cette amélioration vous offre une maine pour intéragir avec l'environement ou manipulé un objet.:Objet-Bras Robot:Etape=DRBR:Etape-1BR;B=Vous installez le Bras Robot ambidex sur l'avion. Cette amélioration vous offre une option de récupération du Drone en bas ou moyen altitude.:Objet-Bras Robot:Etape=AVBR:Etape-1BR;> Appareil a modifié ?;[A) Drone, B) Avion ]; 
+element=1BR
+Liste=Etape
+SI=COND
+vrai=Vous pouvez installez les 4 surface de tissus LED sous la carosserie de l'avion, pour que celle-ci profite d'une demie invisibilitée. Il ne dépandra plus du Satelite pour disparaitre et sera totalement stealth vu du sol même en vole.;Etape=4LED; 
+element=LED
+Liste=Objet
+COND=4
+vrai=A=Vous installez toute les matrices LED sous la carosserie et les ailles de l'avion. Cette amélioration lui offre l'option 'Illusion' qui sert en autre chose a disparaitre dans le ciel sans utilisé un autre Projecteur.:Objet-LED:Objet-LED:Objet-LED:Objet-LED:Etape=4AVLED:Etape-4LED;B=La prochaine fois.;> Voulez vous procédé ?;[A) OUI, B) NON ]; 
+element=4LED
+Liste=Etape
+SI=COND
+vrai=Il vous reste au moins 2 tissus LED a installé ou vous voudrez.;A=Etape=2LED;B=La prochaine fois.;> Voulez vous procédé ?;[A) OUI, B) NON ]; 
+element=LED
+Liste=Objet
+COND=2
+vrai=A=Vous installez le tissus LED sur le visage, le haut et la bas du corp pour une couverture 360. Ainsi vous ne dépandrez plus jamais du Satelite, ni d'un autre appareil pour profité d'une total invisibilitée.:Objet-LED:Objet-LED:Etape=2COLED:Etape-2LED;B=Vous installez le tissus LED sur la carosserie du Drone, pour que celui-ci profite d'une total invisibilitée. Il ne dépandra plus jamais du Satelite, ni d'un autre appareil.:Objet-LED:Objet-LED:Etape=2DRLED:Etape-2LED;> Type de modification ?;[A) Costume, B) Drone ]; 
+element=2LED
+Liste=Etape
+SI=COND
+vrai=Vous avez 3 parachutes a installé où vous voudrez.;A=Etape=3PA;B=La prochaine fois.;> Voulez vous l'installé ?;[A) OUI, B) NON ]; 
+element=Parachute
+Liste=Objet
+COND=3
+vrai=A=Vous commandez l'installation des 3 parachutes sur l'avion furtif. Ainsi équippé, l'appareil pourra résisté a une chute et sauver sa technologie.:Objet-Parachute:Objet-Parachute:Objet-Parachute:Etape=3AVPA:Etape-3PA;B=Vous commandez l'installation des 3 parachutes sur le Satelite. Ainsi équippé, StealthRay1 pourra résisté a une dessente dans l'atmosphère et sauver sa technologie.:Objet-Parachute:Objet-Parachute:Objet-Parachute:Etape=3SAPA:Etape-3PA;> Appareil a modifié ?;[A) Avion, B) Satelite ]; 
+element=3PA
+Liste=Etape
+SI=COND
+vrai=Il vous reste au moins 1 parachute a installé où vous voudrez.;A=Etape=1PA;B=La prochaine fois.;> Voulez vous l'installé ?;[A) OUI, B) NON ]; 
+element=Parachute
+Liste=Objet
+SI=COND
+vrai=A=Vous installez le parachute sur votre costume pour être prêt en tout temps. Avec lui vous avez la possibilité de sauter de l'avion en plain vole ou d'être accroché par lui depuis le sol, grace à un ballon retro-éclairé plus léger que l'air.:Objet-Parachute:Etape=COPA:Etape-1PA:Trophe=Air-Born;B=Vous installez le parachute sur votre drone pour qu'il soit sauve en cas d'attaque, ou qu'il soit acroché par l'avion.:Objet-Parachute:Etape=DRPA:Etape-1PA:Trophe=Path-Finder;> Appareil a modifié ?;[A) Costume, B) Drone ]; 
+element=Parachute
+Liste=Objet
+SI=COND
+vrai=Vous avez 3 IA de disponible! Avec ces 3 coeurs IA combiné, vous pourriez obtenir Immunité haker pour Drone, Avion ou Satelite.;A=Etape=3IA;B=La prochaine fois.;> Voulez vous l'installé ?;[A) OUI, B) NON ]; 
+element=IA
+Liste=Objet
+COND=3
+vrai=A=Vous uploader a distance, le programme d'intéligence artificiel sur le Drone, grace à votre application.:Objet-IA:Etape=DRIA:Etape-3IA;B=Vous uploader a distance, le programme d'intéligence artificiel sur l'Avion, grace à votre application.:Objet-IA:Etape=AVIA:Etape-3IA;C=Vous uploader a distance, le programme d'intéligence artificiel sur le satelite, grace à votre application.:Objet-IA:Etape=SAIA:Etape-3IA;> Appareil a modifié ?;[A) Drone, B) Avion, C) Satelite ]; 
+element=3IA
+Liste=Etape
+SI=COND
+vrai=Vous avez 2 IA de disponible. Avec ces 2 coeurs IA combiné, vous pourriez obtenir option Réparation avec Bras Robot pour Drone ou Avion.;A=Etape=2IA;B=Bon Choix.;> Voulez vous l'installé ?;[A) OUI, B) NON ]; 
+element=IA
+Liste=Objet
+COND=2
+vrai=A=Vous uploader a distance, le programme d'intéligence artificiel sur le Drone, grace à votre application.:Objet-IA:Etape=DRIA:Etape-2IA;B=Vous uploader a distance, le programme d'intéligence artificiel sur l'Avion, grace à votre application.:Objet-IA:Etape=AVIA:Etape-2IA;C=Vous uploader a distance, le programme d'intéligence artificiel sur le Satelite, grace à votre application.:Objet-IA:Etape=SAIA:Etape-2IA;> Appareil a modifié ?;[A) Drone, B) Avion, C) Satelite ]; 
+element=2IA
+Liste=Etape
+SI=COND
+vrai=Vous avez au moins 1 IA de disponible. Avec 1 coeurs IA, vous pouvez obtenir option Détection avec Drone, Avion ou Satelite disposent de Caméra, récupération ou maniment d'objet avec Bras Robot pour Drone, Avion.;A=Etape=1IA;B=Bon Choix.;> Voulez vous l'installé ?;[A) OUI, B) NON ]; 
+element=IA
+Liste=Objet
+SI=COND
+vrai=A=Vous uploader a distance, le programme d'intéligence artificiel sur le Drone, grace à votre application.:Objet-IA:Etape=DRIA:Etape-1IA;B=Vous uploader a distance, le programme d'intéligence artificiel sur l'Avion, grace à votre application.:Objet-IA:Etape=AVIA:Etape-1IA;C=Vous uploader a distance, le programme d'intéligence artificiel sur le Satelite, grace à votre application.:Objet-IA:Etape=SAIA:Etape-1IA;> Appareil a modifié ?;[A) Drone, B) Avion, C) Satelite ]; 
+element=1IA
+Liste=Etape
+SI=COND
+vrai=Vous avez une Boite Blanche DEA a installé ou vous voudrez. Il sagit d'un assistance médical autonhome munie d'un Défibrilateur Entièrement Automatique et d'un dispensateur de stimulant intraveneuse.;A=Etape=1DEA;B=La prochaine fois.;> Voulez vous procédé ?;[A) OUI, B) NON ]; 
+element=DEA
+Liste=Objet
+SI=COND
+vrai=A=Vous installez la Boite Blanche sur le Costume. Cette amélioration vous offre une seconde chance de survie en cas de mort.:Objet-DEA:Etape=CODEA:Etape-1DEA:Trophe=Immunité a la mort;B=Vous installez la Boite Blanche sur le Drone. Cette amélioration vous offre une seconde chance de survie en cas de mort.:Objet-DEA:Etape=DRDEA:Etape-1DEA:Trophe=Immunité a la mort;> Élement a modifié ?;[A) Costume, B) Drone ]; 
+element=1DEA
+Liste=Etape
+SI=COND
+faux=:
+/Correction limitation et trophe
+vrai=Etape-SAIA;Etape-SAIA;Etape-SAIA;Etape=3SAIA;Etape=Disparition;Etape=Illusion;Trophe=Immunité au Hacker
+element=SAIA
+Liste=Etape
+COND=3
+vrai=Etape-AVIA;Etape-AVIA;Etape-AVIA;Etape=3AVIA;Etape=Disparition;Etape=Illusion;Trophe=Immunité au Hacker
+element=AVIA
+Liste=Etape
+COND=3
+vrai=Etape-DRIA;Etape-DRIA;Etape-DRIA;Etape=3DRIA;Etape=Disparition;Etape=Illusion;Trophe=Immunité au Hacker
+element=DRIA
+Liste=Etape
+COND=3
+vrai=Etape=Hergonimie;Etape=transformation;Trophe=Inteligence Avancée
+element=SAIA
+Liste=Etape
+COND=2
+vrai=Etape=Hergonimie;Etape=transformation;Trophe=Inteligence Avancée
+element=AVIA
+Liste=Etape
+COND=2
+vrai=Etape=Hergonimie;Etape=transformation;Trophe=Inteligence Avancée
+element=DRIA
+Liste=Etape
+COND=2
+vrai=Etape-DRLED;Etape-DRLED;Etape=2DRLED;Trophe=Drone-Stealth
+element=DRLED
+Liste=Etape
+COND=2
+vrai=Etape-COLED;Etape-COLED;Etape=2COLED;Trophe=Agent-Stealth
+element=COLED
+Liste=Etape
+COND=2
+vrai=Etape-AVLED;Etape-AVLED;Etape=2AVLED
+element=AVLED
+Liste=Etape
+COND=2
+vrai=Etape-2AVLED;Etape-2AVLED;Etape=4AVLED;Trophe=Stealth-Fighter
+element=2AVLED
+Liste=Etape
+COND=2
+vrai=Vous n'avez pas besoin de 2 'Caméra' pour l'Avion!;Etape-AVCA;Objet=Caméra
+element=AVCA
+Liste=Etape
+COND=2
+vrai=Vous n'avez pas besoin de 2 'Caméra' pour le Drone!;Etape-DRCA;Objet=Caméra
+element=DRCA
+Liste=Etape
+COND=2
+vrai=Vous n'avez pas besoin de 2 'Projecteur' pour l'Avion!;Etape-AVPR;Objet=Projecteur
+element=AVPR
+Liste=Etape
+COND=2
+vrai=Vous n'avez pas besoin de 2 'Projecteur' pour le Drone!;Etape-DRPR;Objet=Projecteur
+element=DRPR
+Liste=Etape
+COND=2
+vrai=Etape-SAPA;Etape-SAPA;Etape-SAPA;Etape=3SAPA;Trophe=Immunité au Crah
+element=SAPA
+Liste=Etape
+COND=3
+vrai=Etape-AVPA;Etape-AVPA;Etape-AVPA;Etape=3AVPA;Trophe=Immunité au Crah
+element=AVPA
+Liste=Etape
+COND=3
+vrai=Vous n'avez pas besoin de 2 'Parachute' pour le Drone!;Etape-DRPA;Objet=Parachute
+element=DRPA
+Liste=Etape
+COND=2
+vrai=Vous n'avez pas besoin de 2 'Parachute' pour votre costume!;Etape-COPA;Objet=Parachute
+element=COPA
+Liste=Etape
+COND=2
+vrai=Vous n'avez pas besoin de 2 'DEA' pour le Drone!;Etape-DRDEA;Objet=DEA
+element=DRDEA
+Liste=Etape
+COND=2
+vrai=Vous n'avez pas besoin de 2 'DEA' pour votre costume!;Etape-CODEA;Objet=DEA
+element=CODEA
+Liste=Etape
+COND=2
+vrai=Etape-AVBR;Etape-AVBR;Etape=2AVBR;Etape=Réparation;Trophe=Auto-Réparation
+element=AVBR
+Liste=Etape
+COND=2
+vrai=Etape-DRBR;Etape-DRBR;Etape=2DRBR;Etape=Réparation;Trophe=Auto-Réparation
+element=DRBR
+Liste=Etape
+COND=2
+LV+1
+/(Etape)
+/Bloc tout niveau suplémentaire
+vrai=LV=13:Pas d'autre Niveau technologique.: 
+element=13
+Liste=LV
+SI>VAR
+(pause)
+vrai=sourcefile=Wi-Fleming1; 
+element=0
+Liste=Etape
+SI=COND
+vrai=sourcefile=Wi-Fleming2; 
+element=1
+Liste=Etape
+SI=COND
+vrai=sourcefile=Wi-Fleming3; 
+element=2
+Liste=Etape
+SI=COND
+vrai=sourcefile=Wi-Fleming4; 
+element=3
+Liste=Etape
+SI=COND
+vrai=sourcefile=Wi-Fleming5; 
+element=4
+Liste=Etape
+SI=COND
+vrai=sourcefile=Wi-Fleming6; 
+element=5
+Liste=Etape
+SI=COND
+vrai=sourcefile=Wi-Fleming7; 
+element=6
+Liste=Etape
+SI=COND
+vrai=sourcefile=Wi-Fleming8; 
+element=7
+Liste=Etape
+SI=COND
+vrai=sourcefile=Wi-Fleming9; 
+element=8
+Liste=Etape
+SI=COND
+vrai=sourcefile=Wi-Fleming10; 
+element=9
+Liste=Etape
+SI=COND
+vrai=sourcefile=Wi-Fleming11; 
+element=10
+Liste=Etape
+SI=COND
+vrai=sourcefile=Wi-Fleming12; 
+element=11
+Liste=Etape
+SI=COND
+/Fin
+vrai=sourcefile=wi-Fleming13B; 
+faux=
+element=12
+Liste=Etape
+SI=COND
+/Fin_Alternative
+vrai=sourcefile=Wi-Fleming13A;
+faux=
+element=3SAPA
+Liste=Etape
+SI=COND
+vrai=sourcefile=Action_Fin; 
+element=12
+Liste=Etape
+SI=COND
+vrai=Projet-Palentirit;
+element=13
+Liste=Etape
+SI=COND

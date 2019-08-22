@@ -1,0 +1,285 @@
+/LED OU DEA
+/Le Rayon Tesla?
+Mission 6.
+Rapport Météo: Matin Ensoleillé 17 degré Celsius, ciel variable et humidité moyen.
+Rapport Situation: Vous entrez dans l'espace aérien d'une zone contrôlé par l'OSP, l'application vous a conduit jusqu'ici pour que vous récupériez un conteneur classifié et découvrez sur quoi travail la société privée. L'image satellite vient de détecter une base militaire et un gros appareille métallique qui dégage de fort rayonnement électromagnétique. Ça pourrait poser problème avec votre nouveau moyen de transport s'il est repéré.
+Vous êtes maintenant en mission officiel. Utilisez l'Avion autant que vous le pouvez et s'il est détruit par l'ennemie, ne vous en fait pas, retrouvé le il est réparable.
+Objectif, Se familiarisé avec l'Avion Furtif pour reconnaitre le terrain en tout temps ou sur de grande distance.
+A=Vous Commencé l'entrainement en situation réel.
+>  Commencer l'infiltration ?
+[A) Commencer. ]
+L'avion et le Drone pourront bouger de façon automatique si vous le laissez aller. Il peut vous suivre de n'importe où avec son module pathfinder. Sa fonction est de filmé à vol d’oiseau en grand angle et vous fournir des informations sur la position ennemie sans être repéré. Il enregistre le son à distance et les communications radio de l'ennemie.
+(pause)
+Une Stratégie consiste à survolé le terrain et envoyé le Drone en reconnaissance en les cachent d'illusion les deux à la fois. Il se peut qu'un ennemi détecte l'avion ou le Drone et les détruisent, à ce moment vous devez y aller discrètement les retrouvé et les réparer.
+1. Demander au Satellite de caché votre présence......34%
+2. Tourné autour de la position à bonne limite........75%
+3. Scanner pour découvrir les positions ennemies........50%
+4. Lancer le Drone en plein vol pour espionner de près.75%
+5. Se parachuter dans une zone claire d'ennemie.......50%
+A=Vous demander au Satellite de caché votre présence visuellement. Camouflage réussie. :Etape=camo6
+B=Survole circulaire réussie.
+C=Scan de la zone réussie.
+D=Lancement du Drone réussie.
+E=Parachutage réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Camouflage, B) Survole, C) Scan, D) Drone, E) Parachuter. ]
+Score=0
+vrai=Score+1;Etape-camo6
+faux=Vous deviez demander au Satellite de caché visuellement votre présence. Correction en coure...Done. : L’IA s'en est chargée pour vous, en demandant un camouflage optiquement. Vous êtes maintenant furtif a 100% radar et invisible a 50% visuelle.
+element=camo6
+liste=Etape
+SI=COND
+A=camouflage réussie.
+B=Survole circulaire réussie. L'avion fonctionne maintenant sans pilot. :Etape=Survol6
+C=Scan de la zone réussie.
+D=Lancement du Drone réussie.
+E=Parachutage réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Camouflage, B) Survole, C) Scan, D) Drone, E) Parachuter. ]
+vrai=Score+1;Etape-Survol6
+faux=Vous deviez demander un survol à l'extérieur de la zone ennemie. Correction en coure...Done. :L'IA s'en est chargé pour vous, en demandent un Survole circulaire du périmètre ennemie.
+element=Survol6
+liste=Etape
+SI=COND
+A=camouflage réussie.
+B=Survole circulaire réussie.
+C=Scan de la zone réussie. Ça grouille de drone ennemi équiper de mini-gun, ils sont vraiment paranoïaque par ici. L’OSP doit garder un secret important sur ce site. :Etape=Scane6
+D=Lancement du Drone réussie.
+E=Parachutage réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Camouflage, B) Survole, C) Scan, D) Drone, E) Parachuter. ]
+vrai=Score+1;Etape-Scane6
+faux=Vous deviez scan la zone pour trouver la position d'ennemie. Correction en coure...Done. : L’IA s'en est chargé pour vous, et durant le scan il détecte beaucoup robots. Ça grouille de drone ennemi équiper de mini-gun, ils sont vraiment paranoïaque par ici. L’OSP doit garder un secret important sur ce site.
+element=Scane6
+liste=Etape
+SI=COND
+A=camouflage réussie.
+B=Survole circulaire réussie.
+C=Scane de la zone réussie.
+D=Lancement du Drone réussie. Le bras robot le glisse par la soute et il tombe en chute libre avant d'allumé ces moteur pour se positionné a 20 pied du sol. Il patrouille dans la zone devant vous. Le satellite s'occupe de le camouflé individuellement depuis l'espace de la même façon que votre costume. :Etape=drone6
+E=Parachutage réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Camouflage, B) Survole, C) Scan, D) Drone, E) Parachuter. ]
+vrai=Score+1;Etape-drone6
+faux=Vous deviez lancer le Drone ensuite pour être vos yeux et vos oreille en bas. Correction en coure...Done. : L'IA s'en est chargé pour vous, le bras robot le glisse par la soute et il tombe en chute libre avant d'allumé ces moteur pour se positionné a 20 pied du sol. Il patrouille dans la zone devant vous caché à 50% par le satellite.
+element=drone6
+liste=Etape
+SI=COND
+A=camouflage réussie.
+B=Survole circulaire réussie.
+C=Scane de la zone réussie.
+D=Lancement du Drone réussie.
+E=Parachutage réussie. Vous sautez de l'avion soute ouvert et déployer votre aille furtive pour glisser en silence dans la plaine. :Etape=Parachut6
+> Quelle stratégie vous adopterez ici ?
+[A) Camouflage, B) Survole, C) Scan, D) Drone, E) Parachuter. ]
+vrai=Score+1;Etape-Parachut6
+faux=Vous deviez sauter maintenant de l'appareil avant de manqué votre fenêtre d'atterrissage. Correction en coure...Done. : L'IA s'en est chargée pour vous, vous pouvez compter sur une bonne poussée dans le dos, gracieuseté du bras robot dans la soute pour ne pas manquer votre rendez-vous.
+element=Parachut6
+liste=Etape
+SI=COND
+vrai=Trophe=Bon travail 
+faux=Trophe=Le couteau le moins déguisé du tiroir  
+element=5
+liste=Score
+SI=VAR
+faux=
+Vous allez tenter votre chance en testent leurs dispositifs de détection.
+Score=0
+Ch=Ran
+(Ch)
+vrai=INTRUE DÉTECTÉ!;Etape=alert6
+faux=Vous avez de la chance!
+element=4
+Liste=Ch
+SI<VAR
+vrai=Vous êtes survolé par un Drone ennemi. Il vous a détecté avec sa caméra spectral et maintenant il appel du rend fort. Alerte! Vous avez été encerclé par un bataillon de machine qui mitraille à qui mieux mieux! Il y a autre chose d'étrange a propos de leurs rafales de balles. Ce n'est pas sans hasard s’ils pétaradent comme ça, vous tendez l'oreille et voyez un schéma auditif se formé... Vous savez d'avance que l'avion brouille leurs communications depuis votre arrivé, mais les drones se sont organisé très vite et ont réussie a se parlé en morse abrégé. Leurs munitions ne prouvent manqué par un système de téléportation et de recharge interne. Ils ont adopté ce code par nécessité.
+element=alert6
+Liste=Etape
+SI=COND
+vrai=A=Votre position est compromise. Vous courez comme le vent et les bales éclatent tout autour de vous. Après quelque seconde de panique vous constatez qu’ils ne vous tirent pas dessus, mais qu’ils vous manquent volontairement. Le schéma des impactent ressemble à une spirale rétrécissant tout autour et qui vous oblige a toujours tournée dans une direction plutôt qu'une autre. Ils vous évacué de la zone ou vous conduisent en détention. ;B=Vous croyez qu'en ne bougent pas ils vous oublierons, mais les bales commences a éclaté à vos pieds, vous êtes obligé de bondir pour les évités et finalement prendre la fuite mais par où ils sont déjà trop nombreux a vous encerclé ? Après quelque seconde de panique vous constatez qu’ils ne vous tirent pas dessus, mais qu’ils vous manquent volontairement. Le schéma des impactent ressemble à une spirale rétrécissant tout autour et qui vous oblige a toujours tournée dans une direction plutôt qu'une autre. Ils vous évacué de la zone ou vous conduisent en détention. ;C=Vous plongez a couvert comme dans l'entrainement et resté en mouvement. Jamais plus de 10 secondes par cachettes en prenant des décisions au hasard. L'algorithme qui pilot ces drone n'y comprend bientôt rien et commet des erreurs que vous exploitez a la première opportunité. Seulement vous rattrape et les bales éclatent tout autour de vous. Après quelque seconde de panique vous constatez qu’ils ne vous tirent pas dessus, mais qu’ils vous manquent volontairement. Le schéma des impactent ressemble à une spirale rétrécissant tout autour et qui vous oblige a toujours tournée dans une direction plutôt qu'une autre. Ils vous évacué de la zone ou vous conduisent en détention. ;D=Dommage que vous ne possédiez pas encore 3 intelligence artificielle sur vos améliorations. Vous réussissez au moins a brouillez le premier qui semble être le seul a possédé une caméra spectral et pas d'armement, ainsi les sentinelles ne pourront plus vous appercevoir.:Etape-alert6;E=Vous demandez du rend fort aérien, comme vos appareilles sont déjà occulté a 50% et que la caméra est seulement braqué sur vous pour les occupé, le drone et l'avion si ils sont munie d'un bras robot peux les accrochés un par un et faire tomber de l'arrière.:Etape-alert6;> Ils arrivent, qu'allez-vous faire ?;[A) Courir, B) Immobile, C) Chat et la souris, D) Piraté, E) Air-Strike. ]; 
+faux=
+element=alert6
+Liste=Etape
+SI=COND
+vrai=A=Votre position est compromise. Vous bougez sur place pour éviter leurs tirs de sommation. Rien à voir avec la Moon dance, ça les perturbent apparemment...continué à faire diversion les secours arrivent!;B=Vous croyez qu'en ne bougent pas ils vous oublierons, mais les bales commences a éclaté à vos pieds, vous êtes obligé de bondir pour les évités et finalement prendre la fuite mais par où ils sont déjà trop nombreux a vous encerclé ? Après quelque seconde de panique vous constatez qu’ils ne vous tirent pas dessus, mais qu’ils vous manquent volontairement. Le schéma des impactent ressemble à une spirale rétrécissant tout autour et qui vous oblige a toujours tournée dans une direction plutôt qu'une autre. Ils vous évacué de la zone ou vous conduisent en détention. ;C=Vous plongez a couvert comme dans l'entrainement et resté en mouvement. Jamais plus de 10 secondes par cachettes en prenant des décisions au hasard. L'algorithme qui pilot ces drone n'y comprend bientôt rien et commet des erreurs que vous exploitez a la première opportunité. Seulement vous rattrape et les bales éclatent tout autour de vous. Après quelque seconde de panique vous constatez qu’ils ne vous tirent pas dessus, mais qu’ils vous manquent volontairement. Le schéma des impactent ressemble à une spirale rétrécissant tout autour et qui vous oblige a toujours tournée dans une direction plutôt qu'une autre. Ils vous évacué de la zone ou vous conduisent en détention. ;D=Dommage que vous ne possédiez pas encore 3 intelligence artificielle sur vos améliorations. Vous réussissez au moins a brouillez le premier qui semble être le seul a possédé une caméra spectral et pas d'armement, ainsi les sentinelles ne pourront plus vous appercevoir.:Etape-alert6;E=Vous demandez du rend fort aérien, comme vos appareilles sont déjà occulté a 50% et que la caméra est seulement braqué sur vous pour les occupé, le drone et l'avion si ils sont munie d'un bras robot peux les accrochés un par un et faire tomber de l'arrière.:Etape-alert6;> Ils arrivent, qu'allez-vous faire ?;[A) Danser, B) Immobile, C) Chat et la souris, D) Piraté, E) Air-Strike. ]; 
+faux=
+element=alert6
+Liste=Etape
+SI=COND
+vrai=A=Votre position est compromise. Vous courez comme le vent et les bales éclatent tout autour de vous. Après quelque seconde de panique vous constatez qu’ils ne vous tirent pas dessus, mais qu’ils vous manquent volontairement. Le schéma des impactent ressemble à une spirale rétrécissant tout autour et qui vous oblige a toujours tournée dans une direction plutôt qu'une autre. Ils vous évacué de la zone ou vous conduisent en détention. ;B=Vous demandez plus de couverture imagé sur vous! Les Drones militaire viennent vous filmé un par un, car ils sont attiré par le mouvement, mais se désintéressent de vous rapidement. Pour eux vous avez l'aire d'un CAPCHAT humain avec votre costume de camouflage. C'est un peu comme si on vous avait tatoué un code-barres sur le dos qui disait 'No-scan'. Si on est tenté de le lire rien ne comput après coup. Vous êtes un Phantom dans la rush cybernétique. Vous êtes libre mais du Troisième coup!:element=alert1.;C=Vous plongez a couvert comme dans l'entrainement et resté en mouvement. Jamais plus de 10 secondes par cachettes en prenant des décisions au hasard. L'algorithme qui pilot ces drone n'y comprend bientôt rien et commet des erreurs que vous exploitez a la première opportunité. Seulement vous rattrape et les bales éclatent tout autour de vous. Après quelque seconde de panique vous constatez qu’ils ne vous tirent pas dessus, mais qu’ils vous manquent volontairement. Le schéma des impactent ressemble à une spirale rétrécissant tout autour et qui vous oblige a toujours tournée dans une direction plutôt qu'une autre. Ils vous évacué de la zone ou vous conduisent en détention. ;D=Dommage que vous ne possédiez pas encore 3 intelligence artificielle sur vos améliorations. Vous réussissez au moins a brouillez le premier qui semble être le seul a possédé une caméra spectral et pas d'armement, ainsi les sentinelles ne pourront plus vous appercevoir.:Etape-alert6;E=Vous demandez du rend fort aérien, comme vos appareilles sont déjà occulté a 50% et que la caméra est seulement braqué sur vous pour les occupé, le drone et l'avion si ils sont munie d'un bras robot peux les accrochés un par un et faire tomber de l'arrière.:Etape-alert6;> Ils arrivent, qu'allez-vous faire ?;[A) Courir, B) Illusion, C) Chat et la souris, D) Piraté, E) Air-Strike. ]; 
+faux=Les Drones militaire viennent vous filmé un par un, car ils sont attiré par le mouvement, mais se désintéressent de vous rapidement. Pour eux vous avez l'aire d'un CAPCHAT humain avec votre costume de camouflage. C'est un peu comme si on vous avait tatoué un code-barres sur le dos qui disait 'No-scan'. Si on est tenté de le lire rien ne comput après coup. Vous êtes un Phantom dans la rush cybernétique. Vous êtes libre. :(pause)
+element=alert6
+Liste=Etape
+SI=COND
+vrai=Vous êtes escortez de force par les machines dans un bunker réaffecté de l'OSP. Les lourdes portes d'acier blinder témoigne de l'époque près Holocauste, vous ne vous sentez pas rassuré. Elles se referment derrière vous dans un grincement sinistre. Personne ne viendra vous chercher vous êtes oublié ici:(pause):(quit)
+faux=
+element=alert6
+Liste=Etape
+SI=COND
+Vous leurs faussé donc compagnie et rejoignez l'emplacement de la machine infernal. A première vue, il s’agit d'un immense concentrateur électrique de forme tubulaire et chrome, mais vous vous douté qu'a l'intérieur se trouve des milliers de kilomètre de fil de cuivre bien aligné pour transformé le haut débit d'Ampère en Giga-électronvolt de Tension. Bref, de quoi transmuté l'air en plasma et ozone! Mais vous ne devez que la mettre hors d'état de nuire et freiner OSP dans la conquête du monde par ces nouvelles armes de destructions massive. Le dispositif s'appelle 'Rayon Tesla' il se termine par une sphère métallique avec une partie conique qui s'oriente dans tous les angles. C'est peut-être pour lancer la foudre sur les avions, missile ou satellite qui sillonne le ciel.
+(pause)
+Ces différente composantes, quoi que gigantesque sont démonté quand 'le Rayon de la mort' ne sert pas. Et pour en faciliter l'entretien, ces sections sont installées sur des véhicules robots opérable à distance, ou conduit par l'homme ou par les Drones. Il y en n'a 4 types différents, Solénoïde, Gap, Transformateur, échelle Jacob. Que vous devez brancher soit en Série ou en Parallèle avec la suivante, pour obtenir différent circuit possible et niveau de puissance. Attention! Si plusieurs possibilité son bonne pour assemblé le générateur, d'autres sont dangereuse et pourraient autodétruire la machine :P
+(pause)
+A=Vous créer un lien VPN avec les machines et les téléguidés à partir de votre application. Très Bien!:Score=0
+B=Vous trouvez les clés sur le contacte et conduisez une par une les robots véhicules en place. Génial!:Score=0
+C=Vous appelez le Drone en rend-fort qui entre se branché sur le toit des robots véhicules et les conduits. Super!:Score=0
+> Comment allez-vous manœuvré les 'Véhicules composante' ?
+[A) Avec l'application, B) Grimper au volant, C) Drone conduit.]
+Voici a quoi la manouvre d'assemblage peux ressembler, vous n'êtes pas obligé de suivre cette recette en particulier mais vous n'aurez droit qu'à un seul essaie. Certain éléments peuvent être inversé en série ou en parallèle sans faire de différence, mais d'autre ne peuvent être intervertit. D'une manière général si toute la suite est inversée il n'y a pas de problème aussi.
+Exemple 12345=54321 ou 21435=53412.
+(pause)
+En piratent leur système vous trouvez 5 fichier.
+1. file_A 'Le Solénoïde.'
+2. file_B 'élément G.A.P.'
+3. file_C 'Le Condensateur.'
+4. file_D 'Le Transformateur.'
+5. file_E 'Échelle de Jacob.'
+A=Etape=data
+B=Très Bien vous métrisé déjà les technologies M.A.D.
+> Voulez-vous lire sur le fonctionnement des éléments ?
+[A) OUI, B) Non ]
+vrai=A=Solénoïde ou Bobine isolement, est un élément d'induction qui produit une amplitude en avance sur la tension. Il a un effet inductif sur le circuit, qui s'additionne en série et se divise en parallèle. On peut le considérer comme un boyau électrique qui se remplit rapidement et se vide lentement. ;B=G.A.P.(Générateur Amplitude Pulser). Un élément électromécanique qui produit analogiquement des vagues sur l'amplitude. Il s’agit d'un assemblage de tube métallique placé en parallèle et séparer d'une couche d'air a espace réglable. Le courant saute successivement d'un conducteur à l'autre par un phénomène naturelle de mécanique quanta. ;C=Condensateur ou Capaciteur, est un élément de charge qui produit une amplitude en retard sur la tension. Il a un effet capacitif sur le circuit, qui s'additionne en parallèle et se divise en série. On peut le considérer comme un réservoir électrique qui se remplit lentement et se vide rapidement. ;D=Le Transformateur est un assemblage de plusieurs Bobines et d'un noyau ferreux. Avec des raciaux différent primaire et secondaire, on peut facilement augmenter ou abaissé un courant tout dépend du sens ou il est brancher. Celui-ci multiplié le courant en diviser l'amplitude a un niveau très élevé 1000x. On l'appelle aussi Bobine de Tesla, nom de son inventeur et on la reconnait par la particularité, que son primaire est directement relié à son secondaire. ;E=L'échelle de Jacob est un circuit mixte de redressage de tension, souvent constitué de trois ou cinq étage successif. Elle a la particularité de presque doublé la chaque fois, la puissance sans rien perdre de son énergie précédente. ;> Information sur éléments ?;[A) Solénoïde, B) G.A.P, C) Condensateur, D) Transformateur, E) Échelle Jacob. ]; 
+faux=Del file_A
+element=data
+Liste=Etape
+SI=COND
+/vrai=A=;B=Etape-data;> Voulez-vous lire sur un autre éléments ?;[A) OUI, B) Non ]; 
+/faux=
+/element=data
+/Liste=Etape
+/SI=COND
+vrai=A=Solénoïde ou Bobine isolement, est un élément d'induction qui produit une amplitude en avance sur la tension. Il a un effet inductif sur le circuit, qui s'additionne en série et se divise en parallèle. On peut le considérer comme un boyau électrique qui se remplit rapidement et se vide lentement. ;B=G.A.P.(Générateur Amplitude Pulser). Un élément électromécanique qui produit analogiquement des vagues sur l'amplitude. Il s’agit d'un assemblage de tube métallique placé en parallèle et séparer d'une couche d'air a espace réglable. Le courant saute successivement d'un conducteur à l'autre par un phénomène naturelle de mécanique quanta. ;C=Condensateur ou Capaciteur, est un élément de charge qui produit une amplitude en retard sur la tension. Il a un effet capacitif sur le circuit, qui s'additionne en parallèle et se divise en série. On peut le considérer comme un réservoir électrique qui se remplit lentement et se vide rapidement. ;D=Le Transformateur est un assemblage de plusieurs Bobines et d'un noyau ferreux. Avec des raciaux différent primaire et secondaire, on peut facilement augmenter ou abaissé un courant tout dépend du sens ou il est brancher. Celui-ci multiplié le courant en diviser l'amplitude a un niveau très élevé 1000x. On l'appelle aussi Bobine de Tesla, nom de son inventeur et on la reconnait par la particularité, que son primaire est directement relié à son secondaire. ;E=L'échelle de Jacob est un circuit mixte de redressage de tension, souvent constitué de trois ou cinq étage successif. Elle a la particularité de presque doublé la chaque fois, la puissance sans rien perdre de son énergie précédente.;> Information sur éléments ?;[A) Solénoïde, B) G.A.P, C) Condensateur, D) Transformateur, E) Échelle Jacob. ]; 
+faux=Del file_B
+element=data
+Liste=Etape
+SI=COND
+/vrai=A=;B=Etape-data;> Voulez-vous lire sur un autre éléments ?;[A) OUI, B) Non ]; 
+/faux=
+/element=data
+/Liste=Etape
+/SI=COND
+vrai=A=Solénoïde ou Bobine isolement, est un élément d'induction qui produit une amplitude en avance sur la tension. Il a un effet inductif sur le circuit, qui s'additionne en série et se divise en parallèle. On peut le considérer comme un boyau électrique qui se remplit rapidement et se vide lentement. ;B=G.A.P.(Générateur Amplitude Pulser). Un élément électromécanique qui produit analogiquement des vagues sur l'amplitude. Il s’agit d'un assemblage de tube métallique placé en parallèle et séparer d'une couche d'air a espace réglable. Le courant saute successivement d'un conducteur à l'autre par un phénomène naturelle de mécanique quanta. ;C=Condensateur ou Capaciteur, est un élément de charge qui produit une amplitude en retard sur la tension. Il a un effet capacitif sur le circuit, qui s'additionne en parallèle et se divise en série. On peut le considérer comme un réservoir électrique qui se remplit lentement et se vide rapidement. ;D=Le Transformateur est un assemblage de plusieurs Bobines et d'un noyau ferreux. Avec des raciaux différent primaire et secondaire, on peut facilement augmenter ou abaissé un courant tout dépend du sens ou il est brancher. Celui-ci multiplié le courant en diviser l'amplitude a un niveau très élevé 1000x. On l'appelle aussi Bobine de Tesla, nom de son inventeur et on la reconnait par la particularité, que son primaire est directement relié à son secondaire. ;E=L'échelle de Jacob est un circuit mixte de redressage de tension, souvent constitué de trois ou cinq étage successif. Elle a la particularité de presque doublé la chaque fois, la puissance sans rien perdre de son énergie précédente.;> Information sur éléments ?;[A) Solénoïde, B) G.A.P, C) Condensateur, D) Transformateur, E) Échelle Jacob. ]; 
+faux=Del file_C
+element=data
+Liste=Etape
+SI=COND
+/vrai=A=;B=Etape-data;> Voulez-vous lire sur un autre éléments ?;[A) OUI, B) Non ]; 
+/faux=
+/element=data
+/Liste=Etape
+/SI=COND
+vrai=A=Solénoïde ou Bobine isolement, est un élément d'induction qui produit une amplitude en avance sur la tension. Il a un effet inductif sur le circuit, qui s'additionne en série et se divise en parallèle. On peut le considérer comme un boyau électrique qui se remplit rapidement et se vide lentement. ;B=G.A.P.(Générateur Amplitude Pulser). Un élément électromécanique qui produit analogiquement des vagues sur l'amplitude. Il s’agit d'un assemblage de tube métallique placé en parallèle et séparer d'une couche d'air a espace réglable. Le courant saute successivement d'un conducteur à l'autre par un phénomène naturelle de mécanique quanta. ;C=Condensateur ou Capaciteur, est un élément de charge qui produit une amplitude en retard sur la tension. Il a un effet capacitif sur le circuit, qui s'additionne en parallèle et se divise en série. On peut le considérer comme un réservoir électrique qui se remplit lentement et se vide rapidement. ;D=Le Transformateur est un assemblage de plusieurs Bobines et d'un noyau ferreux. Avec des raciaux différent primaire et secondaire, on peut facilement augmenter ou abaissé un courant tout dépend du sens ou il est brancher. Celui-ci multiplié le courant en diviser l'amplitude a un niveau très élevé 1000x. On l'appelle aussi Bobine de Tesla, nom de son inventeur et on la reconnait par la particularité, que son primaire est directement relié à son secondaire. ;E=L'échelle de Jacob est un circuit mixte de redressage de tension, souvent constitué de trois ou cinq étage successif. Elle a la particularité de presque doublé la chaque fois, la puissance sans rien perdre de son énergie précédente.;> Information sur éléments ?;[A) Solénoïde, B) G.A.P, C) Condensateur, D) Transformateur, E) Échelle Jacob. ]; 
+faux=Del file_D
+element=data
+Liste=Etape
+SI=COND
+/vrai=A=;B=Etape-data;> Voulez-vous lire sur un autre éléments ?;[A) OUI, B) Non ]; 
+/faux=
+/element=data
+/Liste=Etape
+/SI=COND
+vrai=A=Solénoïde ou Bobine isolement, est un élément d'induction qui produit une amplitude en avance sur la tension. Il a un effet inductif sur le circuit, qui s'additionne en série et se divise en parallèle. On peut le considérer comme un boyau électrique qui se remplit rapidement et se vide lentement. ;B=G.A.P.(Générateur Amplitude Pulser). Un élément électromécanique qui produit analogiquement des vagues sur l'amplitude. Il s’agit d'un assemblage de tube métallique placé en parallèle et séparer d'une couche d'air a espace réglable. Le courant saute successivement d'un conducteur à l'autre par un phénomène naturelle de mécanique quanta. ;C=Condensateur ou Capaciteur, est un élément de charge qui produit une amplitude en retard sur la tension. Il a un effet capacitif sur le circuit, qui s'additionne en parallèle et se divise en série. On peut le considérer comme un réservoir électrique qui se remplit lentement et se vide rapidement. ;D=Le Transformateur est un assemblage de plusieurs Bobines et d'un noyau ferreux. Avec des raciaux différent primaire et secondaire, on peut facilement augmenter ou abaissé un courant tout dépend du sens ou il est brancher. Celui-ci multiplié le courant en diviser l'amplitude a un niveau très élevé 1000x. On l'appelle aussi Bobine de Tesla, nom de son inventeur et on la reconnait par la particularité, que son primaire est directement relié à son secondaire. ;E=L'échelle de Jacob est un circuit mixte de redressage de tension, souvent constitué de trois ou cinq étage successif. Elle a la particularité de presque doublé la chaque fois, la puissance sans rien perdre de son énergie précédente.;> Information sur éléments ?;[A) Solénoïde, B) G.A.P, C) Condensateur, D) Transformateur, E) Échelle Jacob. ]; 
+faux=Del file_E...100%
+element=data
+Liste=Etape
+SI=COND
+/Séquence assemblage Rayon Tesla
+Score=0
+Circuit 1
+A=Arrimage du premier véhicule réussie.:Score+1
+B=Arrimage du premier véhicule réussie.:Score+4
+C=Arrimage du premier véhicule réussie.
+D=Arrimage du premier véhicule réussie.
+E=Arrimage du premier véhicule réussie.:Score+256
+> Quelle élément du circuit vous choisissez ?
+[A) Solénoïde, B) G.A.P, C) Condensateur, D) Transformateur, E) Échelle Jacob. ]
+A=Branchement en série.
+B=Branchement en parallèle.:Score+2
+C=Branchement circuit mixte.:Score+512
+D=Branchement au neutre. Pas de résultat...
+E=Branchement à la source. Boom!! Vous êtes mort:(pause):(quit)
+> Quel type de branchement vous choisissez ?
+[A) Série, B) Parallèle, C) circuit mixte, D) Au Neutre, E) Alimentation. ]
+Circuit 2
+A=Arrimage du premier véhicule réussie.:Score+1
+B=Arrimage du premier véhicule réussie.:Score+4
+C=Arrimage du premier véhicule réussie.:Score+16
+D=Arrimage du premier véhicule réussie.:Score+64
+E=Arrimage du premier véhicule réussie.
+> Quel élément du circuit vous choisissez ?
+[A) Solénoïde, B) G.A.P, C) Condensateur, D) Transformateur, E) Échelle Jacob. ]
+A=Branchement en série.:Score+128
+B=Branchement en parallèle.:Score+8
+C=Branchement circuit mixte.
+D=Branchement au neutre. Pas de résultat...
+E=Branchement à la source. Boom!! Vous êtes mort:(pause):(quit)
+> Quel type de branchement vous choisissez ?
+[A) Série, B) Parallèle, C) circuit mixte, D) Au Neutre, E) Alimentation. ]
+Circuit 3
+A=Arrimage du premier véhicule réussie.
+B=Arrimage du premier véhicule réussie.
+C=Arrimage du premier véhicule réussie.:Score+16
+D=Arrimage du premier véhicule réussie.:Score+64
+E=Arrimage du premier véhicule réussie.
+> Quel élément du circuit vous choisissez ?
+[A) Solénoïde, B) G.A.P, C) Condensateur, D) Transformateur, E) Échelle Jacob. ]
+A=Branchement en série.:Score+32
+B=Branchement en parallèle.
+C=Branchement circuit mixte.
+D=Branchement au neutre. Pas de résultat...
+E=Branchement à la source. Boom!! Vous êtes mort:(pause):(quit)
+> Quel type de branchement vous choisissez ?
+[A) Série, B) Parallèle, C) circuit mixte, D) Au Neutre, E) Alimentation. ]
+Circuit 4
+A=Arrimage du premier véhicule réussie.:Score+1
+B=Arrimage du premier véhicule réussie.:Score+4
+C=Arrimage du premier véhicule réussie.:Score+16
+D=Arrimage du premier véhicule réussie.:Score+64
+E=Arrimage du premier véhicule réussie.
+> Quel élément du circuit vous choisissez ?
+[A) Solénoïde, B) G.A.P, C) Condensateur, D) Transformateur, E) Échelle Jacob. ]
+A=Branchement en série.:Score+128
+B=Branchement en parallèle.:Score+8
+C=Branchement circuit mixte.
+D=Branchement au neutre. Pas de résultat...
+E=Branchement à la source. Boom!! Vous êtes mort:(pause):(quit)
+> Quel type de branchement vous choisissez ?
+[A) Série, B) Parallèle, C) circuit mixte, D) Au Neutre, E) Alimentation. ]
+Circuit 5
+A=Arrimage du premier véhicule réussie.:Score+1
+B=Arrimage du premier véhicule réussie.:Score+4
+C=Arrimage du premier véhicule réussie.
+D=Arrimage du premier véhicule réussie.
+E=Arrimage du premier véhicule réussie.:Score+256
+> Quel élément du circuit vous choisissez ?
+[A) Solénoïde, B) G.A.P, C) Condensateur, D) Transformateur, E) Échelle Jacob. ]
+A=Branchement en série.
+B=Branchement en parallèle.
+C=Branchement circuit mixte.:Score+512
+D=Branchement au neutre. Pas de résultat...
+E=Branchement à la source. Boom!! Vous êtes mort:(pause):(quit)
+> Quel type de branchement vous choisissez ?
+[A) Série, B) Parallèle, C) circuit mixte, D) Au Neutre, E) Alimentation. ]
+
+Canon Output Mega-Volt:/1023V
+(Score)
+vrai=Par précaution vous congédier vos rend-fort aérien et tournée l'entraine vers la bas. Vous entendez le Rayon de la mort se charger, des arcs électriques apparaissent de tous les couleurs au bout de la sphère et un ora d'énergie brille tout autour du chrome. Vous appuyez sur Feu alors que l'entainne est toujours dirigé vers la base et un fort éclat lumineux surgie. L'onde de choc a grille toute l'installation militaire, les drones de patrouille se crashent par terre et brulent. Vous avez détruit le canon Tesla, l'OSP ne pourra plus s'en servir. Bravo!
+faux=Quelque chose n'a pas dû être bien branché, car au moment de faire Feu, non seulement le Rayon de la mort a explosé, mais vous avec!:(pause):(quit)
+element=1023
+Liste=Score
+SI=VAR
+Le clame est revenu et il n'y a plus d'ennemie dans la zone.
+Pour votre débrouillardise et pour être resté stratégique dans votre infiltration à distance. Vous avez sus utilisé le transport furtif pour vous couvrir, le drone votre reconnaissance et vos aptitudes tactique pour vous débarrassé des drones armés. Dans le centre de recherche au fond de vous trouver du matériel de développement optique, dont un Net LED de camouflage visuelle et une boite blanche DEA compatible avec le Drone comme appuie médical. Le conteneur est équiper d'un 'système de téléportation du choix B'. Vous avez donc le premier choix mais l'autre objet disparait physiquement. Un classique OSP encore très efficace.
+Trophe=Rayon de la mort DIY
+(TROPHE)
+A=Lv=6:Etape=6:sourcefile=missionUp
+B=
+C=
+D=
+E=
+vrai=
+faux=
+element=
+Liste=
+> Appuyer sur A pour Retour.
+[A) Continué ]

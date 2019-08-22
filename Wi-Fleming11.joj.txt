@@ -1,0 +1,476 @@
+/BR OU PA
+/Sauvetage de l'aviatrice Américain dans les années 30.
+Mission 11.
+Rapport Météo: Matin Ensoleillé 17'C, ciel variable et humidité moyen.
+Rapport Situation: Vous entrez dans l'espace aérien d'une zone contrôlé par l'OSP, le GPS vous a conduit jusqu'ici pour que vous récupériez un conteneur classifié.
+(PAUSE)
+"[I.A.] BIP! L'image satellite vient de détecter une faille temporelle que vous devriez visiter par priorité, elle est un centre d'une curieuse phénomène d'aurore a 10 mille pied. Ça ne vous posera pas de problème avec votre nouveau moyen de transport. La récupération du matériel devra attendre encore un peu."
+A=Parfait. D’ailleurs le Vortex semble s'approché de vous.
+B=(Un changement brutal dans les conditions atmosphérique vous pouce dans ca direction et vous êtes aspiré dans le Vortex!)
+> Si vous acceptez ?
+[A) Oui, B) Non. ]
+Vous êtes maintenant en mission officiel. Utilisez le Quantum autant que vous le pouvez et s'il est détruit ou prit par l'ennemie, ne vous en fait pas, une boucle temporelle vous le rendra. Objectif, Se familiarisé avec le module Quantum pour reconnaitre le terrain en d'autre temps ou sur de grande distance, milieu des années 30.
+A=Vous traversez la faille avec votre avion.
+B=Ce trou de Ver tourne en boucle entre deux dates séparées de 7 fois 7 ans. (2 Juillet 1937 & 28 Janvier 1986). Vous consulté les archives de l'époque... Le seul évènement qui retient votre attention est, la disparition de la grande aviatrice Amélia Heartart, lors de sa dernière escale dans le Pacifique. Alors qu’elle se dirigeait dans les Marshals et que l’aviation civile a perdus son signal au-dessus de l’île Jaluit. Vous traversez la faille avec votre avion.
+> Voler jusque dans la brèche Temporelle ?
+[A) Remontez le temps, B) Scanner la singularité. ]
+C'est l'été et vous survolez l'archipel des Marshals, c'est bien l'endroit que vous aviez espéré. L'avion passe mode camouflage visuelle et vole en ce moment même au-dessus de l’île Jaluit. C'est une petite île paradisiaque avec un aéroport de fortune. Il semble qu'elle soit sous l'occupation militaire, vous voyez stationné un navire Américain avec son radar. Ils ne vous ont pas détecté avec votre appareil complétement furtif et vous vous posez sans attirer l'attention dans une clairière en retrait.
+(PAUSE)
+L'I.A. de votre Assistance Espion a aussi fait quel investigations de son côté. La voix de synthèse dans votre collier a conduction osseuse commence ses déduction en ces termes:
+(PAUSE)
+"La disparition d’Amélia Heartart reste un mystère depuis près d'un siècle. Les recherches des îles du Pacifique n’ont rien donné. Elle a dû se perdre et s’écrasé dans l’océan. Ça ne lui ressemble pas surtout qu’elle utilisait un appareille capable d’amerrir et elle avait avec elle un des meilleurs cartographes du monde. L’île où ils devaient se ravitaillé, quoi que petite était équiper d’une bonne antenne de communication et même d'un transpondeur pour enregistré sa position. Fait malheureux, se transpondeur marchait a batterie et celle-ci est tombé en panne durant la nuit. Car un jeune novice en charge du quart de nuit a oublié de la refermé pour ménagé la charge. A cela la météo n’a pas été des plus claires et la réception était imprévisible. Curieusement, la communication était de moins en moins possible à mesure qu’elle approchait de son objectif même avec le temps qui s’adoucie."
+A="[I.A.] Oui, quelque chose a brouillé sa radio. On exclut donc la météo."
+B="[I.A.] Exacte, il n'y avait donc pas de chance que la couche nuageuse bloque ses messages."
+C="[I.A.] Oui, son transpondeur la amené dans une autre direction car des Japonais émettaient sur la même fréquence."
+> Que remarquez-vous jusqu'à ce point dans l'histoire ?
+[A) A-t-on saboté ses communications ?, B) La météo était parfaite, C) Quelque chose la détournée. ]
+A="[I.A.] Oui, quelque chose a brouillé sa radio. On exclut donc la météo."
+B="[I.A.] Exacte, il n'y avait donc pas de chance que la couche nuageuse bloque ses messages."
+C="[I.A.] Oui, son transpondeur la amené dans une autre direction car des Japonais émettaient sur la même fréquence."
+> Que remarquez-vous jusqu'à ce point dans l'histoire ?
+[A) A-t-on saboté ses communications ?, B) La météo était parfaite, C) Quelque chose la détournée. ]
+A="[I.A.] Oui, quelque chose a brouillé sa radio. On exclut donc la météo."
+B="[I.A.] Exacte, il n'y avait donc pas de chance que la couche nuageuse bloque ses messages."
+C="[I.A.] Oui, son transpondeur la amené dans une autre direction car des Japonais émettaient sur la même fréquence."
+> Que remarquez-vous jusqu'à ce point dans l'histoire ?
+[A) A-t-on saboté ses communications ?, B) La météo était parfaite, C) Quelque chose la détournée. ]
+"Une trace dans les archives secrète Japonaise, montre une photo de deux Américain sur un quai sur l’île Lae dans la Papouasie Nouvelle guinée quelque jours suivent leur disparition. On croit que ce pourrais être eux, car il y a une bonne ressemblance physique avec l’un homme le cartographe. Amélia les cheveux coure passait souvent pour un garçon a cette époque et l’individu était pris de dos sur une photo flou. Cet indice, s’appuie sur la confidentialité du document. Les pilotes auraient été capturés comme espion et l’avion d’Amélia confisqué. Ils seraient morts quelque temps après en prison. La raison de leurs présences en Nouvelle Guinée est due au brouillage militaire dans les îles Japonaise. Le secteur était contesté par les Américains durant à la seconde guerre, pour le monopole du carburant. Voilà pourquoi en théorie, on n’a jamais entendus parler d’eux après ça. Ils se sont perdus et les Japonais ont gardé secrète leurs capture sans procès. Peut-être même qu'ils ont été torturé avent d'être tué."
+A="[I.A.] D'une certaine manière, mais Amélia serait disparut autre part."
+B="[I.A.] Tout l'univers conspire à lui faire prendre son avions."
+> Tout cela aurait pu être évité ?
+[A) Oui, B) Non.]
+"Par exemple on sait que le vol d’Amélia fut retardé par une panne du mécanisme de train d’atterrissage juste après un décollage raté. Les réparations on durée deux jours, après quoi elle reprit son vol sans escale vers la mort."
+A="[I.A.] Son marie ne voulais pas qu’elle fasse cette traversé jugé trop hasardeuse. Il a nié son implication dans ce cas."
+B="[I.A.] Son amant aussi cherchait à la dissuader de faire sa traversé du monde. Il a nié son implication dans ce cas."
+C="[I.A.] Aucun voyage n’avait jamais été tenté aussi loin d’un coup. L’avions aurait pu tomber en panne sèche, si elle déviait moindrement de son trajet, avant d’arriver sur Howland."
+D="[I.A.] Ça pourrait servir de couverture à l’opération de résurrection de notre aviatrice. Il aurait pour conséquence de la gardé cloué au sol le temps que la tempête se calme."
+> Selon vous qui avait intérêt a retardé son vol ?
+[A) Le Marie, B) Amant, C) Cartographe, D) L'Agence. ]
+A="[I.A.] Son marie ne voulais pas qu’elle fasse cette traversé jugé trop hasardeuse. Il a nié son implication dans ce cas."
+B="[I.A.] Son amant aussi cherchait à la dissuader de faire sa traversé du monde. Il a nié son implication dans ce cas."
+C="[I.A.] Aucun voyage n’avait jamais été tenté aussi loin d’un coup. L’avions aurait pu tomber en panne sèche, si elle déviait moindrement de son trajet, avant d’arriver sur Howland."
+D="[I.A.] Ça pourrait servir de couverture à l’opération de résurrection de notre aviatrice. Il aurait pour conséquence de la gardé cloué au sol le temps que la tempête se calme."
+> Selon vous qui avait intérêt a retardé son vol ?
+[A) Le Marie, B) Amant, C) Cartographe, D) L'Agence. ]
+A="[I.A.] Son marie ne voulais pas qu’elle fasse cette traversé jugé trop hasardeuse. Il a nié son implication dans ce cas."
+B="[I.A.] Son amant aussi cherchait à la dissuader de faire sa traversé du monde. Il a nié son implication dans ce cas."
+C="[I.A.] Aucun voyage n’avait jamais été tenté aussi loin d’un coup. L’avions aurait pu tomber en panne sèche, si elle déviait moindrement de son trajet, avant d’arriver sur Howland."
+D="[I.A.] Ça pourrait servir de couverture à l’opération de résurrection de notre aviatrice. Il aurait pour conséquence de la gardé cloué au sol le temps que la tempête se calme."
+> Selon vous qui avait intérêt a retardé son vol ?
+[A) Le Marie, B) Amant, C) Cartographe, D) L'Agence. ]
+A="[I.A.] Son marie ne voulais pas qu’elle fasse cette traversé jugé trop hasardeuse. Il a nié son implication dans ce cas."
+B="[I.A.] Son amant aussi cherchait à la dissuader de faire sa traversé du monde. Il a nié son implication dans ce cas."
+C="[I.A.] Aucun voyage n’avait jamais été tenté aussi loin d’un coup. L’avions aurait pu tomber en panne sèche, si elle déviait moindrement de son trajet, avant d’arriver sur Howland."
+D="[I.A.] Ça pourrait servir de couverture à l’opération de résurrection de notre aviatrice. Il aurait pour conséquence de la gardé cloué au sol le temps que la tempête se calme."
+> Selon vous qui avait intérêt a retardé son vol ?
+[A) Le Marie, B) Amant, C) Cartographe, D) L'Agence. ]
+Calcule d'un plan d'intervention en coure...Done!
+"[I.A.] Il reste 2h avant qu'Amélia ne prenne son envole pour Howland, d'ici là le temps ne fera que se dégradé en aval. Sabotez l'avion de manière à ce qu'elle le découvre et avec de la chance les réparations nous ferons gagné quelque jours. Utilisez le module Quantum pour échangé les rapports météo de demain avec aujourd'hui, faire disparaitre tous les pièces de rechange disponible et quittez l'île pour réparer le transpondeur sur Howland."
+/1
+A=Etape=Saboteur
+B=Vous utilisez le module Quantum pour sauter d'une journée dans l'avenir et vous vous introduisez dans la chambre de communication du bateau. Personne n'y si trouve à ce point du temps. Le rapport de météo du lendemain est sur le sommet de la pile et vous le remplacez avec celui du jour en revenant. Espérons que Amélia change d'avis en consultant son avenir.:Etape=Metrep
+C=Etape=Voleur:Etape=Aide
+D=Vous sauter dans l'avion pour vous rendre sur l'île Howland, puis utilisez le module Quantum pour devancé son arrivée. C'est la nuit de la traversé, puis vous vous introduisez dans la cabane radio de l'aéroport. Un cadet s'y trouve endormit toutes les machines allumé et la batterie presque à plat. Vous avancez sur la pointe des pieds en mode camouflage LED et remplacez-la vieille batterie par celle de la perceuse électrique volée dans les outils de la NASA. Puis vous repartez sans oublié de refermer le transpondeur qui tire du jus. Ainsi il n'y aura pas de conséquence de sa négligence. (Le Système Schrödinger viens de détecter un changement dans le Continuum.):Etape=Signal:Etape=Aide
+> Qu'allez-vous faire ?
+[A) Saboté Avion, B) Rapport Météo, C) Volé pièces, D) Réparé Transpondeur. ]
+vrai=Vous ne disposez pas de couverture satellite StealthRay1 en 1937. Vous devrez donc utilisé le camouflage LED et être très discret.;A=Vous montez dans le cockpit et dévissez le tableau de communication. La radio est vraiment antique avec des lampes et des grosses bobines à ferrite. Vous tournez une des lampes dans son bornier, pour qu'elle tombe en court-circuit et tire plus de courant en affaiblissant les communications.:Etape=Radio;B=C'est très compliqué de retiré des pièces comme celles-ci sans une clé adapté, mais par une heureuse coïncidence les boulons de l'avion son du calibre 11/20! Exactement comme l'outil volé à la NASA en 1986, d'ailleurs même les ressorts retirer vous sont très familier ?!:Etape=Roue:Etape=Aide;C=Vous vous cachez sous une ailes et dévissez le bouchon de carburant pour vidé a moitié le réservoir. Ainsi elle sera obligé de faire demi-tour avant que le temps se gâte.:Etape=Escence;D=Vous montez dans le cockpit et localisé la console du transpondeur. Il y a un cadrant pour syntonisé la fréquence guide jusqu'à sa source d'émission. Vous la tournée jusqu'à ce que vous en trouviez une autre dans le Pacifique.:Etape=Balise;> Quel partie sabotez vous son avion ?;[A) Radio, B) Train d'atterrissage, C) Réservoir, D) Fréquence Transpondeur. ]; 
+faux=/
+element=Saboteur
+liste=Etape
+SI=COND
+vrai=Vous ne disposez pas de couverture satellite StealthRay1 en 1937. Vous devrez donc utilisé le camouflage LED et être très discret. En entrant dans le hangar qui est désert et trouvé les pièce de rechange.;A=Hop! Tous les boulons de 11/20 tombe dans votre poche. Vous allez les jeté dans la mer plus tard.:Etape=Boulon;B=Il y a effectivement 2 grand ressort de suspension du même type que l'avion, vous les prenez. Vous allez les apportés sur l'air de lancement de Cap Canaveral en 1986. (Le Système Schrödinger viens de détecter un changement dans le Continuum.):Etape=Suspension:Etape=Aide;C=C'est une chose d'avoir les pièces, mais on ne peut rien faire sans le bonne outil. Vous allez les jeté dans la mer plus tard.:Etape=CléAnglaise;D=Boom! La boite de lampe radio tombe par terre, les ampoules ont toutes volé en éclat. Vous allez dans l'avion plus tard pour casser une autre composante du même type.:Etape=Lampe;> Quel pièce allez-vous faire disparaitre ?;[A) Boulons, B) Ressorts Train, C) Clé Anglaise, D) Lampe Radio. ]; 
+faux=/
+element=Voleur
+liste=Etape
+SI=COND
+Vous repartez sans vous faire voire.
+"[I.A.] Il vous reste 1h30 avant le décollage."
+vrai=Etape-Saboteur
+faux=/
+element=Saboteur
+liste=Etape
+COND>1
+vrai=Etape-Voleur
+faux=/
+element=Voleur
+liste=Etape
+COND>1
+vrai=Etape-Radio
+faux=/
+element=Radio
+liste=Etape
+COND>1
+vrai=Etape-Escence
+faux=/
+element=Escence
+liste=Etape
+COND>1
+vrai=Etape-Suspension
+faux=/
+element=Suspension
+liste=Etape
+COND>1
+vrai=Etape-Balise
+faux=/
+element=Balise
+liste=Etape
+COND>1
+vrai=Etape-Signal
+faux=/
+element=Signal
+liste=Etape
+COND>1
+vrai=Etape-Metrep
+faux=/
+element=Metrep
+liste=Etape
+COND>1
+vrai=Etape-Boulon
+faux=/
+element=Boulon
+liste=Etape
+COND>1
+vrai=Etape-CléAnglaise
+faux=/
+element=CléAnglaise
+liste=Etape
+COND>1
+vrai=Etape-Lampe
+faux=/
+element=Lampe
+liste=Etape
+COND>1
+vrai=Etape-Roue
+faux=/
+element=Roue
+liste=Etape
+COND>1
+/2
+A=Etape=Saboteur2
+B=Vous utilisez le module Quantum pour sauter d'une journée dans l'avenir et vous vous introduisez dans la chambre de communication du bateau. Personne n'y si trouve à ce point du temps. Le rapport de météo du lendemain est sur le sommet de la pile et vous le remplacez avec celui du jour en revenant. Espérons que Amélia change d'avis en consultant son avenir.:Etape=Metrep
+C=Etape=Voleur2:Etape=Aide
+D=Vous sauter dans l'avion pour vous rendre sur l'île Howland, puis utilisez le module Quantum pour devancé son arrivée. C'est la nuit de la traversé, puis vous vous introduisez dans la cabane radio de l'aéroport. Un cadet s'y trouve endormit toutes les machines allumé et la batterie presque à plat. Vous avancez sur la pointe des pieds en mode camouflage LED et remplacez-la vieille batterie par celle de la perceuse électrique volée dans les outils de la NASA. Puis vous repartez sans oublié de refermer le transpondeur qui tire du jus. Ainsi il n'y aura pas de conséquence de sa négligence. (Le Système Schrödinger viens de détecter un changement dans le Continuum.):Etape=Signal:Etape=Aide
+> Qu'allez-vous faire ?
+[A) Saboté Avion, B) Rapport Météo, C) Volé pièces, D) Réparé Transpondeur. ]
+vrai=Vous ne disposez pas de couverture satellite StealthRay1 en 1937. Vous devrez donc utilisé le camouflage LED et être très discret.;A=Vous montez dans le cockpit et dévissez le tableau de communication. La radio est vraiment antique avec des lampes et des grosses bobines à ferrite. Vous tournez une des lampes dans son bornier, pour qu'elle tombe en court-circuit et tire plus de courant en affaiblissant les communications.:Etape=Radio;B=C'est très compliqué de retiré des pièces comme celles-ci sans une clé adapté, mais par une heureuse coïncidence les boulons de l'avion son du calibre 11/20! Exactement comme l'outil volé à la NASA en 1986, d'ailleurs même les ressorts retirer vous sont très familier ?!:Etape=Roue:Etape=Aide;C=Vous vous cachez sous une ailes et dévissé le bouchon de carburant pour vidé a moitié le réservoir. Ainsi elle sera obligé de faire demi-tour avant que le temps se gâte.:Etape=Escence;D=Vous montez dans le cockpit et localisé la console du transpondeur. Il y a un cadrant pour syntonisé la fréquence guide jusqu'à sa source d'émission. Vous la tournée jusqu'à ce que vous en trouviez une autre dans le Pacifique.:Etape=Balise;> Quel partie sabotez vous son avion ?;[A) Radio, B) Train d'atterrissage, C) Réservoir, D) Fréquence Transpondeur. ]; 
+faux=/
+element=Saboteur2
+liste=Etape
+SI=COND
+vrai=Vous ne disposez pas de couverture satellite StealthRay1 en 1937. Vous devrez donc utilisé le camouflage LED et être très discret. En entrant dans le hangar qui est désert et trouvé les pièce de rechange.;A=Hop! Tous les boulons de 11/20 tombe dans votre poche. Vous allez les jeté dans la mer plus tard.:Etape=Boulon;B=Il y a effectivement 2 grand ressort de suspension du même type que l'avion, vous les prenez. Vous allez les apportés sur l'air de lancement de Cap Canaveral en 1986. (Le Système Schrödinger viens de détecté un changement dans le Continuum):Etape=Suspension:Etape=Aide;C=C'est une chose d'avoir les pièces, mais on ne peut rien faire sans le bonne outil. Vous allez les jeté dans la mer plus tard.:Etape=CléAnglaise;D=Boom! La boite de lampe radio tombe par terre, les ampoules ont toutes volé en éclat. Vous allez dans l'avion plus tard pour casser une autre composante du même type.:Etape=Lampe;> Quel pièce allez-vous faire disparaitre ?;[A) Boulons, B) Ressorts Train, C) CléAnglaise, D) Lampe Radio. ]; 
+faux=/
+element=Voleur2
+liste=Etape
+SI=COND
+Vous repartez sans vous faire voire.
+"[I.A.] Il vous reste 1h00 avant le décollage."
+vrai=Etape-Saboteur
+faux=/
+element=Saboteur
+liste=Etape
+COND>1
+vrai=Etape-Voleur
+faux=/
+element=Voleur
+liste=Etape
+COND>1
+vrai=Etape-Radio
+faux=/
+element=Radio
+liste=Etape
+COND>1
+vrai=Etape-Escence
+faux=/
+element=Escence
+liste=Etape
+COND>1
+vrai=Etape-Suspension
+faux=/
+element=Suspension
+liste=Etape
+COND>1
+vrai=Etape-Balise
+faux=/
+element=Balise
+liste=Etape
+COND>1
+vrai=Etape-Signal
+faux=/
+element=Signal
+liste=Etape
+COND>1
+vrai=Etape-Metrep
+faux=/
+element=Metrep
+liste=Etape
+COND>1
+vrai=Etape-Boulon
+faux=/
+element=Boulon
+liste=Etape
+COND>1
+vrai=Etape-CléAnglaise
+faux=/
+element=CléAnglaise
+liste=Etape
+COND>1
+vrai=Etape-Lampe
+faux=/
+element=Lampe
+liste=Etape
+COND>1
+vrai=Etape-Roue
+faux=/
+element=Roue
+liste=Etape
+COND>1
+/3
+A=Etape=Saboteur3
+B=Vous utilisez le module Quantum pour sauter d'une journée dans l'avenir et vous vous introduisez dans la chambre de communication du bateau. Personne n'y si trouve à ce point du temps. Le rapport de météo du lendemain est sur le sommet de la pile et vous le remplacez avec celui du jour en revenant. Espérons que Amélia change d'avis en consultant son avenir.:Etape=Metrep
+C=Etape=Voleur3:Etape=Aide
+D=Vous sauter dans l'avion pour vous rendre sur l'île Howland, puis utilisez le module Quantum pour devancé son arrivée. C'est la nuit de la traversé, puis vous vous introduisez dans la cabane radio de l'aéroport. Un cadet s'y trouve endormit toutes les machines allumé et la batterie presque à plat. Vous avancez sur la pointe des pieds en mode camouflage LED et remplacez-la vieille batterie par celle de la perceuse électrique volée dans les outils de la NASA. Puis vous repartez sans oublié de refermer le transpondeur qui tire du jus. Ainsi il n'y aura pas de conséquence de sa négligence. (Le Système Schrödinger viens de détecter un changement dans le Continuum.):Etape=Signal:Etape=Aide
+> Qu'allez-vous faire ?
+[A) Saboté Avion, B) Rapport Météo, C) Volé pièces, D) Réparé Transpondeur. ]
+vrai=Vous ne disposez pas de couverture satellite StealthRay1 en 1937. Vous devrez donc utilisé le camouflage LED et être très discret.;A=Vous montez dans le cockpit et dévissé le tableau de communication. La radio est vraiment antique avec des lampes et des grosses bobines à ferrite. Vous tournez une des lampes dans son bornier, pour qu'elle tombe en court-circuit et tire plus de courant en affaiblissant les communications.:Etape=Radio;B=C'est très compliqué de retiré des pièces comme celles-ci sans une clé adapté, mais par une heureuse coïncidence les boulons de l'avion son du calibre 11/20! Exactement comme l'outil volé à la NASA en 1986, d'ailleurs même les ressorts retirer vous sont très familier ?!:Etape=Roue:Etape=Aide;C=Vous vous cachez sous une ailes et dévissé le bouchon de carburant pour vidé a moitié le réservoir. Ainsi elle sera obligé de faire demi-tour avant que le temps se gâte.:Etape=Escence;D=Vous montez dans le cockpit et localisé la console du transpondeur. Il y a un cadrant pour syntonisé la fréquence guide jusqu'à sa source d'émission. Vous la tournée jusqu'à ce que vous en trouviez une autre dans le Pacifique.:Etape=Balise;> Quel partie sabotez vous son avion ?;[A) Radio, B) Train d'atterrissage, C) Réservoir, D) Fréquence Transpondeur. ]; 
+faux=/
+element=Saboteur3
+liste=Etape
+SI=COND
+vrai=Vous ne disposez pas de couverture satellite StealthRay1 en 1937. Vous devrez donc utilisé le camouflage LED et être très discret. En entrant dans le hangar qui est désert et trouvé les pièce de rechange.;A=Hop! Tous les boulons de 11/20 tombe dans votre poche. Vous allez les jeté dans la mer plus tard.:Etape=Boulon;B=Il y a effectivement 2 grand ressort de suspension du même type que l'avion, vous les prenez. Vous allez les apportés sur l'air de lancement de Cap Canaveral en 1986. (Le Système Schrödinger viens de détecté un changement dans le Continuum):Etape=Suspension:Etape=Aide;C=C'est une chose d'avoir les pièces, mais on ne peut rien faire sans le bonne outil. Vous allez les jeté dans la mer plus tard.:Etape=CléAnglaise;D=Boom! La boite de lampe radio tombe par terre, les ampoules ont toutes volé en éclat. Vous allez dans l'avion plus tard pour casser une autre composante du même type.:Etape=Lampe;> Quel pièce allez-vous faire disparaitre ?;[A) Boulons, B) Ressorts Train, C) Clé Anglaise, D) Lampe Radio. ]; 
+faux=/
+element=Voleur3
+liste=Etape
+SI=COND
+Vous repartez sans vous faire voire.
+"[I.A.] Il vous reste 30m avant le décollage."
+vrai=Etape-Saboteur
+faux=/
+element=Saboteur
+liste=Etape
+COND>1
+vrai=Etape-Voleur
+faux=/
+element=Voleur
+liste=Etape
+COND>1
+vrai=Etape-Radio
+faux=/
+element=Radio
+liste=Etape
+COND>1
+vrai=Etape-Escence
+faux=/
+element=Escence
+liste=Etape
+COND>1
+vrai=Etape-Suspension
+faux=/
+element=Suspension
+liste=Etape
+COND>1
+vrai=Etape-Balise
+faux=/
+element=Balise
+liste=Etape
+COND>1
+vrai=Etape-Signal
+faux=/
+element=Signal
+liste=Etape
+COND>1
+vrai=Etape-Metrep
+faux=/
+element=Metrep
+liste=Etape
+COND>1
+vrai=Etape-Boulon
+faux=/
+element=Boulon
+liste=Etape
+COND>1
+vrai=Etape-CléAnglaise
+faux=/
+element=CléAnglaise
+liste=Etape
+COND>1
+vrai=Etape-Lampe
+faux=/
+element=Lampe
+liste=Etape
+COND>1
+vrai=Etape-Roue
+faux=/
+element=Roue
+liste=Etape
+COND>1
+/4
+A=Etape=Saboteur4
+B=Vous utilisez le module Quantum pour sauter d'une journée dans l'avenir et vous vous introduisez dans la chambre de communication du bateau. Personne n'y si trouve à ce point du temps. Le rapport de météo du lendemain est sur le sommet de la pile et vous le remplacez avec celui du jour en revenant. Espérons que Amélia change d'avis en consultant son avenir.:Etape=Metrep
+C=Etape=Voleur4:Etape=Aide
+D=Vous sauter dans l'avion pour vous rendre sur l'île Howland, puis utilisez le module Quantum pour devancé son arrivée. C'est la nuit de la traversé, puis vous vous introduisez dans la cabane radio de l'aéroport. Un cadet s'y trouve endormit toutes les machines allumé et la batterie presque à plat. Vous avancez sur la pointe des pieds en mode camouflage LED et remplacez la vieille batterie par celle de la perceuse électrique volé dans les outils de la NASA. Puis vous repartez sans oublié de refermer le transpondeur qui tire du jus. Ainsi il n'y aura pas de conséquence de sa négligence. (Le Système Schrödinger viens de détecté un changement dans le Continuum.):Etape=Signal:Etape=Aide
+> Qu'allez-vous faire ?
+[A) Saboté Avion, B) Rapport Météo, C) Volé pièces, D) Réparé Transpondeur. ]
+vrai=Vous ne disposez pas de couverture satellite StealthRay1 en 1937. Vous devrez donc utilisé le camouflage LED et être très discret.;A=Vous montez dans le cockpit et dévissé le tableau de communication. La radio est vraiment antique avec des lampes et des grosses bobines à ferrite. Vous tournez une des lampes dans son bornier, pour qu'elle tombe en court-circuit et tire plus de courant en affaiblissant les communications.:Etape=Radio;B=C'est très compliqué de retiré des pièces comme celles-ci sans une clé adapté, mais par une heureuse coïncidence les boulons de l'avion son du calibre 11/20! Exactement comme l'outil volé à la NASA en 1986, d'ailleurs même les ressorts retirer vous sont très familier ?!:Etape=Roue:Etape=Aide;C=Vous vous cachez sous une ailes et dévissé le bouchon de carburant pour vidé a moitié le réservoir. Ainsi elle sera obligé de faire demi-tour avant que le temps se gâte.:Etape=Escence;D=Vous montez dans le cockpit et localisé la console du transpondeur. Il y a un cadrant pour syntonisé la fréquence guide jusqu'à sa source d'émission. Vous la tournée jusqu'à ce que vous en trouviez une autre dans le Pacifique.:Etape=Balise;> Quel partie sabotez vous son avion ?;[A) Radio, B) Train d'atterrissage, C) Réservoir, D) Fréquence Transpondeur. ]; 
+faux=/
+element=Saboteur4
+liste=Etape
+SI=COND
+vrai=Vous ne disposez pas de couverture satellite StealthRay1 en 1937. Vous devrez donc utilisé le camouflage LED et être très discret. En entrant dans le hangar qui est désert et trouvé les pièce de rechange.;A=Hop! Tous les boulons de 11/20 tombe dans votre poche. Vous allez les jeté dans la mer plus tard.:Etape=Boulon;B=Il y a effectivement 2 grand ressort de suspension du même type que l'avion, vous les prenez. Vous allez les apportés sur l'air de lancement de Cap Canaveral en 1986. (Le Système Schrödinger viens de détecté un changement dans le Continuum):Etape=Suspension:Etape=Aide;C=C'est une chose d'avoir les pièces, mais on ne peut rien faire sans le bonne outil. Vous allez les jeté dans la mer plus tard.:Etape=CléAnglaise;D=Boom! La boite de lampe radio tombe par terre, les ampoules ont toutes volé en éclat. Vous allez dans l'avion plus tard pour cassé une autre composante du même type.:Etape=Lampe;> Quel pièce allez-vous faire disparaitre ?;[A) Boulons, B) Ressorts Train, C) Clé Anglaise, D) Lampe Radio. ]; 
+faux=/
+element=Voleur4
+liste=Etape
+SI=COND
+Vous repartez sans vous faire voire.
+"[I.A.] Décollage imminent."
+(PAUSE)
+faux=/
+vrai=Etape-Saboteur2:Etape=Saboteur
+element=Saboteur2
+liste=Etape
+SI=COND
+vrai=Etape-Saboteur3:Etape=Saboteur
+element=Saboteur3
+liste=Etape
+SI=COND
+vrai=Etape-Saboteur4:Etape=Saboteur
+element=Saboteur4
+liste=Etape
+SI=COND
+vrai=Etape-Saboteur
+element=Saboteur
+liste=Etape
+COND>1
+vrai=Etape-Saboteur
+element=Saboteur
+liste=Etape
+COND>1
+vrai=Etape-Saboteur
+element=Saboteur
+liste=Etape
+COND>1
+vrai=Etape-Voleur2:Etape=Voleur
+element=Voleur2
+liste=Etape
+SI=COND
+vrai=Etape-Voleur3:Etape=Voleur
+element=Voleur3
+liste=Etape
+SI=COND
+vrai=Etape-Voleur4:Etape=Voleur
+element=Voleur4
+liste=Etape
+SI=COND
+vrai=Etape-Voleur
+element=Voleur
+liste=Etape
+COND>1
+vrai=Etape-Voleur
+element=Voleur
+liste=Etape
+COND>1
+vrai=Etape-Voleur
+element=Voleur
+liste=Etape
+COND>1
+/Fin de la 3e chance
+L'aviatrice commence sa check liste et examine son appareil de l'extérieur.
+vrai=Elle note que certain vis sont manquante ou trop rouillé pour survivre à un prochain vol. Elle en informe le mécano qui cherche partout mais ne retrouve pas les boulons de rechange pour l'avion. Il doit en emprunté aux gens du bateaux pour terminer sa réparation.
+faux=Elle note que certain vis sont manquante ou trop rouillé pour survivre à un prochain vol. Elle en informe le mécano qui va chercher les boulons de rechange et les trouves dans son tiroir.
+element=Boulon
+liste=Etape
+SI=COND
+
+vrai=Elle note que la suspension de son hydravion a connu des jours meilleurs. Elle en informe le mécano qui cherche partout mais ne retrouve pas les pièces de rechange de l'avion. Il doit en emprunté aux gens du bateaux pour terminer sa réparation.
+faux=Elle note que la suspension de son hydravion a connu des jours meilleurs. Elle en informe le mécano qui va chercher les pièces de rechange et les trouves à l'endroit stocker.
+element=Suspension
+liste=Etape
+SI=COND
+
+vrai=Elle note que les aillerons on besoin d'une touche d'ajustage. Elle en informe le mécano qui cherche partout mais ne retrouve pas sa clé ajustable. Il doit en emprunté une aux gens du bateaux pour terminer son entretien.
+faux=Elle note que les aillerons on besoin d'une touche d'ajustage. Elle en informe le mécano qui va chercher ses outils et termine son entretien rapidement.
+element=CléAnglaise
+liste=Etape
+SI=COND
+(PAUSE)
+vrai=Elle vérifie l'état de charge des batteries et trouve une consommation électrique plus grande que prévu. Elle en informe le mécano qui cherche les lampes de rechange mais ne retrouve qu'une boite en miette. Il doit en emprunté une aux gens du bateaux pour terminer sa réparation.
+faux=Elle vérifie l'état de charge des batteries et trouve une consommation électrique plus grande que prévu. Elle en informe le mécano va chercher ses lampes de rechange et termine son remplacement rapidement.
+element=Lampe
+liste=Etape
+SI=COND
+
+faux=Tout va bien de se côté. Juste quelques entretiens mineurs dont le mécano se charge déjà.
+vrai=Ce n'est pas normal de retrouvé de telle imprévu a ce stade du voyage...ce dit-elle.
+element=Voleur
+liste=Etape
+SI=COND
+(PAUSE)
+Elle entre inspecté l'intérieur. Juste avant de lancer les moteurs l'aviatrice passe en revue tous les cadrans de son appareille.
+vrai=Comme la Radio ne fonctionnait pas bien, personne ne sait rendus compte de sa faible puissance avant longtemps. Si près de la tour d'émission il n'y avait pas moyen de le savoir.
+faux="Tango Delta ici Alfa Hôtel, Radio Check a vous!"..."Alfa Hôtel ici Tango Delta, Reçu Fort et Claire a vous!"..."Alfa Hôtel, Bien reçu, Roger!"
+element=Radio
+liste=Etape
+SI=COND
+
+vrai=Elle remarque qu'une grosse partie du carburant manque et elle fait refaire le plein. La veille elle se rappel bien avoir tout vérifié et l'essence était pleine. Elle commence à avoir des soupçons.
+faux=Carburant 110%...Check!
+element=Escence
+liste=Etape
+SI=COND
+(Pause)
+vrai=Elle remarque que son transpondeur est déréglé et elle le réajuste sur la fréquence de Howland. Elle se rappelle la veille d'avoir tout vérifié et la fréquence était correcte. Elle devrait faire surveiller son appareille à l'avenir.
+faux=Transpondeur syntonisé sur la fréquence de Howland...Check!
+element=Balise
+liste=Etape
+SI=COND
+
+faux=Tout va bien aussi, elle est prêt pour le décollage. Son cartographe monte à bord la rejoindre.
+vrai=Amélia commence à s'impatienté. Quelque chose ne tourne pas rond ici.
+element=Saboteur
+liste=Etape
+SI=COND
+(PAUSE)
+vrai=Le Lieutenant en charge des communiqués radio sur le navire, apporte le rapport météo a Amélia à l'heure habituelle. Elle regarde l'avis de tempête et décide de reporté le vol au lendemain, sans se rendre compte de l'anachronisme.
+faux=Le Lieutenant en charge des communiqués radio sur le navire, apporte le rapport météo a Amélia à l'heure habituelle. Elle regarde l'avis de beau temps et se réjouie de partir à l'heure convenu.
+element=Metrep
+liste=Etape
+SI=COND
+
+vrai=Durant son inspection préliminaire Amélia ne trouve rien qui cloche. L'entretien complet avait déjà été fait la veille, elle ne remarqua pas que des pièces aussi importante aurait aujourd'hui disparut. Elle tenta de décollé et a mis piste elle sentit une forte résistance sur les roues. Affolé elle coupa les moteurs et l'avion s'écroula sur le ventre. Pas de blessé, mais elle passa des jours à réparer. Il est maintenant évident que c'est l'œuvre d'un complot contre elle, un train d'atterrissage ça ne disparait pas tout seul! (Le Système Schrödinger viens de détecté un changement dans le Continuum.)
+faux=Check liste Complet!
+element=Roue
+liste=Etape
+SI=COND
+
+vrai=Le Capitaine retrouve son cadet à faire des ronds de bave au matin. Il lui passe un savon mais retrouve son transpondeur fonctionnel avec une étrange batterie neuve improvisé. (Anachronisme détecté!)
+faux=Le Capitaine retrouve son cadet à faire des ronds de bave au matin. Il lui passe un savon et découvre en plus que son transpondeur ne fonctionne plus. Impossible de guidé l'avion qui s'est perdus en mer.
+element=Signal
+liste=Etape
+SI=COND
+
+vrai=Quelque jours plus tard. Après une enquête minutieuse pour déjoué votre complot et la complète mis en opération de son avion, Amélia retrouve des cieux plus clament. La décision de finir la dernière escale de son grand voyage et remis au goût du jour. Le départ est fixé dans l'heure qui suit et tout se passa bien cette fois. Elle réussit avec les honneurs son tour du Monde le 4 Juillet 1937, jour de la fête National Américaine! (Le Système Schrödinger viens de détecté un changement dans le Continuum). Vous la rencontrez en privé pour lui proposer du travail. Un défi plus grand que tout ce qu'elle aurait pu imaginer. Elle refusa votre offre, jusqu'à ce que vous lui fessier apparaitre votre appareil. "Amélia Heartart, je vous apporte le futur. Vous ne refuserez pas de faire une balade ?"
+faux=Durant le voyage qui dura une 12e d'heure, la météo se gâte et la communication se fait de plus en plus difficile. Elle est obligé de se fier seulement au transpondeur qui reçoit des donnés d'une autre source, car les Japonais émette sur la même fréquence quelque part dans le Pacifique. Elle est contraint d'amerrir sur la première île qu'elle trouve avant de manqué de carburant et ils serons fait prisonnière comme espion Américain. Malheureusement Amélia ne reviendra pas de son voyage.
+element=Aide
+liste=Etape
+COND>2
+(PAUSE)
+A=Quand vous revenez dans le présent le système Schrödinger vous informe que le Monde à changer, vous espérez que c'est pour le mieux. La singularisée viens de se refermée et le beau temps est de retour.
+> Options:
+[A) Revenir dans le présent. ]
+/Le Drone pourra bouger de façon automatique si vous le laissez aller. Il peut vous suivre n'importe où avec son module traquing. Sa fonction est de filmé à vol d'oiseau en grand angle et vous fournir des informations sur la position ennemie sans être repéré. Il enregistre le son à distance et les communications radio de l'ennemie.
+(pause)
+Le clame est revenu et il n'y a plus d'ennemie dans la zone.
+Pour votre débrouillardise et pour être resté stratégique dans votre infiltration à distance. Vous avez sus utilisé le transport furtif et vos connaissances tactiques pour vous débarrassé des gardes armés. Dans le centre de recherche au fond de vous trouvez du matériel de développement BR (Bras Robot) ou PA (Parachute).
+Trophe=Recruter Amélia Heartart
+(TROPHE)
+Etape=Sauvetage
+A=LV=11:Etape=11:sourcefile=missionUp
+B=
+C=
+D=
+E=
+vrai=
+faux=
+element=
+Liste=
+> Appuyer sur A pour Retour.
+[A) Continué ]

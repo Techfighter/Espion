@@ -1,0 +1,213 @@
+/IA OU PA
+Mission 4.
+/check liste
+Vous devriez vérifier l'état de votre avion avant le décollage.
+Commencé par de vérifier de l'extérieur vers l'intérieur. (Coque, Charge, Système, Moteurs, Soute)
+vrai=Score=0
+element=0
+Liste=Score
+SI>VAR
+A=La coque est en revêtement blanc de nano-molécule comme votre costume en tissus écran. Il est complètement résistent aux salissage et a l'humidité par ces liens hydrofuge et vous l'aurai compris, est compatible avec le système de camouflage StealthRay1. La coque est en parfaite état pour volé.:Score+1
+B=La charge est complète à 100%. Elle se régénère automatiquement en vol par beau temps grâce à la propriété photovoltaïque de ca coque. De plus avec sa pile à combustible vous pouvez aller chercher tout la puissance en cas de besoin et donne une plus grande autonomie. :Score+1
+C=Le système de contrôle de l'appareille a terminé son diagnostic. Aucune erreur détectée, l'autopilote a été mis à jour. :Score+1
+D=Les moteurs sont allumé pour un essaie de performance statique, tous les voyants sont au vert. :Score+1
+E=Vous vérifiez l'ouverture de la trappe, circuit d'éclairage et le bras-robot. Tout est prêt pour le saut en parachute, la récupération comme le lancement d'un Drone et le chargement de conteneur. :Score+1
+> Par où commencé vous ?
+[A) Coque, B) Charge, C) Système, D) Moteur, E) Soute. ]
+A=La coque est en revêtement blanc de nano-molécule comme votre costume en tissus écran. Il est complètement résistent au salissage et a l'humidité par ces liens hydrofuge et vous l'aurai compris, est compatible avec le système de camouflage StealthRay1. La coque est en parfaite état pour volé. :Score+2
+B=La charge est complète à 100%. Elle se régénère automatiquement en vol par beau temps grâce à la propriété photovoltaïque de ca coque. De plus avec sa pile à combustible vous pouvez aller chercher tout la puissance en cas de besoin et donne une plus grande autonomie.  :Score+2
+C=Le système de contrôle de l'appareille a terminé son diagnostic. Aucune erreur détectée, l'autopilote a été mis à jour. :Score+2
+D=Les moteurs sont allumé pour un essaie de performance statique, tous les voyants sont au vert. :Score+2
+E=Vous vérifiez l'ouverture de la trappe, circuit d'éclairage et le bras-robot. Tout est prêt pour le saut en parachute, la récupération comme le lancement d'un Drone et le chargement de conteneur. :Score+2
+> Par où commencé vous ?
+[A) Coque, B) Charge, C) Système, D) Moteur, E) Soute. ]
+A=La coque est en revêtement blanc de nano-molécule comme votre costume en tissus écran. Il est complètement résistent au salissage et a l'humidité par ces liens hydrofuge et vous l'aurai compris, est compatible avec le système de camouflage StealthRay1. La coque est en parfaite état pour volé. :Score+4
+B=La charge est complète à 100%. Elle se régénaire automatiquement en vol par beau temps grâce à la propriété photovoltaïque de ca coque. De plus avec sa pile à combustible vous pouvez aller chercher tout la puissance en cas de besoin et donne une plus grande autonomie. :Score+4
+C=Le système de contrôle de l'appareille a terminé son diagnostic. Aucune erreurs détecté, l'autopilote a été mis a jour. :Score+4
+D=Les moteurs sont allumé pour un essaie de performance statique, tous les voyants sont au vert. :Score+4
+E=Vous vérifiez l'ouverture de la trappe, circuit d'éclairage et le bras-robot. Tout est prêt pour le saut en parachute, la récupération comme le lancement d'un Drone et le chargement de conteneur. :Score+4
+> Par où commencé vous ?
+[A) Coque, B) Charge, C) Système, D) Moteur, E) Soute. ]
+A=La coque est en revêtement blanc de nano-molécule comme votre costume en tissus écran. Il est complètement résistent au salissage et a l'humidité par ces liens hydrofuge et vous l'aurai compris, est compatible avec le système de camouflage StealthRay1. La coque est en parfaite état pour volé. :Score+8
+B=La charge est complète à 100%. Elle se régénère automatiquement en vol par beau temps grâce à la propriété photovoltaïque de ca coque. De plus avec sa pile à combustible vous pouvez aller chercher tout la puissance en cas de besoin et donne une plus grande autonomie. Score+8
+C=Le système de contrôle de l'appareille a terminé son diagnostic. Aucune erreur détectée, l'autopilote a été mis à jour. :Score+8
+D=Les moteurs sont allumé pour un essaie de performance statique, tous les voyants sont au vert. :Score+8
+E=Vous vérifiez l'ouverture de la trappe, circuit d'éclairage et le bras-robot. Tout est prêt pour le saut en parachute, la récupération comme le lancement d'un Drone et le chargement de conteneur. :Score+8
+> Par où commencé vous ?
+[A) Coque, B) Charge, C) Système, D) Moteur, E) Soute. ]
+A=La coque est en revêtement blanc de nano-molécule comme votre costume en tissus écran. Il est complètement résistent au salissage et a l'humidité par ces liens hydrofuge et vous l'aurai compris, est compatible avec le système de camouflage StealthRay1. La coque est en parfaite état pour volé. :Score+16
+B=La charge est complète à 100%. Elle se régénère automatiquement en vol par beau temps grâce à la propriété photovoltaïque de ca coque. De plus avec sa pile à combustible vous pouvez aller chercher tout la puissance en cas de besoin et donne une plus grande autonomie. :Score+16
+C=Le système de contrôle de l'appareille a terminé son diagnostic. Aucune erreur détectée, l'autopilote a été mis à jour. :Score+16
+D=Les moteurs sont allumé pour un essaie de performance statique, tous les voyants sont au vert. :Score+16
+E=Vous vérifiez l'ouverture de la trappe, circuit d'éclairage et le bras-robot. Tout est prêt pour le saut en parachute, la récupération comme le lancement d'un Drone et le chargement de conteneur. :Score+16
+> Par où commencé vous ?
+[A) Coque, B) Charge, C) Système, D) Moteur, E) Soute. ]
+(Score)
+vrai=Bravo! Vous passez le test expert en aéronautique. :Trophe=Checklist complète
+faux=Il est possible que vous ayez inversé ou oublié quelque chose? :Trophe=mayday mayday!
+element=31
+liste=Score
+SI=VAR
+vrai=Score=0
+element=0
+Liste=Score
+SI>VAR
+Rapport Météo: Matin Ensoleillé 17 degré Celsius, ciel variable et humidité moyen.
+Rapport Situation: Vous entrez dans l'espace aérien d'une zone contrôlé par l'OSP, l'Avion vous a conduit jusqu'ici pour que vous récupériez un conteneur classifié. L'image satellite vient de détecter une zone invisible et un centre de recherche dans la proximité. Ça ne vous posera pas de problème avec votre nouveau moyen de transport.
+Vous êtes maintenant en mission offiaciel. Utilisez l'Avion autand que vous le pouvez et s'il est détruit par l'ennemie, ne vous en faite pas, retrouvé le il est réparable comme le Drone.
+Objectif, Se familiarisé avec l'Avion Furtif pour reconnaitre le terrain en tout temps ou sur de grande distance.
+A=Vous Commencé l'entrainement en mission aérienne.
+>  Commencé l'entrainement aérien ?
+[A) Commencer. ]
+L'Avion pourra bouger de façon automatique si vous le laissez piloté. Si vous atterrissez, il peut vous suivre à distance n'importe où avec son module trekking autonome. Sa fonction est de filmé en très grand angle et vous fournir des informations sur la position ennemie sans être repéré. Il enregistre ou brouille les communications radio de l'ennemie et détecté tout mouvement aérien avec son radar long porté.
+(pause)
+Une Stratégie avec l'avion furtive consiste à l'envoyé tourné en espion, quand stealthRay1 est indisponible ou de le caché d'illusion quand il est au sol. Il se peut qu'un ennemi détecte l'avion et le descendre, à ce moment vous devez y aller discrètement et le réparer a l'aide du Drone ou d'outils adapté.
+1. Descendre en rase motte........50%
+2. Brouillage Communication.......50%
+3. Pausé vertical limite zone.....50%
+4. Cacher l'appareil d'illusion...50%
+5. Lancer le Drone reconnaissance.50%
+A=Descente rase motte réussie. Vous survolez une petit forêt en touchant presque aux a la sime des arbres. :Etape=rase motte
+B=Brouillage Communication réussie.
+C=Atterrissage vertical limite zone réussie.
+D=Cacher l'appareil d'illusion réussie.
+E=Lancer le Drone reconnaissance réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Rase motte, B) Brouillage, C) Atterrissage vertical, D) Disparaitre, E) Drone. ]
+Score=0
+vrai=Score+1;Etape-rase motte
+faux=Vous deviez demander la descendre en rase motte pour augmenter la furtivité. Correction en coure...Done.:L'IA s'en est chargé pour vous, en baissant l'altitude à moins de 100 pieds du sol. Les systèmes de détection et autres 'contre furtivité', ne pourrons jamais vous voire.
+element=rase motte
+liste=Etape
+SI=COND
+A=Rase motte réussie.
+B=Brouillage Communication. L'ennemi va avoir quelque problème technique durant votre séjour. :Etape=Brouillage
+C=Atterrissage vertical limite zone réussie.
+D=Cacher l'appareil d'illusion réussie.
+E=Lancer le Drone reconnaissance réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Rase motte, B) Brouillage, C) Atterrissage vertical, D) Disparaitre, E) Drone. ]
+vrai=Score+1;Etape-Brouillage
+faux=Vous deviez lancer le Brouillage de Communication, pour que si un ennemi vous voie qu'il soit difficile de donné l'alerte. Correction en coure...Done.:L'IA s'en est chargé pour  
+vous, en branchant en haut décibel tous les canaux sur hystérésis.
+element=Brouillage
+liste=Etape
+SI=COND
+A=Rase motte réussie.
+B=Brouillage Communication.
+C=Atterrissage vertical réussie. Le train d'atterrissage se déploie et la soute s'ouvre pour vous laisser descendre. :Etape=Atterrissage vertical
+D=Cacher l'appareil d'illusion réussie.
+E=Lancer le Drone reconnaissance réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Rase motte, B) Brouillage, C) Atterrissage vertical, D) Disparaitre, E) Drone. ]
+vrai=Score+1;Etape-Aterrisage vertical
+faux=Vous deviez atterrir avant d'entrer dans la limite de la zone ennemi. Correction en coure...Done.:L'IA s'en est chargé pour vous, avant d'être repéré l'avion se pose à la verticale en silence. Le train d'atterrissage se déploie et la soute s'ouvre pour vous laisser descendre.
+element=Atterrissage vertical
+liste=Etape
+SI=COND
+A=Rase motte réussie.
+B=Brouillage Communication.
+C=Atterrissage vertical limite zone réussie.
+D=Cacher l'appareil d'illusion réussie. Le satellite en verrouillant sur la position de l'avion, projet une image très précise de l'environnement au sol sur son revêtement de tissus écran. :Etape=Disparaitre
+E=Lancer le Drone reconnaissance réussie.
+> Quelle stratégie vous adopterez ici ?
+[A) Rase motte, B) Brouillage, C) Atterrissage vertical, D) Disparaitre, E) Drone. ]
+vrai=Score+1;Etape-Disparaitre
+faux=Vous deviez demandé au satellite StealthRay1 de projeté une illusion sur l'avion pour le faire disparaitre. Correction en coure...Done. :L'IA s'en est chargé pour vous, en verrouillant sur la position de l'avion. Une image très précise de l'environnement au sol, se projettent sur le revêtement de tissus écran.
+element=Disparaitre
+liste=Etape
+SI=COND
+A=Descente rase motte réussie.
+B=Brouillage Communication réussie.
+C=Atterrissage vertical limite zone réussie.
+D=Cacher l'appareil d'illusion réussie.
+E=Lancer le Drone reconnaissance réussie. Il s'envole en patrouille au ras du sol pour reporter des changements dans la zone ennemi. Le satellite va également le suivre en le couvrant d'illusion, tant que la couverture nuageuse le permet. :Etape=Lancer Drone
+> Quelle stratégie vous adopterez ici ?
+[A) Rase motte, B) Brouillage, C) Atterrissage vertical, D) Disparaitre, E) Drone. ]
+vrai=Score+1;Etape-Lancer Drone
+faux=Vous deviez lancer la Drone en reconnaissance, pour reporter des changements dans la zone ennemi. Correction en coure...Done. :L'IA s'en est chargé pour vous, téléguidant le robot au centre du secteur.
+element=Lancer Drone
+liste=Etape
+SI=COND
+(Score)
+vrai=Etape-rase motte
+faux=
+element=rase motte
+liste=Etape
+SI=COND
+vrai=Etape-Brouillage
+faux=
+element=Brouillage
+liste=Etape
+SI=COND
+vrai=Etape-Atterrissage vertical
+faux=
+element=Atterrissage vertical
+liste=Etape
+SI=COND
+vrai=Etape-Disparaitre
+faux=
+element=Disparaitre
+liste=Etape
+SI=COND
+vrai=Etape-Lancer Drone
+faux=
+element=Lancer Drone
+liste=Etape
+SI=COND
+vrai=Trophe=Opération Stealt 
+faux=Trophe=Superviser passif 
+element=5
+liste=Score
+SI=VAR
+score=0
+Le Drone reviens de la zone occulté avec très peu de donné. Sois le centre de recherche est désert, soit il est invisible avec tous ces occupants. Vous devez y aller sans être repéré, trouvé et désactivé son champ d'invisibilité quelque part dans la zone.
+Metrep: Ici le ciel est très dégagé.
+A=Correct. Vous prenez le temps de tourner dans la zone pour bien l'exploré et vous familiarisé sur celui-ci.
+B=Très Bien. Vous suivez la route tapé qui est également la dénivellation naturelle de l'environnement.
+C=Excellant. Vous n'êtes pas obligé de suivre un chemin, la ligne droite vous fait économiser vos forces.
+D=Bien. Vous ouvrez l'œil pour découvrir quelque chose d'utile pour sortir des sentiers battue.
+E=Exacte. Vous y aller en toute discrétion ce qui vous fait prendre le moins de risque possible.
+> Comment vous infiltrez vous ici ?
+[A) Reconnaissance, B) Saut obstacle, C) Rapidité, D) Harvester, E) Se coucher par Terre. ]
+C'est étrange. Durant que vous avancez dans la zone occulté, l'environnement qui aurait dus bouger au gré du vent ne s'accorde pas avec son image reflété. Comme si vous marchiez dans une photographie vivante et que de léger décalage dans le temps en cas le réalisme. Le décor est saisissant de réalisme, mais en regardant de plus près et en touchant l'herbe, vous êtes pris de vertige. Ce décalage entre vos sens de la vue et du touché et réellement inconfortable et réveille chez vous une sorte d’instinct proche de la peur. Votre esprit êtes frappé d'un malaise insidieux, comme il comprend que quelque chose ne tourne pas rond et que la réalité est tout autre. Il est impossible de savoir ce qui vous attend à chaque pas, mais un souffle de vent vous indique que vous approché d'un des murs du bâtiment.
+A=Il s’agit d'une toile de tissus très élastique en forme de dôme et haute de 2 étage. Il a une porte de chaque côté du dôme et chacun deux soldat pour la gardée.
+B=Vous touchez le mur et sentez dans l'aire son élasticité plastique alors qu'il ne devrait rien se trouvé là. Le bâtiment est moue, gonflé sous pression et rond sur une centaine de mètre et probablement hémisphérique. En le contournant vous découvrez une porte de chaque côté et chacun deux soldat pour la gardée.
+C=Mauvais idée, vous heurtez le mur de plein fouet! La structure s'ébranle et l'image qui la recouvre se brouille sous l'impact. C’est un dôme gonflable de deux étages environ fait en tissus écran. En le contournant vous découvrez une porte de chaque côté et chacun deux soldat pour la gardée.
+D=Vous touchez le mur et sentez dans l'aire son élasticité plastique alors qu'il ne devrait rien se trouvé là. Le bâtiment est moue, gonflé sous pression et rond sur une centaine de mètre et probablement hémisphérique. En le contournant vous découvrez une porte de chaque côté et chacun deux soldat pour la gardée.
+E=Vous sélectionnez l'option quadrillage lumineux et des linges laser apparaissent tout autour de vous. Sur un espace plat la grille apparait carré sur tout l'horizon de 5m qui vous entourent, mais ici elles s’élèvent dans une forme hémisphérique sur près de 2 étage devant vous. Vous voyez qu'un dôme gonflable est caché juste ici grâce à la projection du satellite. 
+En le contournant vous découvrez une porte de chaque côté et chacun deux soldat pour la gardée.
+> Comment vous infiltrez là-dedans ?
+[A) Contournant l'édifice, B) Fermant les yeux, C) Rapidité, D) A tâtons, E) Projection. ]
+A=Vous appelez le Drone d'un côté et l'avion de l'autre. Les vigiles sont affolés et quittent leurs postes, quand ils sortent d'invisibilité. Vous avez quelque minute.
+B=Les mains sur les yeux, code reconnu par le satellite, StealtRay1 déclenche des flashs stroboscope qui aveuglent les gardes invisibles. Vous avez quelques secondes.
+C=Loin des regards sur le côté, vous tirez au silencieux dans la toile et vous vous déchirez une porte. La pression d'aire siffle à l'extérieur, signe que le dôme déssouffle lentement et que la ventilation intérieur travail déjà à la rééquilibrée. Vous avez quelques heures.
+D=Vous prenez l'apparence d'un des garde de l'autre côté et venez les relevés de leurs postes. Les gardes vont dormir dans leur cartier. Vous avez quelque heure.
+E=Vous demandez au satellite de faire apparaitre une illusion de vous qui approche. Les vigiles sont affolés et quittent leurs postes pour procédé à l'arrestation. Vous avez quelque minute.
+> Comment vous débarrasserez-vous des soldats ?
+[A) Appâts, B) Les mains sur les yeux, C) Discrétion, D) Transformation, E) Leurre. ]
+Vous fermez tout illusions et entré dans le bâtiment gonflable par la porte. Il fait noir à l'intérieur mais personne ne semble l'occupé. Vous apercevez de petite Leds clignotée au centre, beaucoup de machine fonctionne ici apparemment.
+A=Vous retournez le costume côté noir et n'allumez pas les lumières, pour rester 100% discret.
+B=Vous allumez une série d'interrupteur sur le côté de la porte, ce qui révèlent l'intérieur du bâtiment. Heureusement personne ne semble l'occupé et ça facilite vos recherches.
+> Voulez-vous allumez les lumières ?
+[A) Non, B) Oui. ]
+Vous commencé à chercher le matériel classifier. Il y a ici un gros ordinateur qui bosse à temps plein sur le traitement vidéo à l'extérieur et qui génère se champ d'invisibilité.
+A=Vous repérez un gros interrupteur rouge sur la tour de servers et le tournée. Shot-down! Après quelque secondes seulement, les gardes entre et vous encercle dans le dôme toute arme pointé. Vous êtes morts! :(pause):(quit)
+B=Vous préférez ne pas y touché pour des raisons évidente à l'extérieur.
+> Voulez-vous l'arrêté ?
+[A) Oui, B) Non. ]
+Le clame est revenu et il n'y a plus d'ennemie dans la zone.
+Félicitation, pour votre parcourt sans fautes et pour être resté stratégique dans votre infiltration en zone occultée. Vous avez sus utilisé le transport furtif et vos connaissances tactiques pour vous débarrassé des gardes armés. Dans le centre de recherche au fond de vous trouver des ordinateurs ainsi qu'un appareil très récent d'émission d'onde Zimmer. Le toit du dôme est muni d'un mat de 50 pied avec à son sommet, un électro-aimant d'un type très spéciale. Vous ne pouvez pas récupérer ce dispositif, qui est inutilisable sans cette batterie d'ordinateur volumineuse et énergivore. Par contre il y a autre chose ici...
+Trophe=Projet Expérimente
+(TROPHE)
+A=LV=4:Etape=4:sourcefile=missionUp
+B=
+C=
+D=
+E=
+vrai=
+faux=
+element=
+Liste=
+> Appuyer sur A pour Retour.
+[A) Continué. ]

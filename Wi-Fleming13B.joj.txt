@@ -1,0 +1,47 @@
+/B
+Mission 13.
+Le Satellite StealthRay1 est attaqué par un missile SOLSPACE d'un véhicule ICBM de l'OSP. Le missile a atteint sa cible et le Satellite tombe dans l'atmosphère. Malheureusement vous n'aviez pas prévu le coup en l'équipant de parachutes en nombre suffisant. Des contre-mesures se sont déployées tout autour du satellite pour tromper le système de guidage balistique SOLSPACE et l'explosion a eu lieux trop tôt, préservent son intégrité. Par contre la détonation à pousser le stealthRay1 hors de son orbite, il va toucher le sol, mais son I.A. va faire ce qu'elle peux pour le conduire près de votre position car rien ne peux freiné sa chute. Vous croisez les doight pour qu'il ne brule pas dans l'atmosphère et qu'il reste quelque chose au sol quand il s'écrase.
+...
+vrai=Les trois parachutes s'ouvrent et le Satellite se pause tout près dans votre secteur, vous n'avez plus qu'à le récupéré. ;A=Objet=3PA:Objet=PR:Objet=CA:Objet=Pile-Combustible:Objet=disc-dure:Etape-3SAPA:Etape-SAPR:Etape-SACA:trophe=Secour Orbital;B=Vous n'avez pas grand temps, les soldats de l'ONU arrivent vous êtes forcé de disparaitre.;>  
+Voulez-vous fouillé l'épave ?;[A) Oui, B) Non ]; 
+faux=Pas asser de parachute sur le Satellite, il tombe détruit et vous ne retrouvez rien sur les lieux de son écrasement.
+element=3SAPA
+Liste=Etape
+SI=COND
+vrai=Etape-3SAIA:Objet=IA:Objet=IA:Objet=IA
+element=3SAIA
+Liste=Etape
+SI=COND
+vrai=Etape-2SAIA:Objet=IA:Objet=IA
+element=2SAIA
+Liste=Etape
+SI=COND
+vrai=Etape-SAIA:Objet=IA
+element=SAIA
+Liste=Etape
+SI=COND
+SITREP (Le Satellite à ce point de l'histoire est H.S. 'Hore Service'. Pour continuer a utilisé vos pouvoirs d'illusion ou invisibilité, vous devez compenser avec les autres équipements disponible, par exemple vos avionique disponible Drone ou Avion Furtif avec Projecteur et ou Caméra).
+Vrai=Une pile-combustible ou PC, viens d'être détectée. Elle ajoute une amélioration à l'un des éléments suivant: GPS, Costume, Drone, Avion. Le GPS n'a plus jamais besoin de pile électrique et augmente son signal. Le Costume ne manque plus d'Hélium pour s'élevé en mode récupération aéroporté. Le Drone peut vous faire franchir des obstacles avec son augmentation de puissance motrice. L'Avion tout comme le satellite, en possède déjà une et elle ne peut en cumulé à une autre déjà en place, cela reste sans effet.
+elemet=Pile-Combustible
+Liste=Objet
+SI=COND
+Vrai=Un disc-dure ou DD, viens d'être détecté. Ajouté à GPS, Drone, Avion, qui possède au moins 3 IA et vous pourrez faire la lecture de son dossier crypter. Il donne accès aux archives du projet 'Œil de Palantir' et ouvre le chemin a une autre aventure.
+elemet=disc-dure
+Liste=Objet
+SI=COND
+vrai=A=Oeil du Palantir. (La machine a regardé dans le passé). :Dans un proche avenir les technologies spatial en seront à découvrir des planètes avec suffisamment de clarté d'image que si on y était. Déjà nos super télescope sont capable de faire l’inventorier des systèmes voisins sans y envoyé de sondes en se basant sur d'infime fréquence lumineuse a des milliards de kilomètres. Pour peu qu'on sache ou pointer l'objectif et savoir quoi chercher, comme la présence d'eau liquide ou d'aire gazeux. Mais qu'en serait si nous choisissions non pas de pointé de telle télescope dans l'infinie de l'espace à chercher des planètes potentiellement habitable, mais plutôt sur celle qui le soit vraiment ? Supposant qu'ont arrivent a placé ce télescope a quelque 13 103 131 886 km et demi de la Terre. L'image grossit au paroxysme serrait infiniment plus claire que ces mondes éloigné de centaine d'année lumières. Le point du vue que nous apporterait cette technique, qui est dit en passant n'est pas complètement impossible d'atteindre avec nos sciences actuels. La résolution haute définition multi spectral nous apprendrait encore plus sur nous-même. Aves se recule de deux fois la distance de Pluton, le télescope est capable de savoir en 24 heures tout évènement se déroulant dans le système solaire. C'est à dire 12 heures 8 minutes 27.343 secondes du Soleil, auquel ont ajoute 12 heures supplémentaire pour la retransmission radio des images numériques. Ce qui donne des images retardé en continue d'une journée, et un œil précis sur le passé des événements d’il y a 24 heure. :Bien sûr cette technique doit composer avec des défauts de la physique. La Terre tourne sur elles même, on ne peut pas voir ce qui arrive en Europe quand l'Amérique fait face dans la zone éclairé. Il faut aussi penser que cette zone éclairé lui fait dos au moins 6 mois par année. Comme les périodes d'aphélie et de périhélie de chaque astre ont des cycles saisonniers différents. Par exemple le signal pour la Terre varie de 16 secondes et demie par année et il disparait quelque semaine derrière le soleil. Tout dépanadant de la saison, les images ont jusqu'à 8m 27.33 secondes d'avance ou de retard et quand plus, la Terre disparait 34 jours et 22h 58m 44.48 secondes par année. Pour éviter tout problème de ce genre il aurait suffi d'élevé l'excentricité d'orbite du télescope sur un angle minimal de 1,579 Degré par rapport à l'axe moyen des planètes, ce qui accuse 118 608 284 km d'élevassions. A cela s'ajoute les éclipses terrestre quand la lune passe devant 7m29 tous les mois, dont période d'exposition varie en s'allongent sans jamais excédé 1h47m. C'est ainsi pour n'importe quel autre corps céleste des plus grosses aux plus petites. :Souvent la noirceur arrive et repart sans prévenir quand une poussière ou une pierre spatiale occulte l'objectif. Ces problèmes surviennent continuellement et ne peuvent être prédit ni empêché. De plus toute communication avec notre sonde, comme la modification de sa trajectoire, ne peut être fait avant une demi-journée et on apprend le jour suivant si la manouvre a fonctionné. C'est pourquoi un système de repérage radar et un canon laser a été ajouté à son obturateur, pour améliorer le flux des images. Quand un corps solide passe à proximité de la ligne de visé de la caméra, un faisceau de micro-onde le pulvérise avant qu'il ne le traverse, même si cela peut affecter les transmissions radio. Mais c'est tout de même mieux que le rayon laser, qui a l'inverse affecterait l'image par ces reflets mais sans interféré au signal. Celui-ci n'est utilisé quand cas de débris de taille plus important et la plus part du temps très éloigné. Dans chacun des cas les faisceaux sont dirigés sur un angle qui ne rencontra pas le point d'observation ou de communication, même si à cette distance ils seraient sans effets. Un signal et quand même envoyé à chaque fois que l'un des canons est fait usage, pour permettre l'ajustement automatique. Ces crêtes électromagnétiques ou optique, sont corrigé a la réception du signal selon leur détérioration spectral pour ne rien perdre des donnés 24h plus tôt. :Tout l’utilité d’une telle machine est de voir un grand angle, partout autour de notre monde et a un moment différent dans le temps. Malgré ces contraintes et limitation diverse, elle reste un outil prodigieux de repérage. Elle peut observer et enregistré des images là ou aucune caméra n’est posé, même ou aucun réseau n’est encore possible. C’est un outil de recherche et un œil sur le monde terrestre de façon global. Il est facile de voir ce qui se passe à la surface d’autre planète du système. :trophe=X-File:Objet-disc-dure;B=Vous transférez les éléments d'archives dans votre application avant de le détruire. ;> Voulez-vous lire le disc-dure ?;[A) Oui, B) Non ]; 
+faux=Les soldats de l'ONU arrivent vous êtes forcé de disparaitre.
+element=disc-dure
+Liste=Objet
+SI=COND
+A=LV=13:Etape=13:sourcefile=MissionUp
+B=
+C=
+D=
+E=
+vrai=
+faux=
+element=
+Liste=
+> Appuyer sur A pour Retour.
+[A) Continué ]
